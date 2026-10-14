@@ -5,7 +5,7 @@
 旧失败、旧运行报告与修复过程错误均保留。当前结论不是终端体验或完整产品验收，也不是所有机器、负载与 Shell 的兼容保证。
 
 
-交付状态核对：[本地与 GitHub 交付审计](DELIVERY-AUDIT.md)；[逐条命令与完整留存输出](COMMAND-OUTPUTS.md)。截至本次只读核对，GitHub main 仍为空（HTTP 409），本地无提交，未完成 GitHub 交付。早期输出留存和进程名称快照的缺口在审计中单列。
+交付状态核对：[本地与 GitHub 交付审计](DELIVERY-AUDIT.md)；[逐条命令与完整留存输出](COMMAND-OUTPUTS.md)。该链接记录提交授权前的核对时点：当时 GitHub main 为空（HTTP 409），本地无提交。后续已获授权进行 M0 提交，见 [Git 交付记录](GIT-DELIVERY.md)；远端是否完成以实际 main 引用核验为准。早期输出留存和进程名称快照的缺口在审计中单列。
 
 ## 1. 当前基线与版本
 
