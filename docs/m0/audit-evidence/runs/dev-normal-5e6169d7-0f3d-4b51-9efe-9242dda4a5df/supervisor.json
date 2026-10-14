@@ -1,0 +1,19 @@
+{
+  "target": "dev",
+  "mode": "normal",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-normal-5e6169d7-0f3d-4b51-9efe-9242dda4a5df",
+  "started": "2026-10-14T07:10:29.737Z",
+  "control": {
+    "pid": 147184,
+    "createdAt": "134364354297401016"
+  },
+  "app": {
+    "pid": 148380,
+    "createdAt": "134364354297493924"
+  },
+  "exitCode": 1,
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: App failed: Error: CONDITION_TIMEOUT:false\n    at until (D:\\Code\\JianZJ-Hub\\out\\main\\index.js:111:9)\n    at async tree (D:\\Code\\JianZJ-Hub\\out\\main\\index.js:138:5)\n    at async verify (D:\\Code\\JianZJ-Hub\\out\\main\\index.js:197:13)\n    at async D:\\Code\\JianZJ-Hub\\out\\main\\index.js:327:7\nError occurred in handler for 'm0:write': Error: INVALID_SENDER\n    at sender (D:\\Code\\JianZJ-Hub\\out\\main\\index.js:289:158)\n    at D:\\Code\\JianZJ-Hub\\out\\main\\index.js:304:7\n    at Session.<anonymous> (node:electron/js2c/browser_init:1:119988)\n    at Session.emit (node:events:514:28)\n\n\n1 !== 0\n\n    at file:///D:/Code/JianZJ-Hub/scripts/m0/run.mjs:57:14",
+  "fallbackPids": [],
+  "finished": "2026-10-14T07:10:49.967Z"
+}

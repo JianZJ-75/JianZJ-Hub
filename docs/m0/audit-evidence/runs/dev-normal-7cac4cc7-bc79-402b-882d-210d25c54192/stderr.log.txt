@@ -1,0 +1,18 @@
+AssertionError [ERR_ASSERTION]: The input did not match the regular expression /INVALID_SHELL_OR_CWD/. Input:
+
+'Error: PTY_ERROR:Error: TerminateProcess(136052): Win32 5'
+
+    at async D:\Code\JianZJ-Hub\out\main\index.js:320:5
+    at async check (D:\Code\JianZJ-Hub\out\main\index.js:122:22)
+    at async verify (D:\Code\JianZJ-Hub\out\main\index.js:318:3)
+    at async D:\Code\JianZJ-Hub\out\main\index.js:462:7 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: Error: PTY_ERROR:Error: TerminateProcess(136052): Win32 5
+      at ForkUtilityProcess.<anonymous> (D:\Code\JianZJ-Hub\out\main\index.js:50:32)
+      at ForkUtilityProcess.emit (node:events:514:28)
+      at UtilityProcess.emit (node:electron/js2c/browser_init:1:91996),
+  expected: /INVALID_SHELL_OR_CWD/,
+  operator: 'rejects',
+  diff: 'simple'
+}

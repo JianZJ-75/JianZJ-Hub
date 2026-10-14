@@ -1,0 +1,24 @@
+{
+  "command": "Get-CimInstance Win32_Process -Filter 'ProcessId = 149680 OR ProcessId = 148780 OR ProcessId = 134964' | select ProcessId,Name,CreationDate (and UTC FileTime)",
+  "note": "Actual read-only CIM output from this audit; no permissions or processes changed.",
+  "rows": [
+    {
+      "ProcessId": 148780,
+      "Name": "MsMpEng.exe",
+      "CreationDate": "2026-10-14T09:20:31.9300860Z",
+      "CreationFileTime": "134364432319300860"
+    },
+    {
+      "ProcessId": 149680,
+      "Name": "MpDefenderCoreService.exe",
+      "CreationDate": "2026-10-14T09:20:33.0653320Z",
+      "CreationFileTime": "134364432330653320"
+    },
+    {
+      "ProcessId": 134964,
+      "Name": "NisSrv.exe",
+      "CreationDate": "2026-10-14T09:20:38.4189680Z",
+      "CreationFileTime": "134364432384189680"
+    }
+  ]
+}

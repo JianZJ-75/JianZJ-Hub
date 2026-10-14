@@ -1,0 +1,19 @@
+{
+  "target": "packaged",
+  "mode": "concurrent-exit",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329",
+  "started": "2026-10-14T07:41:40.548Z",
+  "control": {
+    "pid": 132464,
+    "createdAt": "134364373005498358"
+  },
+  "app": {
+    "pid": 148076,
+    "createdAt": "134364373005540055"
+  },
+  "exitCode": 1,
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: App failed: Error: CONDITION_TIMEOUT:false\n    at until (D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\app.asar\\out\\main\\index.js:111:9)\n    at async D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\app.asar\\out\\main\\index.js:204:11\n    at async check (D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\app.asar\\out\\main\\index.js:122:22)\n    at async verify (D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\app.asar\\out\\main\\index.js:190:5)\n    at async D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\app.asar\\out\\main\\index.js:369:7\n\n\n1 !== 0\n\n    at file:///D:/Code/JianZJ-Hub/scripts/m0/run.mjs:57:14",
+  "fallbackPids": [],
+  "finished": "2026-10-14T07:42:10.594Z"
+}

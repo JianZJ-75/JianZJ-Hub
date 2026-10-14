@@ -1,0 +1,28 @@
+
+> jianzj-hub@0.0.0 build
+> electron-vite build
+
+[36mvite v7.3.7 [32mbuilding ssr environment for production...[36m[39m
+transforming...
+[32m✓[39m 7 modules transformed.
+rendering chunks...
+[2mout/main/[22m[36mchunks/validation-BlQ9THVx.js  [39m[1m[2m 0.57 kB[22m[1m[22m
+[2mout/main/[22m[36mdata-service.js                [39m[1m[2m 2.04 kB[22m[1m[22m
+[2mout/main/[22m[36mjob-adapter.js                 [39m[1m[2m 4.71 kB[22m[1m[22m
+[2mout/main/[22m[36mpty-service.js                 [39m[1m[2m 7.05 kB[22m[1m[22m
+[2mout/main/[22m[36mindex.js                       [39m[1m[2m18.95 kB[22m[1m[22m
+[32m✓ built in 96ms[39m
+[36mvite v7.3.7 [32mbuilding ssr environment for production...[36m[39m
+transforming...
+[32m✓[39m 1 modules transformed.
+rendering chunks...
+[2mout/preload/[22m[36mindex.js  [39m[1m[2m0.75 kB[22m[1m[22m
+[32m✓ built in 5ms[39m
+[36mvite v7.3.7 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 30 modules transformed.
+rendering chunks...
+[2m../../out/renderer/[22m[32mindex.html                 [39m[1m[2m    0.53 kB[22m[1m[22m
+[2m../../out/renderer/[22m[35massets/index-Bj-6jDAY.css  [39m[1m[2m    7.73 kB[22m[1m[22m
+[2m../../out/renderer/[22m[36massets/index--Y08xsnK.js   [39m[1m[33m1,058.73 kB[39m[22m
+[32m✓ built in 635ms[39m

@@ -1,0 +1,19 @@
+{
+  "target": "packaged",
+  "mode": "normal",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-normal-a259c39a-4d41-4788-a80f-e7096d124dd2",
+  "started": "2026-10-14T07:22:31.434Z",
+  "control": {
+    "pid": 147460,
+    "createdAt": "134364361514365873"
+  },
+  "app": {
+    "pid": 131036,
+    "createdAt": "134364361515033524"
+  },
+  "exitCode": 1,
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: App failed: Error: PTY_ERROR:Cannot create process, error code: 267\n    at ForkUtilityProcess.<anonymous> (D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\app.asar\\out\\main\\index.js:50:32)\n    at ForkUtilityProcess.emit (node:events:514:28)\n    at UtilityProcess.emit (node:electron/js2c/browser_init:1:91996)\n\n\n1 !== 0\n\n    at file:///D:/Code/JianZJ-Hub/scripts/m0/run.mjs:57:14",
+  "fallbackPids": [],
+  "finished": "2026-10-14T07:22:39.947Z"
+}
