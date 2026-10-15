@@ -1,0 +1,93 @@
+TAP version 13
+# Subtest: preparation rejects platform/architecture and non-AMD64 PE before native load
+ok 1 - preparation rejects platform/architecture and non-AMD64 PE before native load
+  ---
+  duration_ms: 0.9924
+  type: 'test'
+  ...
+# Subtest: missing resources and incorrect fixed versions identify the file/module
+ok 2 - missing resources and incorrect fixed versions identify the file/module
+  ---
+  duration_ms: 11.225
+  type: 'test'
+  ...
+# Subtest: cache hits are still hashed; path traversal cannot read outside project
+ok 3 - cache hits are still hashed; path traversal cannot read outside project
+  ---
+  duration_ms: 10.4881
+  type: 'test'
+  ...
+# Subtest: preflight rejects incomplete receipt and missing license; it never downloads
+ok 4 - preflight rejects incomplete receipt and missing license; it never downloads
+  ---
+  duration_ms: 27.3907
+  type: 'test'
+  ...
+# Subtest: child command nonzero exit is not hidden
+ok 5 - child command nonzero exit is not hidden
+  ---
+  duration_ms: 27.0494
+  type: 'test'
+  ...
+# Subtest: offline CLI fails without receipt without creating download/cache directories
+ok 6 - offline CLI fails without receipt without creating download/cache directories
+  ---
+  duration_ms: 34.984
+  type: 'test'
+  ...
+# Subtest: ZIP traversal is rejected before extraction writes any destination
+not ok 7 - ZIP traversal is rejected before extraction writes any destination
+  ---
+  duration_ms: 373.9207
+  type: 'test'
+  location: 'D:\\Code\\JianZJ-Hub\\tests\\m0\\preparation.test.mjs:63:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    �Ҳ������� [IO.Compression.ZipArchiveMode]��
+    ����λ�� ��:1 �ַ�: 183
+    + ... ation-test-3tYKAa\unsafe.zip',[IO.Compression.ZipArchiveMode]::Create ...
+    +                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        + CategoryInfo          : InvalidOperation: (IO.Compression.ZipArchiveMode:TypeName) []��RuntimeException
+        + FullyQualifiedErrorId : TypeNotFound
+     
+    ���ܶ� Null ֵ����ʽ���÷�����
+    ����λ�� ��:1 �ַ�: 225
+    + ... hiveMode]::Create); $entry=$zip.CreateEntry('../escaped.txt'); $zip.D ...
+    +                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        + CategoryInfo          : InvalidOperation: (:) []��RuntimeException
+        + FullyQualifiedErrorId : InvokeMethodOnNull
+     
+    ���ܶ� Null ֵ����ʽ���÷�����
+    ����λ�� ��:1 �ַ�: 268
+    + ... ]::Create); $entry=$zip.CreateEntry('../escaped.txt'); $zip.Dispose()
+    +                                                            ~~~~~~~~~~~~~~
+        + CategoryInfo          : InvalidOperation: (:) []��RuntimeException
+        + FullyQualifiedErrorId : InvokeMethodOnNull
+     
+    
+    
+    1 !== 0
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 0
+  actual: 1
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///D:/Code/JianZJ-Hub/tests/m0/preparation.test.mjs:69:10)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 6
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 535.0949

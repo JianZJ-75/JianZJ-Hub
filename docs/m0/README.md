@@ -1,6 +1,8 @@
 # M0 兼容与关键风险验证
 
-更新日期：2026-10-14。**原 M0 生命周期阻塞已修复；本机开发产物与 Windows x64 打包产物的 M0 修复门槛均通过。建议可提交 M1 放行，但尚未进入 M1，仍等待用户明确确认。**
+更新日期：2026-10-15。**524f107 的 M0 核心技术基线及独立复验通过；本轮交付一致性与同机干净目录复现收尾已完成，实际范围见 [收尾报告](CLOSEOUT.md)。尚未进入 M1，仍等待用户明确确认。**
+
+第 2～7 节的修复实现、命令和旧资源量测属于 2026-10-14 历史修复阶段，不将其中“本次”误解为本轮 2026-10-15 收尾。旧审计与原始证据保持原样。
 
 旧失败、旧运行报告与修复过程错误均保留。当前结论不是终端体验或完整产品验收，也不是所有机器、负载与 Shell 的兼容保证。
 
@@ -9,8 +11,8 @@
 
 ## 1. 当前基线与版本
 
-- 仓库 `D:/Code/JianZJ-Hub`，origin `https://github.com/JianZJ-75/JianZJ-Hub.git`；main 尚无提交。未初始化新仓库，未提交、推送、拉取、切换分支或执行破坏性 Git 操作。
-- 材料基线：已读取的飞书 PRD revision 21、技术设计 revision 6；唯一认可原型 `prototypes/comfort-redesign/workstation-comfort.html`。本轮未改原型、未开发产品分屏或辅助模块。
+- 2026-10-15 核对：仓库 `D:/Code/JianZJ-Hub`，分支 `main`，HEAD `524f107e93ec1782554f10b8c799d2cfca6a3497`，origin `git@github.com:JianZJ-75/JianZJ-Hub.git`。开始核对时工作区干净，已有 `e9c011f`、`524f107` 两项本地提交。`git ls-remote origin refs/heads/main` 退出 0，远端同一 SHA；仅代表核查时基线上传情况。本轮技术验收时尚未提交、推送；随后用户已明确授权交付收尾变更。收尾代码以本文件所在提交为准，远端上传仍需独立核对，与技术验证结果分开。
+- 材料基线：已读取的飞书 PRD revision 21、技术设计 revision 7（2026-10-15 已读取新增收尾节）；唯一认可原型 `prototypes/comfort-redesign/workstation-comfort.html`。本轮未改原型、未开发产品分屏或辅助模块。
 - Windows 11 Enterprise LTSC 2024 build 26100；系统 Windows PowerShell 5.1；宿主 Node 22.23.2 x64 / npm 10.9.8。
 - Electron **44.7.2**，实际 Node **24.21.0**、ABI **149**、N-API **10**；node-pty **1.1.0**；包内 ConPTY **1.23.251008001**；better-sqlite3 **13.0.3**（实际 SQLite **3.53.4**）；simple **0.7.1**；Koffi **3.3.3**。
 - xterm 6.0.0 / fit 0.11.0；React 19.3.0；electron-vite 5.0.0 / Vite 7.3.7 / React 插件 5.2.0；TypeScript 7.0.2；electron-builder 26.15.3。完整精确版本见 package-lock.json。
@@ -168,3 +170,12 @@ package.json、锁文件、原生依赖版本、Windows 系统设置均未变。
 - 其他 Shell/电脑/Windows 版本、跨权限或系统代理脱离进程、托盘交互、安装器/签名、完整分发许可审计仍未验证。
 
 后续如需手动查看仅 M0 验证入口：`node scripts/m0/run.mjs dev --interactive`；关闭窗口触发服务及会话树清理。UI 不是已认可舒适版的重新设计或替代。
+
+## 9. 2026-10-15 收尾交接
+
+- [收尾报告与本轮实际结果](CLOSEOUT.md)
+- [干净工程准备、打包与复现](REPRODUCIBILITY.md)
+- [认可原型获取与 SHA-256](PROTOTYPE-HANDOFF.md)
+- [M1 验收任务，不在 M0 实现](M1-ACCEPTANCE.md)
+
+`DELIVERY-AUDIT.md`、`GIT-DELIVERY.md` 和旧命令索引记录各自历史时点，不能拿当时空仓库/推送失败推断当前 main，也不因当前远端已存在基线而改写旧失败。

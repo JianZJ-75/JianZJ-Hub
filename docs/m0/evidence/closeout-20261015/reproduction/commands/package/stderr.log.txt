@@ -1,0 +1,7 @@
+Error: "node_modules/node-pty/prebuilds/win32-x64/conpty.node" was not found in this archive
+    at Filesystem.getFile (D:\Code\JianZJ-Hub-M0-repro-20261015-37002e9f\project\node_modules\@electron\asar\lib\filesystem.js:187:19)
+    at Object.extractFile (D:\Code\JianZJ-Hub-M0-repro-20261015-37002e9f\project\node_modules\@electron\asar\lib\asar.js:256:33)
+    at file:///D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f/project/scripts/m0/package.mjs:15:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)

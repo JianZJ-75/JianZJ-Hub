@@ -1,0 +1,167 @@
+[
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\acceptance-dev.log",
+    "file": "independent-acceptance/dev/acceptance.log.txt",
+    "bytes": 32569,
+    "sha256": "bbe4cf152aec44ab145cf2cbe5ba73f3f550a89c00b7edbd7120c4b41cb50b8d",
+    "historicalOuterExitCode": "not retained",
+    "appExitCode": 0,
+    "status": "pass"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-normal-49b60557-7b02-4488-a119-bc658e66f573\\gui.png",
+    "file": "independent-acceptance/dev/gui.png",
+    "bytes": 34898,
+    "sha256": "48edc6ffa63b2abb9f83530869465b0f0c432d26d01b3f09df8bad714f3dc471"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-normal-49b60557-7b02-4488-a119-bc658e66f573\\result.json",
+    "file": "independent-acceptance/dev/result.json",
+    "bytes": 30952,
+    "sha256": "bdf02d42beae636afbc48b28935d74efad3c4104be765cdf11656895ebf140d4"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-normal-49b60557-7b02-4488-a119-bc658e66f573\\stdout.log",
+    "file": "independent-acceptance/dev/stdout.log.txt",
+    "bytes": 2,
+    "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-normal-49b60557-7b02-4488-a119-bc658e66f573\\supervisor.json",
+    "file": "independent-acceptance/dev/supervisor.json",
+    "bytes": 32568,
+    "sha256": "95ce16d92af3a821f63babd6e33da8f574e338861a4455c66b1d1d15313813b6"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\acceptance-packaged.log",
+    "file": "independent-acceptance/packaged/acceptance.log.txt",
+    "bytes": 33231,
+    "sha256": "8a5f992f85b729a2848dfb1dab7af2ed8af3988dc93a6fdf90984bc977e81bfa",
+    "historicalOuterExitCode": "not retained",
+    "appExitCode": 0,
+    "status": "pass"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-normal-22bf945c-d84d-4e5e-8d84-d2a9bf85cc74\\gui.png",
+    "file": "independent-acceptance/packaged/gui.png",
+    "bytes": 35245,
+    "sha256": "69e8c0cb8f73f0955e273295f0d4e0563fa93147113be0b17d45460dce67388b"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-normal-22bf945c-d84d-4e5e-8d84-d2a9bf85cc74\\result.json",
+    "file": "independent-acceptance/packaged/result.json",
+    "bytes": 31604,
+    "sha256": "4480fbef69a2f3a84c8e255a13fe1b7338b0d9d80c3014c3fbf823339e0eded8"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-normal-22bf945c-d84d-4e5e-8d84-d2a9bf85cc74\\stdout.log",
+    "file": "independent-acceptance/packaged/stdout.log.txt",
+    "bytes": 2,
+    "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-normal-22bf945c-d84d-4e5e-8d84-d2a9bf85cc74\\supervisor.json",
+    "file": "independent-acceptance/packaged/supervisor.json",
+    "bytes": 33230,
+    "sha256": "cb4d76e18d477acc399e748aa495af7c3d4f89781f98796544d5481b76137e4e"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\acceptance-worker.log",
+    "file": "independent-acceptance/worker/acceptance.log.txt",
+    "bytes": 21676,
+    "sha256": "69211d98d181c799c9cee4bcfdda94cc7fa733ad16955aa36e96f95e5ea1e143",
+    "historicalOuterExitCode": "not retained",
+    "appExitCode": 0,
+    "status": "pass"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-worker-fault-ef860d48-4be2-481a-9c59-20480af2c1b7\\gui.png",
+    "file": "independent-acceptance/worker/gui.png",
+    "bytes": 34768,
+    "sha256": "d73570b17ef4bb55e500f537a7c2690d4eb7a45a38e6449d2477d7cd30749c5f"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-worker-fault-ef860d48-4be2-481a-9c59-20480af2c1b7\\result.json",
+    "file": "independent-acceptance/worker/result.json",
+    "bytes": 20697,
+    "sha256": "ea0d09e31983197c0793771d4c269a3cecdded291a79cddb9089a04252d52f7e"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-worker-fault-ef860d48-4be2-481a-9c59-20480af2c1b7\\stdout.log",
+    "file": "independent-acceptance/worker/stdout.log.txt",
+    "bytes": 2,
+    "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-worker-fault-ef860d48-4be2-481a-9c59-20480af2c1b7\\supervisor.json",
+    "file": "independent-acceptance/worker/supervisor.json",
+    "bytes": 21675,
+    "sha256": "b5a85c03278bdc7d602c894642f71564736966f26fb3f53fa5f866e072bc3c13"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\acceptance-crash.log",
+    "file": "independent-acceptance/crash/acceptance.log.txt",
+    "bytes": 1030,
+    "sha256": "8b579591f8fda0fd64aef5b052e4558d687cf0848149d30b61e9aa6bb6c5e9d4",
+    "historicalOuterExitCode": "not retained",
+    "appExitCode": 1,
+    "status": "pass"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-main-crash-a9bb9f7c-e5f9-4672-9f4a-4660ea22f2b0\\armed.json",
+    "file": "independent-acceptance/crash/armed.json",
+    "bytes": 282,
+    "sha256": "53f35e7c8f749987eca88bf8783aff7fad24f9c8f5e6482e15a7a9dfa0e57adf"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-main-crash-a9bb9f7c-e5f9-4672-9f4a-4660ea22f2b0\\gui.png",
+    "file": "independent-acceptance/crash/gui.png",
+    "bytes": 35632,
+    "sha256": "276247095bf447da408641076f61efe06eca2c3cca2f03cf2728d3d296646b88"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-main-crash-a9bb9f7c-e5f9-4672-9f4a-4660ea22f2b0\\stdout.log",
+    "file": "independent-acceptance/crash/stdout.log.txt",
+    "bytes": 2,
+    "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-main-crash-a9bb9f7c-e5f9-4672-9f4a-4660ea22f2b0\\supervisor.json",
+    "file": "independent-acceptance/crash/supervisor.json",
+    "bytes": 1029,
+    "sha256": "a52f7934baf2529af2267b521001c64594ca8a773e3b0f6039440d1accebd056"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\acceptance-concurrent.log",
+    "file": "independent-acceptance/concurrent/acceptance.log.txt",
+    "bytes": 39256,
+    "sha256": "507b0f9beb0665ccce4624701a45b508ccae286a9a77ced5dc1aa5d6c2e9c946",
+    "historicalOuterExitCode": "not retained",
+    "appExitCode": 0,
+    "status": "pass"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-0cee84de-6938-4a9e-9c67-3b47bcb79205\\gui.png",
+    "file": "independent-acceptance/concurrent/gui.png",
+    "bytes": 36065,
+    "sha256": "b4bc38fbc038e3bae34bdacc4b7f182dd3217559a5ea9d7ca2a4f1e4d4100f61"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-0cee84de-6938-4a9e-9c67-3b47bcb79205\\result.json",
+    "file": "independent-acceptance/concurrent/result.json",
+    "bytes": 37329,
+    "sha256": "448fec671e3b1628dcbb422177724bc1ea660dfc8b2afe29356d2cdd0e73d771"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-0cee84de-6938-4a9e-9c67-3b47bcb79205\\stdout.log",
+    "file": "independent-acceptance/concurrent/stdout.log.txt",
+    "bytes": 2,
+    "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+  },
+  {
+    "source": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-0cee84de-6938-4a9e-9c67-3b47bcb79205\\supervisor.json",
+    "file": "independent-acceptance/concurrent/supervisor.json",
+    "bytes": 39255,
+    "sha256": "ad2271933805fac37a25246f93c96c0366c3d69ae58e142e1effa3d8c5a51f71"
+  }
+]

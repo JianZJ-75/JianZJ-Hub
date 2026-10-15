@@ -1,0 +1,28 @@
+{
+  "version": "0.7.1",
+  "url": "https://github.com/wangfenjin/simple/releases/download/v0.7.1/libsimple-windows-x64.zip",
+  "sha256": "7f03cc28cf307721f5621b5a52ef3bcb26c5215de012b09900492eb34d5bed0b",
+  "size": 5473005,
+  "checksumSource": "https://api.github.com/repos/wangfenjin/simple/releases/tags/v0.7.1",
+  "assetId": 360837918,
+  "archive": ".m0-scratch/downloads/simple-0.7.1/simple.zip",
+  "directory": ".m0-scratch/downloads/simple-0.7.1/extracted",
+  "prefix": "libsimple-windows-x64",
+  "files": [
+    "simple.dll",
+    "dict/hmm_model.utf8",
+    "dict/idf.utf8",
+    "dict/jieba.dict.utf8",
+    "dict/stop_words.utf8",
+    "dict/user.dict.utf8",
+    "dict/pos_dict/char_state_tab.utf8",
+    "dict/pos_dict/prob_emit.utf8",
+    "dict/pos_dict/prob_start.utf8",
+    "dict/pos_dict/prob_trans.utf8"
+  ],
+  "received": "2026-10-15T08:43:30.868Z",
+  "bytes": 5473005,
+  "verifiedSha256": "7f03cc28cf307721f5621b5a52ef3bcb26c5215de012b09900492eb34d5bed0b",
+  "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/244509610/7e011193-06dc-4718-b07d-5bada474654e",
+  "redaction": "Only temporary redirect query/fragment omitted in this archive copy; original record retained in isolated intake. Download bytes and hashes unchanged."
+}
