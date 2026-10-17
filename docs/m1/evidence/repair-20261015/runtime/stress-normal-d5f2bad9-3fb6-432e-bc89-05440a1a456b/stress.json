@@ -1,0 +1,1289 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "two independent sessions reject stale generation, bad resize and repeated close is idempotent",
+      "status": "pass",
+      "detail": {
+        "closed": {
+          "sessionId": "session-63354d9f-52ae-41e9-9992-6de6dcefce0a",
+          "paneId": "pane-de4b7fcc-baa6-41f6-abde-f5d0887ec99d",
+          "workspaceId": "workspace-863828bd-6409-4b0a-b1b7-6b4a701c7489",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 179000,
+          "createdAt": "134365410926103455",
+          "workerPid": 136060,
+          "workerCreatedAt": "134365410925617400",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "exitCode": 1,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 3,
+          "peak": 53,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          }
+        },
+        "survivorPid": 177348
+      }
+    },
+    {
+      "name": "paused consumer bounds service output; resumed slow consumer preserves every record at natural EOF",
+      "status": "pass",
+      "detail": {
+        "paused": {
+          "sessionId": "session-df414887-4f32-4278-b202-4124eff8a854",
+          "paneId": "pane-b6ba2844-27d3-4207-9024-d955e2f47e91",
+          "workspaceId": "workspace-8bf036c8-26d4-45e1-9088-4e0a143e3240",
+          "generation": 1,
+          "state": "running",
+          "cols": 100,
+          "rows": 30,
+          "pid": 178868,
+          "createdAt": "134365410959794508",
+          "workerPid": 146492,
+          "workerCreatedAt": "134365410959306657",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "bytes": 4840,
+          "peak": 4840,
+          "pending": 0,
+          "pids": [
+            146492,
+            178732,
+            178868,
+            179292
+          ]
+        },
+        "exit": {
+          "sessionId": "session-df414887-4f32-4278-b202-4124eff8a854",
+          "paneId": "pane-b6ba2844-27d3-4207-9024-d955e2f47e91",
+          "workspaceId": "workspace-8bf036c8-26d4-45e1-9088-4e0a143e3240",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 178868,
+          "createdAt": "134365410959794508",
+          "workerPid": 146492,
+          "workerCreatedAt": "134365410959306657",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "exitCode": 5,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 1422,
+          "peak": 118784,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          },
+          "type": "exit"
+        },
+        "output": {
+          "records": 16000,
+          "actualSha256": "523fb0e148369899a3a413b7968e4e30642f2662dc934bde8bfe00036498f0c5",
+          "expectedSha256": "523fb0e148369899a3a413b7968e4e30642f2662dc934bde8bfe00036498f0c5",
+          "tailUnicode": true,
+          "outputBytes": 391862
+        }
+      }
+    },
+    {
+      "name": "active close keeps output reader alive and delivers all produced tail bytes before reclaim",
+      "status": "pass",
+      "detail": {
+        "result": {
+          "sessionId": "session-2e14ad27-5fe8-447e-a867-e10bc236a17c",
+          "paneId": "pane-cb739f58-4e35-4938-a14e-1954a8257d3b",
+          "workspaceId": "workspace-ba035e9a-eb49-4036-b52b-28370e0f3352",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 179756,
+          "createdAt": "134365411003978665",
+          "workerPid": 179672,
+          "workerCreatedAt": "134365411003454998",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "exitCode": 1,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 1914,
+          "peak": 118784,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          }
+        },
+        "output": {
+          "records": 16000,
+          "actualSha256": "523fb0e148369899a3a413b7968e4e30642f2662dc934bde8bfe00036498f0c5",
+          "expectedSha256": "523fb0e148369899a3a413b7968e4e30642f2662dc934bde8bfe00036498f0c5",
+          "tailUnicode": true,
+          "outputBytes": 391899
+        }
+      }
+    },
+    {
+      "name": "worker crash reclaims only its Job; survivor still interactive",
+      "status": "pass",
+      "detail": {
+        "sessionId": "session-690f46e8-bc1a-4784-b853-c8c575763722",
+        "paneId": "pane-59fd2b0d-6b28-4189-921f-79c15f11e3ac",
+        "workspaceId": "workspace-20094043-2be4-45f9-b882-fafa63f1c319",
+        "generation": 1,
+        "state": "failed",
+        "cols": 100,
+        "rows": 30,
+        "pid": 177936,
+        "createdAt": "134365411043603756",
+        "workerPid": 180220,
+        "workerCreatedAt": "134365411043086404",
+        "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+        "error": "WORKER_CRASH:1",
+        "cleanup": {
+          "before": [
+            178068,
+            177936
+          ],
+          "remaining": []
+        },
+        "outputComplete": false,
+        "type": "fault"
+      }
+    },
+    {
+      "name": "simultaneous natural exits keep per-session output and exit events isolated",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-f69b73f7-59f7-42a3-99e6-464f462533ed",
+          "paneId": "pane-07ee2abe-cdf3-4675-a8b7-8451d1de8775",
+          "workspaceId": "workspace-d0f4d17b-b057-4951-a1fe-0e05b5d9f20b",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 169772,
+          "createdAt": "134365411076710623",
+          "workerPid": 179324,
+          "workerCreatedAt": "134365411076209853",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "exitCode": 5,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 88,
+          "peak": 280,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          },
+          "type": "exit"
+        },
+        {
+          "sessionId": "session-369f45f9-b522-4f23-97b7-7eb04c4f25f1",
+          "paneId": "pane-23ca0886-8819-4179-9455-b5227876ae52",
+          "workspaceId": "workspace-7ab7f76a-2981-46da-bad1-9285e7e6d80d",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 179692,
+          "createdAt": "134365411109163836",
+          "workerPid": 180120,
+          "workerCreatedAt": "134365411108655849",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "exitCode": 7,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 88,
+          "peak": 166,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          },
+          "type": "exit"
+        }
+      ]
+    },
+    {
+      "name": "repeated create/close releases active registry, pending requests and native workers",
+      "status": "pass",
+      "detail": {
+        "rounds": [
+          {
+            "round": 0,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 1,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 2,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 3,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 4,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 5,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 6,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 7,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 8,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 9,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 10,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 11,
+            "peak": 53,
+            "active": 1
+          }
+        ],
+        "handlesBefore": 330,
+        "handlesAfter": 326
+      }
+    },
+    {
+      "name": "service normal stop cleans running Shell and native worker; all retained identities exited",
+      "status": "pass",
+      "detail": {
+        "before": {
+          "active": [
+            {
+              "sessionId": "session-11f379f8-7ca4-40de-ad5c-552325def3ab",
+              "paneId": "pane-f8c97301-4388-4829-8d10-1dfbec5816fa",
+              "workspaceId": "workspace-7ce968fc-fe99-43d8-8f72-abc4bd82bc67",
+              "generation": 1,
+              "state": "running",
+              "cols": 100,
+              "rows": 30,
+              "pid": 177348,
+              "createdAt": "134365410893641734",
+              "workerPid": 177352,
+              "workerCreatedAt": "134365410893068417",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "bytes": 0,
+              "peak": 120,
+              "pending": 0,
+              "pids": [
+                177352,
+                177968,
+                177348
+              ]
+            }
+          ],
+          "ended": [
+            {
+              "sessionId": "session-63354d9f-52ae-41e9-9992-6de6dcefce0a",
+              "paneId": "pane-de4b7fcc-baa6-41f6-abde-f5d0887ec99d",
+              "workspaceId": "workspace-863828bd-6409-4b0a-b1b7-6b4a701c7489",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 179000,
+              "createdAt": "134365410926103455",
+              "workerPid": 136060,
+              "workerCreatedAt": "134365410925617400",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-df414887-4f32-4278-b202-4124eff8a854",
+              "paneId": "pane-b6ba2844-27d3-4207-9024-d955e2f47e91",
+              "workspaceId": "workspace-8bf036c8-26d4-45e1-9088-4e0a143e3240",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 178868,
+              "createdAt": "134365410959794508",
+              "workerPid": 146492,
+              "workerCreatedAt": "134365410959306657",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 5,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 1422,
+              "peak": 118784,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-2e14ad27-5fe8-447e-a867-e10bc236a17c",
+              "paneId": "pane-cb739f58-4e35-4938-a14e-1954a8257d3b",
+              "workspaceId": "workspace-ba035e9a-eb49-4036-b52b-28370e0f3352",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 179756,
+              "createdAt": "134365411003978665",
+              "workerPid": 179672,
+              "workerCreatedAt": "134365411003454998",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 1914,
+              "peak": 118784,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-690f46e8-bc1a-4784-b853-c8c575763722",
+              "paneId": "pane-59fd2b0d-6b28-4189-921f-79c15f11e3ac",
+              "workspaceId": "workspace-20094043-2be4-45f9-b882-fafa63f1c319",
+              "generation": 1,
+              "state": "failed",
+              "cols": 100,
+              "rows": 30,
+              "pid": 177936,
+              "createdAt": "134365411043603756",
+              "workerPid": 180220,
+              "workerCreatedAt": "134365411043086404",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "error": "WORKER_CRASH:1",
+              "cleanup": {
+                "before": [
+                  178068,
+                  177936
+                ],
+                "remaining": []
+              },
+              "outputComplete": false
+            },
+            {
+              "sessionId": "session-f69b73f7-59f7-42a3-99e6-464f462533ed",
+              "paneId": "pane-07ee2abe-cdf3-4675-a8b7-8451d1de8775",
+              "workspaceId": "workspace-d0f4d17b-b057-4951-a1fe-0e05b5d9f20b",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 169772,
+              "createdAt": "134365411076710623",
+              "workerPid": 179324,
+              "workerCreatedAt": "134365411076209853",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 5,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 88,
+              "peak": 280,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-369f45f9-b522-4f23-97b7-7eb04c4f25f1",
+              "paneId": "pane-23ca0886-8819-4179-9455-b5227876ae52",
+              "workspaceId": "workspace-7ab7f76a-2981-46da-bad1-9285e7e6d80d",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 179692,
+              "createdAt": "134365411109163836",
+              "workerPid": 180120,
+              "workerCreatedAt": "134365411108655849",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 7,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 88,
+              "peak": 166,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-82001f24-b2ea-4bd1-a0c8-6908e52dac14",
+              "paneId": "pane-170e1c9a-aece-4a88-9b3b-fa928a6f655d",
+              "workspaceId": "workspace-44b3b7bd-b432-45bc-9153-73a101ea8f45",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 179932,
+              "createdAt": "134365411143802904",
+              "workerPid": 179776,
+              "workerCreatedAt": "134365411143333329",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-edaa7f93-a7ba-453b-a928-203e38a1bc5a",
+              "paneId": "pane-7b473cee-c5ff-4c4f-8de6-b4bf9d6e2143",
+              "workspaceId": "workspace-d1509b7c-0f84-4d32-83a8-fd4c2e646a8e",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 177180,
+              "createdAt": "134365411176967975",
+              "workerPid": 175392,
+              "workerCreatedAt": "134365411176502592",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-87a32dc1-9c1b-4dd3-8715-cf5ba5d3be82",
+              "paneId": "pane-bdcb044c-20d8-4f07-8f09-b86b8088ef0d",
+              "workspaceId": "workspace-5c7bc2b5-ee7a-4ae2-870e-6426a86c473c",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 179228,
+              "createdAt": "134365411210094671",
+              "workerPid": 180192,
+              "workerCreatedAt": "134365411209620944",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-a79d7eef-fdd6-4580-aa11-4ffd99cd5f29",
+              "paneId": "pane-4bec6c12-4ec6-441e-839b-9105b5e2851d",
+              "workspaceId": "workspace-46e3209b-d8e4-4746-8c82-1ccd0f787f5a",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 169516,
+              "createdAt": "134365411243234382",
+              "workerPid": 179460,
+              "workerCreatedAt": "134365411242763641",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-aec258c8-5c2b-49f6-8ac9-340da1f829d2",
+              "paneId": "pane-ceb62ae4-00ba-407d-81e3-dee7e8817a04",
+              "workspaceId": "workspace-926fc6cb-85c2-43b7-93fc-d50b7712418a",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 167972,
+              "createdAt": "134365411276402692",
+              "workerPid": 179428,
+              "workerCreatedAt": "134365411275897241",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-19f8df07-0ac3-4371-b804-dab2766a169a",
+              "paneId": "pane-8ff9488d-086d-43e0-b1fe-34c28c30f833",
+              "workspaceId": "workspace-0450b497-6690-4c1e-a258-e57fc7ba9322",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 172820,
+              "createdAt": "134365411309676827",
+              "workerPid": 173996,
+              "workerCreatedAt": "134365411309195535",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-c6cb15f2-6602-454b-be42-4ae83ec5f6f8",
+              "paneId": "pane-2c9aa289-0873-46c4-a347-12f418df3be0",
+              "workspaceId": "workspace-59bf583a-1068-4867-b808-7a77913b592c",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 177364,
+              "createdAt": "134365411343212978",
+              "workerPid": 179348,
+              "workerCreatedAt": "134365411342605916",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-5d4cf1e6-56c8-4b08-949a-813c4db49bd8",
+              "paneId": "pane-596ae434-6d98-41e0-8fe0-a208b3e5edde",
+              "workspaceId": "workspace-83056a67-7c94-4ff6-a2a9-ea130dca235a",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 167692,
+              "createdAt": "134365411376600775",
+              "workerPid": 169496,
+              "workerCreatedAt": "134365411376064105",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-f720378f-4bea-4e92-974f-b55df35f6c07",
+              "paneId": "pane-4d1ce1a4-59f2-4ce7-8d1c-5e5a7ef9dd6f",
+              "workspaceId": "workspace-4096bfa4-ec1b-4346-989e-58065e181709",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 175816,
+              "createdAt": "134365411409951472",
+              "workerPid": 169520,
+              "workerCreatedAt": "134365411409433397",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-b7662f68-3dc3-4afd-846d-17cbddf7dbca",
+              "paneId": "pane-2cbe2220-68ea-4d49-900e-335d33aa864c",
+              "workspaceId": "workspace-495fb636-3b6e-442e-a1c8-248b2e173dcd",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 153564,
+              "createdAt": "134365411443161538",
+              "workerPid": 172960,
+              "workerCreatedAt": "134365411442678792",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-4ee95b37-15c3-489b-ae91-5cb77c1ae497",
+              "paneId": "pane-d3034b66-5244-4583-80f5-918071952aa6",
+              "workspaceId": "workspace-41736ce4-2fdd-42aa-942c-c68a0a8661dc",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 169976,
+              "createdAt": "134365411476113998",
+              "workerPid": 175732,
+              "workerCreatedAt": "134365411475650187",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-c5ff1111-83a6-47ba-b806-e26b3f88b693",
+              "paneId": "pane-279a6c23-ceee-4e27-9b2a-190fb0e0a5db",
+              "workspaceId": "workspace-698894a8-5d3e-44f7-8ac0-8cfb6f4b7c65",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 174644,
+              "createdAt": "134365411509169799",
+              "workerPid": 129372,
+              "workerCreatedAt": "134365411508709558",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            }
+          ],
+          "native": [
+            "D:\\Code\\JianZJ-Hub\\node_modules\\@koromix\\koffi-win32-x64\\win32_x64\\koffi.node"
+          ]
+        },
+        "identities": [
+          {
+            "pid": 177348,
+            "createdAt": "134365410893641734",
+            "exited": true
+          },
+          {
+            "pid": 179000,
+            "createdAt": "134365410926103455",
+            "exited": true
+          },
+          {
+            "pid": 178868,
+            "createdAt": "134365410959794508",
+            "exited": true
+          },
+          {
+            "pid": 179756,
+            "createdAt": "134365411003978665",
+            "exited": true
+          },
+          {
+            "pid": 177936,
+            "createdAt": "134365411043603756",
+            "exited": true
+          },
+          {
+            "pid": 169772,
+            "createdAt": "134365411076710623",
+            "exited": true
+          },
+          {
+            "pid": 179692,
+            "createdAt": "134365411109163836",
+            "exited": true
+          },
+          {
+            "pid": 179932,
+            "createdAt": "134365411143802904",
+            "exited": true
+          },
+          {
+            "pid": 177180,
+            "createdAt": "134365411176967975",
+            "exited": true
+          },
+          {
+            "pid": 179228,
+            "createdAt": "134365411210094671",
+            "exited": true
+          },
+          {
+            "pid": 169516,
+            "createdAt": "134365411243234382",
+            "exited": true
+          },
+          {
+            "pid": 167972,
+            "createdAt": "134365411276402692",
+            "exited": true
+          },
+          {
+            "pid": 172820,
+            "createdAt": "134365411309676827",
+            "exited": true
+          },
+          {
+            "pid": 177364,
+            "createdAt": "134365411343212978",
+            "exited": true
+          },
+          {
+            "pid": 167692,
+            "createdAt": "134365411376600775",
+            "exited": true
+          },
+          {
+            "pid": 175816,
+            "createdAt": "134365411409951472",
+            "exited": true
+          },
+          {
+            "pid": 153564,
+            "createdAt": "134365411443161538",
+            "exited": true
+          },
+          {
+            "pid": 169976,
+            "createdAt": "134365411476113998",
+            "exited": true
+          },
+          {
+            "pid": 174644,
+            "createdAt": "134365411509169799",
+            "exited": true
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "sessionId": "session-63354d9f-52ae-41e9-9992-6de6dcefce0a",
+      "paneId": "pane-de4b7fcc-baa6-41f6-abde-f5d0887ec99d",
+      "workspaceId": "workspace-863828bd-6409-4b0a-b1b7-6b4a701c7489",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 179000,
+      "createdAt": "134365410926103455",
+      "workerPid": 136060,
+      "workerCreatedAt": "134365410925617400",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-df414887-4f32-4278-b202-4124eff8a854",
+      "paneId": "pane-b6ba2844-27d3-4207-9024-d955e2f47e91",
+      "workspaceId": "workspace-8bf036c8-26d4-45e1-9088-4e0a143e3240",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 178868,
+      "createdAt": "134365410959794508",
+      "workerPid": 146492,
+      "workerCreatedAt": "134365410959306657",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 5,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 1422,
+      "peak": 118784,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-2e14ad27-5fe8-447e-a867-e10bc236a17c",
+      "paneId": "pane-cb739f58-4e35-4938-a14e-1954a8257d3b",
+      "workspaceId": "workspace-ba035e9a-eb49-4036-b52b-28370e0f3352",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 179756,
+      "createdAt": "134365411003978665",
+      "workerPid": 179672,
+      "workerCreatedAt": "134365411003454998",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 1914,
+      "peak": 118784,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-690f46e8-bc1a-4784-b853-c8c575763722",
+      "paneId": "pane-59fd2b0d-6b28-4189-921f-79c15f11e3ac",
+      "workspaceId": "workspace-20094043-2be4-45f9-b882-fafa63f1c319",
+      "generation": 1,
+      "state": "failed",
+      "cols": 100,
+      "rows": 30,
+      "pid": 177936,
+      "createdAt": "134365411043603756",
+      "workerPid": 180220,
+      "workerCreatedAt": "134365411043086404",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "error": "WORKER_CRASH:1",
+      "cleanup": {
+        "before": [
+          178068,
+          177936
+        ],
+        "remaining": []
+      },
+      "outputComplete": false,
+      "type": "fault"
+    },
+    {
+      "sessionId": "session-f69b73f7-59f7-42a3-99e6-464f462533ed",
+      "paneId": "pane-07ee2abe-cdf3-4675-a8b7-8451d1de8775",
+      "workspaceId": "workspace-d0f4d17b-b057-4951-a1fe-0e05b5d9f20b",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 169772,
+      "createdAt": "134365411076710623",
+      "workerPid": 179324,
+      "workerCreatedAt": "134365411076209853",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 5,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 88,
+      "peak": 280,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-369f45f9-b522-4f23-97b7-7eb04c4f25f1",
+      "paneId": "pane-23ca0886-8819-4179-9455-b5227876ae52",
+      "workspaceId": "workspace-7ab7f76a-2981-46da-bad1-9285e7e6d80d",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 179692,
+      "createdAt": "134365411109163836",
+      "workerPid": 180120,
+      "workerCreatedAt": "134365411108655849",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 7,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 88,
+      "peak": 166,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-82001f24-b2ea-4bd1-a0c8-6908e52dac14",
+      "paneId": "pane-170e1c9a-aece-4a88-9b3b-fa928a6f655d",
+      "workspaceId": "workspace-44b3b7bd-b432-45bc-9153-73a101ea8f45",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 179932,
+      "createdAt": "134365411143802904",
+      "workerPid": 179776,
+      "workerCreatedAt": "134365411143333329",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-edaa7f93-a7ba-453b-a928-203e38a1bc5a",
+      "paneId": "pane-7b473cee-c5ff-4c4f-8de6-b4bf9d6e2143",
+      "workspaceId": "workspace-d1509b7c-0f84-4d32-83a8-fd4c2e646a8e",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 177180,
+      "createdAt": "134365411176967975",
+      "workerPid": 175392,
+      "workerCreatedAt": "134365411176502592",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-87a32dc1-9c1b-4dd3-8715-cf5ba5d3be82",
+      "paneId": "pane-bdcb044c-20d8-4f07-8f09-b86b8088ef0d",
+      "workspaceId": "workspace-5c7bc2b5-ee7a-4ae2-870e-6426a86c473c",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 179228,
+      "createdAt": "134365411210094671",
+      "workerPid": 180192,
+      "workerCreatedAt": "134365411209620944",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-a79d7eef-fdd6-4580-aa11-4ffd99cd5f29",
+      "paneId": "pane-4bec6c12-4ec6-441e-839b-9105b5e2851d",
+      "workspaceId": "workspace-46e3209b-d8e4-4746-8c82-1ccd0f787f5a",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 169516,
+      "createdAt": "134365411243234382",
+      "workerPid": 179460,
+      "workerCreatedAt": "134365411242763641",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-aec258c8-5c2b-49f6-8ac9-340da1f829d2",
+      "paneId": "pane-ceb62ae4-00ba-407d-81e3-dee7e8817a04",
+      "workspaceId": "workspace-926fc6cb-85c2-43b7-93fc-d50b7712418a",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 167972,
+      "createdAt": "134365411276402692",
+      "workerPid": 179428,
+      "workerCreatedAt": "134365411275897241",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-19f8df07-0ac3-4371-b804-dab2766a169a",
+      "paneId": "pane-8ff9488d-086d-43e0-b1fe-34c28c30f833",
+      "workspaceId": "workspace-0450b497-6690-4c1e-a258-e57fc7ba9322",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 172820,
+      "createdAt": "134365411309676827",
+      "workerPid": 173996,
+      "workerCreatedAt": "134365411309195535",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-c6cb15f2-6602-454b-be42-4ae83ec5f6f8",
+      "paneId": "pane-2c9aa289-0873-46c4-a347-12f418df3be0",
+      "workspaceId": "workspace-59bf583a-1068-4867-b808-7a77913b592c",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 177364,
+      "createdAt": "134365411343212978",
+      "workerPid": 179348,
+      "workerCreatedAt": "134365411342605916",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-5d4cf1e6-56c8-4b08-949a-813c4db49bd8",
+      "paneId": "pane-596ae434-6d98-41e0-8fe0-a208b3e5edde",
+      "workspaceId": "workspace-83056a67-7c94-4ff6-a2a9-ea130dca235a",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 167692,
+      "createdAt": "134365411376600775",
+      "workerPid": 169496,
+      "workerCreatedAt": "134365411376064105",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-f720378f-4bea-4e92-974f-b55df35f6c07",
+      "paneId": "pane-4d1ce1a4-59f2-4ce7-8d1c-5e5a7ef9dd6f",
+      "workspaceId": "workspace-4096bfa4-ec1b-4346-989e-58065e181709",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 175816,
+      "createdAt": "134365411409951472",
+      "workerPid": 169520,
+      "workerCreatedAt": "134365411409433397",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-b7662f68-3dc3-4afd-846d-17cbddf7dbca",
+      "paneId": "pane-2cbe2220-68ea-4d49-900e-335d33aa864c",
+      "workspaceId": "workspace-495fb636-3b6e-442e-a1c8-248b2e173dcd",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 153564,
+      "createdAt": "134365411443161538",
+      "workerPid": 172960,
+      "workerCreatedAt": "134365411442678792",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-4ee95b37-15c3-489b-ae91-5cb77c1ae497",
+      "paneId": "pane-d3034b66-5244-4583-80f5-918071952aa6",
+      "workspaceId": "workspace-41736ce4-2fdd-42aa-942c-c68a0a8661dc",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 169976,
+      "createdAt": "134365411476113998",
+      "workerPid": 175732,
+      "workerCreatedAt": "134365411475650187",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-c5ff1111-83a6-47ba-b806-e26b3f88b693",
+      "paneId": "pane-279a6c23-ceee-4e27-9b2a-190fb0e0a5db",
+      "workspaceId": "workspace-698894a8-5d3e-44f7-8ac0-8cfb6f4b7c65",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 174644,
+      "createdAt": "134365411509169799",
+      "workerPid": 129372,
+      "workerCreatedAt": "134365411508709558",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-11f379f8-7ca4-40de-ad5c-552325def3ab",
+      "paneId": "pane-f8c97301-4388-4829-8d10-1dfbec5816fa",
+      "workspaceId": "workspace-7ce968fc-fe99-43d8-8f72-abc4bd82bc67",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 177348,
+      "createdAt": "134365410893641734",
+      "workerPid": 177352,
+      "workerCreatedAt": "134365410893068417",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 173,
+      "peak": 330,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    }
+  ]
+}

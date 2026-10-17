@@ -6,6 +6,7 @@
 # ---- 现有非代码资产（文档 / 原型）—— 不进入代码仓库 ----
 docs/*
 !docs/m0/
+!docs/m1/
 prototypes/
 
 # ---- 依赖 ----
@@ -47,3 +48,4 @@ Thumbs.db
 
 # M0 isolated downloads, caches and test output
 .m0-scratch/
+.m1-scratch/

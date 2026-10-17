@@ -1,0 +1,21 @@
+{
+  "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-final-20261015",
+  "status": "failed",
+  "error": "Error: CDP_TIMEOUT:Runtime.evaluate\n    at Timeout._onTimeout (file:///D:/Code/JianZJ-Hub/.m1-scratch/repair-compare-final-20261015/compare.mjs:24:151)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)",
+  "captures": [],
+  "metrics": [],
+  "cleanup": [
+    {
+      "label": "prototype-1440",
+      "mainPid": 164636,
+      "createdAt": "134365422180424584",
+      "beforeFallback": [
+        164636,
+        167424,
+        176412,
+        176804
+      ],
+      "remaining": []
+    }
+  ]
+}

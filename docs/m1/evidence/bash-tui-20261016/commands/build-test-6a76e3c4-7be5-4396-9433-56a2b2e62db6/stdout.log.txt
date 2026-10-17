@@ -1,0 +1,36 @@
+[36mvite v7.3.7 [32mbuilding ssr environment for production...[36m[39m
+transforming...
+[32m✓[39m 19 modules transformed.
+rendering chunks...
+[2mout/m1/main/[22m[36mconout-reader.js            [39m[1m[2m 0.79 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mindex.js                    [39m[1m[2m 0.89 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mdata-service.js             [39m[1m[2m 1.97 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mchunks/rules-BFOwma_U.js    [39m[1m[2m 2.77 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mprobe.js                    [39m[1m[2m 2.82 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mfault.js                    [39m[1m[2m 3.12 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mchunks/service-Boslv04S.js  [39m[1m[2m 3.64 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mchunks/shell-BqJoE8ZE.js    [39m[1m[2m 3.99 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mpty-worker.js               [39m[1m[2m 4.69 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mjob-adapter.js              [39m[1m[2m 5.01 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mvisual.js                   [39m[1m[2m 5.08 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mbash.js                     [39m[1m[2m 6.17 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mpty-service.js              [39m[1m[2m 9.70 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mstress.js                   [39m[1m[2m10.43 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mtui.js                      [39m[1m[2m10.59 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mchunks/app-BLUAD94g.js      [39m[1m[2m11.80 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mdesktop.js                  [39m[1m[2m26.13 kB[22m[1m[22m
+[32m✓ built in 221ms[39m
+[36mvite v7.3.7 [32mbuilding ssr environment for production...[36m[39m
+transforming...
+[32m✓[39m 1 modules transformed.
+rendering chunks...
+[2mout/m1/preload/[22m[36mworkstation.js  [39m[1m[2m1.22 kB[22m[1m[22m
+[32m✓ built in 9ms[39m
+[36mvite v7.3.7 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 38 modules transformed.
+rendering chunks...
+[2m../../../out/m1/renderer/[22m[32mindex.html                 [39m[1m[2m    0.60 kB[22m[1m[22m
+[2m../../../out/m1/renderer/[22m[35massets/index-Cd8wF5HU.css  [39m[1m[2m   28.35 kB[22m[1m[22m
+[2m../../../out/m1/renderer/[22m[36massets/index-DUjrkb0Z.js   [39m[1m[33m1,123.85 kB[39m[22m
+[32m✓ built in 2.13s[39m

@@ -1,0 +1,122 @@
+{
+  "conditions": {
+    "targetContent": [
+      1424,
+      921
+    ],
+    "theme": "light/dark",
+    "fontSize": 14,
+    "density": "comfortable"
+  },
+  "metrics": [],
+  "cli": {
+    "scope": "version/help only; isolated config; no login/task"
+  },
+  "captures": [
+    "application-start-light.png",
+    "font-rendered.png",
+    "actual-fonts.png"
+  ],
+  "fonts": {
+    "fonts": [
+      {
+        "familyName": "Consolas",
+        "postScriptName": "Consolas",
+        "isCustomFont": false,
+        "glyphCount": 46
+      }
+    ]
+  },
+  "chineseFonts": {
+    "fonts": [
+      {
+        "familyName": "Microsoft YaHei",
+        "postScriptName": "MicrosoftYaHei",
+        "isCustomFont": false,
+        "glyphCount": 4
+      }
+    ]
+  },
+  "fontStyles": {
+    "root": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+    "children": [
+      {
+        "text": "PS D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-font-",
+        "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace"
+      },
+      {
+        "text": "check2-20261015\\cwd> ",
+        "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace"
+      },
+      {
+        "text": "Write-Output",
+        "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace"
+      },
+      {
+        "text": " ",
+        "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace"
+      },
+      {
+        "text": "(",
+        "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace"
+      },
+      {
+        "text": "'",
+        "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace"
+      },
+      {
+        "text": "实际中文",
+        "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace"
+      },
+      {
+        "text": "_A",
+        "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace"
+      },
+      {
+        "text": "BCD_'",
+        "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace"
+      },
+      {
+        "text": "+",
+        "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace"
+      }
+    ],
+    "inline": [
+      ".xterm-dom-renderer-owner-1 .xterm-rows span { display: inline-block; height: 100%; vertical-align: top;}",
+      ".xterm-dom-renderer-owner-1 .xterm-rows { pointer-events: none; color: #283345; font-family: \"Cascadia Code\",\"Cascadia Mono\",\"SFMono-Regular\",Menlo,Consolas,\"Microsoft YaHei\",monospace; font-size: 14px; font-kerning: none; white-space: pre}.xterm-dom-renderer-owner-1 .xterm-rows .xterm-dim { color: #28334580;}.xterm-dom-renderer-owner-1 span:not(.xterm-bold) { font-weight: normal;}.xterm-dom-renderer-owner-1 span.xterm-bold { font-weight: bold;}.",
+      ".xterm .xterm-scrollable-element > .scrollbar > .slider {\n  background: #28334533;\n}\n.xterm .xterm-scrollable-element > .scrollbar > .slider:hover {\n  background: #28334566;\n}\n.xterm .xterm-scrollable-element > .scrollbar > .slider.active {\n  background: #28334580;\n}",
+      ".xterm-dom-renderer-owner-2 .xterm-rows span { display: inline-block; height: 100%; vertical-align: top;}",
+      ".xterm-dom-renderer-owner-2 .xterm-rows { pointer-events: none; color: #283345; font-family: \"Cascadia Code\",\"Cascadia Mono\",\"SFMono-Regular\",Menlo,Consolas,\"Microsoft YaHei\",monospace; font-size: 14px; font-kerning: none; white-space: pre}.xterm-dom-renderer-owner-2 .xterm-rows .xterm-dim { color: #28334580;}.xterm-dom-renderer-owner-2 span:not(.xterm-bold) { font-weight: normal;}.xterm-dom-renderer-owner-2 span.xterm-bold { font-weight: bold;}.",
+      ".xterm .xterm-scrollable-element > .scrollbar > .slider {\n  background: #28334533;\n}\n.xterm .xterm-scrollable-element > .scrollbar > .slider:hover {\n  background: #28334566;\n}\n.xterm .xterm-scrollable-element > .scrollbar > .slider.active {\n  background: #28334580;\n}"
+    ]
+  },
+  "nativeClose": {
+    "nativeConfirmation": true,
+    "observed": [
+      "Chrome Legacy Window",
+      "继续工作",
+      "结束全部终端并退出"
+    ]
+  },
+  "applicationExit": 0,
+  "status": "reproduced",
+  "artifact": [
+    {
+      "file": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T12-32-44-711Z-539df676\\win-unpacked\\Workstation.exe",
+      "sha256": "1fd9bf1b288e290a84902ac2fb1a9a3934a6b2a210879cea4c02b2c9255d6517"
+    },
+    {
+      "file": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T12-32-44-711Z-539df676\\win-unpacked\\resources\\app.asar",
+      "sha256": "b6a375fc336d205ecbe85e10b7e130c53395738a1b654f55acee5be6623b41f4"
+    }
+  ],
+  "cleanup": [
+    {
+      "label": "application",
+      "mainPid": 129680,
+      "createdAt": "134365451162040371",
+      "beforeFallback": [],
+      "remaining": []
+    }
+  ]
+}

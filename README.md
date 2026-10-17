@@ -10,8 +10,9 @@
 
 ## 当前状态
 
-- **阶段**：M0 核心技术基线已通过；2026-10-15 交付一致性与同机干净目录复现收尾已完成。未进入 M1，等待用户明确确认。
-- 产品方向：终端为主工作区，辅助能力围绕终端服务；当前代码仅为 M0 最小探针，不是完整产品。
+- **阶段**：M1 本轮已恢复原型式外壳、默认改为 Git Bash，并实际检查 Claude classic/fullscreen；等待本人再验，不进 M2。最新程序、截图和自查见 [Bash/TUI 交付](docs/m1/BASH-TUI.md)。
+- 产品方向：终端为主工作区；M1 默认真实 Git Bash、多工作区、递归分屏与生命周期管理，辅助模块明确标注未接入。
+- **体验入口**：见 [M1 运行与交付](docs/m1/README.md)、[实际验收记录](docs/m1/ACCEPTANCE.md)。开发运行：`npm run m1:build` 后 `npm run m1:start`；原 `npm run build` 仍是 M0 构建。
 - 技术栈（已定）：Electron + TypeScript + electron-vite + electron-builder + better-sqlite3 + React。
 
 ## 目录结构
@@ -20,15 +21,15 @@
 JianZJ-Hub/
 ├── README.md        # 本说明
 ├── .gitignore       # 忽略现有文档/原型 + 构建产物
-├── docs/            # 旧设计资产忽略；docs/m0/ 开发记录放行
+├── docs/            # 旧设计资产忽略；docs/m0/、docs/m1/ 开发记录放行
 ├── prototypes/      # 设计原型（已 gitignore）
-└── src/             # M0 验证入口、原生服务与适配器
-    ├── main/        # Electron 主进程 / 验证协调
+└── src/             # M0 验证与 M1 产品入口、服务和适配器
+    ├── main/        # Electron 窗口 / 权限 / M0 验证入口
     ├── preload/     # 白名单 preload
-    └── renderer/    # React / xterm 最小验证界面
+    └── renderer/    # M0 探针与 M1 舒适版 React / xterm 工作区
 ```
 
-> **说明**：旧 `docs/` 设计资产与 `prototypes/` 保持忽略；`docs/m0/` 是已放行的开发记录。收尾验收起点的本地/远端 main 均为 `524f107`；随后用户已明确授权提交并推送本轮收尾。本轮交付内容以本文件所在提交为准，远端完成状态须独立核对引用。认可原型仍通过飞书附件交接，见 [原型交接](docs/m0/PROTOTYPE-HANDOFF.md)。
+> **说明**：旧 `docs/` 设计资产与 `prototypes/` 保持忽略；`docs/m0/`、`docs/m1/` 是已放行的开发记录。本轮 M1 基线为 `31ce4c7`；M1 代码已提交到分支 `m1-delivery` 并推送到 origin，`main` 仍保持在 `31ce4c7`；不将本地验证等同远端交付。认可原型仍通过飞书附件交接，见 [原型交接](docs/m0/PROTOTYPE-HANDOFF.md)。
 
 ## 文档
 
@@ -36,7 +37,9 @@ JianZJ-Hub/
 
 ## 下一步
 
-M0 已采用每会话独立原生 worker 和 Windows 句柄退出码，重复并发退出门槛已通过。获得用户明确确认后才进入 M1，不自动开发后续模块。
+M1 交付后停下等待本人体验与验收，不自动进入 M2。窗口关闭即退出，暂不做托盘；启动创建全新的普通终端，不恢复旧进程/运行树或重放命令。保存项目配置与偏好只是可选组织能力。M0 每会话独立原生 worker、真实句柄退出码与 Job 清理继续作为回归基线。
+
+## M0 历史记录（以下保留收尾时口径）
 
 ## M0 技术验证（2026-10-14）
 

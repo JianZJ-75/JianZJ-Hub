@@ -1,0 +1,1285 @@
+{
+  "viewport": {
+    "innerWidth": 1440,
+    "innerHeight": 900,
+    "outerWidth": 1456,
+    "outerHeight": 939,
+    "dpr": 1,
+    "visualScale": 1,
+    "fonts": "loaded"
+  },
+  "tokens": {
+    "--bg": "#16191f",
+    "--surface": "#1e222a",
+    "--text": "#dce2ec",
+    "--terminal": "#1b1f27",
+    "--body": "\"Segoe UI Variable Text\",\"Segoe UI\",\"PingFang SC\",\"Microsoft YaHei\",sans-serif",
+    "--mono": "\"Cascadia Code\",\"Cascadia Mono\",\"SFMono-Regular\",Menlo,Consolas,\"Microsoft YaHei\",monospace",
+    "--term-size": "14px",
+    "--term-line": "1.85"
+  },
+  "nodes": {
+    ".outer": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "client": [
+          1440,
+          900
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "14px 16px",
+        "gap": "10px",
+        "display": "flex"
+      }
+    ],
+    ".app": [
+      {
+        "rect": {
+          "x": 16,
+          "y": 14,
+          "width": 1408,
+          "height": 842.40625
+        },
+        "client": [
+          1406,
+          840
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgb(30, 34, 42)",
+        "border": "1px solid rgb(48, 54, 65)",
+        "borderRadius": "13px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "flex"
+      }
+    ],
+    ".sidebar": [
+      {
+        "rect": {
+          "x": 17,
+          "y": 15,
+          "width": 174,
+          "height": 840.40625
+        },
+        "client": [
+          173,
+          840
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "",
+        "borderRadius": "0px",
+        "padding": "18px 12px",
+        "gap": "22px",
+        "display": "flex"
+      }
+    ],
+    ".main": [
+      {
+        "rect": {
+          "x": 191,
+          "y": 15,
+          "width": 1232,
+          "height": 840.40625
+        },
+        "client": [
+          1232,
+          840
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "flex"
+      }
+    ],
+    ".header": [
+      {
+        "rect": {
+          "x": 191,
+          "y": 15,
+          "width": 1232,
+          "height": 58
+        },
+        "client": [
+          1232,
+          57
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "",
+        "borderRadius": "0px",
+        "padding": "0px 20px",
+        "gap": "12px",
+        "display": "flex"
+      }
+    ],
+    ".workbar": [
+      {
+        "rect": {
+          "x": 191,
+          "y": 73,
+          "width": 1232,
+          "height": 47
+        },
+        "client": [
+          1232,
+          47
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px 14px",
+        "gap": "8px",
+        "display": "flex"
+      }
+    ],
+    ".workspace-content": [
+      {
+        "rect": {
+          "x": 191,
+          "y": 120,
+          "width": 1232,
+          "height": 735.40625
+        },
+        "client": [
+          1232,
+          735
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px 0px 12px 12px",
+        "gap": "10px",
+        "display": "flex"
+      }
+    ],
+    ".terminal-stage": [
+      {
+        "rect": {
+          "x": 203,
+          "y": 120,
+          "width": 859,
+          "height": 723.40625
+        },
+        "client": [
+          859,
+          723
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "flex"
+      }
+    ],
+    ".drawer": [
+      {
+        "rect": {
+          "x": 1072,
+          "y": 120,
+          "width": 294,
+          "height": 723.40625
+        },
+        "client": [
+          292,
+          721
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgb(37, 42, 52)",
+        "border": "1px solid rgb(48, 54, 65)",
+        "borderRadius": "9px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "flex"
+      }
+    ],
+    ".drawer-head": [
+      {
+        "rect": {
+          "x": 1073,
+          "y": 121,
+          "width": 292,
+          "height": 80.78125
+        },
+        "client": [
+          292,
+          80
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "",
+        "borderRadius": "0px",
+        "padding": "18px 18px 14px",
+        "gap": "8px",
+        "display": "flex"
+      }
+    ],
+    ".drawer-body": [
+      {
+        "rect": {
+          "x": 1073,
+          "y": 201.78125,
+          "width": 292,
+          "height": 601.625
+        },
+        "client": [
+          292,
+          602
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "16px",
+        "gap": "normal",
+        "display": "block"
+      }
+    ],
+    ".drawer-foot": [
+      {
+        "rect": {
+          "x": 1073,
+          "y": 803.40625,
+          "width": 292,
+          "height": 39
+        },
+        "client": [
+          292,
+          38
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "10px",
+        "lineHeight": "16px",
+        "letterSpacing": "normal",
+        "color": "rgb(137, 150, 170)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "",
+        "borderRadius": "0px",
+        "padding": "11px 16px",
+        "gap": "normal",
+        "display": "block"
+      }
+    ],
+    ".tools": [
+      {
+        "rect": {
+          "x": 1376,
+          "y": 120,
+          "width": 47,
+          "height": 723.40625
+        },
+        "client": [
+          47,
+          723
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "2px 7px 0px 0px",
+        "gap": "8px",
+        "display": "flex"
+      }
+    ],
+    ".footer": [
+      {
+        "rect": {
+          "x": 16,
+          "y": 866.40625,
+          "width": 1408,
+          "height": 19.59375
+        },
+        "client": [
+          1408,
+          20
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "11px",
+        "lineHeight": "17.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(137, 150, 170)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(137, 150, 170)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "12px",
+        "display": "flex"
+      }
+    ],
+    ".terminal-pane": [
+      {
+        "rect": {
+          "x": 203,
+          "y": 120,
+          "width": 424.5,
+          "height": 356.703125
+        },
+        "client": [
+          423,
+          355
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgb(27, 31, 39)",
+        "border": "1px solid rgb(48, 54, 65)",
+        "borderRadius": "9px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "flex"
+      },
+      {
+        "rect": {
+          "x": 203,
+          "y": 486.703125,
+          "width": 424.5,
+          "height": 356.703125
+        },
+        "client": [
+          423,
+          355
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgb(27, 31, 39)",
+        "border": "1px solid rgb(156, 183, 244)",
+        "borderRadius": "9px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "flex"
+      },
+      {
+        "rect": {
+          "x": 637.5,
+          "y": 120,
+          "width": 424.5,
+          "height": 723.40625
+        },
+        "client": [
+          423,
+          721
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgb(27, 31, 39)",
+        "border": "1px solid rgb(48, 54, 65)",
+        "borderRadius": "9px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "flex"
+      }
+    ],
+    ".pane-head": [
+      {
+        "rect": {
+          "x": 204,
+          "y": 121,
+          "width": 422.5,
+          "height": 39
+        },
+        "client": [
+          423,
+          38
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgb(34, 39, 49)",
+        "border": "",
+        "borderRadius": "0px",
+        "padding": "0px 10px",
+        "gap": "8px",
+        "display": "flex"
+      },
+      {
+        "rect": {
+          "x": 204,
+          "y": 487.703125,
+          "width": 422.5,
+          "height": 39
+        },
+        "client": [
+          423,
+          38
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgb(34, 39, 49)",
+        "border": "",
+        "borderRadius": "0px",
+        "padding": "0px 10px",
+        "gap": "8px",
+        "display": "flex"
+      },
+      {
+        "rect": {
+          "x": 638.5,
+          "y": 121,
+          "width": 422.5,
+          "height": 39
+        },
+        "client": [
+          423,
+          38
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgb(34, 39, 49)",
+        "border": "",
+        "borderRadius": "0px",
+        "padding": "0px 10px",
+        "gap": "8px",
+        "display": "flex"
+      }
+    ],
+    ".pane-label": [
+      {
+        "rect": {
+          "x": 214,
+          "y": 128,
+          "width": 328.5,
+          "height": 24
+        },
+        "client": [
+          329,
+          24
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "12px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "7px",
+        "display": "flex"
+      },
+      {
+        "rect": {
+          "x": 214,
+          "y": 494.703125,
+          "width": 328.5,
+          "height": 24
+        },
+        "client": [
+          329,
+          24
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "12px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "7px",
+        "display": "flex"
+      },
+      {
+        "rect": {
+          "x": 648.5,
+          "y": 128,
+          "width": 328.5,
+          "height": 24
+        },
+        "client": [
+          329,
+          24
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "12px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "7px",
+        "display": "flex"
+      }
+    ],
+    ".pane-number": [
+      {
+        "rect": {
+          "x": 550.5,
+          "y": 140,
+          "width": 0,
+          "height": 0
+        },
+        "client": [
+          0,
+          0
+        ],
+        "fontFamily": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+        "fontSize": "10px",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(137, 150, 170)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(137, 150, 170)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block"
+      },
+      {
+        "rect": {
+          "x": 550.5,
+          "y": 506.703125,
+          "width": 0,
+          "height": 0
+        },
+        "client": [
+          0,
+          0
+        ],
+        "fontFamily": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+        "fontSize": "10px",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(137, 150, 170)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(137, 150, 170)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block"
+      },
+      {
+        "rect": {
+          "x": 985,
+          "y": 140,
+          "width": 0,
+          "height": 0
+        },
+        "client": [
+          0,
+          0
+        ],
+        "fontFamily": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+        "fontSize": "10px",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(137, 150, 170)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(137, 150, 170)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block"
+      }
+    ],
+    ".pane-foot": [
+      {
+        "rect": {
+          "x": 204,
+          "y": 446.703125,
+          "width": 422.5,
+          "height": 29
+        },
+        "client": [
+          423,
+          28
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "10px",
+        "lineHeight": "16px",
+        "letterSpacing": "normal",
+        "color": "rgb(137, 150, 170)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "",
+        "borderRadius": "0px",
+        "padding": "0px 12px",
+        "gap": "7px",
+        "display": "flex"
+      },
+      {
+        "rect": {
+          "x": 204,
+          "y": 813.40625,
+          "width": 422.5,
+          "height": 29
+        },
+        "client": [
+          423,
+          28
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "10px",
+        "lineHeight": "16px",
+        "letterSpacing": "normal",
+        "color": "rgb(137, 150, 170)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "",
+        "borderRadius": "0px",
+        "padding": "0px 12px",
+        "gap": "7px",
+        "display": "flex"
+      },
+      {
+        "rect": {
+          "x": 638.5,
+          "y": 813.40625,
+          "width": 422.5,
+          "height": 29
+        },
+        "client": [
+          423,
+          28
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "10px",
+        "lineHeight": "16px",
+        "letterSpacing": "normal",
+        "color": "rgb(137, 150, 170)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "",
+        "borderRadius": "0px",
+        "padding": "0px 12px",
+        "gap": "7px",
+        "display": "flex"
+      }
+    ],
+    ".terminal-output": [],
+    ".terminal-slot": [
+      {
+        "rect": {
+          "x": 204,
+          "y": 160,
+          "width": 422.5,
+          "height": 286.703125
+        },
+        "client": [
+          423,
+          287
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "20px 20px 12px",
+        "gap": "normal",
+        "display": "flex"
+      },
+      {
+        "rect": {
+          "x": 204,
+          "y": 526.703125,
+          "width": 422.5,
+          "height": 286.703125
+        },
+        "client": [
+          423,
+          287
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "20px 20px 12px",
+        "gap": "normal",
+        "display": "flex"
+      },
+      {
+        "rect": {
+          "x": 638.5,
+          "y": 160,
+          "width": 422.5,
+          "height": 653.40625
+        },
+        "client": [
+          423,
+          653
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "20px 20px 12px",
+        "gap": "normal",
+        "display": "flex"
+      }
+    ],
+    ".xterm-host": [
+      {
+        "rect": {
+          "x": 224,
+          "y": 180,
+          "width": 382.5,
+          "height": 254.703125
+        },
+        "client": [
+          383,
+          255
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block"
+      },
+      {
+        "rect": {
+          "x": 224,
+          "y": 546.703125,
+          "width": 382.5,
+          "height": 254.703125
+        },
+        "client": [
+          383,
+          255
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block"
+      },
+      {
+        "rect": {
+          "x": 658.5,
+          "y": 180,
+          "width": 382.5,
+          "height": 621.40625
+        },
+        "client": [
+          383,
+          621
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block"
+      }
+    ],
+    ".xterm": [
+      {
+        "rect": {
+          "x": 224,
+          "y": 180,
+          "width": 382.5,
+          "height": 254.703125
+        },
+        "client": [
+          383,
+          255
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block"
+      },
+      {
+        "rect": {
+          "x": 224,
+          "y": 546.703125,
+          "width": 382.5,
+          "height": 254.703125
+        },
+        "client": [
+          383,
+          255
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block"
+      },
+      {
+        "rect": {
+          "x": 658.5,
+          "y": 180,
+          "width": 382.5,
+          "height": 621.40625
+        },
+        "client": [
+          383,
+          621
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block"
+      }
+    ],
+    ".xterm-screen": [
+      {
+        "rect": {
+          "x": 224,
+          "y": 180,
+          "width": 362,
+          "height": 248
+        },
+        "client": [
+          362,
+          248
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block"
+      },
+      {
+        "rect": {
+          "x": 224,
+          "y": 546.703125,
+          "width": 362,
+          "height": 248
+        },
+        "client": [
+          362,
+          248
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block"
+      },
+      {
+        "rect": {
+          "x": 658.5,
+          "y": 180,
+          "width": 362,
+          "height": 620
+        },
+        "client": [
+          362,
+          620
+        ],
+        "fontFamily": "\"Segoe UI Variable Text\", \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block"
+      }
+    ],
+    ".xterm-rows": [
+      {
+        "rect": {
+          "x": 224,
+          "y": 180,
+          "width": 362,
+          "height": 248
+        },
+        "client": [
+          362,
+          248
+        ],
+        "fontFamily": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+        "fontSize": "14px",
+        "lineHeight": "normal",
+        "letterSpacing": "0.0146277px",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block"
+      },
+      {
+        "rect": {
+          "x": 224,
+          "y": 546.703125,
+          "width": 362,
+          "height": 248
+        },
+        "client": [
+          362,
+          248
+        ],
+        "fontFamily": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+        "fontSize": "14px",
+        "lineHeight": "normal",
+        "letterSpacing": "7.7px",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block"
+      },
+      {
+        "rect": {
+          "x": 658.5,
+          "y": 180,
+          "width": 362,
+          "height": 620
+        },
+        "client": [
+          362,
+          620
+        ],
+        "fontFamily": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+        "fontSize": "14px",
+        "lineHeight": "normal",
+        "letterSpacing": "0.0146277px",
+        "color": "rgb(220, 226, 236)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(220, 226, 236)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block"
+      }
+    ],
+    ".dialog": [],
+    ".setting-row": []
+  },
+  "panes": [
+    {
+      "id": "pane-c2519e66-1dbf-4876-a6c9-9f28a7cd04b6",
+      "rect": {
+        "x": 203,
+        "y": 120,
+        "width": 424.5,
+        "height": 356.703125
+      },
+      "footer": "真实 PowerShell47×8",
+      "xterm": {
+        "cols": 47,
+        "rows": 8,
+        "fontSize": 14,
+        "lineHeight": 1.85,
+        "fontFamily": "\"Cascadia Code\",\"Cascadia Mono\",\"SFMono-Regular\",Menlo,Consolas,\"Microsoft YaHei\",monospace",
+        "letterSpacing": 0,
+        "dimensions": {
+          "css": {
+            "canvas": {
+              "width": 362,
+              "height": 248
+            },
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 31
+            }
+          },
+          "device": {
+            "canvas": {
+              "width": 361.771484375,
+              "height": 248
+            },
+            "cell": {
+              "width": 7.697265625,
+              "height": 31
+            },
+            "char": {
+              "width": 7.697265625,
+              "height": 17,
+              "left": 0,
+              "top": 0
+            }
+          }
+        },
+        "proposed": {
+          "cols": 47,
+          "rows": 8
+        }
+      },
+      "lastSubmitted": "47x8",
+      "state": "running",
+      "host": {
+        "x": 224,
+        "y": 180,
+        "width": 382.5,
+        "height": 254.703125
+      },
+      "hostClient": [
+        383,
+        255
+      ]
+    },
+    {
+      "id": "pane-07761cce-859a-4a4e-92f4-7f2e6a043df7",
+      "rect": {
+        "x": 203,
+        "y": 486.703125,
+        "width": 424.5,
+        "height": 356.703125
+      },
+      "footer": "真实 PowerShell47×8",
+      "xterm": {
+        "cols": 47,
+        "rows": 8,
+        "fontSize": 14,
+        "lineHeight": 1.85,
+        "fontFamily": "\"Cascadia Code\",\"Cascadia Mono\",\"SFMono-Regular\",Menlo,Consolas,\"Microsoft YaHei\",monospace",
+        "letterSpacing": 0,
+        "dimensions": {
+          "css": {
+            "canvas": {
+              "width": 362,
+              "height": 248
+            },
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 31
+            }
+          },
+          "device": {
+            "canvas": {
+              "width": 361.771484375,
+              "height": 248
+            },
+            "cell": {
+              "width": 7.697265625,
+              "height": 31
+            },
+            "char": {
+              "width": 7.697265625,
+              "height": 17,
+              "left": 0,
+              "top": 0
+            }
+          }
+        },
+        "proposed": {
+          "cols": 47,
+          "rows": 8
+        }
+      },
+      "lastSubmitted": "47x8",
+      "state": "running",
+      "host": {
+        "x": 224,
+        "y": 546.703125,
+        "width": 382.5,
+        "height": 254.703125
+      },
+      "hostClient": [
+        383,
+        255
+      ]
+    },
+    {
+      "id": "pane-9e838102-b5dc-440b-b048-bf42c491bf32",
+      "rect": {
+        "x": 637.5,
+        "y": 120,
+        "width": 424.5,
+        "height": 723.40625
+      },
+      "footer": "真实 PowerShell47×20",
+      "xterm": {
+        "cols": 47,
+        "rows": 20,
+        "fontSize": 14,
+        "lineHeight": 1.85,
+        "fontFamily": "\"Cascadia Code\",\"Cascadia Mono\",\"SFMono-Regular\",Menlo,Consolas,\"Microsoft YaHei\",monospace",
+        "letterSpacing": 0,
+        "dimensions": {
+          "css": {
+            "canvas": {
+              "width": 362,
+              "height": 620
+            },
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 31
+            }
+          },
+          "device": {
+            "canvas": {
+              "width": 361.771484375,
+              "height": 620
+            },
+            "cell": {
+              "width": 7.697265625,
+              "height": 31
+            },
+            "char": {
+              "width": 7.697265625,
+              "height": 17,
+              "left": 0,
+              "top": 0
+            }
+          }
+        },
+        "proposed": {
+          "cols": 47,
+          "rows": 20
+        }
+      },
+      "lastSubmitted": "47x20",
+      "state": "running",
+      "host": {
+        "x": 658.5,
+        "y": 180,
+        "width": 382.5,
+        "height": 621.40625
+      },
+      "hostClient": [
+        383,
+        621
+      ]
+    }
+  ],
+  "label": "split-down",
+  "shell": {
+    "window": [
+      47,
+      8
+    ],
+    "buffer": [
+      47,
+      8
+    ]
+  }
+}

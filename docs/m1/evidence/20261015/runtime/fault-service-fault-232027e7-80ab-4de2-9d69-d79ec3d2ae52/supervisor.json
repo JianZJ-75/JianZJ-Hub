@@ -1,0 +1,20 @@
+{
+  "entry": "fault",
+  "mode": "service-fault",
+  "dir": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\fault-service-fault-232027e7-80ab-4de2-9d69-d79ec3d2ae52",
+  "started": "2026-10-15T10:15:56.378Z",
+  "control": {
+    "pid": 171432,
+    "createdAt": "134365329563696803"
+  },
+  "app": {
+    "pid": 169960,
+    "createdAt": "134365329563756873"
+  },
+  "code": 0,
+  "remaining": [],
+  "controlSurvived": true,
+  "status": "pass",
+  "fallbackPids": [],
+  "finished": "2026-10-15T10:15:59.937Z"
+}

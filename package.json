@@ -2,7 +2,7 @@
   "name": "jianzj-hub",
   "version": "0.0.0",
   "private": true,
-  "description": "工作站 — M0 compatibility probes only",
+  "description": "工作站 — M1 真实终端工作区与独立 M0 回归探针",
   "main": "out/main/index.js",
   "scripts": {
     "typecheck": "tsc --noEmit",
@@ -12,7 +12,13 @@
     "m0:packaged": "node scripts/m0/run.mjs packaged",
     "test": "node --test tests/m0/*.test.mjs",
     "m0:prepare": "node scripts/m0/prepare.mjs",
-    "m0:check": "node scripts/m0/preflight.mjs"
+    "m0:check": "node scripts/m0/preflight.mjs",
+    "m1:build": "electron-vite build --config electron.vite.m1.config.ts",
+    "m1:start": "node scripts/m1/start.mjs",
+    "m1:test": "node --test tests/m1/*.test.mjs",
+    "m1:package": "node scripts/m1/package.mjs",
+    "m1:test:dev": "node scripts/m1/test.mjs dev",
+    "m1:test:packaged": "node scripts/m1/test.mjs packaged"
   },
   "dependencies": {
     "@xterm/addon-fit": "0.11.0",

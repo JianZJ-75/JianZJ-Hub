@@ -1,0 +1,1 @@
+local w=require 'wezterm'; return {check_for_updates=false, font=w.font_with_fallback{'Consolas','Microsoft YaHei'},font_size=10.5,dpi=96,line_height=1.1,enable_tab_bar=false,window_padding={left=12,right=12,top=10,bottom=10},colors={foreground='#283345',background='#fbfcfe',cursor_bg='#4466b5',cursor_fg='#fbfcfe',selection_bg='#d4dfef'}}

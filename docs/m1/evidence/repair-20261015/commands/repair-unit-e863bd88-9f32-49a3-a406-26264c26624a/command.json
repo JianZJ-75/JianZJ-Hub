@@ -1,0 +1,13 @@
+{
+  "cwd": "D:\\Code\\JianZJ-Hub",
+  "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+  "args": [
+    "--test",
+    "tests/m1/core.test.mjs",
+    "tests/m1/geometry.test.mjs"
+  ],
+  "started": "2026-10-15T12:15:45.948Z",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\repair-unit-e863bd88-9f32-49a3-a406-26264c26624a",
+  "finished": "2026-10-15T12:15:46.066Z",
+  "exitCode": 0
+}

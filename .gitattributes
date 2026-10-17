@@ -4,3 +4,4 @@
 # Evidence is byte-preserved data: do not normalize CRLF, LF or ANSI output.
 docs/m0/audit-evidence/** -text
 docs/m0/evidence/** -text
+docs/m1/evidence/** -text

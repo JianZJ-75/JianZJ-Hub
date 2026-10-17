@@ -1,0 +1,44 @@
+{
+  "status": "pass",
+  "mode": "service-fault",
+  "service": 175572,
+  "managed": [
+    {
+      "pid": 175572,
+      "createdAt": "134365598450405136"
+    },
+    {
+      "pid": 173328,
+      "createdAt": "134365598450994121"
+    },
+    {
+      "pid": 182544,
+      "createdAt": "134365598451395174"
+    },
+    {
+      "pid": 180532,
+      "createdAt": "134365598451646122"
+    },
+    {
+      "pid": 182436,
+      "createdAt": "134365598484735267"
+    },
+    {
+      "pid": 181500,
+      "createdAt": "134365598485080166"
+    }
+  ],
+  "tree": [
+    {
+      "pid": 182436,
+      "role": "child",
+      "started": "2026-10-15T17:44:08.502Z"
+    },
+    {
+      "pid": 181500,
+      "role": "grandchild",
+      "started": "2026-10-15T17:44:08.532Z"
+    }
+  ],
+  "allExited": true
+}

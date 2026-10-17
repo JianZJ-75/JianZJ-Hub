@@ -1,0 +1,30 @@
+{
+  "conditions": {
+    "targetContent": [
+      1440,
+      900
+    ],
+    "theme": "light/dark",
+    "fontSize": 14,
+    "density": "comfortable"
+  },
+  "metrics": [],
+  "cli": {
+    "scope": "version/help only; isolated config; no login/task"
+  },
+  "captures": [
+    "prototype-1440-default-light.png"
+  ],
+  "comparisons": [],
+  "status": "failed",
+  "error": "Error: CDP_TIMEOUT:Runtime.evaluate\n    at Timeout._onTimeout (file:///D:/Code/JianZJ-Hub/.m1-scratch/repair-compare-final2-20261015/compare.mjs:24:151)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)",
+  "cleanup": [
+    {
+      "label": "prototype-1440",
+      "mainPid": 178020,
+      "createdAt": "134365423063722167",
+      "beforeFallback": [],
+      "remaining": []
+    }
+  ]
+}

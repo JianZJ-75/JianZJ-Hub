@@ -1,0 +1,149 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "unmodified packaged executable opens real workspace through form and xterm input",
+      "status": "pass",
+      "detail": {
+        "url": "file:///D:/Code/JianZJ-Hub/release/m1/2026-10-15T16-12-01-478Z-389afb33/win-unpacked/resources/app.asar/out/m1/renderer/index.html",
+        "node": "undefined",
+        "executable": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T16-12-01-478Z-389afb33\\win-unpacked\\Workstation.exe"
+      }
+    },
+    {
+      "name": "packaged right/down splits, drawer focus, zoom and live resize",
+      "status": "pass",
+      "detail": [
+        "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-4b555766-e79c-4f97-9bb6-1d5b89d21b1c85×41PowerShell",
+        "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-4b555766-e79c-4f97-9bb6-1d5b89d21b1c85×18PowerShell",
+        "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-4b555766-e79c-4f97-9bb6-1d5b89d21b1c85×18PowerShell"
+      ]
+    },
+    {
+      "name": "packaged explicit dark/light theme and terminal pane shutdown preserve other panes",
+      "status": "pass",
+      "detail": [
+        {
+          "theme": "dark",
+          "terminal": "#1b1f27"
+        },
+        {
+          "theme": "light",
+          "terminal": "#fbfcfe"
+        }
+      ]
+    },
+    {
+      "name": "packaged real xterm consumes high output with complete record hash and Unicode tail",
+      "status": "pass",
+      "detail": {
+        "records": 16000,
+        "sha256": "523fb0e148369899a3a413b7968e4e30642f2662dc934bde8bfe00036498f0c5",
+        "unicodeTail": true,
+        "realXtermConsumer": true,
+        "scrollbackLimit": 4000
+      }
+    },
+    {
+      "name": "real native exit confirmation and full managed process-tree cleanup",
+      "status": "pass",
+      "detail": {
+        "code": 0,
+        "nativeConfirmation": true,
+        "identities": [
+          {
+            "pid": 181088,
+            "createdAt": "134365545397276233"
+          },
+          {
+            "pid": 180648,
+            "createdAt": "134365545397291878"
+          },
+          {
+            "pid": 172108,
+            "createdAt": "134365545397359514"
+          },
+          {
+            "pid": 173920,
+            "createdAt": "134365545399836567"
+          },
+          {
+            "pid": 140992,
+            "createdAt": "134365545400240483"
+          },
+          {
+            "pid": 165692,
+            "createdAt": "134365545400463663"
+          },
+          {
+            "pid": 174088,
+            "createdAt": "134365545433719936"
+          },
+          {
+            "pid": 171964,
+            "createdAt": "134365545434081094"
+          },
+          {
+            "pid": 171928,
+            "createdAt": "134365545434268171"
+          },
+          {
+            "pid": 168988,
+            "createdAt": "134365545467169285"
+          },
+          {
+            "pid": 180980,
+            "createdAt": "134365545467510760"
+          },
+          {
+            "pid": 180996,
+            "createdAt": "134365545467698256"
+          },
+          {
+            "pid": 171980,
+            "createdAt": "134365545397428161"
+          },
+          {
+            "pid": 181120,
+            "createdAt": "134365545398229476"
+          }
+        ],
+        "allExited": true
+      }
+    },
+    {
+      "name": "packaged restart starts a fresh home Shell, retains optional projects and never replays commands",
+      "status": "pass",
+      "detail": {
+        "workspaces": [
+          {
+            "id": "workspace-46c3870b-6a39-4e12-9a89-4a6fcebbd672",
+            "name": "打包体验工作区",
+            "cwd": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-4b555766-e79c-4f97-9bb6-1d5b89d21b1c",
+            "layout": "single"
+          }
+        ],
+        "preferences": {
+          "theme": "light",
+          "fontSize": 14,
+          "density": "comfortable"
+        },
+        "terminalCount": 1,
+        "code": 0
+      }
+    }
+  ],
+  "archiveUnmodified": true,
+  "controlSurvived": true,
+  "fallbackPids": [],
+  "manifest": [
+    {
+      "file": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T16-12-01-478Z-389afb33\\win-unpacked\\Workstation.exe",
+      "sha256": "320372296da37bb5ff471c2d517adccc2f001a958633d8ccc1504d4a512854cd"
+    },
+    {
+      "file": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T16-12-01-478Z-389afb33\\win-unpacked\\resources\\app.asar",
+      "sha256": "36fc84290b431c3a9ebda6286a96efffc22069761d50f970d5db5889109b780e"
+    }
+  ]
+}

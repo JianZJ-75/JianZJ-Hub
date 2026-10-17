@@ -1,0 +1,30 @@
+{
+  "checked": "2026-10-15T13:07:02.870Z",
+  "protectedPaths": [
+    "docs/m0",
+    "scripts/m0",
+    "tests/m0",
+    "src/adapters/windows/job-object.ts",
+    "src/main/index.ts",
+    "src/main/m0-checks.ts",
+    "src/main/m0-service.ts",
+    "src/preload/index.ts",
+    "src/renderer/m0.tsx",
+    "src/renderer/m0.css",
+    "src/renderer/index.html",
+    "src/services/pty/m0.ts",
+    "src/services/pty/session.m0.ts",
+    "src/services/pty/lifecycle.mjs",
+    "src/services/data/m0.ts",
+    "src/shared/m0-protocol.ts",
+    "src/shared/validation.mjs",
+    "package-lock.json",
+    "electron.vite.config.ts",
+    "electron-builder.m0.json"
+  ],
+  "noM0Diff": true,
+  "prototypeSha256": "1033c2dab321312f09ac220450d2fea7fbbf0f905ade18c450a5ed1281e6917a",
+  "packageFiles": 438,
+  "zipTestExitCode": 0,
+  "archiveContainsTestEntries": false
+}

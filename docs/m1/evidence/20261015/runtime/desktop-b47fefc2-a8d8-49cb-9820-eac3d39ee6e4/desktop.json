@@ -1,0 +1,287 @@
+{
+  "checks": [
+    {
+      "name": "actual product new-workspace form opens real PowerShell",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-d6b63939-3dac-4311-85bc-4ddbabe99320",
+          "paneId": "pane-793d3713-ac48-4072-8afb-9aa2cd17d45f",
+          "workspaceId": "workspace-56196392-0394-4a5c-a074-1bdba8587d42",
+          "generation": 1,
+          "state": "running",
+          "cols": 102,
+          "rows": 20,
+          "pid": 173568,
+          "createdAt": "134365322951074569",
+          "workerPid": 172872,
+          "workerCreatedAt": "134365322950552892",
+          "bytes": 0,
+          "peak": 610,
+          "pending": 0,
+          "pids": [
+            172872,
+            173840,
+            173568
+          ]
+        }
+      ]
+    },
+    {
+      "name": "right/down nested splits preserve existing xterm DOM instance and session IDs",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-d6b63939-3dac-4311-85bc-4ddbabe99320",
+          "paneId": "pane-793d3713-ac48-4072-8afb-9aa2cd17d45f",
+          "workspaceId": "workspace-56196392-0394-4a5c-a074-1bdba8587d42",
+          "generation": 1,
+          "state": "running",
+          "cols": 46,
+          "rows": 20,
+          "pid": 173568,
+          "createdAt": "134365322951074569",
+          "workerPid": 172872,
+          "workerCreatedAt": "134365322950552892",
+          "bytes": 0,
+          "peak": 610,
+          "pending": 0,
+          "pids": [
+            172872,
+            173840,
+            173568
+          ]
+        },
+        {
+          "sessionId": "session-123a6eab-b22f-4efc-928e-d937a1bbea17",
+          "paneId": "pane-97429b20-0c26-40f5-aec6-8dfb2e3426ce",
+          "workspaceId": "workspace-56196392-0394-4a5c-a074-1bdba8587d42",
+          "generation": 1,
+          "state": "running",
+          "cols": 46,
+          "rows": 8,
+          "pid": 173980,
+          "createdAt": "134365322984421089",
+          "workerPid": 172636,
+          "workerCreatedAt": "134365322983944139",
+          "bytes": 0,
+          "peak": 80,
+          "pending": 0,
+          "pids": [
+            172636,
+            145028,
+            173980
+          ]
+        },
+        {
+          "sessionId": "session-4be99395-57a3-4ab4-82d1-bfe6e9a46377",
+          "paneId": "pane-f4ffa6e6-6006-4c4f-b0c0-f3a63d22f5ef",
+          "workspaceId": "workspace-56196392-0394-4a5c-a074-1bdba8587d42",
+          "generation": 1,
+          "state": "running",
+          "cols": 46,
+          "rows": 8,
+          "pid": 169280,
+          "createdAt": "134365323016804606",
+          "workerPid": 168912,
+          "workerCreatedAt": "134365323016348541",
+          "bytes": 0,
+          "peak": 53,
+          "pending": 0,
+          "pids": [
+            168912,
+            170928,
+            169280
+          ]
+        }
+      ]
+    },
+    {
+      "name": "auxiliary input focus returns to original terminal and fits nonzero sizes",
+      "status": "pass",
+      "detail": [
+        {
+          "paneId": "pane-793d3713-ac48-4072-8afb-9aa2cd17d45f",
+          "cols": 66,
+          "rows": 20
+        },
+        {
+          "paneId": "pane-97429b20-0c26-40f5-aec6-8dfb2e3426ce",
+          "cols": 66,
+          "rows": 8
+        },
+        {
+          "paneId": "pane-f4ffa6e6-6006-4c4f-b0c0-f3a63d22f5ef",
+          "cols": 66,
+          "rows": 8
+        }
+      ]
+    },
+    {
+      "name": "zoom/focus retains all sessions and xterm elements",
+      "status": "pass",
+      "detail": {
+        "sessions": 3
+      }
+    },
+    {
+      "name": "rename keeps session; close folds only current leaf and other sessions survive",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-d6b63939-3dac-4311-85bc-4ddbabe99320",
+          "paneId": "pane-793d3713-ac48-4072-8afb-9aa2cd17d45f",
+          "workspaceId": "workspace-56196392-0394-4a5c-a074-1bdba8587d42",
+          "generation": 1,
+          "state": "running",
+          "cols": 66,
+          "rows": 20,
+          "pid": 173568,
+          "createdAt": "134365322951074569",
+          "workerPid": 172872,
+          "workerCreatedAt": "134365322950552892",
+          "bytes": 0,
+          "peak": 610,
+          "pending": 0,
+          "pids": [
+            172872,
+            173840,
+            173568
+          ]
+        },
+        {
+          "sessionId": "session-123a6eab-b22f-4efc-928e-d937a1bbea17",
+          "paneId": "pane-97429b20-0c26-40f5-aec6-8dfb2e3426ce",
+          "workspaceId": "workspace-56196392-0394-4a5c-a074-1bdba8587d42",
+          "generation": 1,
+          "state": "running",
+          "cols": 66,
+          "rows": 20,
+          "pid": 173980,
+          "createdAt": "134365322984421089",
+          "workerPid": 172636,
+          "workerCreatedAt": "134365322983944139",
+          "bytes": 0,
+          "peak": 80,
+          "pending": 0,
+          "pids": [
+            172636,
+            145028,
+            173980
+          ]
+        }
+      ]
+    },
+    {
+      "name": "four theme combinations and nativeTheme runtime updates reach product page",
+      "status": "pass",
+      "detail": [
+        {
+          "theme": "light",
+          "terminal": "#fbfcfe",
+          "focus": "SELECT"
+        },
+        {
+          "theme": "dark",
+          "terminal": "#1b1f27",
+          "focus": "SELECT"
+        },
+        {
+          "theme": "light",
+          "terminal": "#fbfcfe",
+          "focus": "TEXTAREA"
+        },
+        {
+          "theme": "dark",
+          "terminal": "#1b1f27",
+          "focus": "SELECT"
+        }
+      ]
+    },
+    {
+      "name": "production bridge negative cases reject generations, dimensions, schema and navigation",
+      "status": "pass",
+      "detail": {
+        "rejected": [
+          "Error: Error: STALE_SESSION",
+          "Error: Error: INVALID_SIZE",
+          "Error: Error: INVALID_SCHEMA",
+          "Error: Error: SESSION_GONE",
+          "Error: Error: INVALID_INPUT"
+        ],
+        "node": "undefined",
+        "ipc": "undefined",
+        "newWindow": true
+      }
+    },
+    {
+      "name": "actual rendered font fallback sample via Chromium platform font inspection",
+      "status": "pass",
+      "detail": {
+        "fonts": [
+          {
+            "familyName": "Consolas",
+            "glyphCount": 22,
+            "isCustomFont": false,
+            "postScriptName": "Consolas"
+          },
+          {
+            "familyName": "Microsoft YaHei",
+            "glyphCount": 2,
+            "isCustomFont": false,
+            "postScriptName": "MicrosoftYaHei"
+          }
+        ]
+      }
+    },
+    {
+      "name": "window close finishes all managed product sessions and service processes",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-d6b63939-3dac-4311-85bc-4ddbabe99320",
+          "paneId": "pane-793d3713-ac48-4072-8afb-9aa2cd17d45f",
+          "workspaceId": "workspace-56196392-0394-4a5c-a074-1bdba8587d42",
+          "generation": 1,
+          "state": "running",
+          "cols": 66,
+          "rows": 20,
+          "pid": 173568,
+          "createdAt": "134365322951074569",
+          "workerPid": 172872,
+          "workerCreatedAt": "134365322950552892",
+          "bytes": 0,
+          "peak": 610,
+          "pending": 0,
+          "pids": [
+            172872,
+            173840,
+            173568
+          ]
+        },
+        {
+          "sessionId": "session-123a6eab-b22f-4efc-928e-d937a1bbea17",
+          "paneId": "pane-97429b20-0c26-40f5-aec6-8dfb2e3426ce",
+          "workspaceId": "workspace-56196392-0394-4a5c-a074-1bdba8587d42",
+          "generation": 1,
+          "state": "running",
+          "cols": 66,
+          "rows": 20,
+          "pid": 173980,
+          "createdAt": "134365322984421089",
+          "workerPid": 172636,
+          "workerCreatedAt": "134365322983944139",
+          "bytes": 0,
+          "peak": 80,
+          "pending": 0,
+          "pids": [
+            172636,
+            145028,
+            173980
+          ]
+        }
+      ]
+    }
+  ],
+  "consoleErrors": []
+}

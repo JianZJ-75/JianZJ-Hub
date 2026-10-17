@@ -1,0 +1,49 @@
+{
+  "status": "fail",
+  "error": "Error: UI_TIMEOUT:window.__terminalEvents.filter(e=>e.sessionId==='session-68013c8f-1e15-4cec-9547-43e689bb34f0'&&e.type==='data').map(e=>e.data).join('').includes('R_GEOM_first_141x33')",
+  "checks": [
+    {
+      "name": "startup opens one new home terminal without choosing project; last pane can reopen directly",
+      "status": "pass",
+      "detail": {
+        "first": "session-7e05f269-3a98-47fd-b02e-cf4bd10ee618",
+        "second": "session-066f27e2-75dc-4b51-8327-cf96081d0b27",
+        "projects": 0,
+        "defaultHome": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\desktop-normal-e4be8509-57a8-40e8-8c91-c1d5368dd69a\\home"
+      }
+    },
+    {
+      "name": "actual product new-workspace form opens real Git Bash",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-68013c8f-1e15-4cec-9547-43e689bb34f0",
+          "paneId": "pane-737c7c20-ad6e-4793-8e72-4bac157010f7",
+          "workspaceId": "workspace-5de76704-38d7-4260-add3-fda11513c30b",
+          "generation": 1,
+          "state": "running",
+          "cols": 141,
+          "rows": 33,
+          "pid": 180724,
+          "createdAt": "134365571860075289",
+          "workerPid": 174032,
+          "workerCreatedAt": "134365571859569351",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 106,
+          "pending": 0,
+          "pids": [
+            174032,
+            169344,
+            180724,
+            173376
+          ]
+        }
+      ]
+    }
+  ],
+  "consoleErrors": []
+}

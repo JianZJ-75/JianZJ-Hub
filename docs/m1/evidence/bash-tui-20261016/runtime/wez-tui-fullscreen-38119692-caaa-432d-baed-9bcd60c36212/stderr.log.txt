@@ -1,0 +1,2 @@
+01:35:14.795  ERROR  wezterm_mux_server_impl::local > reading Pdu from client: decoding a PDU: reading PDU length: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+01:35:17.910  ERROR  wezterm_mux_server_impl::local > encoding PDU to client: writing pdu data buffer: 远程主机强迫关闭了一个现有的连接。 (os error 10054)

@@ -1,0 +1,26 @@
+[36mvite v7.3.7 [32mbuilding ssr environment for production...[36m[39m
+transforming...
+[32m✓[39m 10 modules transformed.
+rendering chunks...
+[2mout/m1/main/[22m[36mconout-reader.js          [39m[1m[2m 0.79 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mdata-service.js           [39m[1m[2m 1.97 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mchunks/rules-BFOwma_U.js  [39m[1m[2m 2.77 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mpty-worker.js             [39m[1m[2m 4.63 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mjob-adapter.js            [39m[1m[2m 5.01 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mpty-service.js            [39m[1m[2m 9.51 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mindex.js                  [39m[1m[2m15.10 kB[22m[1m[22m
+[32m✓ built in 105ms[39m
+[36mvite v7.3.7 [32mbuilding ssr environment for production...[36m[39m
+transforming...
+[32m✓[39m 1 modules transformed.
+rendering chunks...
+[2mout/m1/preload/[22m[36mworkstation.js  [39m[1m[2m1.22 kB[22m[1m[22m
+[32m✓ built in 5ms[39m
+[36mvite v7.3.7 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 35 modules transformed.
+rendering chunks...
+[2m../../../out/m1/renderer/[22m[32mindex.html                 [39m[1m[2m    0.60 kB[22m[1m[22m
+[2m../../../out/m1/renderer/[22m[35massets/index-BeX-Fgg1.css  [39m[1m[2m   27.97 kB[22m[1m[22m
+[2m../../../out/m1/renderer/[22m[36massets/index-fqKYAA_w.js   [39m[1m[33m1,105.61 kB[39m[22m
+[32m✓ built in 831ms[39m

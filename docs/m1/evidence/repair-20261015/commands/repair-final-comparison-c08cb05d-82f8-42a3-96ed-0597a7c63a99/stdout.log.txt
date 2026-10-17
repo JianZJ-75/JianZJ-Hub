@@ -1,0 +1,264 @@
+{
+  "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-final3-20261015",
+  "status": "failed",
+  "error": "Error: CONDITION_TIMEOUT:{\"w\":1280,\"h\":800}\n    at until (file:///D:/Code/JianZJ-Hub/.m1-scratch/repair-compare-final3-20261015/compare.mjs:13:188)\n    at async appSize (file:///D:/Code/JianZJ-Hub/.m1-scratch/repair-compare-final3-20261015/compare.mjs:35:187)\n    at async file:///D:/Code/JianZJ-Hub/.m1-scratch/repair-compare-final3-20261015/compare.mjs:63:2",
+  "captures": [
+    "prototype-1440-default-light.png",
+    "prototype-1440-matched-light.png",
+    "prototype-1440-settings-light.png",
+    "prototype-1440-matched-dark.png",
+    "prototype-1424-default-light.png",
+    "prototype-1424-matched-light.png",
+    "prototype-1424-settings-light.png",
+    "prototype-1424-matched-dark.png",
+    "application-1440-matched-light.png",
+    "application-1440-settings-light.png",
+    "application-1440-matched-dark.png",
+    "application-1424-matched-light.png",
+    "application-1424-settings-light.png",
+    "application-1424-matched-dark.png"
+  ],
+  "metrics": [
+    {
+      "label": "initial_1440",
+      "shell": {
+        "window": [
+          46,
+          24
+        ],
+        "buffer": [
+          46,
+          24
+        ]
+      },
+      "panes": [
+        {
+          "active": true,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-final3-20261015\\cwd46×24PowerShell",
+          "xterm": {
+            "cols": 46,
+            "rows": 24,
+            "cell": {
+              "width": 7.695652173913044,
+              "height": 26
+            }
+          },
+          "submitted": "46x24"
+        },
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-final3-20261015\\cwd46×24PowerShell",
+          "xterm": {
+            "cols": 46,
+            "rows": 24,
+            "cell": {
+              "width": 7.695652173913044,
+              "height": 26
+            }
+          },
+          "submitted": "46x24"
+        }
+      ]
+    },
+    {
+      "label": "initial_1424",
+      "shell": {
+        "window": [
+          46,
+          24
+        ],
+        "buffer": [
+          46,
+          24
+        ]
+      },
+      "panes": [
+        {
+          "active": true,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-final3-20261015\\cwd46×24PowerShell",
+          "xterm": {
+            "cols": 46,
+            "rows": 24,
+            "cell": {
+              "width": 7.695652173913044,
+              "height": 26
+            }
+          },
+          "submitted": "46x24"
+        },
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-final3-20261015\\cwd46×24PowerShell",
+          "xterm": {
+            "cols": 46,
+            "rows": 24,
+            "cell": {
+              "width": 7.695652173913044,
+              "height": 26
+            }
+          },
+          "submitted": "46x24"
+        }
+      ]
+    },
+    {
+      "label": "window_small",
+      "shell": {
+        "window": [
+          46,
+          24
+        ],
+        "buffer": [
+          46,
+          24
+        ]
+      },
+      "panes": [
+        {
+          "active": true,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-final3-20261015\\cwd46×24PowerShell",
+          "xterm": {
+            "cols": 46,
+            "rows": 24,
+            "cell": {
+              "width": 7.695652173913044,
+              "height": 26
+            }
+          },
+          "submitted": "46x24"
+        },
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-final3-20261015\\cwd46×24PowerShell",
+          "xterm": {
+            "cols": 46,
+            "rows": 24,
+            "cell": {
+              "width": 7.695652173913044,
+              "height": 26
+            }
+          },
+          "submitted": "46x24"
+        }
+      ]
+    },
+    {
+      "label": "drawer_closed",
+      "shell": {
+        "window": [
+          46,
+          24
+        ],
+        "buffer": [
+          46,
+          24
+        ]
+      },
+      "panes": [
+        {
+          "active": true,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-final3-20261015\\cwd46×24PowerShell",
+          "xterm": {
+            "cols": 46,
+            "rows": 24,
+            "cell": {
+              "width": 7.695652173913044,
+              "height": 26
+            }
+          },
+          "submitted": "46x24"
+        },
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-final3-20261015\\cwd46×24PowerShell",
+          "xterm": {
+            "cols": 46,
+            "rows": 24,
+            "cell": {
+              "width": 7.695652173913044,
+              "height": 26
+            }
+          },
+          "submitted": "46x24"
+        }
+      ]
+    },
+    {
+      "label": "drawer_open",
+      "shell": {
+        "window": [
+          46,
+          24
+        ],
+        "buffer": [
+          46,
+          24
+        ]
+      },
+      "panes": [
+        {
+          "active": true,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-final3-20261015\\cwd46×24PowerShell",
+          "xterm": {
+            "cols": 46,
+            "rows": 24,
+            "cell": {
+              "width": 7.695652173913044,
+              "height": 26
+            }
+          },
+          "submitted": "46x24"
+        },
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-final3-20261015\\cwd46×24PowerShell",
+          "xterm": {
+            "cols": 46,
+            "rows": 24,
+            "cell": {
+              "width": 7.695652173913044,
+              "height": 26
+            }
+          },
+          "submitted": "46x24"
+        }
+      ]
+    }
+  ],
+  "cleanup": [
+    {
+      "label": "prototype-1440",
+      "mainPid": 160540,
+      "createdAt": "134365424297348642",
+      "beforeFallback": [],
+      "remaining": []
+    },
+    {
+      "label": "prototype-1424",
+      "mainPid": 177600,
+      "createdAt": "134365424345505138",
+      "beforeFallback": [],
+      "remaining": []
+    },
+    {
+      "label": "application",
+      "mainPid": 169636,
+      "createdAt": "134365424395718292",
+      "beforeFallback": [
+        169636,
+        179508,
+        174724,
+        178732,
+        173884,
+        180004,
+        176200,
+        179544,
+        174908,
+        178660,
+        133104,
+        177244
+      ],
+      "remaining": []
+    }
+  ]
+}

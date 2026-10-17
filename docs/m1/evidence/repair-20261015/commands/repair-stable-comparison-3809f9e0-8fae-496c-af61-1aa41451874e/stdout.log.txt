@@ -1,0 +1,454 @@
+{
+  "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015",
+  "status": "pass",
+  "captures": [
+    "prototype-1440-default-light.png",
+    "prototype-1440-matched-light.png",
+    "prototype-1440-settings-light.png",
+    "prototype-1440-matched-dark.png",
+    "prototype-1424-default-light.png",
+    "prototype-1424-matched-light.png",
+    "prototype-1424-settings-light.png",
+    "prototype-1424-matched-dark.png",
+    "application-1440-matched-light.png",
+    "application-1440-settings-light.png",
+    "application-1440-matched-dark.png",
+    "application-1424-matched-light.png",
+    "application-1424-settings-light.png",
+    "application-1424-matched-dark.png",
+    "native-cli-version.png"
+  ],
+  "metrics": [
+    {
+      "label": "initial_1440",
+      "shell": {
+        "window": [
+          47,
+          23
+        ],
+        "buffer": [
+          47,
+          23
+        ]
+      },
+      "panes": [
+        {
+          "active": true,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd47×23PowerShell",
+          "xterm": {
+            "cols": 47,
+            "rows": 23,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 26
+            }
+          },
+          "submitted": "47x23"
+        },
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd47×23PowerShell",
+          "xterm": {
+            "cols": 47,
+            "rows": 23,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 26
+            }
+          },
+          "submitted": "47x23"
+        }
+      ]
+    },
+    {
+      "label": "initial_1424",
+      "shell": {
+        "window": [
+          46,
+          24
+        ],
+        "buffer": [
+          46,
+          24
+        ]
+      },
+      "panes": [
+        {
+          "active": true,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd46×24PowerShell",
+          "xterm": {
+            "cols": 46,
+            "rows": 24,
+            "cell": {
+              "width": 7.695652173913044,
+              "height": 26
+            }
+          },
+          "submitted": "46x24"
+        },
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd46×24PowerShell",
+          "xterm": {
+            "cols": 46,
+            "rows": 24,
+            "cell": {
+              "width": 7.695652173913044,
+              "height": 26
+            }
+          },
+          "submitted": "46x24"
+        }
+      ]
+    },
+    {
+      "label": "window_small",
+      "shell": {
+        "window": [
+          36,
+          19
+        ],
+        "buffer": [
+          36,
+          19
+        ]
+      },
+      "panes": [
+        {
+          "active": true,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd36×19PowerShell",
+          "xterm": {
+            "cols": 36,
+            "rows": 19,
+            "cell": {
+              "width": 7.694444444444445,
+              "height": 26
+            }
+          },
+          "submitted": "36x19"
+        },
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd36×19PowerShell",
+          "xterm": {
+            "cols": 36,
+            "rows": 19,
+            "cell": {
+              "width": 7.694444444444445,
+              "height": 26
+            }
+          },
+          "submitted": "36x19"
+        }
+      ]
+    },
+    {
+      "label": "drawer_closed",
+      "shell": {
+        "window": [
+          56,
+          19
+        ],
+        "buffer": [
+          56,
+          19
+        ]
+      },
+      "panes": [
+        {
+          "active": true,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd56×19PowerShell",
+          "xterm": {
+            "cols": 56,
+            "rows": 19,
+            "cell": {
+              "width": 7.696428571428571,
+              "height": 26
+            }
+          },
+          "submitted": "56x19"
+        },
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd56×19PowerShell",
+          "xterm": {
+            "cols": 56,
+            "rows": 19,
+            "cell": {
+              "width": 7.696428571428571,
+              "height": 26
+            }
+          },
+          "submitted": "56x19"
+        }
+      ]
+    },
+    {
+      "label": "drawer_open",
+      "shell": {
+        "window": [
+          36,
+          19
+        ],
+        "buffer": [
+          36,
+          19
+        ]
+      },
+      "panes": [
+        {
+          "active": true,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd36×19PowerShell",
+          "xterm": {
+            "cols": 36,
+            "rows": 19,
+            "cell": {
+              "width": 7.694444444444445,
+              "height": 26
+            }
+          },
+          "submitted": "36x19"
+        },
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd36×19PowerShell",
+          "xterm": {
+            "cols": 36,
+            "rows": 19,
+            "cell": {
+              "width": 7.694444444444445,
+              "height": 26
+            }
+          },
+          "submitted": "36x19"
+        }
+      ]
+    },
+    {
+      "label": "window_restored",
+      "shell": {
+        "window": [
+          47,
+          23
+        ],
+        "buffer": [
+          47,
+          23
+        ]
+      },
+      "panes": [
+        {
+          "active": true,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd47×23PowerShell",
+          "xterm": {
+            "cols": 47,
+            "rows": 23,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 26
+            }
+          },
+          "submitted": "47x23"
+        },
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd47×23PowerShell",
+          "xterm": {
+            "cols": 47,
+            "rows": 23,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 26
+            }
+          },
+          "submitted": "47x23"
+        }
+      ]
+    },
+    {
+      "label": "split_down",
+      "shell": {
+        "window": [
+          47,
+          9
+        ],
+        "buffer": [
+          47,
+          9
+        ]
+      },
+      "panes": [
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd47×9PowerShell",
+          "xterm": {
+            "cols": 47,
+            "rows": 9,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 26
+            }
+          },
+          "submitted": "47x9"
+        },
+        {
+          "active": true,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd47×9PowerShell",
+          "xterm": {
+            "cols": 47,
+            "rows": 9,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 26
+            }
+          },
+          "submitted": "47x9"
+        },
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd47×23PowerShell",
+          "xterm": {
+            "cols": 47,
+            "rows": 23,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 26
+            }
+          },
+          "submitted": "47x23"
+        }
+      ]
+    },
+    {
+      "label": "zoom",
+      "shell": {
+        "window": [
+          103,
+          23
+        ],
+        "buffer": [
+          103,
+          23
+        ]
+      },
+      "panes": [
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd47×9PowerShell",
+          "xterm": {
+            "cols": 47,
+            "rows": 9,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 26
+            }
+          },
+          "submitted": "47x9"
+        },
+        {
+          "active": true,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd103×23PowerShell",
+          "xterm": {
+            "cols": 103,
+            "rows": 23,
+            "cell": {
+              "width": 7.699029126213592,
+              "height": 26
+            }
+          },
+          "submitted": "103x23"
+        },
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd47×23PowerShell",
+          "xterm": {
+            "cols": 47,
+            "rows": 23,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 26
+            }
+          },
+          "submitted": "47x23"
+        }
+      ]
+    },
+    {
+      "label": "unzoom",
+      "shell": {
+        "window": [
+          47,
+          9
+        ],
+        "buffer": [
+          47,
+          9
+        ]
+      },
+      "panes": [
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd47×9PowerShell",
+          "xterm": {
+            "cols": 47,
+            "rows": 9,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 26
+            }
+          },
+          "submitted": "47x9"
+        },
+        {
+          "active": true,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd47×9PowerShell",
+          "xterm": {
+            "cols": 47,
+            "rows": 9,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 26
+            }
+          },
+          "submitted": "47x9"
+        },
+        {
+          "active": false,
+          "footer": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-compare-stable-20261015\\cwd47×23PowerShell",
+          "xterm": {
+            "cols": 47,
+            "rows": 23,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 26
+            }
+          },
+          "submitted": "47x23"
+        }
+      ]
+    }
+  ],
+  "cleanup": [
+    {
+      "label": "prototype-1440",
+      "mainPid": 167388,
+      "createdAt": "134365428004650049",
+      "beforeFallback": [],
+      "remaining": []
+    },
+    {
+      "label": "prototype-1424",
+      "mainPid": 175052,
+      "createdAt": "134365428052002477",
+      "beforeFallback": [],
+      "remaining": []
+    },
+    {
+      "label": "application",
+      "mainPid": 173260,
+      "createdAt": "134365428096406861",
+      "beforeFallback": [],
+      "remaining": []
+    }
+  ]
+}

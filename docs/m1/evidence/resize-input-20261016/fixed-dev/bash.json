@@ -1,0 +1,398 @@
+{
+  "status": "fail",
+  "error": "Error: IMMEDIATE_INPUT_LOSS:{\"i\":118,\"cols\":127,\"rows\":24,\"resizedAt\":1792161865298,\"ackAt\":1792161865298,\"sentAt\":1792161865298,\"pass\":false,\"echo\":false,\"delta\":\"\\r\\n\\u001b[?2004l\\rbash: rintf: command not found\\r\\n\\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \"}",
+  "checks": [
+    {
+      "name": "actual Git Bash supports /c /d and cd c from root with no PowerShell drive command",
+      "status": "pass",
+      "detail": {
+        "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+        "drives": [
+          "/c",
+          "/d"
+        ],
+        "unicodePath": true
+      }
+    },
+    {
+      "name": "resize acknowledgement does not drop bytes for a non-readline cat reader",
+      "status": "pass",
+      "detail": {
+        "iterations": 40,
+        "records": [
+          {
+            "i": 0,
+            "cols": 90,
+            "rows": 22,
+            "resizedAt": 1792161856633,
+            "ackAt": 1792161856633,
+            "sentAt": 1792161856633,
+            "received": "P000\r\nP000\r\n"
+          },
+          {
+            "i": 1,
+            "cols": 91,
+            "rows": 23,
+            "resizedAt": 1792161856679,
+            "ackAt": 1792161856679,
+            "sentAt": 1792161856679,
+            "received": "P001\r\nP001\r\n"
+          },
+          {
+            "i": 2,
+            "cols": 92,
+            "rows": 24,
+            "resizedAt": 1792161856725,
+            "ackAt": 1792161856725,
+            "sentAt": 1792161856725,
+            "received": "P002\r\nP002\r\n"
+          },
+          {
+            "i": 3,
+            "cols": 93,
+            "rows": 25,
+            "resizedAt": 1792161856756,
+            "ackAt": 1792161856756,
+            "sentAt": 1792161856756,
+            "received": "P003\r\nP003\r\n"
+          },
+          {
+            "i": 4,
+            "cols": 94,
+            "rows": 26,
+            "resizedAt": 1792161856789,
+            "ackAt": 1792161856789,
+            "sentAt": 1792161856789,
+            "received": "P004\r\nP004\r\n"
+          },
+          {
+            "i": 5,
+            "cols": 95,
+            "rows": 27,
+            "resizedAt": 1792161856834,
+            "ackAt": 1792161856835,
+            "sentAt": 1792161856835,
+            "received": "P005\r\nP005\r\n"
+          },
+          {
+            "i": 6,
+            "cols": 96,
+            "rows": 28,
+            "resizedAt": 1792161856881,
+            "ackAt": 1792161856881,
+            "sentAt": 1792161856881,
+            "received": "P006\r\nP006\r\n"
+          },
+          {
+            "i": 7,
+            "cols": 97,
+            "rows": 29,
+            "resizedAt": 1792161856912,
+            "ackAt": 1792161856912,
+            "sentAt": 1792161856912,
+            "received": "P007\r\nP007\r\n"
+          },
+          {
+            "i": 8,
+            "cols": 98,
+            "rows": 30,
+            "resizedAt": 1792161856943,
+            "ackAt": 1792161856943,
+            "sentAt": 1792161856943,
+            "received": "P008\r\nP008\r\n"
+          },
+          {
+            "i": 9,
+            "cols": 99,
+            "rows": 31,
+            "resizedAt": 1792161856974,
+            "ackAt": 1792161856974,
+            "sentAt": 1792161856974,
+            "received": "P009\r\nP009\r\n"
+          },
+          {
+            "i": 10,
+            "cols": 100,
+            "rows": 32,
+            "resizedAt": 1792161857005,
+            "ackAt": 1792161857005,
+            "sentAt": 1792161857005,
+            "received": "P010\r\nP010\r\n"
+          },
+          {
+            "i": 11,
+            "cols": 101,
+            "rows": 22,
+            "resizedAt": 1792161857036,
+            "ackAt": 1792161857037,
+            "sentAt": 1792161857037,
+            "received": "P011\r\nP011\r\n"
+          },
+          {
+            "i": 12,
+            "cols": 102,
+            "rows": 23,
+            "resizedAt": 1792161857067,
+            "ackAt": 1792161857067,
+            "sentAt": 1792161857067,
+            "received": "P012\r\nP012\r\n"
+          },
+          {
+            "i": 13,
+            "cols": 103,
+            "rows": 24,
+            "resizedAt": 1792161857098,
+            "ackAt": 1792161857098,
+            "sentAt": 1792161857098,
+            "received": "P013\r\nP013\r\n"
+          },
+          {
+            "i": 14,
+            "cols": 104,
+            "rows": 25,
+            "resizedAt": 1792161857129,
+            "ackAt": 1792161857129,
+            "sentAt": 1792161857129,
+            "received": "P014\r\nP014\r\n"
+          },
+          {
+            "i": 15,
+            "cols": 105,
+            "rows": 26,
+            "resizedAt": 1792161857159,
+            "ackAt": 1792161857160,
+            "sentAt": 1792161857160,
+            "received": "P015\r\nP015\r\n"
+          },
+          {
+            "i": 16,
+            "cols": 106,
+            "rows": 27,
+            "resizedAt": 1792161857191,
+            "ackAt": 1792161857192,
+            "sentAt": 1792161857192,
+            "received": "P016\r\nP016\r\n"
+          },
+          {
+            "i": 17,
+            "cols": 107,
+            "rows": 28,
+            "resizedAt": 1792161857222,
+            "ackAt": 1792161857223,
+            "sentAt": 1792161857223,
+            "received": "P017\r\nP017\r\n"
+          },
+          {
+            "i": 18,
+            "cols": 108,
+            "rows": 29,
+            "resizedAt": 1792161857253,
+            "ackAt": 1792161857254,
+            "sentAt": 1792161857254,
+            "received": "P018\r\nP018\r\n"
+          },
+          {
+            "i": 19,
+            "cols": 109,
+            "rows": 30,
+            "resizedAt": 1792161857300,
+            "ackAt": 1792161857300,
+            "sentAt": 1792161857300,
+            "received": "P019\r\nP019\r\n"
+          },
+          {
+            "i": 20,
+            "cols": 110,
+            "rows": 31,
+            "resizedAt": 1792161857330,
+            "ackAt": 1792161857331,
+            "sentAt": 1792161857331,
+            "received": "P020\r\nP020\r\n"
+          },
+          {
+            "i": 21,
+            "cols": 111,
+            "rows": 32,
+            "resizedAt": 1792161857376,
+            "ackAt": 1792161857377,
+            "sentAt": 1792161857377,
+            "received": "P021\r\nP021\r\n"
+          },
+          {
+            "i": 22,
+            "cols": 112,
+            "rows": 22,
+            "resizedAt": 1792161857422,
+            "ackAt": 1792161857422,
+            "sentAt": 1792161857422,
+            "received": "P022\r\nP022\r\n"
+          },
+          {
+            "i": 23,
+            "cols": 113,
+            "rows": 23,
+            "resizedAt": 1792161857453,
+            "ackAt": 1792161857453,
+            "sentAt": 1792161857453,
+            "received": "P023\r\nP023\r\n"
+          },
+          {
+            "i": 24,
+            "cols": 114,
+            "rows": 24,
+            "resizedAt": 1792161857484,
+            "ackAt": 1792161857484,
+            "sentAt": 1792161857484,
+            "received": "P024\r\nP024\r\n"
+          },
+          {
+            "i": 25,
+            "cols": 115,
+            "rows": 25,
+            "resizedAt": 1792161857515,
+            "ackAt": 1792161857516,
+            "sentAt": 1792161857516,
+            "received": "P025\r\nP025\r\n"
+          },
+          {
+            "i": 26,
+            "cols": 116,
+            "rows": 26,
+            "resizedAt": 1792161857547,
+            "ackAt": 1792161857547,
+            "sentAt": 1792161857547,
+            "received": "P026\r\nP026\r\n"
+          },
+          {
+            "i": 27,
+            "cols": 117,
+            "rows": 27,
+            "resizedAt": 1792161857578,
+            "ackAt": 1792161857579,
+            "sentAt": 1792161857579,
+            "received": "P027\r\nP027\r\n"
+          },
+          {
+            "i": 28,
+            "cols": 118,
+            "rows": 28,
+            "resizedAt": 1792161857611,
+            "ackAt": 1792161857611,
+            "sentAt": 1792161857611,
+            "received": "P028\r\nP028\r\n"
+          },
+          {
+            "i": 29,
+            "cols": 119,
+            "rows": 29,
+            "resizedAt": 1792161857642,
+            "ackAt": 1792161857642,
+            "sentAt": 1792161857642,
+            "received": "P029\r\nP029\r\n"
+          },
+          {
+            "i": 30,
+            "cols": 120,
+            "rows": 30,
+            "resizedAt": 1792161857673,
+            "ackAt": 1792161857674,
+            "sentAt": 1792161857674,
+            "received": "P030\r\nP030\r\n"
+          },
+          {
+            "i": 31,
+            "cols": 90,
+            "rows": 31,
+            "resizedAt": 1792161857704,
+            "ackAt": 1792161857705,
+            "sentAt": 1792161857705,
+            "received": "P031\r\nP031\r\n"
+          },
+          {
+            "i": 32,
+            "cols": 91,
+            "rows": 32,
+            "resizedAt": 1792161857735,
+            "ackAt": 1792161857735,
+            "sentAt": 1792161857735,
+            "received": "P032\r\nP032\r\n"
+          },
+          {
+            "i": 33,
+            "cols": 92,
+            "rows": 22,
+            "resizedAt": 1792161857766,
+            "ackAt": 1792161857766,
+            "sentAt": 1792161857766,
+            "received": "P033\r\nP033\r\n"
+          },
+          {
+            "i": 34,
+            "cols": 93,
+            "rows": 23,
+            "resizedAt": 1792161857798,
+            "ackAt": 1792161857798,
+            "sentAt": 1792161857798,
+            "received": "P034\r\nP034\r\n"
+          },
+          {
+            "i": 35,
+            "cols": 94,
+            "rows": 24,
+            "resizedAt": 1792161857829,
+            "ackAt": 1792161857829,
+            "sentAt": 1792161857829,
+            "received": "P035\r\nP035\r\n"
+          },
+          {
+            "i": 36,
+            "cols": 95,
+            "rows": 25,
+            "resizedAt": 1792161857875,
+            "ackAt": 1792161857875,
+            "sentAt": 1792161857875,
+            "received": "P036\r\nP036\r\n"
+          },
+          {
+            "i": 37,
+            "cols": 96,
+            "rows": 26,
+            "resizedAt": 1792161857921,
+            "ackAt": 1792161857921,
+            "sentAt": 1792161857921,
+            "received": "P037\r\nP037\r\n"
+          },
+          {
+            "i": 38,
+            "cols": 97,
+            "rows": 27,
+            "resizedAt": 1792161857953,
+            "ackAt": 1792161857953,
+            "sentAt": 1792161857953,
+            "received": "P038\r\nP038\r\n"
+          },
+          {
+            "i": 39,
+            "cols": 98,
+            "rows": 28,
+            "resizedAt": 1792161857984,
+            "ackAt": 1792161857984,
+            "sentAt": 1792161857984,
+            "received": "P039\r\nP039\r\n"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "output": [
+    [
+      "session-af6470b1-c49f-4f53-89ee-5563e18012d4",
+      "\r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_000\\n'\r\n\u001b[?2004l\rRACE_PASS_000\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_001\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_002\\n'\r\n\u001b[?2004l\rRACE_PASS_002\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_003\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_004\\n'\r\n\u001b[?2004l\rRACE_PASS_004\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_005\\n'\r\n\u001b[?2004l\rRACE_PASS_005\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_006\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_007\\n'\r\n\u001b[?2004l\rRACE_PASS_007\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_008\\n'\r\n\u001b[?2004l\rRACE_PASS_008\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_009\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_010\\n'\r\n\u001b[?2004l\rRACE_PASS_010\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_011\\n'\r\n\u001b[?2004l\rRACE_PASS_011\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_012\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_013\\n'\r\n\u001b[?2004l\rRACE_PASS_013\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_014\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/\r\n\r中文 space$ printf 'RACE_PASS_015\\n'\r\n\u001b[?2004l\rRACE_PASS_015\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/\r\n\r中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_016\\n'\r\n\u001b[?2004l\rRACE_PASS_016\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中\r\n\r文 space$ rintf 'RACE_PASS_017\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中\r\n\r文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_018\\n'\r\n\u001b[?2004l\rRACE_PASS_018\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_019\\n'\r\n\u001b[?2004l\rRACE_PASS_019\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_020\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_021\\n'\r\n\u001b[?2004l\rRACE_PASS_021\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_022\\n'\r\n\u001b[?2004l\rRACE_PASS_022\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_023\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_024\\n'\r\n\u001b[?2004l\rRACE_PASS_024\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_025\\n'\r\n\u001b[?2004l\rRACE_PASS_025\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$  \rrintf 'RACE_PASS_026\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$  \r\r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_027\\n'\r\n\u001b[?2004l\rRACE_PASS_027\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_028\\n'\r\n\u001b[?2004l\rRACE_PASS_028\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_029\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_030\\n'\r\n\u001b[?2004l\rRACE_PASS_030\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_031\\n'\r\n\u001b[?2004l\rRACE_PASS_031\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_032\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_033\\n'\r\n\u001b[?2004l\rRACE_PASS_033\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_034\\n'\r\n\u001b[?2004l\rRACE_PASS_034\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_035\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_036\\n'\r\n\u001b[?2004l\rRACE_PASS_036\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_037\\n'\r\n\u001b[?2004l\rRACE_PASS_037\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_038\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_039\\n'\r\n\u001b[?2004l\rRACE_PASS_039\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_040\\n'\r\n\u001b[?2004l\rRACE_PASS_040\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_041\\n'\r\n\u001b[?2004l\rRACE_PASS_041\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_042\\n'\r\n\u001b[?2004l\rRACE_PASS_042\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_043\\n'\r\n\u001b[?2004l\rRACE_PASS_043\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_044\\n'\r\n\u001b[?2004l\rRACE_PASS_044\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_045\\n'\r\n\u001b[?2004l\rRACE_PASS_045\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_046\\n'\r\n\u001b[?2004l\rRACE_PASS_046\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_047\\n'\r\n\u001b[?2004l\rRACE_PASS_047\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_048\\n'\r\n\u001b[?2004l\rRACE_PASS_048\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_049\\n'\r\n\u001b[?2004l\rRACE_PASS_049\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_050\\n' \r\u001b[A\r\n\u001b[?2004l\rRACE_PASS_050\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_051\\n'\r\n\u001b[?2004l\rRACE_PASS_051\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_052\\n'\r\n\u001b[?2004l\rRACE_PASS_052\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_053\\n'\r\n\u001b[?2004l\rRACE_PASS_053\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_054\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_055\\n'\r\n\u001b[?2004l\rRACE_PASS_055\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_056\\n'\r\n\u001b[?2004l\rRACE_PASS_056\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_057\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_058\\n'\r\n\u001b[?2004l\rRACE_PASS_058\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_059\\n'\r\n\u001b[?2004l\rRACE_PASS_059\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_060\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_061\\n'\r\n\u001b[?2004l\rRACE_PASS_061\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_062\\n'\r\n\u001b[?2004l\rRACE_PASS_062\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_063\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_064\\n'\r\n\u001b[?2004l\rRACE_PASS_064\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_065\\n'\r\n\u001b[?2004l\rRACE_PASS_065\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_066\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_067\\n'\r\n\u001b[?2004l\rRACE_PASS_067\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_068\\n'\r\n\u001b[?2004l\rRACE_PASS_068\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_069\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_070\\n'\r\n\u001b[?2004l\rRACE_PASS_070\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_071\\n'\r\n\u001b[?2004l\rRACE_PASS_071\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_072\\n'\r\n\u001b[?2004l\rRACE_PASS_072\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_073\\n'\r\n\u001b[?2004l\rRACE_PASS_073\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_074\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_075\\n'\r\n\u001b[?2004l\rRACE_PASS_075\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_076\\n'\r\n\u001b[?2004l\rRACE_PASS_076\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_077\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_078\\n'\r\n\u001b[?2004l\rRACE_PASS_078\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_079\\n'\r\n\u001b[?2004l\rRACE_PASS_079\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_080\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_081\\n'\r\n\u001b[?2004l\rRACE_PASS_081\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_082\\n'\r\n\u001b[?2004l\rRACE_PASS_082\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_083\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_084\\n'\r\n\u001b[?2004l\rRACE_PASS_084\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_085\\n'\r\n\u001b[?2004l\rRACE_PASS_085\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/\r\n\r中文 space$ rintf 'RACE_PASS_086\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/\r\n\r中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_087\\n'\r\n\u001b[?2004l\rRACE_PASS_087\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中\r\n\r文 space$ printf 'RACE_PASS_088\\n'\r\n\u001b[?2004l\rRACE_PASS_088\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中\r\n\r文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_089\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_090\\n'\r\n\u001b[?2004l\rRACE_PASS_090\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_091\\n'\r\n\u001b[?2004l\rRACE_PASS_091\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_092\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_093\\n'\r\n\u001b[?2004l\rRACE_PASS_093\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_094\\n'\r\n\u001b[?2004l\rRACE_PASS_094\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_095\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_096\\n'\r\n\u001b[?2004l\rRACE_PASS_096\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$  \rprintf 'RACE_PASS_097\\n'\r\n\u001b[?2004l\rRACE_PASS_097\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$  \r\r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_098\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_099\\n'\r\n\u001b[?2004l\rRACE_PASS_099\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_100\\n'\r\n\u001b[?2004l\rRACE_PASS_100\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_101\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_102\\n'\r\n\u001b[?2004l\rRACE_PASS_102\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_103\\n'\r\n\u001b[?2004l\rRACE_PASS_103\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_104\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_105\\n'\r\n\u001b[?2004l\rRACE_PASS_105\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_106\\n'\r\n\u001b[?2004l\rRACE_PASS_106\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_107\\n'\r\n\u001b[?2004l\rRACE_PASS_107\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_108\\n'\r\n\u001b[?2004l\rRACE_PASS_108\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_109\\n'\r\n\u001b[?2004l\rRACE_PASS_109\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_110\\n'\r\n\u001b[?2004l\rRACE_PASS_110\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_111\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_112\\n'\r\n\u001b[?2004l\rRACE_PASS_112\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_113\\n'\r\n\u001b[?2004l\rRACE_PASS_113\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_114\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_115\\n'\r\n\u001b[?2004l\rRACE_PASS_115\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ printf 'RACE_PASS_116\\n'\r\n\u001b[?2004l\rRACE_PASS_116\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ \r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ rintf 'RACE_PASS_117\\n'\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ "
+    ],
+    [
+      "session-7af8eccd-80a1-46a4-8a9b-e1b3f5f32ffc",
+      "\u001b[1t\u001b[c\u001b[?1004h\u001b[?9001h\u001b]1337;WS_READY_b2287830-6275-4090-8f8e-22335856377c\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-1c4697a9-21ae-4a67-85c0-52075c19e93a/中文 space$ "
+    ]
+  ]
+}

@@ -1,0 +1,1244 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "two independent sessions reject stale generation, bad resize and repeated close is idempotent",
+      "status": "pass",
+      "detail": {
+        "closed": {
+          "sessionId": "session-155840b3-7fc0-41d3-acb2-d1cdfe42cb93",
+          "paneId": "pane-59c7011d-ef23-453d-816c-e038550dfe4f",
+          "workspaceId": "workspace-d590ca2d-2de8-4f7e-b2a4-043d9f006a47",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 148512,
+          "createdAt": "134365341594226906",
+          "workerPid": 164264,
+          "workerCreatedAt": "134365341593765966",
+          "exitCode": 1,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 3,
+          "peak": 53,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          }
+        },
+        "survivorPid": 167804
+      }
+    },
+    {
+      "name": "paused consumer bounds service output; resumed slow consumer preserves every record at natural EOF",
+      "status": "pass",
+      "detail": {
+        "paused": {
+          "sessionId": "session-43f389d5-4827-45c5-8463-5df062f7985f",
+          "paneId": "pane-4d768126-5d89-45a9-af39-c34f10339ae3",
+          "workspaceId": "workspace-938ff43f-9d3e-48c4-98bb-35be105a8818",
+          "generation": 1,
+          "state": "running",
+          "cols": 100,
+          "rows": 30,
+          "pid": 174308,
+          "createdAt": "134365341627890691",
+          "workerPid": 158940,
+          "workerCreatedAt": "134365341627427785",
+          "bytes": 5227,
+          "peak": 5227,
+          "pending": 0,
+          "pids": [
+            158940,
+            167312,
+            174308,
+            168648
+          ]
+        },
+        "exit": {
+          "sessionId": "session-43f389d5-4827-45c5-8463-5df062f7985f",
+          "paneId": "pane-4d768126-5d89-45a9-af39-c34f10339ae3",
+          "workspaceId": "workspace-938ff43f-9d3e-48c4-98bb-35be105a8818",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 174308,
+          "createdAt": "134365341627890691",
+          "workerPid": 158940,
+          "workerCreatedAt": "134365341627427785",
+          "exitCode": 5,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 700,
+          "peak": 118784,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          },
+          "type": "exit"
+        },
+        "output": {
+          "records": 16000,
+          "actualSha256": "523fb0e148369899a3a413b7968e4e30642f2662dc934bde8bfe00036498f0c5",
+          "expectedSha256": "523fb0e148369899a3a413b7968e4e30642f2662dc934bde8bfe00036498f0c5",
+          "tailUnicode": true,
+          "outputBytes": 391510
+        }
+      }
+    },
+    {
+      "name": "active close keeps output reader alive and delivers all produced tail bytes before reclaim",
+      "status": "pass",
+      "detail": {
+        "result": {
+          "sessionId": "session-24fafa04-1446-4c4e-990e-09f9f98903bc",
+          "paneId": "pane-8fee5ab7-d683-42ec-b5b2-a7ff66df2510",
+          "workspaceId": "workspace-8d4058d1-b879-4b62-acfb-34f51bd75670",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 135064,
+          "createdAt": "134365341669142002",
+          "workerPid": 168500,
+          "workerCreatedAt": "134365341668689250",
+          "exitCode": 1,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 1538,
+          "peak": 118784,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          }
+        },
+        "output": {
+          "records": 16000,
+          "actualSha256": "523fb0e148369899a3a413b7968e4e30642f2662dc934bde8bfe00036498f0c5",
+          "expectedSha256": "523fb0e148369899a3a413b7968e4e30642f2662dc934bde8bfe00036498f0c5",
+          "tailUnicode": true,
+          "outputBytes": 391261
+        }
+      }
+    },
+    {
+      "name": "worker crash reclaims only its Job; survivor still interactive",
+      "status": "pass",
+      "detail": {
+        "sessionId": "session-610b6bb9-7c0b-47b9-bb5e-519e1d378256",
+        "paneId": "pane-d34906bc-35f2-4700-af20-82c6120f65d2",
+        "workspaceId": "workspace-cf722628-1b7b-484d-aaaf-d1559698c4f0",
+        "generation": 1,
+        "state": "failed",
+        "cols": 100,
+        "rows": 30,
+        "pid": 160644,
+        "createdAt": "134365341707143216",
+        "workerPid": 174732,
+        "workerCreatedAt": "134365341706703769",
+        "error": "WORKER_CRASH:1",
+        "cleanup": {
+          "before": [
+            174832,
+            160644
+          ],
+          "remaining": []
+        },
+        "outputComplete": false,
+        "type": "fault"
+      }
+    },
+    {
+      "name": "simultaneous natural exits keep per-session output and exit events isolated",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-09c1b92e-3efd-4523-9e50-c386bc04c87e",
+          "paneId": "pane-ca6e9801-bb17-4331-aff4-8fa84c4f06e9",
+          "workspaceId": "workspace-32ec2a06-0fd7-4456-bcdb-bc85a45e0cfd",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 147492,
+          "createdAt": "134365341740115691",
+          "workerPid": 173460,
+          "workerCreatedAt": "134365341739663112",
+          "exitCode": 5,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 88,
+          "peak": 240,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          },
+          "type": "exit"
+        },
+        {
+          "sessionId": "session-9949df61-19b6-4c87-b86d-40c5a259fb6b",
+          "paneId": "pane-32980fba-3208-4ec1-a40a-e7f881c1727e",
+          "workspaceId": "workspace-2694b2d0-a75a-4747-a137-8bd6a63f80e2",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 138252,
+          "createdAt": "134365341772314367",
+          "workerPid": 143828,
+          "workerCreatedAt": "134365341771849203",
+          "exitCode": 7,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 85,
+          "peak": 171,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          },
+          "type": "exit"
+        }
+      ]
+    },
+    {
+      "name": "repeated create/close releases active registry, pending requests and native workers",
+      "status": "pass",
+      "detail": {
+        "rounds": [
+          {
+            "round": 0,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 1,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 2,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 3,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 4,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 5,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 6,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 7,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 8,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 9,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 10,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 11,
+            "peak": 53,
+            "active": 1
+          }
+        ],
+        "handlesBefore": 332,
+        "handlesAfter": 328
+      }
+    },
+    {
+      "name": "service normal stop cleans running Shell and native worker; all retained identities exited",
+      "status": "pass",
+      "detail": {
+        "before": {
+          "active": [
+            {
+              "sessionId": "session-1df84c3d-5702-4cbb-9d5e-bd632a68e434",
+              "paneId": "pane-49c9952e-5275-454d-a579-ef52a8f9ca7e",
+              "workspaceId": "workspace-34cb5c6e-0d82-45ba-921e-5ba101dd3687",
+              "generation": 1,
+              "state": "running",
+              "cols": 100,
+              "rows": 30,
+              "pid": 167804,
+              "createdAt": "134365341561944047",
+              "workerPid": 174512,
+              "workerCreatedAt": "134365341561487651",
+              "bytes": 0,
+              "peak": 111,
+              "pending": 0,
+              "pids": [
+                174512,
+                129372,
+                167804
+              ]
+            }
+          ],
+          "ended": [
+            {
+              "sessionId": "session-155840b3-7fc0-41d3-acb2-d1cdfe42cb93",
+              "paneId": "pane-59c7011d-ef23-453d-816c-e038550dfe4f",
+              "workspaceId": "workspace-d590ca2d-2de8-4f7e-b2a4-043d9f006a47",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 148512,
+              "createdAt": "134365341594226906",
+              "workerPid": 164264,
+              "workerCreatedAt": "134365341593765966",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-43f389d5-4827-45c5-8463-5df062f7985f",
+              "paneId": "pane-4d768126-5d89-45a9-af39-c34f10339ae3",
+              "workspaceId": "workspace-938ff43f-9d3e-48c4-98bb-35be105a8818",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 174308,
+              "createdAt": "134365341627890691",
+              "workerPid": 158940,
+              "workerCreatedAt": "134365341627427785",
+              "exitCode": 5,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 700,
+              "peak": 118784,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-24fafa04-1446-4c4e-990e-09f9f98903bc",
+              "paneId": "pane-8fee5ab7-d683-42ec-b5b2-a7ff66df2510",
+              "workspaceId": "workspace-8d4058d1-b879-4b62-acfb-34f51bd75670",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 135064,
+              "createdAt": "134365341669142002",
+              "workerPid": 168500,
+              "workerCreatedAt": "134365341668689250",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 1538,
+              "peak": 118784,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-610b6bb9-7c0b-47b9-bb5e-519e1d378256",
+              "paneId": "pane-d34906bc-35f2-4700-af20-82c6120f65d2",
+              "workspaceId": "workspace-cf722628-1b7b-484d-aaaf-d1559698c4f0",
+              "generation": 1,
+              "state": "failed",
+              "cols": 100,
+              "rows": 30,
+              "pid": 160644,
+              "createdAt": "134365341707143216",
+              "workerPid": 174732,
+              "workerCreatedAt": "134365341706703769",
+              "error": "WORKER_CRASH:1",
+              "cleanup": {
+                "before": [
+                  174832,
+                  160644
+                ],
+                "remaining": []
+              },
+              "outputComplete": false
+            },
+            {
+              "sessionId": "session-09c1b92e-3efd-4523-9e50-c386bc04c87e",
+              "paneId": "pane-ca6e9801-bb17-4331-aff4-8fa84c4f06e9",
+              "workspaceId": "workspace-32ec2a06-0fd7-4456-bcdb-bc85a45e0cfd",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 147492,
+              "createdAt": "134365341740115691",
+              "workerPid": 173460,
+              "workerCreatedAt": "134365341739663112",
+              "exitCode": 5,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 88,
+              "peak": 240,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-9949df61-19b6-4c87-b86d-40c5a259fb6b",
+              "paneId": "pane-32980fba-3208-4ec1-a40a-e7f881c1727e",
+              "workspaceId": "workspace-2694b2d0-a75a-4747-a137-8bd6a63f80e2",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 138252,
+              "createdAt": "134365341772314367",
+              "workerPid": 143828,
+              "workerCreatedAt": "134365341771849203",
+              "exitCode": 7,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 85,
+              "peak": 171,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-932b4482-582f-40d0-ba6f-2469fc8440ea",
+              "paneId": "pane-4377d7dc-a6b4-42cd-bfb4-cad01bddb13a",
+              "workspaceId": "workspace-af3c9bf8-ccef-4e2f-ae94-3a4ae8daa95c",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 174780,
+              "createdAt": "134365341806358455",
+              "workerPid": 174064,
+              "workerCreatedAt": "134365341805913747",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-ae967f33-47b3-406c-ae3d-fb6a7a3ca689",
+              "paneId": "pane-d7d52b58-67b6-414c-a690-99afe7bb2121",
+              "workspaceId": "workspace-66218147-1938-4e80-93d6-963ab7ad2bfa",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 173576,
+              "createdAt": "134365341839349935",
+              "workerPid": 168140,
+              "workerCreatedAt": "134365341838899368",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-4fe27c0e-0844-44db-afee-f04f42a1debd",
+              "paneId": "pane-588c59a6-f07a-4c4c-b17d-12654bb93d03",
+              "workspaceId": "workspace-5ab9ccd9-5583-406e-8fc1-9a04ea49c337",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 160356,
+              "createdAt": "134365341872251200",
+              "workerPid": 167520,
+              "workerCreatedAt": "134365341871806744",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-bb5a4e50-84d7-4aa1-9aa2-f4e1432e4ecb",
+              "paneId": "pane-bae2d1d8-e6eb-453a-be44-206bd90daeec",
+              "workspaceId": "workspace-388062f0-41a2-458c-8684-68d8b9a25a73",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 169680,
+              "createdAt": "134365341905225552",
+              "workerPid": 169008,
+              "workerCreatedAt": "134365341904769134",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-a060e87f-e457-4924-8c63-d188624cf37b",
+              "paneId": "pane-fc0b4bd6-2af2-42dc-9664-e6519bc93c8f",
+              "workspaceId": "workspace-9e903cee-63a9-448c-9ad9-7e5449bd3416",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 169476,
+              "createdAt": "134365341938233139",
+              "workerPid": 173148,
+              "workerCreatedAt": "134365341937785329",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-1e8daf4d-e532-426f-89f8-084b0c0d3acf",
+              "paneId": "pane-fd126627-6eb7-469a-9fdb-8e78d4845a3f",
+              "workspaceId": "workspace-8f51e535-95b6-43f4-893d-07ab56ba2dd5",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 172960,
+              "createdAt": "134365341971207257",
+              "workerPid": 169576,
+              "workerCreatedAt": "134365341970776686",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-9c0c88e0-d349-44a1-9818-8a12c946be1b",
+              "paneId": "pane-8d3d259d-77ba-40fe-b3f6-655f4316c774",
+              "workspaceId": "workspace-1807e383-45dd-48b8-9a10-ca880d5d7ef5",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 173872,
+              "createdAt": "134365342004216160",
+              "workerPid": 146660,
+              "workerCreatedAt": "134365342003747718",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-3a912f35-2cfb-4e4c-8aed-6371e5d78eff",
+              "paneId": "pane-b82760c9-28c0-4910-bddd-178accb587f6",
+              "workspaceId": "workspace-6b6e0c11-7b6e-4259-9f5f-60674cc86b4c",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 172268,
+              "createdAt": "134365342037173698",
+              "workerPid": 153952,
+              "workerCreatedAt": "134365342036709928",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-89852fb6-c4ff-4ba3-8205-3837909fd340",
+              "paneId": "pane-40386754-8902-4255-b250-86b332458f7e",
+              "workspaceId": "workspace-e2e3157e-7894-4095-9af2-f41d15c7c4d1",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 173660,
+              "createdAt": "134365342070206795",
+              "workerPid": 173652,
+              "workerCreatedAt": "134365342069738799",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-dfdac7d9-2b16-4511-9613-72deb3d85412",
+              "paneId": "pane-9f865072-18e1-442b-a74b-10f7195b0590",
+              "workspaceId": "workspace-f380995a-700e-4e13-a1a8-991e011a97ab",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 135668,
+              "createdAt": "134365342103267109",
+              "workerPid": 172232,
+              "workerCreatedAt": "134365342102815831",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-5eb7ca94-c12b-4507-b48c-68563ff07e5d",
+              "paneId": "pane-100deb1b-5008-4881-a9d8-fa12d0792789",
+              "workspaceId": "workspace-6c27ce8d-afb5-44aa-9824-78140829d7da",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 130424,
+              "createdAt": "134365342136190636",
+              "workerPid": 144792,
+              "workerCreatedAt": "134365342135742663",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-e40ae6a0-7c00-4c58-95c2-dd7cc35c7e2a",
+              "paneId": "pane-1423041c-e8b2-43d7-8ab5-b99f0afb3470",
+              "workspaceId": "workspace-fdec1b2f-b147-425e-97de-3068a2b2cb43",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 145804,
+              "createdAt": "134365342169213320",
+              "workerPid": 169496,
+              "workerCreatedAt": "134365342168770723",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            }
+          ],
+          "native": [
+            "D:\\Code\\JianZJ-Hub\\node_modules\\@koromix\\koffi-win32-x64\\win32_x64\\koffi.node"
+          ]
+        },
+        "identities": [
+          {
+            "pid": 167804,
+            "createdAt": "134365341561944047",
+            "exited": true
+          },
+          {
+            "pid": 148512,
+            "createdAt": "134365341594226906",
+            "exited": true
+          },
+          {
+            "pid": 174308,
+            "createdAt": "134365341627890691",
+            "exited": true
+          },
+          {
+            "pid": 135064,
+            "createdAt": "134365341669142002",
+            "exited": true
+          },
+          {
+            "pid": 160644,
+            "createdAt": "134365341707143216",
+            "exited": true
+          },
+          {
+            "pid": 147492,
+            "createdAt": "134365341740115691",
+            "exited": true
+          },
+          {
+            "pid": 138252,
+            "createdAt": "134365341772314367",
+            "exited": true
+          },
+          {
+            "pid": 174780,
+            "createdAt": "134365341806358455",
+            "exited": true
+          },
+          {
+            "pid": 173576,
+            "createdAt": "134365341839349935",
+            "exited": true
+          },
+          {
+            "pid": 160356,
+            "createdAt": "134365341872251200",
+            "exited": true
+          },
+          {
+            "pid": 169680,
+            "createdAt": "134365341905225552",
+            "exited": true
+          },
+          {
+            "pid": 169476,
+            "createdAt": "134365341938233139",
+            "exited": true
+          },
+          {
+            "pid": 172960,
+            "createdAt": "134365341971207257",
+            "exited": true
+          },
+          {
+            "pid": 173872,
+            "createdAt": "134365342004216160",
+            "exited": true
+          },
+          {
+            "pid": 172268,
+            "createdAt": "134365342037173698",
+            "exited": true
+          },
+          {
+            "pid": 173660,
+            "createdAt": "134365342070206795",
+            "exited": true
+          },
+          {
+            "pid": 135668,
+            "createdAt": "134365342103267109",
+            "exited": true
+          },
+          {
+            "pid": 130424,
+            "createdAt": "134365342136190636",
+            "exited": true
+          },
+          {
+            "pid": 145804,
+            "createdAt": "134365342169213320",
+            "exited": true
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "sessionId": "session-155840b3-7fc0-41d3-acb2-d1cdfe42cb93",
+      "paneId": "pane-59c7011d-ef23-453d-816c-e038550dfe4f",
+      "workspaceId": "workspace-d590ca2d-2de8-4f7e-b2a4-043d9f006a47",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 148512,
+      "createdAt": "134365341594226906",
+      "workerPid": 164264,
+      "workerCreatedAt": "134365341593765966",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-43f389d5-4827-45c5-8463-5df062f7985f",
+      "paneId": "pane-4d768126-5d89-45a9-af39-c34f10339ae3",
+      "workspaceId": "workspace-938ff43f-9d3e-48c4-98bb-35be105a8818",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 174308,
+      "createdAt": "134365341627890691",
+      "workerPid": 158940,
+      "workerCreatedAt": "134365341627427785",
+      "exitCode": 5,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 700,
+      "peak": 118784,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-24fafa04-1446-4c4e-990e-09f9f98903bc",
+      "paneId": "pane-8fee5ab7-d683-42ec-b5b2-a7ff66df2510",
+      "workspaceId": "workspace-8d4058d1-b879-4b62-acfb-34f51bd75670",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 135064,
+      "createdAt": "134365341669142002",
+      "workerPid": 168500,
+      "workerCreatedAt": "134365341668689250",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 1538,
+      "peak": 118784,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-610b6bb9-7c0b-47b9-bb5e-519e1d378256",
+      "paneId": "pane-d34906bc-35f2-4700-af20-82c6120f65d2",
+      "workspaceId": "workspace-cf722628-1b7b-484d-aaaf-d1559698c4f0",
+      "generation": 1,
+      "state": "failed",
+      "cols": 100,
+      "rows": 30,
+      "pid": 160644,
+      "createdAt": "134365341707143216",
+      "workerPid": 174732,
+      "workerCreatedAt": "134365341706703769",
+      "error": "WORKER_CRASH:1",
+      "cleanup": {
+        "before": [
+          174832,
+          160644
+        ],
+        "remaining": []
+      },
+      "outputComplete": false,
+      "type": "fault"
+    },
+    {
+      "sessionId": "session-09c1b92e-3efd-4523-9e50-c386bc04c87e",
+      "paneId": "pane-ca6e9801-bb17-4331-aff4-8fa84c4f06e9",
+      "workspaceId": "workspace-32ec2a06-0fd7-4456-bcdb-bc85a45e0cfd",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 147492,
+      "createdAt": "134365341740115691",
+      "workerPid": 173460,
+      "workerCreatedAt": "134365341739663112",
+      "exitCode": 5,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 88,
+      "peak": 240,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-9949df61-19b6-4c87-b86d-40c5a259fb6b",
+      "paneId": "pane-32980fba-3208-4ec1-a40a-e7f881c1727e",
+      "workspaceId": "workspace-2694b2d0-a75a-4747-a137-8bd6a63f80e2",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 138252,
+      "createdAt": "134365341772314367",
+      "workerPid": 143828,
+      "workerCreatedAt": "134365341771849203",
+      "exitCode": 7,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 85,
+      "peak": 171,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-932b4482-582f-40d0-ba6f-2469fc8440ea",
+      "paneId": "pane-4377d7dc-a6b4-42cd-bfb4-cad01bddb13a",
+      "workspaceId": "workspace-af3c9bf8-ccef-4e2f-ae94-3a4ae8daa95c",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 174780,
+      "createdAt": "134365341806358455",
+      "workerPid": 174064,
+      "workerCreatedAt": "134365341805913747",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-ae967f33-47b3-406c-ae3d-fb6a7a3ca689",
+      "paneId": "pane-d7d52b58-67b6-414c-a690-99afe7bb2121",
+      "workspaceId": "workspace-66218147-1938-4e80-93d6-963ab7ad2bfa",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 173576,
+      "createdAt": "134365341839349935",
+      "workerPid": 168140,
+      "workerCreatedAt": "134365341838899368",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-4fe27c0e-0844-44db-afee-f04f42a1debd",
+      "paneId": "pane-588c59a6-f07a-4c4c-b17d-12654bb93d03",
+      "workspaceId": "workspace-5ab9ccd9-5583-406e-8fc1-9a04ea49c337",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 160356,
+      "createdAt": "134365341872251200",
+      "workerPid": 167520,
+      "workerCreatedAt": "134365341871806744",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-bb5a4e50-84d7-4aa1-9aa2-f4e1432e4ecb",
+      "paneId": "pane-bae2d1d8-e6eb-453a-be44-206bd90daeec",
+      "workspaceId": "workspace-388062f0-41a2-458c-8684-68d8b9a25a73",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 169680,
+      "createdAt": "134365341905225552",
+      "workerPid": 169008,
+      "workerCreatedAt": "134365341904769134",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-a060e87f-e457-4924-8c63-d188624cf37b",
+      "paneId": "pane-fc0b4bd6-2af2-42dc-9664-e6519bc93c8f",
+      "workspaceId": "workspace-9e903cee-63a9-448c-9ad9-7e5449bd3416",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 169476,
+      "createdAt": "134365341938233139",
+      "workerPid": 173148,
+      "workerCreatedAt": "134365341937785329",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-1e8daf4d-e532-426f-89f8-084b0c0d3acf",
+      "paneId": "pane-fd126627-6eb7-469a-9fdb-8e78d4845a3f",
+      "workspaceId": "workspace-8f51e535-95b6-43f4-893d-07ab56ba2dd5",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 172960,
+      "createdAt": "134365341971207257",
+      "workerPid": 169576,
+      "workerCreatedAt": "134365341970776686",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-9c0c88e0-d349-44a1-9818-8a12c946be1b",
+      "paneId": "pane-8d3d259d-77ba-40fe-b3f6-655f4316c774",
+      "workspaceId": "workspace-1807e383-45dd-48b8-9a10-ca880d5d7ef5",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 173872,
+      "createdAt": "134365342004216160",
+      "workerPid": 146660,
+      "workerCreatedAt": "134365342003747718",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-3a912f35-2cfb-4e4c-8aed-6371e5d78eff",
+      "paneId": "pane-b82760c9-28c0-4910-bddd-178accb587f6",
+      "workspaceId": "workspace-6b6e0c11-7b6e-4259-9f5f-60674cc86b4c",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 172268,
+      "createdAt": "134365342037173698",
+      "workerPid": 153952,
+      "workerCreatedAt": "134365342036709928",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-89852fb6-c4ff-4ba3-8205-3837909fd340",
+      "paneId": "pane-40386754-8902-4255-b250-86b332458f7e",
+      "workspaceId": "workspace-e2e3157e-7894-4095-9af2-f41d15c7c4d1",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 173660,
+      "createdAt": "134365342070206795",
+      "workerPid": 173652,
+      "workerCreatedAt": "134365342069738799",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-dfdac7d9-2b16-4511-9613-72deb3d85412",
+      "paneId": "pane-9f865072-18e1-442b-a74b-10f7195b0590",
+      "workspaceId": "workspace-f380995a-700e-4e13-a1a8-991e011a97ab",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 135668,
+      "createdAt": "134365342103267109",
+      "workerPid": 172232,
+      "workerCreatedAt": "134365342102815831",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-5eb7ca94-c12b-4507-b48c-68563ff07e5d",
+      "paneId": "pane-100deb1b-5008-4881-a9d8-fa12d0792789",
+      "workspaceId": "workspace-6c27ce8d-afb5-44aa-9824-78140829d7da",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 130424,
+      "createdAt": "134365342136190636",
+      "workerPid": 144792,
+      "workerCreatedAt": "134365342135742663",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-e40ae6a0-7c00-4c58-95c2-dd7cc35c7e2a",
+      "paneId": "pane-1423041c-e8b2-43d7-8ab5-b99f0afb3470",
+      "workspaceId": "workspace-fdec1b2f-b147-425e-97de-3068a2b2cb43",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 145804,
+      "createdAt": "134365342169213320",
+      "workerPid": 169496,
+      "workerCreatedAt": "134365342168770723",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-1df84c3d-5702-4cbb-9d5e-bd632a68e434",
+      "paneId": "pane-49c9952e-5275-454d-a579-ef52a8f9ca7e",
+      "workspaceId": "workspace-34cb5c6e-0d82-45ba-921e-5ba101dd3687",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 167804,
+      "createdAt": "134365341561944047",
+      "workerPid": 174512,
+      "workerCreatedAt": "134365341561487651",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 171,
+      "peak": 210,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    }
+  ]
+}

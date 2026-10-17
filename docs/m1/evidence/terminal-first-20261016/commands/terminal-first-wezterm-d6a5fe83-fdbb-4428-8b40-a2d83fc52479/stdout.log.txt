@@ -1,0 +1,56 @@
+{
+  "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\terminal-first-reference\\run-fc750c4e-0753-4815-8169-af770cbb4244",
+  "args": [
+    "--config-file",
+    "D:\\Code\\JianZJ-Hub\\.m1-scratch\\terminal-first-reference\\run-fc750c4e-0753-4815-8169-af770cbb4244\\reference.lua",
+    "start",
+    "--always-new-process",
+    "--no-auto-connect",
+    "--class",
+    "JianZJ-Reference-c3aea0b0-fc5a-4229-96c4-ed411544247f",
+    "--cwd",
+    "D:\\Code\\JianZJ-Hub\\.m1-scratch\\terminal-first-reference\\run-fc750c4e-0753-4815-8169-af770cbb4244",
+    "C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe",
+    "-NoLogo",
+    "-NoProfile",
+    "-Command",
+    "[Console]::OutputEncoding=[Text.UTF8Encoding]::new($false); $Host.UI.RawUI.WindowTitle='WezTerm reference'; [Console]::Write([char]27+'[2J'+[char]27+'[H'); Write-Output 'PowerShell  /  Terminal sample'; Write-Output ''; Write-Output 'English 0123456789  ABCDEFGHIJKLMNOPQRSTUVWXYZ'; Write-Output '中文对齐  全角字符  混合 ABC 123'; Write-Output ('0123456789'*8); Write-Output ''; [Console]::Write([char]27+'[32mSUCCESS'+[char]27+'[0m  '+[char]27+'[31mERROR'+[char]27+'[0m'); Write-Output ''; Write-Output 'PS > '; @{pid=$PID;pane=$env:WEZTERM_PANE;sock=$env:WEZTERM_UNIX_SOCKET;cols=$Host.UI.RawUI.WindowSize.Width;rows=$Host.UI.RawUI.WindowSize.Height} | ConvertTo-Json -Compress | Set-Content -Encoding utf8 'D:\\Code\\JianZJ-Hub\\.m1-scratch\\terminal-first-reference\\run-fc750c4e-0753-4815-8169-af770cbb4244\\ready.json'; Start-Sleep -Seconds 90"
+  ],
+  "version": "wezterm 20240203-110809-5046fc22\n",
+  "conditions": {
+    "font": "Consolas + Microsoft YaHei",
+    "points": 10.5,
+    "pixelsAt96dpi": 14,
+    "deviceScale": 1,
+    "lineHeight": 1.1,
+    "config": "new isolated file; no personal config or mux"
+  },
+  "content": {
+    "width": 1424,
+    "height": 921
+  },
+  "shell": {
+    "rows": 24,
+    "pane": "0",
+    "pid": 166152,
+    "cols": 80,
+    "sock": "C:\\Users\\Administrator\\.local/share/wezterm\\gui-sock-139696"
+  },
+  "gridQuery": {
+    "status": 0,
+    "stdout": "[\n  {\n    \"window_id\": 0,\n    \"tab_id\": 0,\n    \"pane_id\": 0,\n    \"workspace\": \"default\",\n    \"size\": {\n      \"rows\": 47,\n      \"cols\": 175,\n      \"pixel_width\": 1400,\n      \"pixel_height\": 893,\n      \"dpi\": 96\n    },\n    \"title\": \"powershell.exe\",\n    \"cwd\": \"file:///\",\n    \"cursor_x\": 0,\n    \"cursor_y\": 7,\n    \"cursor_shape\": \"Default\",\n    \"cursor_visibility\": \"Visible\",\n    \"left_col\": 0,\n    \"top_row\": 0,\n    \"tab_title\": \"\",\n    \"window_title\": \"\",\n    \"is_active\": true,\n    \"is_zoomed\": false,\n    \"tty_name\": null\n  }\n]",
+    "stderr": ""
+  },
+  "fonts": {
+    "status": 0,
+    "stdout": "LeftToRight\n 0 E    \\u{45}       x_adv=8  cells=1  glyph=8    wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 1 n    \\u{6e}       x_adv=8  cells=1  glyph=144  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 2 g    \\u{67}       x_adv=8  cells=1  glyph=137  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 3 l    \\u{6c}       x_adv=8  cells=1  glyph=142  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 4 i    \\u{69}       x_adv=8  cells=1  glyph=139  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 5 s    \\u{73}       x_adv=8  cells=1  glyph=149  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 6 h    \\u{68}       x_adv=8  cells=1  glyph=138  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 7      \\u{20}       x_adv=8  cells=1  glyph=3    wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\nLeftToRight\n 0 中    \\u{4e2d}     x_adv=14 cells=2  glyph=1048 wezterm.font(\"Microsoft YaHei\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\MSYH.TTC, DirectWrite\n 3 文    \\u{6587}     x_adv=14 cells=2  glyph=1926 wezterm.font(\"Microsoft YaHei\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\MSYH.TTC, DirectWrite\n 6      \\u{20}       x_adv=8  cells=1  glyph=3    wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\nLeftToRight\n 0 0    \\u{30}       x_adv=8  cells=1  glyph=613  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 1 1    \\u{31}       x_adv=8  cells=1  glyph=616  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 2 2    \\u{32}       x_adv=8  cells=1  glyph=617  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 3 3    \\u{33}       x_adv=8  cells=1  glyph=618  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 4 4    \\u{34}       x_adv=8  cells=1  glyph=619  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 5 5    \\u{35}       x_adv=8  cells=1  glyph=620  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 6 6    \\u{36}       x_adv=8  cells=1  glyph=621  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 7 7    \\u{37}       x_adv=8  cells=1  glyph=622  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 8 8    \\u{38}       x_adv=8  cells=1  glyph=623  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n 9 9    \\u{39}       x_adv=8  cells=1  glyph=624  wezterm.font(\"Consolas\", {weight=\"Regular\", stretch=\"Normal\", style=\"Normal\"})\n                                      C:\\WINDOWS\\FONTS\\CONSOLA.TTF, DirectWrite\n",
+    "stderr": ""
+  },
+  "status": "captured",
+  "beforeCleanup": [
+    139696,
+    167360,
+    166152
+  ],
+  "remaining": []
+}

@@ -1,0 +1,9 @@
+{
+  "focused": true,
+  "copy": {
+    "ok": false,
+    "err": "Error: Error: INVALID_CLIPBOARD_TEXT"
+  },
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: clipboardRead must resolve to a string\n\nfalse !== true\n"
+}

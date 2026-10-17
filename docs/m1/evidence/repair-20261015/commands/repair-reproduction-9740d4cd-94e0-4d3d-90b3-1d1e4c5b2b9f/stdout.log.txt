@@ -1,0 +1,442 @@
+{
+  "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-repro-20261015a",
+  "status": "reproduced",
+  "metrics": [
+    {
+      "label": "initial",
+      "viewport": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "outerWidth": 1456,
+        "outerHeight": 939,
+        "dpr": 1,
+        "visualScale": 1,
+        "fonts": "loaded"
+      },
+      "shell": {
+        "window": [
+          47,
+          20
+        ],
+        "buffer": [
+          47,
+          20
+        ]
+      },
+      "panes": [
+        {
+          "footer": "真实 PowerShell104×20",
+          "xterm": {
+            "cols": 47,
+            "rows": 20,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 31
+            }
+          },
+          "submitted": "47x20"
+        },
+        {
+          "footer": "真实 PowerShell80×24",
+          "xterm": {
+            "cols": 47,
+            "rows": 20,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 31
+            }
+          },
+          "submitted": "47x20"
+        }
+      ]
+    },
+    {
+      "label": "window-small",
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 800,
+        "outerWidth": 1296,
+        "outerHeight": 839,
+        "dpr": 1,
+        "visualScale": 1,
+        "fonts": "loaded"
+      },
+      "shell": {
+        "window": [
+          37,
+          16
+        ],
+        "buffer": [
+          37,
+          16
+        ]
+      },
+      "panes": [
+        {
+          "footer": "真实 PowerShell47×20",
+          "xterm": {
+            "cols": 37,
+            "rows": 16,
+            "cell": {
+              "width": 7.702702702702703,
+              "height": 31
+            }
+          },
+          "submitted": "37x16"
+        },
+        {
+          "footer": "真实 PowerShell47×20",
+          "xterm": {
+            "cols": 37,
+            "rows": 16,
+            "cell": {
+              "width": 7.702702702702703,
+              "height": 31
+            }
+          },
+          "submitted": "37x16"
+        }
+      ]
+    },
+    {
+      "label": "drawer-closed",
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 800,
+        "outerWidth": 1296,
+        "outerHeight": 839,
+        "dpr": 1,
+        "visualScale": 1,
+        "fonts": "loaded"
+      },
+      "shell": {
+        "window": [
+          57,
+          16
+        ],
+        "buffer": [
+          57,
+          16
+        ]
+      },
+      "panes": [
+        {
+          "footer": "真实 PowerShell57×16",
+          "xterm": {
+            "cols": 57,
+            "rows": 16,
+            "cell": {
+              "width": 7.701754385964913,
+              "height": 31
+            }
+          },
+          "submitted": "57x16"
+        },
+        {
+          "footer": "真实 PowerShell57×16",
+          "xterm": {
+            "cols": 57,
+            "rows": 16,
+            "cell": {
+              "width": 7.701754385964913,
+              "height": 31
+            }
+          },
+          "submitted": "57x16"
+        }
+      ]
+    },
+    {
+      "label": "drawer-open",
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 800,
+        "outerWidth": 1296,
+        "outerHeight": 839,
+        "dpr": 1,
+        "visualScale": 1,
+        "fonts": "loaded"
+      },
+      "shell": {
+        "window": [
+          37,
+          16
+        ],
+        "buffer": [
+          37,
+          16
+        ]
+      },
+      "panes": [
+        {
+          "footer": "真实 PowerShell37×16",
+          "xterm": {
+            "cols": 37,
+            "rows": 16,
+            "cell": {
+              "width": 7.702702702702703,
+              "height": 31
+            }
+          },
+          "submitted": "37x16"
+        },
+        {
+          "footer": "真实 PowerShell37×16",
+          "xterm": {
+            "cols": 37,
+            "rows": 16,
+            "cell": {
+              "width": 7.702702702702703,
+              "height": 31
+            }
+          },
+          "submitted": "37x16"
+        }
+      ]
+    },
+    {
+      "label": "window-restored",
+      "viewport": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "outerWidth": 1456,
+        "outerHeight": 939,
+        "dpr": 1,
+        "visualScale": 1,
+        "fonts": "loaded"
+      },
+      "shell": {
+        "window": [
+          47,
+          20
+        ],
+        "buffer": [
+          47,
+          20
+        ]
+      },
+      "panes": [
+        {
+          "footer": "真实 PowerShell37×16",
+          "xterm": {
+            "cols": 47,
+            "rows": 20,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 31
+            }
+          },
+          "submitted": "47x20"
+        },
+        {
+          "footer": "真实 PowerShell37×16",
+          "xterm": {
+            "cols": 47,
+            "rows": 20,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 31
+            }
+          },
+          "submitted": "47x20"
+        }
+      ]
+    },
+    {
+      "label": "split-down",
+      "viewport": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "outerWidth": 1456,
+        "outerHeight": 939,
+        "dpr": 1,
+        "visualScale": 1,
+        "fonts": "loaded"
+      },
+      "shell": {
+        "window": [
+          47,
+          8
+        ],
+        "buffer": [
+          47,
+          8
+        ]
+      },
+      "panes": [
+        {
+          "footer": "真实 PowerShell47×8",
+          "xterm": {
+            "cols": 47,
+            "rows": 8,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 31
+            }
+          },
+          "submitted": "47x8"
+        },
+        {
+          "footer": "真实 PowerShell47×8",
+          "xterm": {
+            "cols": 47,
+            "rows": 8,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 31
+            }
+          },
+          "submitted": "47x8"
+        },
+        {
+          "footer": "真实 PowerShell47×20",
+          "xterm": {
+            "cols": 47,
+            "rows": 20,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 31
+            }
+          },
+          "submitted": "47x20"
+        }
+      ]
+    },
+    {
+      "label": "zoomed",
+      "viewport": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "outerWidth": 1456,
+        "outerHeight": 939,
+        "dpr": 1,
+        "visualScale": 1,
+        "fonts": "loaded"
+      },
+      "shell": {
+        "window": [
+          104,
+          20
+        ],
+        "buffer": [
+          104,
+          20
+        ]
+      },
+      "panes": [
+        {
+          "footer": "真实 PowerShell47×8",
+          "xterm": {
+            "cols": 47,
+            "rows": 8,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 31
+            }
+          },
+          "submitted": "47x8"
+        },
+        {
+          "footer": "真实 PowerShell47×8",
+          "xterm": {
+            "cols": 104,
+            "rows": 20,
+            "cell": {
+              "width": 7.701923076923077,
+              "height": 31
+            }
+          },
+          "submitted": "104x20"
+        },
+        {
+          "footer": "真实 PowerShell47×20",
+          "xterm": {
+            "cols": 47,
+            "rows": 20,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 31
+            }
+          },
+          "submitted": "47x20"
+        }
+      ]
+    },
+    {
+      "label": "zoom-restored",
+      "viewport": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "outerWidth": 1456,
+        "outerHeight": 939,
+        "dpr": 1,
+        "visualScale": 1,
+        "fonts": "loaded"
+      },
+      "shell": {
+        "window": [
+          47,
+          8
+        ],
+        "buffer": [
+          47,
+          8
+        ]
+      },
+      "panes": [
+        {
+          "footer": "真实 PowerShell47×8",
+          "xterm": {
+            "cols": 47,
+            "rows": 8,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 31
+            }
+          },
+          "submitted": "47x8"
+        },
+        {
+          "footer": "真实 PowerShell104×20",
+          "xterm": {
+            "cols": 47,
+            "rows": 8,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 31
+            }
+          },
+          "submitted": "47x8"
+        },
+        {
+          "footer": "真实 PowerShell47×20",
+          "xterm": {
+            "cols": 47,
+            "rows": 20,
+            "cell": {
+              "width": 7.702127659574468,
+              "height": 31
+            }
+          },
+          "submitted": "47x20"
+        }
+      ]
+    }
+  ],
+  "cleanup": [
+    {
+      "label": "prototype",
+      "mainPid": 169408,
+      "createdAt": "134365377702634242",
+      "beforeFallback": [],
+      "remaining": []
+    },
+    {
+      "label": "application",
+      "mainPid": 167752,
+      "createdAt": "134365377706510541",
+      "beforeFallback": [],
+      "remaining": []
+    }
+  ]
+}

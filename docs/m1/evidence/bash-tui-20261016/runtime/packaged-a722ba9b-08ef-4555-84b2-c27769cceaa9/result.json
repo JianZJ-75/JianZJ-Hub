@@ -1,0 +1,69 @@
+{
+  "status": "fail",
+  "error": "Error: PACKAGED_CONDITION_TIMEOUT:false\n    at until (file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:35:220)\n    at async file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:105:5\n    at async check (file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:61:50)\n    at async file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:97:3",
+  "checks": [
+    {
+      "name": "unmodified packaged executable opens real workspace through form and xterm input",
+      "status": "pass",
+      "detail": {
+        "url": "file:///D:/Code/JianZJ-Hub/release/m1/2026-10-15T17-44-16-215Z-1223e54b/win-unpacked/resources/app.asar/out/m1/renderer/index.html",
+        "node": "undefined",
+        "executable": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T17-44-16-215Z-1223e54b\\win-unpacked\\Workstation.exe"
+      }
+    },
+    {
+      "name": "packaged right/down splits, drawer focus, zoom and live resize",
+      "status": "pass",
+      "detail": [
+        "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-a722ba9b-08ef-4555-84b2-c27769cceaa976×35Git Bash",
+        "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-a722ba9b-08ef-4555-84b2-c27769cceaa976×14Git Bash",
+        "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-a722ba9b-08ef-4555-84b2-c27769cceaa976×14Git Bash"
+      ]
+    },
+    {
+      "name": "packaged explicit dark/light theme and terminal pane shutdown preserve other panes",
+      "status": "pass",
+      "detail": [
+        {
+          "theme": "dark",
+          "terminal": "#1b1f27"
+        },
+        {
+          "theme": "light",
+          "terminal": "#fbfcfe"
+        }
+      ]
+    }
+  ],
+  "fallbackPids": [
+    182408,
+    168000,
+    170260,
+    180368,
+    168876,
+    140892,
+    170136,
+    148852,
+    132912,
+    166064,
+    141304,
+    182276,
+    181056,
+    140408,
+    176772,
+    182924,
+    168444,
+    158152,
+    181648,
+    168432,
+    162248,
+    169940,
+    129652,
+    163708,
+    154612,
+    156152,
+    163940,
+    182200,
+    162908
+  ]
+}

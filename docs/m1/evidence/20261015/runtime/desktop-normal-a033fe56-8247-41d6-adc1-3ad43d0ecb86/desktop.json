@@ -1,0 +1,195 @@
+{
+  "status": "fail",
+  "error": "Error: UI_TIMEOUT:!!document.querySelector('.space-hint') && !!document.querySelector('.space-constrained')",
+  "checks": [
+    {
+      "name": "actual product new-workspace form opens real PowerShell",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-bd76d90f-ade4-4b50-98ec-0e702de6fb50",
+          "paneId": "pane-70673ea7-92d5-4bef-8e1c-8d5054004d12",
+          "workspaceId": "workspace-7a5b2492-f948-436b-8924-4337f8e11c8d",
+          "generation": 1,
+          "state": "running",
+          "cols": 102,
+          "rows": 20,
+          "pid": 172112,
+          "createdAt": "134365338414793238",
+          "workerPid": 132524,
+          "workerCreatedAt": "134365338414294340",
+          "bytes": 0,
+          "peak": 443,
+          "pending": 0,
+          "pids": [
+            132524,
+            171396,
+            172112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "right/down nested splits preserve existing xterm DOM instance and session IDs",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-bd76d90f-ade4-4b50-98ec-0e702de6fb50",
+          "paneId": "pane-70673ea7-92d5-4bef-8e1c-8d5054004d12",
+          "workspaceId": "workspace-7a5b2492-f948-436b-8924-4337f8e11c8d",
+          "generation": 1,
+          "state": "running",
+          "cols": 46,
+          "rows": 20,
+          "pid": 172112,
+          "createdAt": "134365338414793238",
+          "workerPid": 132524,
+          "workerCreatedAt": "134365338414294340",
+          "bytes": 0,
+          "peak": 443,
+          "pending": 0,
+          "pids": [
+            132524,
+            171396,
+            172112
+          ]
+        },
+        {
+          "sessionId": "session-993f7d3e-a788-400f-afcf-0fe4091a78e3",
+          "paneId": "pane-c34f4827-41cc-4842-aae2-f5e856e553e7",
+          "workspaceId": "workspace-7a5b2492-f948-436b-8924-4337f8e11c8d",
+          "generation": 1,
+          "state": "running",
+          "cols": 46,
+          "rows": 8,
+          "pid": 170680,
+          "createdAt": "134365338447935927",
+          "workerPid": 168272,
+          "workerCreatedAt": "134365338447465133",
+          "bytes": 0,
+          "peak": 87,
+          "pending": 0,
+          "pids": [
+            168272,
+            171436,
+            170680
+          ]
+        },
+        {
+          "sessionId": "session-7507883a-3eaf-4c18-a2b2-38edd1a8fb69",
+          "paneId": "pane-9870da58-e920-4b0d-b0fb-76296098f5bb",
+          "workspaceId": "workspace-7a5b2492-f948-436b-8924-4337f8e11c8d",
+          "generation": 1,
+          "state": "running",
+          "cols": 46,
+          "rows": 8,
+          "pid": 144536,
+          "createdAt": "134365338480334522",
+          "workerPid": 173016,
+          "workerCreatedAt": "134365338479861099",
+          "bytes": 0,
+          "peak": 53,
+          "pending": 0,
+          "pids": [
+            173016,
+            157952,
+            144536
+          ]
+        }
+      ]
+    },
+    {
+      "name": "auxiliary input focus returns to original terminal and fits nonzero sizes",
+      "status": "pass",
+      "detail": [
+        {
+          "paneId": "pane-70673ea7-92d5-4bef-8e1c-8d5054004d12",
+          "cols": 66,
+          "rows": 20
+        },
+        {
+          "paneId": "pane-c34f4827-41cc-4842-aae2-f5e856e553e7",
+          "cols": 66,
+          "rows": 8
+        },
+        {
+          "paneId": "pane-9870da58-e920-4b0d-b0fb-76296098f5bb",
+          "cols": 66,
+          "rows": 8
+        }
+      ]
+    },
+    {
+      "name": "zoom/focus retains all sessions and xterm elements",
+      "status": "pass",
+      "detail": {
+        "sessions": 3
+      }
+    },
+    {
+      "name": "rename keeps session; close folds only current leaf and other sessions survive",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-bd76d90f-ade4-4b50-98ec-0e702de6fb50",
+          "paneId": "pane-70673ea7-92d5-4bef-8e1c-8d5054004d12",
+          "workspaceId": "workspace-7a5b2492-f948-436b-8924-4337f8e11c8d",
+          "generation": 1,
+          "state": "running",
+          "cols": 66,
+          "rows": 20,
+          "pid": 172112,
+          "createdAt": "134365338414793238",
+          "workerPid": 132524,
+          "workerCreatedAt": "134365338414294340",
+          "bytes": 0,
+          "peak": 443,
+          "pending": 0,
+          "pids": [
+            132524,
+            171396,
+            172112
+          ]
+        },
+        {
+          "sessionId": "session-993f7d3e-a788-400f-afcf-0fe4091a78e3",
+          "paneId": "pane-c34f4827-41cc-4842-aae2-f5e856e553e7",
+          "workspaceId": "workspace-7a5b2492-f948-436b-8924-4337f8e11c8d",
+          "generation": 1,
+          "state": "running",
+          "cols": 66,
+          "rows": 20,
+          "pid": 170680,
+          "createdAt": "134365338447935927",
+          "workerPid": 168272,
+          "workerCreatedAt": "134365338447465133",
+          "bytes": 0,
+          "peak": 87,
+          "pending": 0,
+          "pids": [
+            168272,
+            171436,
+            170680
+          ]
+        }
+      ]
+    },
+    {
+      "name": "real pointer splitter drag resizes Shell and preserves other sessions",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-bd76d90f-ade4-4b50-98ec-0e702de6fb50",
+          "cols": 72,
+          "rows": 20
+        },
+        {
+          "sessionId": "session-993f7d3e-a788-400f-afcf-0fe4091a78e3",
+          "cols": 60,
+          "rows": 20
+        }
+      ]
+    }
+  ],
+  "consoleErrors": []
+}

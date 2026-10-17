@@ -1,0 +1,71 @@
+{
+  "status": "fail",
+  "error": "Error: PACKAGED_CONDITION_TIMEOUT:false\n    at until (file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:35:220)\n    at async file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:125:7\n    at async check (file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:61:50)\n    at async file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:113:3",
+  "checks": [
+    {
+      "name": "unmodified packaged executable opens real workspace through form and xterm input",
+      "status": "pass",
+      "detail": {
+        "url": "file:///D:/Code/JianZJ-Hub/release/m1/2026-10-15T17-44-16-215Z-1223e54b/win-unpacked/resources/app.asar/out/m1/renderer/index.html",
+        "node": "undefined",
+        "executable": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T17-44-16-215Z-1223e54b\\win-unpacked\\Workstation.exe"
+      }
+    },
+    {
+      "name": "packaged right/down splits, drawer focus, zoom and live resize",
+      "status": "pass",
+      "detail": [
+        "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-70273607-abb9-4a46-9d33-488c334a6ae476×35Git Bash",
+        "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-70273607-abb9-4a46-9d33-488c334a6ae476×14Git Bash",
+        "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-70273607-abb9-4a46-9d33-488c334a6ae476×14Git Bash"
+      ]
+    },
+    {
+      "name": "packaged explicit dark/light theme and terminal pane shutdown preserve other panes",
+      "status": "pass",
+      "detail": [
+        {
+          "theme": "dark",
+          "terminal": "#1b1f27"
+        },
+        {
+          "theme": "light",
+          "terminal": "#fbfcfe"
+        }
+      ]
+    },
+    {
+      "name": "packaged real xterm consumes high output with complete record hash and Unicode tail",
+      "status": "pass",
+      "detail": {
+        "records": 16000,
+        "sha256": "523fb0e148369899a3a413b7968e4e30642f2662dc934bde8bfe00036498f0c5",
+        "unicodeTail": true,
+        "realXtermConsumer": true,
+        "scrollbackLimit": 4000
+      }
+    }
+  ],
+  "fallbackPids": [
+    176672,
+    175904,
+    176596,
+    181992,
+    149408,
+    166088,
+    147748,
+    182008,
+    166920,
+    145916,
+    158052,
+    178848,
+    165188,
+    178092,
+    171464,
+    180596,
+    180992,
+    182496,
+    147392,
+    170584
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "status": "pass",
+  "conditions": {
+    "content": [
+      1440,
+      900
+    ],
+    "dpr": 1,
+    "fontSize": 14,
+    "theme": "light",
+    "layout": "new right split",
+    "drawer": "explicitly opened for matched state; closed on startup"
+  },
+  "application": {
+    "viewport": {
+      "w": 1440,
+      "h": 900,
+      "dpr": 1
+    },
+    "nodes": {
+      ".outer": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900,
+        "padding": "14px 16px",
+        "borderRadius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "14px"
+      },
+      ".app": {
+        "x": 16,
+        "y": 14,
+        "w": 1408,
+        "h": 842.40625,
+        "padding": "0px",
+        "borderRadius": "13px",
+        "background": "rgb(245, 247, 250)",
+        "fontSize": "14px"
+      },
+      ".sidebar": {
+        "x": 17,
+        "y": 15,
+        "w": 174,
+        "h": 840.40625,
+        "padding": "18px 12px",
+        "borderRadius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "14px"
+      },
+      ".header": {
+        "x": 191,
+        "y": 15,
+        "w": 1232,
+        "h": 58,
+        "padding": "0px 20px",
+        "borderRadius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "14px"
+      },
+      ".workbar": {
+        "x": 191,
+        "y": 73,
+        "w": 1232,
+        "h": 47,
+        "padding": "0px 14px",
+        "borderRadius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "14px"
+      },
+      ".terminal-stage": {
+        "x": 203,
+        "y": 120,
+        "w": 859,
+        "h": 723.40625,
+        "padding": "0px",
+        "borderRadius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "14px"
+      },
+      ".drawer": {
+        "x": 1072,
+        "y": 120,
+        "w": 294,
+        "h": 723.40625,
+        "padding": "0px",
+        "borderRadius": "9px",
+        "background": "rgb(255, 255, 255)",
+        "fontSize": "14px"
+      },
+      ".tools": {
+        "x": 1376,
+        "y": 120,
+        "w": 47,
+        "h": 723.40625,
+        "padding": "2px 7px 0px 0px",
+        "borderRadius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "14px"
+      },
+      ".pane-head": {
+        "x": 204,
+        "y": 121,
+        "w": 422.5,
+        "h": 39,
+        "padding": "0px 10px",
+        "borderRadius": "0px",
+        "background": "rgb(241, 244, 248)",
+        "fontSize": "14px"
+      },
+      ".pane-foot": {
+        "x": 204,
+        "y": 813.40625,
+        "w": 422.5,
+        "h": 29,
+        "padding": "0px 12px",
+        "borderRadius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "10px"
+      }
+    }
+  },
+  "prototype": {
+    "viewport": {
+      "w": 1440,
+      "h": 900,
+      "dpr": 1
+    },
+    "nodes": {
+      ".outer": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900,
+        "padding": "14px 16px",
+        "borderRadius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "14px"
+      },
+      ".app": {
+        "x": 16,
+        "y": 14,
+        "w": 1408,
+        "h": 842.40625,
+        "padding": "0px",
+        "borderRadius": "13px",
+        "background": "rgb(245, 247, 250)",
+        "fontSize": "14px"
+      },
+      ".sidebar": {
+        "x": 17,
+        "y": 15,
+        "w": 174,
+        "h": 840.40625,
+        "padding": "18px 12px",
+        "borderRadius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "14px"
+      },
+      ".header": {
+        "x": 191,
+        "y": 15,
+        "w": 1232,
+        "h": 58,
+        "padding": "0px 20px",
+        "borderRadius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "14px"
+      },
+      ".workbar": {
+        "x": 191,
+        "y": 73,
+        "w": 1232,
+        "h": 47,
+        "padding": "0px 14px",
+        "borderRadius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "14px"
+      },
+      ".terminal-stage": {
+        "x": 203,
+        "y": 120,
+        "w": 859,
+        "h": 723.40625,
+        "padding": "0px",
+        "borderRadius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "14px"
+      },
+      ".drawer": {
+        "x": 1072,
+        "y": 120,
+        "w": 294,
+        "h": 723.40625,
+        "padding": "0px",
+        "borderRadius": "9px",
+        "background": "rgb(255, 255, 255)",
+        "fontSize": "14px"
+      },
+      ".tools": {
+        "x": 1376,
+        "y": 120,
+        "w": 47,
+        "h": 723.40625,
+        "padding": "2px 7px 0px 0px",
+        "borderRadius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "14px"
+      },
+      ".pane-head": {
+        "x": 204,
+        "y": 121,
+        "w": 422.5,
+        "h": 39,
+        "padding": "0px 10px",
+        "borderRadius": "0px",
+        "background": "rgb(241, 244, 248)",
+        "fontSize": "14px"
+      },
+      ".pane-foot": {
+        "x": 204,
+        "y": 813.40625,
+        "w": 422.5,
+        "h": 29,
+        "padding": "0px 12px",
+        "borderRadius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "10px"
+      }
+    }
+  },
+  "scope": "outer shell equality, no fake PTY output; real text/labels/fonts may differ"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "fail",
+  "error": "Error: PACKAGED_CONDITION_TIMEOUT:false\n    at until (file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:33:220)\n    at async file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:69:5\n    at async check (file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:57:50)\n    at async file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:62:3",
+  "checks": [],
+  "fallbackPids": [
+    147224,
+    165008,
+    158036,
+    176380,
+    169324,
+    136008,
+    180068,
+    178856,
+    166856,
+    177296,
+    168180,
+    147688
+  ]
+}

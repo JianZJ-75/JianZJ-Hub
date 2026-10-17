@@ -1,0 +1,283 @@
+[
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "node_modules/electron-vite/bin/electron-vite.js",
+      "build",
+      "--config",
+      "electron.vite.m1.config.ts"
+    ],
+    "started": "2026-10-15T16:10:15.550Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\build-test-5b738f7e-5f0f-40ad-af14-47f2a81c3768",
+    "finished": "2026-10-15T16:10:17.031Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "scripts/m1/probe-run.mjs",
+      "desktop",
+      "normal"
+    ],
+    "started": "2026-10-15T16:10:24.147Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\desktop-normal-21562056-4974-4529-a4a3-ad5d9987fd06",
+    "finished": "2026-10-15T16:10:46.981Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "scripts/m1/probe-run.mjs",
+      "fault",
+      "main-crash"
+    ],
+    "started": "2026-10-15T16:11:55.835Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\fault-main-crash-be0aeebc-58b6-47c9-a89f-5f4dc7db64f7",
+    "finished": "2026-10-15T16:11:59.482Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "scripts/m1/probe-run.mjs",
+      "fault",
+      "service-fault"
+    ],
+    "started": "2026-10-15T16:11:52.143Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\fault-service-fault-830c02e6-361b-4848-ae7d-6582e8cb42df",
+    "finished": "2026-10-15T16:11:55.798Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "scripts/m1/packaged-test.mjs"
+    ],
+    "started": "2026-10-15T16:12:13.525Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\packaged-runtime-40752c59-ae53-4d5d-a44c-18ab57c35dde",
+    "finished": "2026-10-15T16:12:47.608Z",
+    "exitCode": 1
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "scripts/m1/packaged-test.mjs"
+    ],
+    "started": "2026-10-15T16:15:39.608Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\packaged-runtime-9d503978-00b8-4f10-a12c-75e2717bc511",
+    "finished": "2026-10-15T16:15:59.202Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "scripts/m1/probe-run.mjs",
+      "probe",
+      "normal"
+    ],
+    "started": "2026-10-15T16:10:17.070Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\probe-normal-b79570b4-29f7-42eb-9564-785e102bf0a9",
+    "finished": "2026-10-15T16:10:24.113Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "scripts/m1/probe-run.mjs",
+      "stress",
+      "normal"
+    ],
+    "started": "2026-10-15T16:10:47.017Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\stress-normal-e4d7b353-4355-49ee-9231-b6e8ac4ab5a7",
+    "finished": "2026-10-15T16:11:52.108Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "node_modules/electron-vite/bin/electron-vite.js",
+      "build",
+      "--config",
+      "electron.vite.m1.config.ts"
+    ],
+    "started": "2026-10-15T16:11:59.537Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\terminal-first-build-2c4181c2-2572-4f1a-ad98-52004da95ce2",
+    "finished": "2026-10-15T16:12:00.895Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "scripts/m1/probe-run.mjs",
+      "desktop"
+    ],
+    "started": "2026-10-15T16:09:18.372Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\terminal-first-desktop-fc1e53b8-ac21-4107-9cb1-b9fd70933f81",
+    "finished": "2026-10-15T16:09:42.221Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "scripts/m1/test.mjs",
+      "dev"
+    ],
+    "started": "2026-10-15T16:10:15.480Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\terminal-first-dev-69a79091-ce0e-4d6e-8c66-908c3bd12c0f",
+    "finished": "2026-10-15T16:11:59.491Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "scripts/m0/run.mjs",
+      "dev"
+    ],
+    "started": "2026-10-15T16:12:24.574Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\terminal-first-m0-dev-8551841a-d046-4949-ab93-d71f202388de",
+    "finished": "2026-10-15T16:14:35.509Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "scripts/m0/run.mjs",
+      "packaged"
+    ],
+    "started": "2026-10-15T16:14:35.555Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\terminal-first-m0-packaged-4ebbcdd8-85ec-4892-a571-d72eb0102f71",
+    "finished": "2026-10-15T16:16:47.051Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "--test",
+      "tests/m0/lifecycle.test.mjs",
+      "tests/m0/preparation.test.mjs",
+      "tests/m0/validation.test.mjs"
+    ],
+    "started": "2026-10-15T16:16:20.497Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\terminal-first-m0-unit-745553c8-32c1-40db-9675-e00bb23ebe7d",
+    "finished": "2026-10-15T16:16:20.763Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "scripts/m1/package.mjs"
+    ],
+    "started": "2026-10-15T16:12:00.942Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\terminal-first-package-68aa320e-8698-4cbb-8d8c-830b2b3c9138",
+    "finished": "2026-10-15T16:12:13.415Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "scripts/m1/test.mjs",
+      "packaged"
+    ],
+    "started": "2026-10-15T16:12:13.463Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\terminal-first-packaged-16e6d35b-0a72-400b-a25a-471a287e8cc0",
+    "finished": "2026-10-15T16:12:47.618Z",
+    "exitCode": 1
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "scripts/m1/test.mjs",
+      "packaged"
+    ],
+    "started": "2026-10-15T16:15:39.549Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\terminal-first-packaged-a3dc50d1-53dd-4878-a26d-8f4c6df3215f",
+    "finished": "2026-10-15T16:15:59.212Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "node_modules/typescript/bin/tsc",
+      "--noEmit"
+    ],
+    "started": "2026-10-15T16:16:19.668Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\terminal-first-typecheck-1d59f324-f1cf-4bd9-b4f5-47134a43f100",
+    "finished": "2026-10-15T16:16:20.282Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "--test",
+      "tests/m1/core.test.mjs",
+      "tests/m1/geometry.test.mjs"
+    ],
+    "started": "2026-10-15T16:16:20.326Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\terminal-first-unit-57405f49-ab2c-4f21-8a49-1514a9ac30f8",
+    "finished": "2026-10-15T16:16:20.454Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      ".m1-scratch/terminal-first-reference/application.mjs"
+    ],
+    "started": "2026-10-15T16:14:01.438Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\terminal-first-view-015b0a2b-2f05-4620-9595-684f6f37dcc0",
+    "finished": "2026-10-15T16:14:06.329Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      ".m1-scratch/terminal-first-reference/wezterm.mjs"
+    ],
+    "started": "2026-10-15T16:11:54.759Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\terminal-first-wezterm-d6a5fe83-fdbb-4428-8b40-a2d83fc52479",
+    "finished": "2026-10-15T16:11:55.934Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      ".m1-scratch/terminal-first-reference/wezterm-matched.mjs"
+    ],
+    "started": "2026-10-15T16:14:40.278Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\terminal-first-wezterm-matched-1f949ea9-c4ba-4577-8991-9164060bed95",
+    "finished": "2026-10-15T16:14:41.445Z",
+    "exitCode": 0
+  },
+  {
+    "cwd": "D:\\Code\\JianZJ-Hub",
+    "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "args": [
+      "scripts/m1/zip.mjs"
+    ],
+    "started": "2026-10-15T16:15:59.254Z",
+    "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\terminal-first-zip-6bebd9ee-61bf-4644-9106-04dac5d69bcf",
+    "finished": "2026-10-15T16:16:19.624Z",
+    "exitCode": 0
+  }
+]

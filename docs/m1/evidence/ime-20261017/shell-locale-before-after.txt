@@ -1,0 +1,6 @@
+=== BEFORE (no UTF-8 locale; pre-fix behavior) ===
+  BEG_<BS>344<BS>275<BS>240<BS>345<BS>245<BS>275<CR><LF><ESC>[?2004l<CR>BEG_<U+4f60><U+597d><CR><LF><ESC>]7;file:///c<BEL><ESC>[?2004hAdministrator:/c$ 
+=== AFTER (locale-free source via shellLaunch, fix applied) ===
+  BEG_<U+4f60><U+597d><CR><LF><ESC>[?2004l<CR>BEG_<U+4f60><U+597d><CR><LF><ESC>]7;file:///c<BEL><ESC>[?2004hAdministrator:/c$ 
+=== AFTER with LANG=zh_CN.UTF-8 (explicit locale preserved) ===
+  BEG_<U+4f60><U+597d><CR><LF><ESC>[?2004l<CR>BEG_<U+4f60><U+597d><CR><LF><ESC>]7;file:///c<BEL><ESC>[?2004hAdministrator:/c$ 

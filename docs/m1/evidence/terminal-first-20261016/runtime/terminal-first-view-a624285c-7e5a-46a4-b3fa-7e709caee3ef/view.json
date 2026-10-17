@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "metrics": {
+    "slot": {
+      "x": 150,
+      "y": 106,
+      "width": 1235,
+      "height": 767.40625
+    },
+    "viewport": {
+      "w": 1424,
+      "h": 921,
+      "dpr": 1
+    },
+    "font": "\"Cascadia Code\",\"Cascadia Mono\",\"SFMono-Regular\",Menlo,Consolas,\"Microsoft YaHei\",monospace",
+    "fontSize": 14,
+    "cell": {
+      "width": 7.696774193548387,
+      "height": 19
+    },
+    "grid": {
+      "cols": 155,
+      "rows": 39
+    },
+    "applied": "155x39",
+    "defaultTerminal": "终端",
+    "drawer": false
+  },
+  "scope": "fresh home shell, no project, no restored process, same synthetic sample as WezTerm",
+  "remaining": []
+}

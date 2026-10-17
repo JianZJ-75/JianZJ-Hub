@@ -1,0 +1,14 @@
+{
+  "cwd": "D:\\Code\\JianZJ-Hub",
+  "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+  "args": [
+    "--test",
+    "tests/m0/lifecycle.test.mjs",
+    "tests/m0/preparation.test.mjs",
+    "tests/m0/validation.test.mjs"
+  ],
+  "started": "2026-10-15T12:53:49.231Z",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\repair-m0-unit-2e5901b0-ad19-4859-a771-1fb3fb49563b",
+  "finished": "2026-10-15T12:53:49.557Z",
+  "exitCode": 0
+}
