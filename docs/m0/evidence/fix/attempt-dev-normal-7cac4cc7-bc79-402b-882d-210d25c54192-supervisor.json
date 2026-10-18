@@ -1,0 +1,19 @@
+{
+  "target": "dev",
+  "mode": "normal",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-normal-7cac4cc7-bc79-402b-882d-210d25c54192",
+  "started": "2026-10-14T08:44:37.666Z",
+  "control": {
+    "pid": 149512,
+    "createdAt": "134364410776690061"
+  },
+  "app": {
+    "pid": 143752,
+    "createdAt": "134364410776779362"
+  },
+  "exitCode": 1,
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: App failed: AssertionError [ERR_ASSERTION]: The input did not match the regular expression /INVALID_SHELL_OR_CWD/. Input:\n\n'Error: PTY_ERROR:Error: TerminateProcess(136052): Win32 5'\n\n    at async D:\\Code\\JianZJ-Hub\\out\\main\\index.js:320:5\n    at async check (D:\\Code\\JianZJ-Hub\\out\\main\\index.js:122:22)\n    at async verify (D:\\Code\\JianZJ-Hub\\out\\main\\index.js:318:3)\n    at async D:\\Code\\JianZJ-Hub\\out\\main\\index.js:462:7 {\n  generatedMessage: true,\n  code: 'ERR_ASSERTION',\n  actual: Error: PTY_ERROR:Error: TerminateProcess(136052): Win32 5\n      at ForkUtilityProcess.<anonymous> (D:\\Code\\JianZJ-Hub\\out\\main\\index.js:50:32)\n      at ForkUtilityProcess.emit (node:events:514:28)\n      at UtilityProcess.emit (node:electron/js2c/browser_init:1:91996),\n  expected: /INVALID_SHELL_OR_CWD/,\n  operator: 'rejects',\n  diff: 'simple'\n}\n\n\n1 !== 0\n\n    at file:///D:/Code/JianZJ-Hub/scripts/m0/run.mjs:62:14",
+  "fallbackPids": [],
+  "finished": "2026-10-14T08:44:49.957Z"
+}

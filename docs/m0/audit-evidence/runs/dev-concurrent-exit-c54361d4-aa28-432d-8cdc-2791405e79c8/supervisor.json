@@ -1,0 +1,19 @@
+{
+  "target": "dev",
+  "mode": "concurrent-exit",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-c54361d4-aa28-432d-8cdc-2791405e79c8",
+  "started": "2026-10-14T07:29:39.610Z",
+  "control": {
+    "pid": 137508,
+    "createdAt": "134364365796134628"
+  },
+  "app": {
+    "pid": 149884,
+    "createdAt": "134364365796229645"
+  },
+  "exitCode": 1,
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: App failed: Error: CONDITION_TIMEOUT:false\n    at until (D:\\Code\\JianZJ-Hub\\out\\main\\index.js:111:9)\n    at async D:\\Code\\JianZJ-Hub\\out\\main\\index.js:199:11\n    at async check (D:\\Code\\JianZJ-Hub\\out\\main\\index.js:122:22)\n    at async verify (D:\\Code\\JianZJ-Hub\\out\\main\\index.js:185:5)\n    at async D:\\Code\\JianZJ-Hub\\out\\main\\index.js:364:7\n\n\n1 !== 0\n\n    at file:///D:/Code/JianZJ-Hub/scripts/m0/run.mjs:57:14",
+  "fallbackPids": [],
+  "finished": "2026-10-14T07:30:22.550Z"
+}

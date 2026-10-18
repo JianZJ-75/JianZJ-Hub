@@ -1,0 +1,19 @@
+{
+  "target": "dev",
+  "mode": "normal",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-normal-9a29216b-9b83-487f-99f8-3c9bc77cf24a",
+  "started": "2026-10-14T08:29:14.617Z",
+  "control": {
+    "pid": 149900,
+    "createdAt": "134364401546195146"
+  },
+  "app": {
+    "pid": 130564,
+    "createdAt": "134364401546293071"
+  },
+  "exitCode": 1,
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: App failed: [Error: UnknownVizError]\n\n\n1 !== 0\n\n    at file:///D:/Code/JianZJ-Hub/scripts/m0/run.mjs:57:14",
+  "fallbackPids": [],
+  "finished": "2026-10-14T08:29:19.394Z"
+}

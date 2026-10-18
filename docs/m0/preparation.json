@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-14T06:49:26.527Z",
+  "phase": "M0 preparation only; execution blocked by tool permission",
+  "dependencies": {
+    "@xterm/addon-fit": "0.11.0",
+    "@xterm/xterm": "6.0.0",
+    "better-sqlite3": "13.0.3",
+    "koffi": "3.3.3",
+    "node-pty": "1.1.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "9.6.0",
+    "@types/node": "22.20.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "5.2.0",
+    "electron": "44.7.2",
+    "electron-builder": "26.15.3",
+    "electron-vite": "5.0.0",
+    "typescript": "7.0.2",
+    "vite": "7.3.7"
+  },
+  "simple": {
+    "version": "0.7.1",
+    "source": "https://github.com/wangfenjin/simple/releases/download/v0.7.1/libsimple-windows-x64.zip",
+    "bytes": 5473005,
+    "sha256": "7f03cc28cf307721f5621b5a52ef3bcb26c5215de012b09900492eb34d5bed0b"
+  },
+  "createdOrModifiedFiles": [
+    "package.json",
+    "package-lock.json",
+    ".gitignore"
+  ]
+}

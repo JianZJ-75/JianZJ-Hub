@@ -1,0 +1,5 @@
+Error: SERVICE_GONE:3221225477
+    at ForkUtilityProcess.<anonymous> (D:\Code\JianZJ-Hub\release\m0\win-unpacked\resources\app.asar\out\main\index.js:61:25)
+    at ForkUtilityProcess.wrapper (node:events:639:12)
+    at ForkUtilityProcess.emit (node:events:514:28)
+    at UtilityProcess.emit (node:electron/js2c/browser_init:1:91595)

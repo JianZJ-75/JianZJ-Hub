@@ -1,0 +1,238 @@
+{
+  "started": "2026-10-14T07:41:40.592Z",
+  "mode": "concurrent-exit",
+  "packaged": true,
+  "versions": {
+    "node": "24.21.0",
+    "acorn": "8.18.0",
+    "ada": "4.0.0",
+    "amaro": "1.1.11",
+    "ares": "1.34.8",
+    "brotli": "1.2.0",
+    "cldr": "48.0",
+    "icu": "78.2",
+    "llhttp": "9.4.3",
+    "merve": "1.2.2",
+    "modules": "149",
+    "napi": "10",
+    "nbytes": "0.1.4",
+    "ncrypto": "0.0.1",
+    "nghttp2": "1.70.0",
+    "nghttp3": "",
+    "ngtcp2": "",
+    "openssl": "0.0.0",
+    "simdjson": "4.6.7",
+    "simdutf": "7.7.0",
+    "sqlite": "3.53.4",
+    "tz": "2026d",
+    "undici": "7.29.1",
+    "unicode": "17.0",
+    "uv": "1.52.1",
+    "uvwasi": "0.0.23",
+    "v8": "15.2.124.37-electron.0",
+    "zlib": "1.3.2.1-motley",
+    "zstd": "1.6.0",
+    "electron": "44.7.2",
+    "chrome": "152.0.7977.149"
+  },
+  "mainPid": 148076,
+  "checks": [
+    {
+      "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+      "status": "pass",
+      "detail": {
+        "versions": {
+          "node": "24.21.0",
+          "acorn": "8.18.0",
+          "ada": "4.0.0",
+          "amaro": "1.1.11",
+          "ares": "1.34.8",
+          "brotli": "1.2.0",
+          "cldr": "48.0",
+          "icu": "78.2",
+          "llhttp": "9.4.3",
+          "merve": "1.2.2",
+          "modules": "149",
+          "napi": "10",
+          "nbytes": "0.1.4",
+          "ncrypto": "0.0.1",
+          "nghttp2": "1.70.0",
+          "nghttp3": "",
+          "ngtcp2": "",
+          "openssl": "0.0.0",
+          "simdjson": "4.6.7",
+          "simdutf": "7.7.0",
+          "sqlite": "3.53.4",
+          "tz": "2026d",
+          "undici": "7.29.1",
+          "unicode": "17.0",
+          "uv": "1.52.1",
+          "uvwasi": "0.0.23",
+          "v8": "15.2.124.37-electron.0",
+          "zlib": "1.3.2.1-motley",
+          "zstd": "1.6.0",
+          "electron": "44.7.2",
+          "chrome": "152.0.7977.149"
+        },
+        "sqlite": {
+          "version": "3.53.4"
+        },
+        "resource": "D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\simple",
+        "chinese": [
+          {
+            "body": "工作站支持中文搜索，周杰伦"
+          }
+        ],
+        "pinyin": [
+          {
+            "body": "工作站支持中文搜索，周杰伦"
+          }
+        ],
+        "jieba": [
+          {
+            "body": "工作站支持中文搜索，周杰伦"
+          }
+        ],
+        "native": [
+          "D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\app.asar\\node_modules\\better-sqlite3\\prebuilds\\win32-x64.node"
+        ]
+      }
+    },
+    {
+      "name": "actual GUI click and xterm keyboard input/output",
+      "status": "pass",
+      "detail": {
+        "session": {
+          "sessionId": "m0-36243977-3cec-44c7-b03f-208b43e5858b",
+          "generation": 1,
+          "pid": 149688,
+          "createdAt": "134364373011795338",
+          "cols": 80,
+          "rows": 24,
+          "state": "running"
+        },
+        "output": "\u001b[1t\u001b[c\u001b[?1004h\u001b[?9001hM0_GATE_da166b50-95c5-40e2-9c73-4af348c1753b\r\nPS D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329> \u001b[?25l\u001b[3;27H\u001b[93mW\u001b[39;49m\u001b[0m\u001b[3;28H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[3;25H\u001b[91m> \u001b[0m\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\u001b[39;49m\u001b[0m\u001b[3;48H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[39;49m\u001b[0m\u001b[3;49H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[39;49m\u001b[0m\u001b[3;50H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[37m(\u001b[39;49m\u001b[0m\u001b[3;51H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[37m(\u001b[97m1\u001b[39;49m\u001b[0m\u001b[3;52H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[37m(\u001b[97m10\u001b[39;49m\u001b[0m\u001b[3;53H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[37m(\u001b[97m10\u001b[90m+\u001b[39;49m\u001b[0m\u001b[3;54H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[37m(\u001b[97m10\u001b[90m+\u001b[97m7\u001b[39;49m\u001b[0m\u001b[3;55H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[37m(\u001b[97m10\u001b[90m+\u001b[97m7\u001b[37m)\u001b[39;49m\u001b[0m\u001b[3;56H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[3;25H\u001b[39;49m> \u001b[0m\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[37m(\u001b[97m10\u001b[90m+\u001b[97m7\u001b[37m))\u001b[39;49m\u001b[0m\u001b[3;57H\u001b[?25h\u001b[3;57H\r\n\u001b[0m\u001b[0mM0_UI_17\r\nPS D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329> "
+      }
+    },
+    {
+      "name": "PTY Unicode input and real arithmetic",
+      "status": "pass",
+      "detail": {
+        "output": "\u001b[?25l\u001b[3;36H\u001b[93mW\u001b[39;49m\u001b[0m\u001b[3;37H\u001b[?25h\u001b[?25l\u001b[3;36H\u001b[3;34H\u001b[91m> \u001b[0m\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[39;49m\u001b[0m\u001b[3;60H\u001b[?25h\u001b[?25l\u001b[3;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[39;49m\u001b[0m\u001b[3;61H\u001b[?25h\u001b[?25l\u001b[3;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[39;49m\u001b[0m\u001b[3;62H\u001b[?25h\u001b[?25l\u001b[3;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[97m1\u001b[39;49m\u001b[0m\u001b[3;63H\u001b[?25h\u001b[?25l\u001b[3;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[97m19\u001b[39;49m\u001b[0m\u001b[3;64H\u001b[?25h\u001b[?25l\u001b[3;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[97m19\u001b[90m+\u001b[39;49m\u001b[0m\u001b[3;65H\u001b[?25h\u001b[?25l\u001b[3;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[97m19\u001b[90m+\u001b[97m2\u001b[39;49m\u001b[0m\u001b[3;66H\u001b[?25h\u001b[?25l\u001b[3;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[97m19\u001b[90m+\u001b[97m23\u001b[39;49m\u001b[0m\u001b[3;67H\u001b[?25h\u001b[?25l\u001b[3;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[97m19\u001b[90m+\u001b[97m23\u001b[37m)\u001b[39;49m\u001b[0m\u001b[3;68H\u001b[?25h\u001b[?25l\u001b[3;36H\u001b[3;34H\u001b[39;49m> \u001b[0m\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[97m19\u001b[90m+\u001b[97m23\u001b[37m))\u001b[39;49m\u001b[0m\u001b[3;69H\u001b[?25h\u001b[3;69H\r\n\u001b[0m\u001b[0mM0_中文_42\r\nPS D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329\\中文 cwd> ",
+        "session": {
+          "sessionId": "m0-1c09c643-2bb4-465f-bf29-fdb3f921722a",
+          "generation": 1,
+          "pid": 134280,
+          "createdAt": "134364373047348552",
+          "cols": 80,
+          "rows": 24,
+          "state": "running"
+        }
+      }
+    },
+    {
+      "name": "PSReadLine history is disabled and uses test-local path",
+      "status": "pass",
+      "detail": {
+        "disabled": true,
+        "testLocalPath": true,
+        "output": "\u001b[?25l\u001b[6;36H\u001b[93m$\u001b[39;49m\u001b[0m\u001b[6;37H\u001b[?25h\u001b[?25l\u001b[6;36H\u001b[6;34H\u001b[91m> \u001b[0m\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329\\\u001b[39;49m\u001b[0m\u001b[9;38H\u001b[?25h\u001b[?25l\u001b[6;36H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329\\中\u001b[39;49m\u001b[0m\u001b[9;40H\u001b[?25h\u001b[?25l\u001b[6;36H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329\\中文\u001b[39;49m\u001b[0m\u001b[9;42H\u001b[?25h\u001b[?25l\u001b[6;36H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329\\中文 \u001b[39;49m\u001b[0m\u001b[9;43H\u001b[?25h\u001b[?25l\u001b[6;36H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329\\中文 c\u001b[39;49m\u001b[0m\u001b[9;44H\u001b[?25h\u001b[?25l\u001b[6;36H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329\\中文 cw\u001b[39;49m\u001b[0m\u001b[9;45H\u001b[?25h\u001b[?25l\u001b[6;36H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329\\中文 cwd\u001b[39;49m\u001b[0m\u001b[9;46H\u001b[?25h\u001b[?25l\u001b[6;36H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329\\中文 cwd'\u001b[39;49m\u001b[0m\u001b[9;47H\u001b[?25h\u001b[?25l\u001b[6;36H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329\\中文 cwd'\u001b[37m)\u001b[39;49m\u001b[0m\u001b[9;48H\u001b[?25h\u001b[?25l\u001b[6;36H\u001b[6;34H\u001b[39;49m> \u001b[0m\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329\\中文 cwd'\u001b[37m))\u001b[39;49m\u001b[0m\u001b[9;49H\u001b[?25h\u001b[9;49H\r\n\u001b[0m\u001b[0mM0_HISTORY_SaveNothing\r\nM0_HISTORY_LOCAL_True\r\nPS D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329\\中文 cwd> "
+      }
+    },
+    {
+      "name": "PTY resize observed by real Shell",
+      "status": "pass",
+      "detail": {
+        "output": "\u001b[?25l\u001b[12;36H\u001b[93mW\u001b[39;49m\u001b[0m\u001b[12;37H\u001b[?25h\u001b[?25l\u001b[12;36H\u001b[12;34H\u001b[91m> \u001b[0m\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSiz\u001b[39;49m\u001b[0m\u001b[13;10H\u001b[?25h\u001b[?25l\u001b[12;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[39;49m\u001b[0m\u001b[13;11H\u001b[?25h\u001b[?25l\u001b[12;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[39;49m\u001b[0m\u001b[13;12H\u001b[?25h\u001b[?25l\u001b[12;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mH\u001b[39;49m\u001b[0m\u001b[13;13H\u001b[?25h\u001b[?25l\u001b[12;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mHe\u001b[39;49m\u001b[0m\u001b[13;14H\u001b[?25h\u001b[?25l\u001b[12;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mHei\u001b[39;49m\u001b[0m\u001b[13;15H\u001b[?25h\u001b[?25l\u001b[12;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mHeig\u001b[39;49m\u001b[0m\u001b[13;16H\u001b[?25h\u001b[?25l\u001b[12;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mHeigh\u001b[39;49m\u001b[0m\u001b[13;17H\u001b[?25h\u001b[?25l\u001b[12;36H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mHeight\u001b[39;49m\u001b[0m\u001b[13;18H\u001b[?25h\u001b[?25l\u001b[12;36H\u001b[12;34H\u001b[39;49m> \u001b[0m\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mHeight\u001b[37m)\u001b[39;49m\u001b[0m\u001b[13;19H\u001b[?25h\u001b[13;19H\r\n\u001b[0m\u001b[0mM0_SIZE_111x37\r\nPS D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329\\中文 cwd> "
+      }
+    },
+    {
+      "name": "invalid size and stale generation rejected",
+      "status": "pass",
+      "detail": {
+        "rejected": [
+          "INVALID_SIZE",
+          "STALE_SESSION"
+        ]
+      }
+    },
+    {
+      "name": "three pairs of simultaneous natural exits preserve PTY service",
+      "status": "fail",
+      "detail": "Error: CONDITION_TIMEOUT:false"
+    }
+  ],
+  "mainNative": {
+    "sqlite": {
+      "version": "3.53.4"
+    },
+    "native": [
+      "D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\app.asar\\node_modules\\@koromix\\koffi-win32-x64\\win32_x64\\koffi.node",
+      "D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\app.asar\\node_modules\\better-sqlite3\\prebuilds\\win32-x64.node"
+    ]
+  },
+  "services": [
+    {
+      "pid": 149576,
+      "createdAt": "134364373006265087",
+      "jobPids": [
+        149576
+      ]
+    },
+    {
+      "pid": 150148,
+      "createdAt": "134364373006324478",
+      "jobPids": [
+        150148
+      ]
+    }
+  ],
+  "concurrentFailure": {
+    "processes": [
+      {
+        "pid": 149236,
+        "exited": true
+      },
+      {
+        "pid": 149144,
+        "exited": true
+      }
+    ],
+    "events": [
+      {
+        "type": "exit",
+        "sessionId": "m0-ed0470c9-3224-4998-85b0-fd4ff2a8f8db",
+        "generation": 1,
+        "seq": 89
+      },
+      {
+        "type": "exit",
+        "sessionId": "m0-8f0c66b6-5898-4531-93ca-e347b22bd958",
+        "generation": 1,
+        "exitCode": 5,
+        "seq": 74
+      }
+    ],
+    "outputs": [
+      "\r\nPS D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329> \u001b[?25l\u001b[3;27H\u001b[93m$\u001b[39;49m\u001b[0m\u001b[3;28H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[3;25H\u001b[91m> \u001b[0m\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m(\u001b[39;49m\u001b[0m\u001b[5;62H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[3;25H\u001b[39;49m> \u001b[0m\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m()\u001b[39;49m\u001b[0m\u001b[5;63H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m\u001b[0m\u001b[5;64H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m \u001b[39;49m\u001b[0m\u001b[5;65H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m \u001b[93me\u001b[39;49m\u001b[0m\u001b[5;66H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m \u001b[93mex\u001b[39;49m\u001b[0m\u001b[5;67H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m \u001b[93mexi\u001b[39;49m\u001b[0m\u001b[5;68H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m \u001b[92mexit\u001b[39;49m\u001b[0m\u001b[5;69H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m \u001b[92mexit\u001b[39;49m \u001b[39;49m\u001b[0m\u001b[5;70H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m \u001b[92mexit\u001b[39;49m \u001b[97m5\u001b[39;49m\u001b[0m\u001b[5;71H\u001b[?25h\u001b[5;71H\r\n\u001b[0m\u001b[0mM0_SYNC_READY\r\n",
+      "\r\nPS D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-concurrent-exit-5ed310c5-c24a-4508-9e88-5398b0dae329> \u001b[?25l\u001b[3;27H\u001b[3;25H\u001b[91m> \u001b[0m\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m(\u001b[39;49m\u001b[0m\u001b[5;62H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[3;25H\u001b[39;49m> \u001b[0m\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m()\u001b[39;49m\u001b[0m\u001b[5;63H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m\u001b[0m\u001b[5;64H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m \u001b[39;49m\u001b[0m\u001b[5;65H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m \u001b[93me\u001b[39;49m\u001b[0m\u001b[5;66H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m \u001b[93mex\u001b[39;49m\u001b[0m\u001b[5;67H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m \u001b[93mexi\u001b[39;49m\u001b[0m\u001b[5;68H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m \u001b[92mexit\u001b[39;49m\u001b[0m\u001b[5;69H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m \u001b[92mexit\u001b[39;49m \u001b[39;49m\u001b[0m\u001b[5;70H\u001b[?25h\u001b[?25l\u001b[3;27H\u001b[92m$g\u001b[90m=\u001b[37m[System.Threading.EventWaitHandle]::\u001b[97mOpenExisting\u001b[37m(\u001b[36m'Local\\JianZJHub-M0-0d46418b-df90-4a7d-a0aa-f6c1ee8ad5ad'\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_SYNC_'\u001b[90m+\u001b[36m'READY'\u001b[37m);\u001b[39;49m \u001b[92mif\u001b[37m(\u001b[90m-not\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mWaitOne\u001b[37m(\u001b[97m15000\u001b[37m)){\u001b[92mexit\u001b[39;49m \u001b[97m91\u001b[37m};\u001b[39;49m \u001b[92m$g\u001b[37m.\u001b[97mDispose\u001b[37m();\u001b[39;49m \u001b[92mexit\u001b[39;49m \u001b[97m5\u001b[39;49m\u001b[0m\u001b[5;71H\u001b[?25h\u001b[5;71H\r\n\u001b[0m\u001b[0mM0_SYNC_READY\r\n"
+    ]
+  },
+  "failure": "Error: CONDITION_TIMEOUT:false\n    at until (D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\app.asar\\out\\main\\index.js:111:9)\n    at async D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\app.asar\\out\\main\\index.js:204:11\n    at async check (D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\app.asar\\out\\main\\index.js:122:22)\n    at async verify (D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\app.asar\\out\\main\\index.js:190:5)\n    at async D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\app.asar\\out\\main\\index.js:369:7",
+  "cleanup": [
+    {
+      "beforeFallback": [
+        149576
+      ],
+      "remaining": [],
+      "exitCode": 0
+    },
+    {
+      "beforeFallback": [
+        150148
+      ],
+      "remaining": [],
+      "exitCode": 0
+    }
+  ]
+}

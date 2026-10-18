@@ -1,0 +1,50 @@
+
+> jianzj-hub@0.0.0 test
+> node --test tests/m0/*.test.mjs
+
+TAP version 13
+# Subtest: exit is emitted once and requires an actual DWORD exit code
+ok 1 - exit is emitted once and requires an actual DWORD exit code
+  ---
+  duration_ms: 0.6314
+  type: 'test'
+  ...
+# Subtest: failed native worker remains failed after confirmed process cleanup
+ok 2 - failed native worker remains failed after confirmed process cleanup
+  ---
+  duration_ms: 0.08
+  type: 'test'
+  ...
+# Subtest: close is idempotent and exited sessions cannot restart
+ok 3 - close is idempotent and exited sessions cannot restart
+  ---
+  duration_ms: 0.0791
+  type: 'test'
+  ...
+# Subtest: size rejects zero, fractional, NaN, string and excessive values
+ok 4 - size rejects zero, fractional, NaN, string and excessive values
+  ---
+  duration_ms: 0.9448
+  type: 'test'
+  ...
+# Subtest: session ID is scoped, not an arbitrary process identifier
+ok 5 - session ID is scoped, not an arbitrary process identifier
+  ---
+  duration_ms: 0.2098
+  type: 'test'
+  ...
+# Subtest: write preserves control input but limits UTF-8 byte size
+ok 6 - write preserves control input but limits UTF-8 byte size
+  ---
+  duration_ms: 0.4775
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 49.5724

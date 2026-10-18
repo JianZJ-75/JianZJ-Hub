@@ -1,0 +1,715 @@
+{
+  "target": "dev",
+  "mode": "concurrent-exit",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3",
+  "started": "2026-10-14T08:33:35.726Z",
+  "control": {
+    "pid": 126828,
+    "createdAt": "134364404157284767"
+  },
+  "app": {
+    "pid": 149640,
+    "createdAt": "134364404157380636"
+  },
+  "exitCode": 0,
+  "appResult": {
+    "started": "2026-10-14T08:33:35.785Z",
+    "mode": "concurrent-exit",
+    "packaged": false,
+    "versions": {
+      "node": "24.21.0",
+      "acorn": "8.18.0",
+      "ada": "4.0.0",
+      "amaro": "1.1.11",
+      "ares": "1.34.8",
+      "brotli": "1.2.0",
+      "cldr": "48.0",
+      "icu": "78.2",
+      "llhttp": "9.4.3",
+      "merve": "1.2.2",
+      "modules": "149",
+      "napi": "10",
+      "nbytes": "0.1.4",
+      "ncrypto": "0.0.1",
+      "nghttp2": "1.70.0",
+      "nghttp3": "",
+      "ngtcp2": "",
+      "openssl": "0.0.0",
+      "simdjson": "4.6.7",
+      "simdutf": "7.7.0",
+      "sqlite": "3.53.4",
+      "tz": "2026d",
+      "undici": "7.29.1",
+      "unicode": "17.0",
+      "uv": "1.52.1",
+      "uvwasi": "0.0.23",
+      "v8": "15.2.124.37-electron.0",
+      "zlib": "1.3.2.1-motley",
+      "zstd": "1.6.0",
+      "electron": "44.7.2",
+      "chrome": "152.0.7977.149"
+    },
+    "mainPid": 149640,
+    "checks": [
+      {
+        "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+        "status": "pass",
+        "detail": {
+          "versions": {
+            "node": "24.21.0",
+            "acorn": "8.18.0",
+            "ada": "4.0.0",
+            "amaro": "1.1.11",
+            "ares": "1.34.8",
+            "brotli": "1.2.0",
+            "cldr": "48.0",
+            "icu": "78.2",
+            "llhttp": "9.4.3",
+            "merve": "1.2.2",
+            "modules": "149",
+            "napi": "10",
+            "nbytes": "0.1.4",
+            "ncrypto": "0.0.1",
+            "nghttp2": "1.70.0",
+            "nghttp3": "",
+            "ngtcp2": "",
+            "openssl": "0.0.0",
+            "simdjson": "4.6.7",
+            "simdutf": "7.7.0",
+            "sqlite": "3.53.4",
+            "tz": "2026d",
+            "undici": "7.29.1",
+            "unicode": "17.0",
+            "uv": "1.52.1",
+            "uvwasi": "0.0.23",
+            "v8": "15.2.124.37-electron.0",
+            "zlib": "1.3.2.1-motley",
+            "zstd": "1.6.0",
+            "electron": "44.7.2",
+            "chrome": "152.0.7977.149"
+          },
+          "sqlite": {
+            "version": "3.53.4"
+          },
+          "resource": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\downloads\\simple-0.7.1\\extracted\\libsimple-windows-x64",
+          "chinese": [
+            {
+              "body": "工作站支持中文搜索，周杰伦"
+            }
+          ],
+          "pinyin": [
+            {
+              "body": "工作站支持中文搜索，周杰伦"
+            }
+          ],
+          "jieba": [
+            {
+              "body": "工作站支持中文搜索，周杰伦"
+            }
+          ],
+          "native": [
+            "D:\\Code\\JianZJ-Hub\\node_modules\\better-sqlite3\\prebuilds\\win32-x64.node"
+          ]
+        }
+      },
+      {
+        "name": "actual GUI click and xterm keyboard input/output",
+        "status": "pass",
+        "detail": {
+          "session": {
+            "sessionId": "m0-3eacd2c6-95ca-4908-b0bc-f14517252bd1",
+            "generation": 1,
+            "pid": 147692,
+            "createdAt": "134364404163825908",
+            "cols": 80,
+            "rows": 24,
+            "state": "running"
+          },
+          "output": "\u001b[1t\u001b[c\u001b[?1004h\u001b[?9001hM0_GATE_c978c1bb-e6dc-48b1-902b-a71cd66d600b\r\nPS D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3> \u001b[?25l\u001b[3;22H\u001b[93mW\u001b[39;49m\u001b[0m\u001b[3;23H\u001b[?25h\u001b[?25l\u001b[3;22H\u001b[3;20H\u001b[91m> \u001b[0m\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\u001b[39;49m\u001b[0m\u001b[3;43H\u001b[?25h\u001b[?25l\u001b[3;22H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[39;49m\u001b[0m\u001b[3;44H\u001b[?25h\u001b[?25l\u001b[3;22H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[39;49m\u001b[0m\u001b[3;45H\u001b[?25h\u001b[?25l\u001b[3;22H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[37m(\u001b[39;49m\u001b[0m\u001b[3;46H\u001b[?25h\u001b[?25l\u001b[3;22H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[37m(\u001b[97m1\u001b[39;49m\u001b[0m\u001b[3;47H\u001b[?25h\u001b[?25l\u001b[3;22H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[37m(\u001b[97m10\u001b[39;49m\u001b[0m\u001b[3;48H\u001b[?25h\u001b[?25l\u001b[3;22H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[37m(\u001b[97m10\u001b[90m+\u001b[39;49m\u001b[0m\u001b[3;49H\u001b[?25h\u001b[?25l\u001b[3;22H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[37m(\u001b[97m10\u001b[90m+\u001b[97m7\u001b[39;49m\u001b[0m\u001b[3;50H\u001b[?25h\u001b[?25l\u001b[3;22H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[37m(\u001b[97m10\u001b[90m+\u001b[97m7\u001b[37m)\u001b[39;49m\u001b[0m\u001b[3;51H\u001b[?25h\u001b[?25l\u001b[3;22H\u001b[3;20H\u001b[39;49m> \u001b[0m\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_UI_\"\u001b[90m+\u001b[37m(\u001b[97m10\u001b[90m+\u001b[97m7\u001b[37m))\u001b[39;49m\u001b[0m\u001b[3;52H\u001b[?25h\u001b[3;52H\r\n\u001b[0m\u001b[0mM0_UI_17\r\nPS D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3> "
+        }
+      },
+      {
+        "name": "PTY Unicode input and real arithmetic",
+        "status": "pass",
+        "detail": {
+          "output": "\u001b[?25l\u001b[3;31H\u001b[93mW\u001b[39;49m\u001b[0m\u001b[3;32H\u001b[?25h\u001b[?25l\u001b[3;31H\u001b[3;29H\u001b[91m> \u001b[0m\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[39;49m\u001b[0m\u001b[3;55H\u001b[?25h\u001b[?25l\u001b[3;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[39;49m\u001b[0m\u001b[3;56H\u001b[?25h\u001b[?25l\u001b[3;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[39;49m\u001b[0m\u001b[3;57H\u001b[?25h\u001b[?25l\u001b[3;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[97m1\u001b[39;49m\u001b[0m\u001b[3;58H\u001b[?25h\u001b[?25l\u001b[3;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[97m19\u001b[39;49m\u001b[0m\u001b[3;59H\u001b[?25h\u001b[?25l\u001b[3;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[97m19\u001b[90m+\u001b[39;49m\u001b[0m\u001b[3;60H\u001b[?25h\u001b[?25l\u001b[3;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[97m19\u001b[90m+\u001b[97m2\u001b[39;49m\u001b[0m\u001b[3;61H\u001b[?25h\u001b[?25l\u001b[3;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[97m19\u001b[90m+\u001b[97m23\u001b[39;49m\u001b[0m\u001b[3;62H\u001b[?25h\u001b[?25l\u001b[3;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[97m19\u001b[90m+\u001b[97m23\u001b[37m)\u001b[39;49m\u001b[0m\u001b[3;63H\u001b[?25h\u001b[?25l\u001b[3;31H\u001b[3;29H\u001b[39;49m> \u001b[0m\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_中文_\"\u001b[90m+\u001b[37m(\u001b[97m19\u001b[90m+\u001b[97m23\u001b[37m))\u001b[39;49m\u001b[0m\u001b[3;64H\u001b[?25h\u001b[3;64H\r\n\u001b[0m\u001b[0mM0_中文_42\r\nPS D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3\\中文 cwd> ",
+          "session": {
+            "sessionId": "m0-dddd5dc9-f1e1-4047-a8ca-977699090622",
+            "generation": 1,
+            "pid": 132980,
+            "createdAt": "134364404202621174",
+            "cols": 80,
+            "rows": 24,
+            "state": "running"
+          }
+        }
+      },
+      {
+        "name": "PSReadLine history is disabled and uses test-local path",
+        "status": "pass",
+        "detail": {
+          "disabled": true,
+          "testLocalPath": true,
+          "output": "\u001b[?25l\u001b[6;31H\u001b[93m$\u001b[39;49m\u001b[0m\u001b[6;32H\u001b[?25h\u001b[?25l\u001b[6;31H\u001b[6;29H\u001b[91m> \u001b[0m\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3\\\u001b[39;49m\u001b[0m\u001b[9;28H\u001b[?25h\u001b[?25l\u001b[6;31H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3\\中\u001b[39;49m\u001b[0m\u001b[9;30H\u001b[?25h\u001b[?25l\u001b[6;31H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3\\中文\u001b[39;49m\u001b[0m\u001b[9;32H\u001b[?25h\u001b[?25l\u001b[6;31H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3\\中文 \u001b[39;49m\u001b[0m\u001b[9;33H\u001b[?25h\u001b[?25l\u001b[6;31H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3\\中文 c\u001b[39;49m\u001b[0m\u001b[9;34H\u001b[?25h\u001b[?25l\u001b[6;31H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3\\中文 cw\u001b[39;49m\u001b[0m\u001b[9;35H\u001b[?25h\u001b[?25l\u001b[6;31H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3\\中文 cwd\u001b[39;49m\u001b[0m\u001b[9;36H\u001b[?25h\u001b[?25l\u001b[6;31H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3\\中文 cwd'\u001b[39;49m\u001b[0m\u001b[9;37H\u001b[?25h\u001b[?25l\u001b[6;31H\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3\\中文 cwd'\u001b[37m)\u001b[39;49m\u001b[0m\u001b[9;38H\u001b[?25h\u001b[?25l\u001b[6;31H\u001b[6;29H\u001b[39;49m> \u001b[0m\u001b[92m$o\u001b[90m=\u001b[93mGet-PSReadLineOption\u001b[37m;\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySaveStyle\u001b[37m);\u001b[39;49m \u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m'M0_HISTORY_LOCAL_'\u001b[90m+\u001b[92m$o\u001b[37m.\u001b[97mHistorySavePath\u001b[37m.\u001b[97mStartsWith\u001b[37m(\u001b[36m'D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3\\中文 cwd'\u001b[37m))\u001b[39;49m\u001b[0m\u001b[9;39H\u001b[?25h\u001b[9;39H\r\n\u001b[0m\u001b[0mM0_HISTORY_SaveNothing\r\nM0_HISTORY_LOCAL_True\r\nPS D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3\\中文 cwd> "
+        }
+      },
+      {
+        "name": "PTY resize observed by real Shell",
+        "status": "pass",
+        "detail": {
+          "output": "\u001b[?25l\u001b[11;31H\u001b[93mW\u001b[39;49m\u001b[0m\u001b[11;32H\u001b[?25h\u001b[?25l\u001b[11;31H\u001b[11;29H\u001b[91m> \u001b[0m\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSiz\u001b[39;49m\u001b[0m\u001b[12;5H\u001b[?25h\u001b[?25l\u001b[11;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[39;49m\u001b[0m\u001b[12;6H\u001b[?25h\u001b[?25l\u001b[11;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[39;49m\u001b[0m\u001b[12;7H\u001b[?25h\u001b[?25l\u001b[11;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mH\u001b[39;49m\u001b[0m\u001b[12;8H\u001b[?25h\u001b[?25l\u001b[11;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mHe\u001b[39;49m\u001b[0m\u001b[12;9H\u001b[?25h\u001b[?25l\u001b[11;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mHei\u001b[39;49m\u001b[0m\u001b[12;10H\u001b[?25h\u001b[?25l\u001b[11;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mHeig\u001b[39;49m\u001b[0m\u001b[12;11H\u001b[?25h\u001b[?25l\u001b[11;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mHeigh\u001b[39;49m\u001b[0m\u001b[12;12H\u001b[?25h\u001b[?25l\u001b[11;31H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mHeight\u001b[39;49m\u001b[0m\u001b[12;13H\u001b[?25h\u001b[?25l\u001b[11;31H\u001b[11;29H\u001b[39;49m> \u001b[0m\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M0_SIZE_\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mWidth\u001b[90m+\u001b[36m\"x\"\u001b[90m+\u001b[92m$Host\u001b[37m.\u001b[97mUI\u001b[37m.\u001b[97mRawUI\u001b[37m.\u001b[97mWindowSize\u001b[37m.\u001b[97mHeight\u001b[37m)\u001b[39;49m\u001b[0m\u001b[12;14H\u001b[?25h\u001b[12;14H\r\n\u001b[0m\u001b[0mM0_SIZE_111x37\r\nPS D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-concurrent-exit-30e335c1-35dc-48ba-a628-cd8b03a83ff3\\中文 cwd> "
+        }
+      },
+      {
+        "name": "invalid size and stale generation rejected",
+        "status": "pass",
+        "detail": {
+          "rejected": [
+            "INVALID_SIZE",
+            "STALE_SESSION"
+          ]
+        }
+      },
+      {
+        "name": "ten pairs of simultaneous natural exits preserve broker and surviving session",
+        "status": "pass",
+        "detail": [
+          {
+            "round": 0,
+            "brokerPid": 150160,
+            "sessions": [
+              {
+                "sessionId": "m0-78a109e5-baa7-4d26-b466-3e15f1bd722a",
+                "generation": 1,
+                "pid": 133716,
+                "createdAt": "134364404237263436",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 143440,
+                "workerCreatedAt": "134364404236793893",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  143440
+                ]
+              },
+              {
+                "sessionId": "m0-a8baab25-6591-49e3-9d13-c195eb8cda2f",
+                "generation": 1,
+                "pid": 148956,
+                "createdAt": "134364404270755861",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 148416,
+                "workerCreatedAt": "134364404270303610",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  148416
+                ]
+              }
+            ],
+            "survivorPid": 147692
+          },
+          {
+            "round": 1,
+            "brokerPid": 150160,
+            "sessions": [
+              {
+                "sessionId": "m0-eaf06eaa-fd8c-403c-81b6-38526ab5c6d9",
+                "generation": 1,
+                "pid": 149252,
+                "createdAt": "134364404306769968",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 146660,
+                "workerCreatedAt": "134364404306307692",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  146660
+                ]
+              },
+              {
+                "sessionId": "m0-8657dbcc-a619-4d20-bdbc-cc62b08ad424",
+                "generation": 1,
+                "pid": 148836,
+                "createdAt": "134364404340231814",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 148496,
+                "workerCreatedAt": "134364404339779496",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  148496
+                ]
+              }
+            ],
+            "survivorPid": 147692
+          },
+          {
+            "round": 2,
+            "brokerPid": 150160,
+            "sessions": [
+              {
+                "sessionId": "m0-3beec853-89c6-465c-8abd-04c4a7e2fde4",
+                "generation": 1,
+                "pid": 135612,
+                "createdAt": "134364404376138157",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 129092,
+                "workerCreatedAt": "134364404375688391",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  129092
+                ]
+              },
+              {
+                "sessionId": "m0-118f34a5-3be0-42ae-9ec5-c7d793cb4362",
+                "generation": 1,
+                "pid": 136716,
+                "createdAt": "134364404409691743",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 130300,
+                "workerCreatedAt": "134364404409232312",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  130300
+                ]
+              }
+            ],
+            "survivorPid": 147692
+          },
+          {
+            "round": 3,
+            "brokerPid": 150160,
+            "sessions": [
+              {
+                "sessionId": "m0-1a895107-c1fd-4076-a1fd-628883cb8f42",
+                "generation": 1,
+                "pid": 149692,
+                "createdAt": "134364404445572606",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 149988,
+                "workerCreatedAt": "134364404445114804",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  149988
+                ]
+              },
+              {
+                "sessionId": "m0-d5d03419-b8b8-4dba-8f41-a6380698af08",
+                "generation": 1,
+                "pid": 150224,
+                "createdAt": "134364404479090089",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 130172,
+                "workerCreatedAt": "134364404478633502",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  130172
+                ]
+              }
+            ],
+            "survivorPid": 147692
+          },
+          {
+            "round": 4,
+            "brokerPid": 150160,
+            "sessions": [
+              {
+                "sessionId": "m0-a294d480-4dee-4db5-ad24-c36367623f80",
+                "generation": 1,
+                "pid": 128132,
+                "createdAt": "134364404515023970",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 148388,
+                "workerCreatedAt": "134364404514569914",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  148388
+                ]
+              },
+              {
+                "sessionId": "m0-43c73137-27dd-4014-85eb-22618068a989",
+                "generation": 1,
+                "pid": 147336,
+                "createdAt": "134364404548499019",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 149104,
+                "workerCreatedAt": "134364404548043658",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  149104
+                ]
+              }
+            ],
+            "survivorPid": 147692
+          },
+          {
+            "round": 5,
+            "brokerPid": 150160,
+            "sessions": [
+              {
+                "sessionId": "m0-69b26e38-f556-4143-a8c1-598955e3c244",
+                "generation": 1,
+                "pid": 131952,
+                "createdAt": "134364404584449884",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 148264,
+                "workerCreatedAt": "134364404583988108",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  148264
+                ]
+              },
+              {
+                "sessionId": "m0-2de088fb-2ade-4691-b838-e52a55a152b6",
+                "generation": 1,
+                "pid": 134480,
+                "createdAt": "134364404617866458",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 145600,
+                "workerCreatedAt": "134364404617415585",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  145600
+                ]
+              }
+            ],
+            "survivorPid": 147692
+          },
+          {
+            "round": 6,
+            "brokerPid": 150160,
+            "sessions": [
+              {
+                "sessionId": "m0-826e854d-46ef-4c08-b9c6-57b434d2af2c",
+                "generation": 1,
+                "pid": 136508,
+                "createdAt": "134364404653762648",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 148884,
+                "workerCreatedAt": "134364404653300995",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  148884
+                ]
+              },
+              {
+                "sessionId": "m0-3a9a4322-3136-4af0-980b-3f6fea83725a",
+                "generation": 1,
+                "pid": 132648,
+                "createdAt": "134364404687296858",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 148640,
+                "workerCreatedAt": "134364404686851510",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  148640
+                ]
+              }
+            ],
+            "survivorPid": 147692
+          },
+          {
+            "round": 7,
+            "brokerPid": 150160,
+            "sessions": [
+              {
+                "sessionId": "m0-3f39be83-cf9f-44bd-be98-fd6f622567fe",
+                "generation": 1,
+                "pid": 129680,
+                "createdAt": "134364404723317693",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 149996,
+                "workerCreatedAt": "134364404722848572",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  149996
+                ]
+              },
+              {
+                "sessionId": "m0-33f748b8-27eb-4e3a-abd9-4d766445d22f",
+                "generation": 1,
+                "pid": 147312,
+                "createdAt": "134364404756864044",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 137004,
+                "workerCreatedAt": "134364404756406327",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  137004
+                ]
+              }
+            ],
+            "survivorPid": 147692
+          },
+          {
+            "round": 8,
+            "brokerPid": 150160,
+            "sessions": [
+              {
+                "sessionId": "m0-5bd0888b-8dbb-4c8c-afbe-ee4b460d8447",
+                "generation": 1,
+                "pid": 148276,
+                "createdAt": "134364404792781297",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 148352,
+                "workerCreatedAt": "134364404792340367",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  148352
+                ]
+              },
+              {
+                "sessionId": "m0-b888765f-cd82-4aa3-831f-c3a4d2c4ad1a",
+                "generation": 1,
+                "pid": 146124,
+                "createdAt": "134364404826157272",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 134628,
+                "workerCreatedAt": "134364404825710453",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  134628
+                ]
+              }
+            ],
+            "survivorPid": 147692
+          },
+          {
+            "round": 9,
+            "brokerPid": 150160,
+            "sessions": [
+              {
+                "sessionId": "m0-01d6006a-68ba-4d2c-8554-2c843e8c72d0",
+                "generation": 1,
+                "pid": 146656,
+                "createdAt": "134364404862844315",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 135724,
+                "workerCreatedAt": "134364404862372179",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  135724
+                ]
+              },
+              {
+                "sessionId": "m0-b305ab02-4097-4958-bae9-1981c207672a",
+                "generation": 1,
+                "pid": 129124,
+                "createdAt": "134364404896254875",
+                "cols": 80,
+                "rows": 24,
+                "state": "exited",
+                "pids": [],
+                "workerPid": 148180,
+                "workerCreatedAt": "134364404895811058",
+                "workerExitCode": 0,
+                "native": [
+                  "D:\\Code\\JianZJ-Hub\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node"
+                ],
+                "nativeExitObserved": true,
+                "nativeExitCode": 5,
+                "cleanupPids": [
+                  148180
+                ]
+              }
+            ],
+            "survivorPid": 147692
+          }
+        ]
+      }
+    ],
+    "mainNative": {
+      "sqlite": {
+        "version": "3.53.4"
+      },
+      "native": [
+        "D:\\Code\\JianZJ-Hub\\node_modules\\@koromix\\koffi-win32-x64\\win32_x64\\koffi.node",
+        "D:\\Code\\JianZJ-Hub\\node_modules\\better-sqlite3\\prebuilds\\win32-x64.node"
+      ]
+    },
+    "services": [
+      {
+        "pid": 150160,
+        "createdAt": "134364404158127679",
+        "jobPids": [
+          150160
+        ]
+      },
+      {
+        "pid": 150012,
+        "createdAt": "134364404158182953",
+        "jobPids": [
+          150012
+        ]
+      }
+    ],
+    "captureErrors": [],
+    "finished": "2026-10-14T08:34:53.172Z",
+    "cleanup": [
+      {
+        "beforeFallback": [],
+        "remaining": [],
+        "exitCode": 0
+      },
+      {
+        "beforeFallback": [],
+        "remaining": [],
+        "exitCode": 0
+      }
+    ]
+  },
+  "afterAppExit": [],
+  "controlSurvived": true,
+  "status": "pass",
+  "fallbackPids": [],
+  "finished": "2026-10-14T08:34:53.800Z"
+}

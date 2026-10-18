@@ -1,0 +1,23 @@
+
+> jianzj-hub@0.0.0 m0:packaged
+> node scripts/m0/run.mjs packaged
+
+{
+  "target": "packaged",
+  "mode": "normal",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\packaged-normal-022a91be-ee2c-4a9b-a2e8-380d48ede94e",
+  "started": "2026-10-14T07:23:21.986Z",
+  "control": {
+    "pid": 149812,
+    "createdAt": "134364362019884259"
+  },
+  "app": {
+    "pid": 147804,
+    "createdAt": "134364362020913790"
+  },
+  "exitCode": 1,
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: App failed: Error: SERVICE_GONE:3221225477\n    at ForkUtilityProcess.<anonymous> (D:\\Code\\JianZJ-Hub\\release\\m0\\win-unpacked\\resources\\app.asar\\out\\main\\index.js:61:25)\n    at ForkUtilityProcess.wrapper (node:events:639:12)\n    at ForkUtilityProcess.emit (node:events:514:28)\n    at UtilityProcess.emit (node:electron/js2c/browser_init:1:91595)\n\n\n1 !== 0\n\n    at file:///D:/Code/JianZJ-Hub/scripts/m0/run.mjs:57:14",
+  "fallbackPids": [],
+  "finished": "2026-10-14T07:23:37.031Z"
+}

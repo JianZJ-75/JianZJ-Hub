@@ -1,0 +1,6 @@
+
+> jianzj-hub@0.0.0 typecheck
+> tsc --noEmit
+
+src/renderer/m0.tsx(5,8): error TS2882: Cannot find module or type declarations for side-effect import of '@xterm/xterm/css/xterm.css'.
+src/renderer/m0.tsx(6,8): error TS2882: Cannot find module or type declarations for side-effect import of './m0.css'.

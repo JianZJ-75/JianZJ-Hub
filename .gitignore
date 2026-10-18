@@ -1,0 +1,49 @@
+# =============================================================
+# JianZJ-Hub（工作站）· 忽略规则
+# 代码仓库只放实际代码；以下本地资产与构建产物不提交。
+# =============================================================
+
+# ---- 现有非代码资产（文档 / 原型）—— 不进入代码仓库 ----
+docs/*
+!docs/m0/
+prototypes/
+
+# ---- 依赖 ----
+node_modules/
+
+# ---- 构建产物（electron-vite / electron-builder） ----
+dist/
+out/
+release/
+*.local
+
+# ---- 本地运行数据 / 数据库（better-sqlite3 等） ----
+/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# ---- 日志与临时 ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+
+# ---- 环境变量 ----
+.env
+.env.*
+!.env.example
+
+# ---- 编辑器 / 操作系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# ---- 类型 / 增量编译产物 ----
+*.tsbuildinfo
+
+# M0 isolated downloads, caches and test output
+.m0-scratch/

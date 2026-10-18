@@ -1,0 +1,36 @@
+{
+  "appId": "local.jianzjhub.m0",
+  "productName": "JianZJ Hub M0",
+  "directories": {
+    "output": "release/m0"
+  },
+  "files": [
+    "out/**",
+    "package.json"
+  ],
+  "asar": true,
+  "asarUnpack": [
+    "node_modules/node-pty/**",
+    "node_modules/better-sqlite3/**",
+    "node_modules/koffi/**",
+    "node_modules/@koromix/**"
+  ],
+  "extraResources": [
+    {
+      "from": ".m0-scratch/downloads/simple-0.7.1/extracted/libsimple-windows-x64",
+      "to": "simple"
+    },
+    {
+      "from": "tests/m0/process-tree.mjs",
+      "to": "m0-tests/process-tree.mjs"
+    },
+    {
+      "from": ".m0-scratch/downloads/simple-license",
+      "to": "simple/licenses"
+    }
+  ],
+  "npmRebuild": false,
+  "win": {
+    "signAndEditExecutable": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "target": "dev",
+  "mode": "normal",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\evidence\\dev-normal-a5f95f66-4c6e-4736-8900-dd10cc0da0d5",
+  "started": "2026-10-14T07:12:21.796Z",
+  "control": {
+    "pid": 149116,
+    "createdAt": "134364355418003332"
+  },
+  "app": {
+    "pid": 149364,
+    "createdAt": "134364355418101646"
+  },
+  "exitCode": 1,
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: App failed: Error: CONDITION_TIMEOUT:false\n    at until (D:\\Code\\JianZJ-Hub\\out\\main\\index.js:111:9)\n    at async tree (D:\\Code\\JianZJ-Hub\\out\\main\\index.js:139:7)\n    at async verify (D:\\Code\\JianZJ-Hub\\out\\main\\index.js:202:13)\n    at async D:\\Code\\JianZJ-Hub\\out\\main\\index.js:332:7\nError: CLEANUP_FAILED\n    at cleanup (D:\\Code\\JianZJ-Hub\\out\\main\\index.js:262:50)\n    at async D:\\Code\\JianZJ-Hub\\out\\main\\index.js:343:7\n\n\n1 !== 0\n\n    at file:///D:/Code/JianZJ-Hub/scripts/m0/run.mjs:57:14",
+  "fallbackPids": [],
+  "finished": "2026-10-14T07:12:44.775Z"
+}
