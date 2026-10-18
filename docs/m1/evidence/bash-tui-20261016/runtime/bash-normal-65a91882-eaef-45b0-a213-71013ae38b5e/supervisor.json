@@ -1,0 +1,19 @@
+{
+  "entry": "bash",
+  "mode": "normal",
+  "dir": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\bash-normal-65a91882-eaef-45b0-a213-71013ae38b5e",
+  "started": "2026-10-15T17:35:06.576Z",
+  "control": {
+    "pid": 166136,
+    "createdAt": "134365593065646072"
+  },
+  "app": {
+    "pid": 150700,
+    "createdAt": "134365593065727830"
+  },
+  "code": 1,
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n",
+  "fallbackPids": [],
+  "finished": "2026-10-15T17:35:56.327Z"
+}

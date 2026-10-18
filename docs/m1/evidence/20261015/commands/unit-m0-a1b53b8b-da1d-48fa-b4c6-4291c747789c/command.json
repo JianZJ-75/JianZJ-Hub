@@ -1,0 +1,14 @@
+{
+  "cwd": "D:\\Code\\JianZJ-Hub",
+  "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+  "args": [
+    "--test",
+    "tests/m0/lifecycle.test.mjs",
+    "tests/m0/preparation.test.mjs",
+    "tests/m0/validation.test.mjs"
+  ],
+  "started": "2026-10-15T10:30:39.299Z",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\unit-m0-a1b53b8b-da1d-48fa-b4c6-4291c747789c",
+  "finished": "2026-10-15T10:30:39.530Z",
+  "exitCode": 0
+}

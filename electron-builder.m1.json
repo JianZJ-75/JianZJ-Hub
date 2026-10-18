@@ -1,0 +1,12 @@
+{
+  "appId": "local.jianzjhub.workstation",
+  "productName": "工作站",
+  "executableName": "Workstation",
+  "files": ["out/m1/**", "!out/m1/main/probe.js", "!out/m1/main/desktop.js", "!out/m1/main/stress.js", "!out/m1/main/tui.js", "!out/m1/main/bash.js", "!out/m1/main/visual.js", "!out/m1/main/fault.js", "package.json"],
+  "extraMetadata": { "main": "out/m1/main/index.js", "version": "0.1.0" },
+  "asar": true,
+  "asarUnpack": ["node_modules/node-pty/**", "node_modules/better-sqlite3/**", "node_modules/koffi/**", "node_modules/@koromix/**"],
+  "extraResources": [{ "from": "licenses", "to": "licenses" }],
+  "npmRebuild": false,
+  "win": { "signAndEditExecutable": false }
+}

@@ -1,0 +1,97 @@
+{
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n0 !== 16000\n",
+  "checks": [
+    {
+      "name": "two independent sessions reject stale generation, bad resize and repeated close is idempotent",
+      "status": "pass",
+      "detail": {
+        "closed": {
+          "sessionId": "session-f0428695-705e-4bb5-bfa1-e64284c84a45",
+          "paneId": "pane-3411907a-43c3-4c1c-b992-b64d3014c544",
+          "workspaceId": "workspace-538298de-6cbe-4f8b-a3f9-4a1dd8cd33c9",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 158420,
+          "createdAt": "134365323307768089",
+          "workerPid": 173280,
+          "workerCreatedAt": "134365323307306471",
+          "exitCode": 1,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 3,
+          "peak": 53,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          }
+        },
+        "survivorPid": 171340
+      }
+    }
+  ],
+  "events": [
+    {
+      "sessionId": "session-f0428695-705e-4bb5-bfa1-e64284c84a45",
+      "paneId": "pane-3411907a-43c3-4c1c-b992-b64d3014c544",
+      "workspaceId": "workspace-538298de-6cbe-4f8b-a3f9-4a1dd8cd33c9",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 158420,
+      "createdAt": "134365323307768089",
+      "workerPid": 173280,
+      "workerCreatedAt": "134365323307306471",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-3dd8b443-906f-4dd3-8c5b-1d09464da828",
+      "paneId": "pane-36ae505a-6a0f-48df-973b-a1e64cbf30fc",
+      "workspaceId": "workspace-4763db92-bf23-4633-83e7-7152477fd257",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 132244,
+      "createdAt": "134365323341532618",
+      "workerPid": 156896,
+      "workerCreatedAt": "134365323341082458",
+      "exitCode": 5,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 99,
+      "peak": 3870,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    }
+  ],
+  "outputs": [
+    [
+      "session-9cecbea8-71b7-4254-b0fa-b0632817f7a0",
+      "\u001b[1t\u001b[c\u001b[?1004h\u001b[?9001h\u001b]1337;WS_READY_528719ab-42f1-4578-9b18-3325d80e3680\u0007PS D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e> \u001b[?25l\u001b[1;80H\u001b[93mW\u001b[39;49m\u001b[0m\u001b[1;81H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[1;78H\u001b[91m> \u001b[0m\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M1_SURVIVOR_\"\u001b[39;49m\u001b[0m\u001b[2;8H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M1_SURVIVOR_\"\u001b[90m+\u001b[39;49m\u001b[0m\u001b[2;9H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M1_SURVIVOR_\"\u001b[90m+\u001b[37m(\u001b[39;49m\u001b[0m\u001b[2;10H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M1_SURVIVOR_\"\u001b[90m+\u001b[37m(\u001b[97m2\u001b[39;49m\u001b[0m\u001b[2;11H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M1_SURVIVOR_\"\u001b[90m+\u001b[37m(\u001b[97m20\u001b[39;49m\u001b[0m\u001b[2;12H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M1_SURVIVOR_\"\u001b[90m+\u001b[37m(\u001b[97m20\u001b[90m+\u001b[39;49m\u001b[0m\u001b[2;13H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M1_SURVIVOR_\"\u001b[90m+\u001b[37m(\u001b[97m20\u001b[90m+\u001b[97m2\u001b[39;49m\u001b[0m\u001b[2;14H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M1_SURVIVOR_\"\u001b[90m+\u001b[37m(\u001b[97m20\u001b[90m+\u001b[97m22\u001b[39;49m\u001b[0m\u001b[2;15H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M1_SURVIVOR_\"\u001b[90m+\u001b[37m(\u001b[97m20\u001b[90m+\u001b[97m22\u001b[37m)\u001b[39;49m\u001b[0m\u001b[2;16H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[1;78H\u001b[39;49m> \u001b[0m\u001b[93mWrite-Output\u001b[39;49m \u001b[37m(\u001b[36m\"M1_SURVIVOR_\"\u001b[90m+\u001b[37m(\u001b[97m20\u001b[90m+\u001b[97m22\u001b[37m))\u001b[39;49m\u001b[0m\u001b[2;17H\u001b[?25h\u001b[2;17H\r\n\u001b[0m\u001b[0mM1_SURVIVOR_42\r\nPS D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e> "
+    ],
+    [
+      "session-f0428695-705e-4bb5-bfa1-e64284c84a45",
+      "\u001b[1t\u001b[c\u001b[?1004h\u001b[?9001h\u001b]1337;WS_READY_2421cdff-e747-4a81-b9fe-3ab17ce58e45\u0007"
+    ],
+    [
+      "session-3dd8b443-906f-4dd3-8c5b-1d09464da828",
+      "PS D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e> \u001b[?25l\u001b[1;80H\u001b[93m$\u001b[39;49m\u001b[0m\u001b[1;81H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[1;78H\u001b[91m> \u001b[0m\u001b[92m$env:ELECTRON_RUN_AS_NODE\u001b[90m=\u001b[36m'1'\u001b[37m;\u001b[39;49m \u001b[37m&\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\node_modules\\electron\\dist\\electron.exe'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\output-fixture.cjs'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\natural.ready'\u001b[39;49m \u001b[36m'natural\u001b[39;49m\u001b[0m\u001b[4;69H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[1;78H\u001b[39;49m> \u001b[0m\u001b[92m$env:ELECTRON_RUN_AS_NODE\u001b[90m=\u001b[36m'1'\u001b[37m;\u001b[39;49m \u001b[37m&\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\node_modules\\electron\\dist\\electron.exe'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\output-fixture.cjs'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\natural.ready'\u001b[39;49m \u001b[36m'natural'\u001b[39;49m\u001b[0m\u001b[4;70H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[92m$env:ELECTRON_RUN_AS_NODE\u001b[90m=\u001b[36m'1'\u001b[37m;\u001b[39;49m \u001b[37m&\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\node_modules\\electron\\dist\\electron.exe'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\output-fixture.cjs'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\natural.ready'\u001b[39;49m \u001b[36m'natural'\u001b[37m;\u001b[39;49m\u001b[0m\u001b[4;71H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[92m$env:ELECTRON_RUN_AS_NODE\u001b[90m=\u001b[36m'1'\u001b[37m;\u001b[39;49m \u001b[37m&\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\node_modules\\electron\\dist\\electron.exe'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\output-fixture.cjs'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\natural.ready'\u001b[39;49m \u001b[36m'natural'\u001b[37m;\u001b[39;49m \u001b[39;49m\u001b[0m\u001b[4;72H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[92m$env:ELECTRON_RUN_AS_NODE\u001b[90m=\u001b[36m'1'\u001b[37m;\u001b[39;49m \u001b[37m&\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\node_modules\\electron\\dist\\electron.exe'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\output-fixture.cjs'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\natural.ready'\u001b[39;49m \u001b[36m'natural'\u001b[37m;\u001b[39;49m \u001b[93me\u001b[39;49m\u001b[0m\u001b[4;73H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[92m$env:ELECTRON_RUN_AS_NODE\u001b[90m=\u001b[36m'1'\u001b[37m;\u001b[39;49m \u001b[37m&\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\node_modules\\electron\\dist\\electron.exe'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\output-fixture.cjs'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\natural.ready'\u001b[39;49m \u001b[36m'natural'\u001b[37m;\u001b[39;49m \u001b[93mex\u001b[39;49m\u001b[0m\u001b[4;74H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[92m$env:ELECTRON_RUN_AS_NODE\u001b[90m=\u001b[36m'1'\u001b[37m;\u001b[39;49m \u001b[37m&\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\node_modules\\electron\\dist\\electron.exe'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\output-fixture.cjs'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\natural.ready'\u001b[39;49m \u001b[36m'natural'\u001b[37m;\u001b[39;49m \u001b[93mexi\u001b[39;49m\u001b[0m\u001b[4;75H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[92m$env:ELECTRON_RUN_AS_NODE\u001b[90m=\u001b[36m'1'\u001b[37m;\u001b[39;49m \u001b[37m&\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\node_modules\\electron\\dist\\electron.exe'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\output-fixture.cjs'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\natural.ready'\u001b[39;49m \u001b[36m'natural'\u001b[37m;\u001b[39;49m \u001b[92mexit\u001b[39;49m\u001b[0m\u001b[4;76H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[92m$env:ELECTRON_RUN_AS_NODE\u001b[90m=\u001b[36m'1'\u001b[37m;\u001b[39;49m \u001b[37m&\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\node_modules\\electron\\dist\\electron.exe'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\output-fixture.cjs'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\natural.ready'\u001b[39;49m \u001b[36m'natural'\u001b[37m;\u001b[39;49m \u001b[92mexit\u001b[39;49m \u001b[39;49m\u001b[0m\u001b[4;77H\u001b[?25h\u001b[?25l\u001b[1;80H\u001b[92m$env:ELECTRON_RUN_AS_NODE\u001b[90m=\u001b[36m'1'\u001b[37m;\u001b[39;49m \u001b[37m&\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\node_modules\\electron\\dist\\electron.exe'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\output-fixture.cjs'\u001b[39;49m \u001b[36m'D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-a8b6999c-0456-40ab-a454-298f5aa1904e\\natural.ready'\u001b[39;49m \u001b[36m'natural'\u001b[37m;\u001b[39;49m \u001b[92mexit\u001b[39;49m \u001b[97m5\u001b[39;49m\u001b[0m\u001b[4;78H\u001b[?25h\u001b[4;78H\r\n\u001b[0m\u001b[0m\u001b]0;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\u001b\\"
+    ]
+  ]
+}

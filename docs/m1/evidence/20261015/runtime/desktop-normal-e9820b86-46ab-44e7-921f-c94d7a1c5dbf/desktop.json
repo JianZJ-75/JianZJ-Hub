@@ -1,0 +1,394 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "actual product new-workspace form opens real PowerShell",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-b08f16bf-3fa2-402c-ab0e-619e81cf6d2f",
+          "paneId": "pane-d10a66fa-1b10-43ca-9df1-d2d9c4f64f95",
+          "workspaceId": "workspace-681a890e-f863-47b7-b088-dae76969a500",
+          "generation": 1,
+          "state": "running",
+          "cols": 102,
+          "rows": 20,
+          "pid": 169484,
+          "createdAt": "134365339669992085",
+          "workerPid": 173656,
+          "workerCreatedAt": "134365339669468390",
+          "bytes": 0,
+          "peak": 462,
+          "pending": 0,
+          "pids": [
+            173656,
+            174888,
+            169484
+          ]
+        }
+      ]
+    },
+    {
+      "name": "right/down nested splits preserve existing xterm DOM instance and session IDs",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-b08f16bf-3fa2-402c-ab0e-619e81cf6d2f",
+          "paneId": "pane-d10a66fa-1b10-43ca-9df1-d2d9c4f64f95",
+          "workspaceId": "workspace-681a890e-f863-47b7-b088-dae76969a500",
+          "generation": 1,
+          "state": "running",
+          "cols": 46,
+          "rows": 20,
+          "pid": 169484,
+          "createdAt": "134365339669992085",
+          "workerPid": 173656,
+          "workerCreatedAt": "134365339669468390",
+          "bytes": 0,
+          "peak": 462,
+          "pending": 0,
+          "pids": [
+            173656,
+            174888,
+            169484
+          ]
+        },
+        {
+          "sessionId": "session-c3a2bb0e-ef0a-4a52-8e1a-c16f92bac2ab",
+          "paneId": "pane-bc7d3860-9903-4c1b-9fd1-9766f412e9c5",
+          "workspaceId": "workspace-681a890e-f863-47b7-b088-dae76969a500",
+          "generation": 1,
+          "state": "running",
+          "cols": 46,
+          "rows": 8,
+          "pid": 165608,
+          "createdAt": "134365339703072771",
+          "workerPid": 174524,
+          "workerCreatedAt": "134365339702594510",
+          "bytes": 0,
+          "peak": 87,
+          "pending": 0,
+          "pids": [
+            174524,
+            173412,
+            165608
+          ]
+        },
+        {
+          "sessionId": "session-fc3e3c2f-a484-4256-8ce7-4ee8b12f0e5d",
+          "paneId": "pane-1cbf9286-05ac-4535-8c1e-169922676edc",
+          "workspaceId": "workspace-681a890e-f863-47b7-b088-dae76969a500",
+          "generation": 1,
+          "state": "running",
+          "cols": 46,
+          "rows": 8,
+          "pid": 155972,
+          "createdAt": "134365339735394565",
+          "workerPid": 162064,
+          "workerCreatedAt": "134365339734929988",
+          "bytes": 0,
+          "peak": 53,
+          "pending": 0,
+          "pids": [
+            162064,
+            173268,
+            155972
+          ]
+        }
+      ]
+    },
+    {
+      "name": "auxiliary input focus returns to original terminal and fits nonzero sizes",
+      "status": "pass",
+      "detail": [
+        {
+          "paneId": "pane-d10a66fa-1b10-43ca-9df1-d2d9c4f64f95",
+          "cols": 66,
+          "rows": 20
+        },
+        {
+          "paneId": "pane-bc7d3860-9903-4c1b-9fd1-9766f412e9c5",
+          "cols": 66,
+          "rows": 8
+        },
+        {
+          "paneId": "pane-1cbf9286-05ac-4535-8c1e-169922676edc",
+          "cols": 66,
+          "rows": 8
+        }
+      ]
+    },
+    {
+      "name": "zoom/focus retains all sessions and xterm elements",
+      "status": "pass",
+      "detail": {
+        "sessions": 3
+      }
+    },
+    {
+      "name": "rename keeps session; close folds only current leaf and other sessions survive",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-b08f16bf-3fa2-402c-ab0e-619e81cf6d2f",
+          "paneId": "pane-d10a66fa-1b10-43ca-9df1-d2d9c4f64f95",
+          "workspaceId": "workspace-681a890e-f863-47b7-b088-dae76969a500",
+          "generation": 1,
+          "state": "running",
+          "cols": 66,
+          "rows": 20,
+          "pid": 169484,
+          "createdAt": "134365339669992085",
+          "workerPid": 173656,
+          "workerCreatedAt": "134365339669468390",
+          "bytes": 0,
+          "peak": 462,
+          "pending": 0,
+          "pids": [
+            173656,
+            174888,
+            169484
+          ]
+        },
+        {
+          "sessionId": "session-c3a2bb0e-ef0a-4a52-8e1a-c16f92bac2ab",
+          "paneId": "pane-bc7d3860-9903-4c1b-9fd1-9766f412e9c5",
+          "workspaceId": "workspace-681a890e-f863-47b7-b088-dae76969a500",
+          "generation": 1,
+          "state": "running",
+          "cols": 66,
+          "rows": 20,
+          "pid": 165608,
+          "createdAt": "134365339703072771",
+          "workerPid": 174524,
+          "workerCreatedAt": "134365339702594510",
+          "bytes": 0,
+          "peak": 87,
+          "pending": 0,
+          "pids": [
+            174524,
+            173412,
+            165608
+          ]
+        }
+      ]
+    },
+    {
+      "name": "real pointer splitter drag resizes Shell and preserves other sessions",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-b08f16bf-3fa2-402c-ab0e-619e81cf6d2f",
+          "cols": 72,
+          "rows": 20
+        },
+        {
+          "sessionId": "session-c3a2bb0e-ef0a-4a52-8e1a-c16f92bac2ab",
+          "cols": 60,
+          "rows": 20
+        }
+      ]
+    },
+    {
+      "name": "narrow window reports space constraint without destroying hidden sessions or sending zero size",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-b08f16bf-3fa2-402c-ab0e-619e81cf6d2f",
+          "cols": 69,
+          "rows": 7
+        },
+        {
+          "sessionId": "session-c3a2bb0e-ef0a-4a52-8e1a-c16f92bac2ab",
+          "cols": 60,
+          "rows": 20
+        }
+      ]
+    },
+    {
+      "name": "Esc and Ctrl+C reach terminal unchanged when no product layer is open",
+      "status": "pass",
+      "detail": {
+        "esc": true,
+        "ctrlC": true
+      }
+    },
+    {
+      "name": "four theme combinations and nativeTheme runtime updates reach product page",
+      "status": "pass",
+      "detail": [
+        {
+          "theme": "light",
+          "terminal": "#fbfcfe",
+          "focus": "TEXTAREA",
+          "terminalPixelBGRA": [
+            254,
+            252,
+            251,
+            255
+          ]
+        },
+        {
+          "theme": "dark",
+          "terminal": "#1b1f27",
+          "focus": "TEXTAREA",
+          "terminalPixelBGRA": [
+            39,
+            31,
+            27,
+            255
+          ]
+        },
+        {
+          "theme": "light",
+          "terminal": "#fbfcfe",
+          "focus": "TEXTAREA",
+          "terminalPixelBGRA": [
+            254,
+            252,
+            251,
+            255
+          ]
+        },
+        {
+          "theme": "dark",
+          "terminal": "#1b1f27",
+          "focus": "TEXTAREA",
+          "terminalPixelBGRA": [
+            39,
+            31,
+            27,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "name": "production bridge negative cases reject generations, dimensions, schema and navigation",
+      "status": "pass",
+      "detail": {
+        "rejected": [
+          "Error: Error: STALE_SESSION",
+          "Error: Error: INVALID_SIZE",
+          "Error: Error: INVALID_SCHEMA",
+          "Error: Error: SESSION_GONE",
+          "Error: Error: INVALID_INPUT"
+        ],
+        "node": "undefined",
+        "ipc": "undefined",
+        "newWindow": true
+      }
+    },
+    {
+      "name": "workspace switching preserves hidden session and xterm without zero-size resize",
+      "status": "pass",
+      "detail": {
+        "sessions": 3,
+        "persisted": [
+          {
+            "id": "workspace-681a890e-f863-47b7-b088-dae76969a500",
+            "name": "M1 中文工作区",
+            "cwd": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\desktop-normal-e9820b86-46ab-44e7-921f-c94d7a1c5dbf",
+            "layout": "single"
+          },
+          {
+            "id": "workspace-f129d71f-4731-41bf-a64c-5d4c77ea69d6",
+            "name": "第二工作区",
+            "cwd": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\desktop-normal-e9820b86-46ab-44e7-921f-c94d7a1c5dbf",
+            "layout": "single"
+          }
+        ]
+      }
+    },
+    {
+      "name": "actual rendered font fallback sample via Chromium platform font inspection",
+      "status": "pass",
+      "detail": {
+        "fonts": [
+          {
+            "familyName": "Consolas",
+            "glyphCount": 22,
+            "isCustomFont": false,
+            "postScriptName": "Consolas"
+          },
+          {
+            "familyName": "Microsoft YaHei",
+            "glyphCount": 2,
+            "isCustomFont": false,
+            "postScriptName": "MicrosoftYaHei"
+          }
+        ]
+      }
+    },
+    {
+      "name": "window close finishes all managed product sessions and service processes",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-b08f16bf-3fa2-402c-ab0e-619e81cf6d2f",
+          "paneId": "pane-d10a66fa-1b10-43ca-9df1-d2d9c4f64f95",
+          "workspaceId": "workspace-681a890e-f863-47b7-b088-dae76969a500",
+          "generation": 1,
+          "state": "running",
+          "cols": 72,
+          "rows": 20,
+          "pid": 169484,
+          "createdAt": "134365339669992085",
+          "workerPid": 173656,
+          "workerCreatedAt": "134365339669468390",
+          "bytes": 0,
+          "peak": 1267,
+          "pending": 0,
+          "pids": [
+            173656,
+            174888,
+            169484
+          ]
+        },
+        {
+          "sessionId": "session-c3a2bb0e-ef0a-4a52-8e1a-c16f92bac2ab",
+          "paneId": "pane-bc7d3860-9903-4c1b-9fd1-9766f412e9c5",
+          "workspaceId": "workspace-681a890e-f863-47b7-b088-dae76969a500",
+          "generation": 1,
+          "state": "running",
+          "cols": 60,
+          "rows": 20,
+          "pid": 165608,
+          "createdAt": "134365339703072771",
+          "workerPid": 174524,
+          "workerCreatedAt": "134365339702594510",
+          "bytes": 0,
+          "peak": 87,
+          "pending": 0,
+          "pids": [
+            174524,
+            173412,
+            165608
+          ]
+        },
+        {
+          "sessionId": "session-b61fb58b-3736-4247-95ea-47d2fdb0ce63",
+          "paneId": "pane-ddd32b3e-4ed3-4798-8f9e-407ee0d7e5d2",
+          "workspaceId": "workspace-f129d71f-4731-41bf-a64c-5d4c77ea69d6",
+          "generation": 1,
+          "state": "running",
+          "cols": 141,
+          "rows": 20,
+          "pid": 170200,
+          "createdAt": "134365339775768985",
+          "workerPid": 172516,
+          "workerCreatedAt": "134365339775275235",
+          "bytes": 0,
+          "peak": 87,
+          "pending": 0,
+          "pids": [
+            172516,
+            172176,
+            170200
+          ]
+        }
+      ]
+    }
+  ],
+  "consoleErrors": []
+}

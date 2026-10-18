@@ -1,0 +1,19 @@
+{
+  "entry": "desktop",
+  "mode": "normal",
+  "dir": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\desktop-normal-483c11ac-77fb-43a3-86f4-28d92e74d5aa",
+  "started": "2026-10-16T15:57:36.559Z",
+  "control": {
+    "pid": 38900,
+    "createdAt": "134366398565261529"
+  },
+  "app": {
+    "pid": 35332,
+    "createdAt": "134366398565543946"
+  },
+  "code": 1,
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n",
+  "fallbackPids": [],
+  "finished": "2026-10-16T15:58:24.432Z"
+}

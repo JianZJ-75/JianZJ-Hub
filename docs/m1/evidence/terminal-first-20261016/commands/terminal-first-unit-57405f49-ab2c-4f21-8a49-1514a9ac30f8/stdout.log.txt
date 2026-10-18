@@ -1,0 +1,136 @@
+TAP version 13
+# Subtest: split targets current leaf; nested close preserves all unrelated identities
+ok 1 - split targets current leaf; nested close preserves all unrelated identities
+  ---
+  duration_ms: 1.0484
+  type: 'test'
+  ...
+# Subtest: random deterministic split/close sequences have no duplicate, missing or unary leaves
+ok 2 - random deterministic split/close sequences have no duplicate, missing or unary leaves
+  ---
+  duration_ms: 35.5773
+  type: 'test'
+  ...
+# Subtest: recursive minimum bounds drag ratio; insufficient span leaves layout unchanged
+ok 3 - recursive minimum bounds drag ratio; insufficient span leaves layout unchanged
+  ---
+  duration_ms: 0.2179
+  type: 'test'
+  ...
+# Subtest: invalid splits, duplicates, ratios and axes are rejected
+ok 4 - invalid splits, duplicates, ratios and axes are rejected
+  ---
+  duration_ms: 0.2498
+  type: 'test'
+  ...
+# Subtest: credit has a hard byte bound and strictly scoped cumulative acknowledgements
+ok 5 - credit has a hard byte bound and strictly scoped cumulative acknowledgements
+  ---
+  duration_ms: 0.2636
+  type: 'test'
+  ...
+# Subtest: dimensions, UTF-8 input and generation reject malformed and excessive values
+ok 6 - dimensions, UTF-8 input and generation reject malformed and excessive values
+  ---
+  duration_ms: 0.1865
+  type: 'test'
+  ...
+# Subtest: schemas do not accept extra fields, arbitrary paths-as-identifiers or invalid preferences
+ok 7 - schemas do not accept extra fields, arbitrary paths-as-identifiers or invalid preferences
+  ---
+  duration_ms: 0.3125
+  type: 'test'
+  ...
+# Subtest: production sender must be exactly the owning WebContents, mainFrame and app URL
+ok 8 - production sender must be exactly the owning WebContents, mainFrame and app URL
+  ---
+  duration_ms: 0.1126
+  type: 'test'
+  ...
+# Subtest: theme light / OS dark=false resolves page and xterm from same palette
+ok 9 - theme light / OS dark=false resolves page and xterm from same palette
+  ---
+  duration_ms: 0.235
+  type: 'test'
+  ...
+# Subtest: theme dark / OS dark=true resolves page and xterm from same palette
+ok 10 - theme dark / OS dark=true resolves page and xterm from same palette
+  ---
+  duration_ms: 0.208
+  type: 'test'
+  ...
+# Subtest: theme system / OS dark=false resolves page and xterm from same palette
+ok 11 - theme system / OS dark=false resolves page and xterm from same palette
+  ---
+  duration_ms: 0.0782
+  type: 'test'
+  ...
+# Subtest: theme system / OS dark=true resolves page and xterm from same palette
+ok 12 - theme system / OS dark=true resolves page and xterm from same palette
+  ---
+  duration_ms: 0.049
+  type: 'test'
+  ...
+# Subtest: runtime system toggle changes system resolution, not explicit theme
+ok 13 - runtime system toggle changes system resolution, not explicit theme
+  ---
+  duration_ms: 0.0634
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 1 without changing font size
+ok 14 - CSS target line height maps to xterm device grid at DPR 1 without changing font size
+  ---
+  duration_ms: 1.0229
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 1.25 without changing font size
+ok 15 - CSS target line height maps to xterm device grid at DPR 1.25 without changing font size
+  ---
+  duration_ms: 0.1739
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 1.5 without changing font size
+ok 16 - CSS target line height maps to xterm device grid at DPR 1.5 without changing font size
+  ---
+  duration_ms: 0.0448
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 2 without changing font size
+ok 17 - CSS target line height maps to xterm device grid at DPR 2 without changing font size
+  ---
+  duration_ms: 0.0383
+  type: 'test'
+  ...
+# Subtest: zero/unavailable glyph metrics do not produce a fake geometry
+ok 18 - zero/unavailable glyph metrics do not produce a fake geometry
+  ---
+  duration_ms: 0.305
+  type: 'test'
+  ...
+# Subtest: resize applies serially, coalesces intermediate sizes and never displays an old reply as the newest size
+ok 19 - resize applies serially, coalesces intermediate sizes and never displays an old reply as the newest size
+  ---
+  duration_ms: 3.1256
+  type: 'test'
+  ...
+# Subtest: resize failure stays unconfirmed and disposal ignores late replies
+ok 20 - resize failure stays unconfirmed and disposal ignores late replies
+  ---
+  duration_ms: 0.4617
+  type: 'test'
+  ...
+# Subtest: application Shell PATH prefers only an existing native Claude install and preserves environment/key case
+ok 21 - application Shell PATH prefers only an existing native Claude install and preserves environment/key case
+  ---
+  duration_ms: 2.4121
+  type: 'test'
+  ...
+1..21
+# tests 21
+# suites 0
+# pass 21
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 92.8809

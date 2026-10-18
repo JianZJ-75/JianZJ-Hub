@@ -1,0 +1,187 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "actual Git Bash supports /c /d and cd c from root with no PowerShell drive command",
+      "status": "pass",
+      "detail": {
+        "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+        "drives": [
+          "/c",
+          "/d"
+        ],
+        "unicodePath": true
+      }
+    },
+    {
+      "name": "PTY resize agrees with actual tty ioctl, not only Bash COLUMNS cache",
+      "status": "pass",
+      "detail": {
+        "cols": 113,
+        "rows": 37
+      }
+    },
+    {
+      "name": "Bash high output preserves 16000 records and Unicode tail at natural EOF",
+      "status": "pass",
+      "detail": {
+        "event": {
+          "sessionId": "session-29161c8a-5bfd-4b0b-b2eb-d26017fcb6e7",
+          "paneId": "pane-ba9e078d-9654-408f-a8a5-c3d12c3b405f",
+          "workspaceId": "workspace-fcf431a4-f377-42c5-b454-7913932aff6a",
+          "generation": 1,
+          "state": "exited",
+          "cols": 113,
+          "rows": 37,
+          "pid": 176972,
+          "createdAt": "134365595698862792",
+          "workerPid": 182556,
+          "workerCreatedAt": "134365595696415745",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "exitCode": 7,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 6012,
+          "peak": 42653,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          },
+          "type": "exit"
+        },
+        "records": 16000,
+        "sha256": "d87f891e1cde3837f9ebf69499a1137a2a6cd93b75f0465ada31a0d20415f7e8"
+      }
+    },
+    {
+      "name": "managed Bash child/grandchild close does not end surviving session",
+      "status": "pass",
+      "detail": {
+        "result": {
+          "sessionId": "session-ed6c58cc-abb0-430a-9281-f3a5a03c2309",
+          "paneId": "pane-af41f608-2cf6-4c68-a37c-e2b2cec1cb03",
+          "workspaceId": "workspace-6e401274-c72a-46e3-8a7e-b36b08bdcb2e",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 182432,
+          "createdAt": "134365595832233157",
+          "workerPid": 181476,
+          "workerCreatedAt": "134365595831691290",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "exitCode": 1,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 8,
+          "peak": 234,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          }
+        },
+        "identities": [
+          {
+            "pid": 178220,
+            "createdAt": "134365595891438856",
+            "exited": true
+          },
+          {
+            "pid": 174832,
+            "createdAt": "134365595891842018",
+            "exited": true
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "sessionId": "session-29161c8a-5bfd-4b0b-b2eb-d26017fcb6e7",
+      "paneId": "pane-ba9e078d-9654-408f-a8a5-c3d12c3b405f",
+      "workspaceId": "workspace-fcf431a4-f377-42c5-b454-7913932aff6a",
+      "generation": 1,
+      "state": "exited",
+      "cols": 113,
+      "rows": 37,
+      "pid": 176972,
+      "createdAt": "134365595698862792",
+      "workerPid": 182556,
+      "workerCreatedAt": "134365595696415745",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "git-bash",
+      "shellLabel": "Git Bash",
+      "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "exitCode": 7,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 6012,
+      "peak": 42653,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-ed6c58cc-abb0-430a-9281-f3a5a03c2309",
+      "paneId": "pane-af41f608-2cf6-4c68-a37c-e2b2cec1cb03",
+      "workspaceId": "workspace-6e401274-c72a-46e3-8a7e-b36b08bdcb2e",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 182432,
+      "createdAt": "134365595832233157",
+      "workerPid": 181476,
+      "workerCreatedAt": "134365595831691290",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "git-bash",
+      "shellLabel": "Git Bash",
+      "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 8,
+      "peak": 234,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-dd92ee90-e0be-4cee-ab37-619be2ce6450",
+      "paneId": "pane-1f5559b6-684a-4f56-8f42-bba37eeb297c",
+      "workspaceId": "workspace-ebd06d21-50d1-4a31-817c-fbeb402bfadd",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 183016,
+      "createdAt": "134365595732180661",
+      "workerPid": 151416,
+      "workerCreatedAt": "134365595731656490",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "git-bash",
+      "shellLabel": "Git Bash",
+      "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 11,
+      "peak": 116,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    }
+  ]
+}

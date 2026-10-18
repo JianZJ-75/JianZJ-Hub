@@ -1,0 +1,64 @@
+{
+  "created": "2026-10-15T17:44:46.366Z",
+  "source": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+  "sourceReceiptSha256": "ee8c9670a05b8505eb67f9885cb2a86af2de66096be3a2af424b4a92dda0a351",
+  "staging": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\package-2026-10-15T17-44-16-215Z-1223e54b",
+  "output": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T17-44-16-215Z-1223e54b",
+  "executable": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T17-44-16-215Z-1223e54b\\win-unpacked\\Workstation.exe",
+  "archive": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T17-44-16-215Z-1223e54b\\win-unpacked\\resources\\app.asar",
+  "artifacts": [
+    {
+      "file": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T17-44-16-215Z-1223e54b\\win-unpacked\\Workstation.exe",
+      "sha256": "de0fb8a46d5bb83d15b2b6eb3cd1b7aa3b119e18cd78c354c2f97377db620db8"
+    },
+    {
+      "file": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T17-44-16-215Z-1223e54b\\win-unpacked\\resources\\app.asar",
+      "sha256": "783a107eec7bff03e5f41ac4a50395729ef5d5853cc5e64a8f1032e1186e8131"
+    }
+  ],
+  "nativeComparisons": [
+    {
+      "file": "node_modules/node-pty/prebuilds/win32-x64/conpty.node",
+      "sha256": "ee8f4e6f4dad71939eecfda11de249400e34bfefe4c8b48af13f3b5476f4035b"
+    },
+    {
+      "file": "node_modules/node-pty/prebuilds/win32-x64/conpty_console_list.node",
+      "sha256": "879dd94cfc79f1e263a00077597ae9448a5394b7d193381aaa50d992a1f91090"
+    },
+    {
+      "file": "node_modules/node-pty/build/Release/conpty/conpty.dll",
+      "sha256": "7c7430632052ff703540b68371ec43821820aa1335d8e11dfbcd9ff00e9daaed"
+    },
+    {
+      "file": "node_modules/node-pty/build/Release/conpty/OpenConsole.exe",
+      "sha256": "d1fe7faa62f9e955e2ac2371f95d7e5513df4d496255097158f979c94782c5fc"
+    },
+    {
+      "file": "node_modules/better-sqlite3/prebuilds/win32-x64.node",
+      "sha256": "e21e5efd71fba66578e95b62554d9028064a80dafd7221bf8a8ef155de8d240a"
+    },
+    {
+      "file": "node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
+      "sha256": "f7af4982457657d2e7ad46acb076614ed7122d6efbdbfbc75f21ec12681fa121"
+    },
+    {
+      "file": "node_modules/node-pty/LICENSE",
+      "sha256": "a3d60eaf32d2fb09c9d82ef39f14bd6e2c0f3ca7de30daa827486c0d6f8b6e9f"
+    },
+    {
+      "file": "node_modules/better-sqlite3/LICENSE",
+      "sha256": "09856b52897c91ab67e7456ef43067019f31dfd3b87fda72e655736b1ebdee55"
+    },
+    {
+      "file": "node_modules/koffi/LICENSE.txt",
+      "sha256": "22bcbbbacd739b026a8dc484f62a31484ce4c4e31f3408b60b29b4e41d62b290"
+    }
+  ],
+  "signed": false,
+  "downloads": false,
+  "zip": {
+    "file": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T17-44-16-215Z-1223e54b\\Workstation-M1-win32-x64.zip",
+    "bytes": 170034814,
+    "sha256": "cc1690c08a5b1732c0ba1aafe543e0a7fe0812f557d0d580b060679e05e037de"
+  }
+}

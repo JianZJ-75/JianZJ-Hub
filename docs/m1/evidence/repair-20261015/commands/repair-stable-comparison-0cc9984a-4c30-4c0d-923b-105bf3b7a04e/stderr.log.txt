@@ -1,0 +1,4 @@
+Error: OS_REFUSED_OWN_WINDOW_FOREGROUND
+    at focusOwnWindow (file:///D:/Code/JianZJ-Hub/scripts/m1/native-dialog.mjs:37:25)
+    at instance.capture (file:///D:/Code/JianZJ-Hub/.m1-scratch/repair-compare-final4-20261015/compare.mjs:26:32)
+    at file:///D:/Code/JianZJ-Hub/.m1-scratch/repair-compare-final4-20261015/compare.mjs:41:19

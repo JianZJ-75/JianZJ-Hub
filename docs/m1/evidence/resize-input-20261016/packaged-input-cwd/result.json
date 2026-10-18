@@ -1,0 +1,192 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "unmodified packaged executable opens real workspace through form and xterm input",
+      "status": "pass",
+      "detail": {
+        "url": "file:///D:/Code/JianZJ-Hub/release/m1/2026-10-16T17-53-14-494Z-510d185f/win-unpacked/resources/app.asar/out/m1/renderer/index.html",
+        "node": "undefined",
+        "executable": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-16T17-53-14-494Z-510d185f\\win-unpacked\\Workstation.exe"
+      }
+    },
+    {
+      "name": "packaged right/down splits, drawer focus, zoom and live resize",
+      "status": "pass",
+      "detail": {
+        "panes": [
+          "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-f58fd22f-6328-4106-a43c-d045519be40b76×35Git Bash",
+          "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-f58fd22f-6328-4106-a43c-d045519be40b76×14Git Bash",
+          "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-f58fd22f-6328-4106-a43c-d045519be40b76×14Git Bash"
+        ],
+        "marker": "M1_PACKAGED_RESIZE_42"
+      }
+    },
+    {
+      "name": "packaged explicit dark/light theme and terminal pane shutdown preserve other panes",
+      "status": "pass",
+      "detail": [
+        {
+          "theme": "dark",
+          "terminal": "#1b1f27"
+        },
+        {
+          "theme": "light",
+          "terminal": "#fbfcfe"
+        }
+      ]
+    },
+    {
+      "name": "packaged real xterm consumes high output with complete record hash and Unicode tail",
+      "status": "pass",
+      "detail": {
+        "records": 16000,
+        "sha256": "523fb0e148369899a3a413b7968e4e30642f2662dc934bde8bfe00036498f0c5",
+        "unicodeTail": true,
+        "realXtermConsumer": true,
+        "scrollbackLimit": 4000
+      }
+    },
+    {
+      "name": "unmodified packaged app runs real Claude classic/fullscreen without a model request",
+      "status": "pass",
+      "detail": {
+        "states": [
+          {
+            "mode": "classic",
+            "buffer": "normal",
+            "cols": 76,
+            "rows": 35,
+            "geometricBlockRuns": 15,
+            "draftClearedWithoutSubmitting": true,
+            "returnedToBash": true
+          },
+          {
+            "mode": "fullscreen",
+            "buffer": "alternate",
+            "cols": 76,
+            "rows": 35,
+            "geometricBlockRuns": 15,
+            "draftClearedWithoutSubmitting": true,
+            "returnedToBash": true
+          }
+        ],
+        "localRequests": [],
+        "scope": "fake local API key, --bare, isolated config, no model prompt submitted"
+      }
+    },
+    {
+      "name": "real native exit confirmation and full managed process-tree cleanup",
+      "status": "pass",
+      "detail": {
+        "code": 0,
+        "nativeConfirmation": true,
+        "identities": [
+          {
+            "pid": 38044,
+            "createdAt": "134366469835191463"
+          },
+          {
+            "pid": 42472,
+            "createdAt": "134366469835210775"
+          },
+          {
+            "pid": 43884,
+            "createdAt": "134366469835274469"
+          },
+          {
+            "pid": 25232,
+            "createdAt": "134366469837733724"
+          },
+          {
+            "pid": 14836,
+            "createdAt": "134366469838077680"
+          },
+          {
+            "pid": 43564,
+            "createdAt": "134366469838272638"
+          },
+          {
+            "pid": 21212,
+            "createdAt": "134366469868466963"
+          },
+          {
+            "pid": 38096,
+            "createdAt": "134366469871847978"
+          },
+          {
+            "pid": 42076,
+            "createdAt": "134366469872170186"
+          },
+          {
+            "pid": 31204,
+            "createdAt": "134366469872341875"
+          },
+          {
+            "pid": 42432,
+            "createdAt": "134366469902521641"
+          },
+          {
+            "pid": 42188,
+            "createdAt": "134366469906297637"
+          },
+          {
+            "pid": 43956,
+            "createdAt": "134366469906621211"
+          },
+          {
+            "pid": 43796,
+            "createdAt": "134366469906790678"
+          },
+          {
+            "pid": 38960,
+            "createdAt": "134366469936893546"
+          },
+          {
+            "pid": 43000,
+            "createdAt": "134366469835327976"
+          },
+          {
+            "pid": 38764,
+            "createdAt": "134366469836066944"
+          }
+        ],
+        "allExited": true
+      }
+    },
+    {
+      "name": "packaged restart starts a fresh home Shell, retains optional projects and never replays commands",
+      "status": "pass",
+      "detail": {
+        "workspaces": [
+          {
+            "id": "workspace-8e000d47-66e5-4e47-b224-16a5f072ff96",
+            "name": "打包体验工作区",
+            "cwd": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-f58fd22f-6328-4106-a43c-d045519be40b",
+            "layout": "single"
+          }
+        ],
+        "preferences": {
+          "theme": "light",
+          "fontSize": 14,
+          "density": "comfortable"
+        },
+        "terminalCount": 1,
+        "code": 0
+      }
+    }
+  ],
+  "archiveUnmodified": true,
+  "controlSurvived": true,
+  "fallbackPids": [],
+  "manifest": [
+    {
+      "file": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-16T17-53-14-494Z-510d185f\\win-unpacked\\Workstation.exe",
+      "sha256": "c57e0929182aa71b55ac8c6e1787f54a8d18844020b017e296e6d4a7b6330d18"
+    },
+    {
+      "file": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-16T17-53-14-494Z-510d185f\\win-unpacked\\resources\\app.asar",
+      "sha256": "8f64be3cb5605289699c2cc924a9e730bf9181a8ef5d9670fc1baed6c861d1fa"
+    }
+  ]
+}

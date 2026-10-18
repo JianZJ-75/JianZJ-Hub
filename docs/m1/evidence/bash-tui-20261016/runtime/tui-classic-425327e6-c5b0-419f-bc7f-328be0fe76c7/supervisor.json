@@ -1,0 +1,19 @@
+{
+  "entry": "tui",
+  "mode": "classic",
+  "dir": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\tui-classic-425327e6-c5b0-419f-bc7f-328be0fe76c7",
+  "started": "2026-10-15T17:05:17.434Z",
+  "control": {
+    "pid": 180440,
+    "createdAt": "134365575174254384"
+  },
+  "app": {
+    "pid": 165488,
+    "createdAt": "134365575174319200"
+  },
+  "code": 1,
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n",
+  "fallbackPids": [],
+  "finished": "2026-10-15T17:05:54.190Z"
+}

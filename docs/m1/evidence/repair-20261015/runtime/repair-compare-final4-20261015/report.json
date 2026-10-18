@@ -1,0 +1,33 @@
+{
+  "conditions": {
+    "targetContent": [
+      1440,
+      900
+    ],
+    "theme": "light/dark",
+    "fontSize": 14,
+    "density": "comfortable"
+  },
+  "metrics": [],
+  "cli": {
+    "scope": "version/help only; isolated config; no login/task"
+  },
+  "captures": [],
+  "comparisons": [],
+  "status": "failed",
+  "error": "Error: OS_REFUSED_OWN_WINDOW_FOREGROUND\n    at focusOwnWindow (file:///D:/Code/JianZJ-Hub/scripts/m1/native-dialog.mjs:37:25)\n    at instance.capture (file:///D:/Code/JianZJ-Hub/.m1-scratch/repair-compare-final4-20261015/compare.mjs:26:32)\n    at file:///D:/Code/JianZJ-Hub/.m1-scratch/repair-compare-final4-20261015/compare.mjs:41:19",
+  "cleanup": [
+    {
+      "label": "prototype-1440",
+      "mainPid": 176652,
+      "createdAt": "134365426074030622",
+      "beforeFallback": [
+        176652,
+        177520,
+        179296,
+        176228
+      ],
+      "remaining": []
+    }
+  ]
+}

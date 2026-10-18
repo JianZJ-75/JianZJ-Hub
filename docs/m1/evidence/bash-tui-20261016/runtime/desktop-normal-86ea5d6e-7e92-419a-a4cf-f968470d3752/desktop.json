@@ -1,0 +1,49 @@
+{
+  "status": "fail",
+  "error": "Error: TTY_GEOMETRY_MISMATCH:first:{\"wanted\":{\"cols\":141,\"rows\":33},\"records\":[{\"paneId\":\"pane-49f73fd3-f03c-4be1-ac8c-ba5ffb04de14\",\"sessionId\":\"session-1571afd7-3222-448c-bbed-c4c238ef13a3\",\"state\":\"running\",\"visible\":true,\"cols\":141,\"rows\":33,\"proposed\":{\"cols\":141,\"rows\":33},\"applied\":\"141x33\",\"pending\":false,\"initial\":{\"cols\":141,\"rows\":33},\"fontSize\":14,\"lineHeight\":1.1177058823529413,\"cell\":{\"width\":7.695035460992908,\"height\":19},\"host\":{\"w\":1101,\"h\":634},\"footer\":\"141×33\",\"dpr\":1,\"cli\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\@anthropic-ai\\\\claude-code\\\\bin\\\\claude.exe\"}],\"tail\":\"printf 'M1_GUI_%s' \\\"$((19+23))\\\"\\r\\n\\u001b[?2004l\\rM1_GUI_42\\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/desktop-normal-86ea5d6e-7e92-419a-a4cf-f968470d3752$ \"}",
+  "checks": [
+    {
+      "name": "startup opens one new home terminal without choosing project; last pane can reopen directly",
+      "status": "pass",
+      "detail": {
+        "first": "session-e158e1c5-9827-4703-af85-e806494037c1",
+        "second": "session-fee92300-27de-44a8-974b-b0094459908d",
+        "projects": 0,
+        "defaultHome": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\desktop-normal-86ea5d6e-7e92-419a-a4cf-f968470d3752\\home"
+      }
+    },
+    {
+      "name": "actual product new-workspace form opens real Git Bash",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-1571afd7-3222-448c-bbed-c4c238ef13a3",
+          "paneId": "pane-49f73fd3-f03c-4be1-ac8c-ba5ffb04de14",
+          "workspaceId": "workspace-be9140d3-98fb-4176-9c15-eb0b5d2b7ff9",
+          "generation": 1,
+          "state": "running",
+          "cols": 141,
+          "rows": 33,
+          "pid": 180732,
+          "createdAt": "134365586895879410",
+          "workerPid": 172944,
+          "workerCreatedAt": "134365586895367213",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 106,
+          "pending": 0,
+          "pids": [
+            172944,
+            175080,
+            180732,
+            165536
+          ]
+        }
+      ]
+    }
+  ],
+  "consoleErrors": []
+}

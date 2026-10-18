@@ -1,0 +1,445 @@
+{
+  "status": "fail",
+  "error": "Error: TTY_GEOMETRY_MISMATCH:window_small:{\"wanted\":{\"cols\":62,\"rows\":27},\"records\":[{\"paneId\":\"pane-a9b5e3f7-f045-4dc0-8bdc-390eae930038\",\"sessionId\":\"session-4542649d-83d6-4445-aa4f-53cf3717ff10\",\"state\":\"running\",\"visible\":true,\"cols\":62,\"rows\":27,\"proposed\":{\"cols\":62,\"rows\":27},\"applied\":\"62x27\",\"pending\":false,\"initial\":{\"cols\":141,\"rows\":33},\"fontSize\":14,\"lineHeight\":1.1177058823529413,\"cell\":{\"width\":7.693548387096774,\"height\":19},\"host\":{\"w\":496,\"h\":513},\"footer\":\"62×27\",\"dpr\":1,\"cli\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\@anthropic-ai\\\\claude-code\\\\bin\\\\claude.exe\"},{\"paneId\":\"pane-44942f42-d079-454d-ae0c-9311457e22c4\",\"sessionId\":\"session-05c10886-671e-49bc-bffe-4b7a7698a8ac\",\"state\":\"running\",\"visible\":true,\"cols\":50,\"rows\":27,\"proposed\":{\"cols\":50,\"rows\":27},\"applied\":\"50x27\",\"pending\":false,\"initial\":{\"cols\":56,\"rows\":27},\"fontSize\":14,\"lineHeight\":1.1177058823529413,\"cell\":{\"width\":7.7,\"height\":19},\"host\":{\"w\":405,\"h\":513},\"footer\":\"50×27\",\"dpr\":1,\"cli\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\@anthropic-ai\\\\claude-code\\\\bin\\\\claude.exe\"}],\"tail\":\"printf 'M1_GUI_%s' \\\"$((19+23))\\\"\\r\\n\\u001b[?2004l\\rM1_GUI_42\\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/desktop-normal-483c11ac-77fb-43a3-86f4-28d92e74d5aa$ ttySize=$(stty size); printf 'R_GEOM_first_%sx%s\\\\n' \\\"${ttySize#* }\\\" \\\"${ttySize% *}\\\"\\r\\n\\u001b[?2004l\\rR_GEOM_first_141x33\\r\\n\\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/desktop-normal-483c11ac-77fb-43a3-86f4-28d92e74d5aa$ \\r\\u001b[K\\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/desktop-normal-483c11ac-77fb-43a3-86f4-28d92e74d5aa$ printf 'M1_GUI_RESIZE_%s\\\\n' \\\"$((19+23))\\\"\\r\\n\\u001b[?2004l\\rM1_GUI_RESIZE_42\\r\\n\\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/desktop-normal-483c11ac-77fb-43a3-86f4-28d92e74d5aa$ \\r\\u001b[K\\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/desktop-normal-483c11ac-77fb-43a3-86f4-28d92e74d5aa$ \\r\\u001b[K\\r\\u001b[A\\u001b[K\\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/desktop-normal-483c11ac-77fb-43a3-86f4-28d92e74d5aa$ \\r\\u001b[K\\r\\u001b[A\\u001b[K\\r\\u001b[A\\u001b[K\\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/desktop-normal-483c11ac-77fb-43a3-86f4-28d92e74d5aa$ \\r\\u001b[K\\r\\u001b[A\\u001b[K\\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/desktop-normal-483c11ac-77fb-43a3-86f4-28d92e74d5aa$ ttySize=$(stty size); printf 'R_GEOM_pointer_drag_%sx%s\\\\n' \\\"${ttySize#* }\\\" \\\"${ttySize% *}\\\"\\r\\n\\u001b[?2004l\\rR_GEOM_pointer_drag_62x27\\r\\n\\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/desktop-normal-483c11ac-77fb-43a3-86f4-28d92e74d5aa$ \\r\\u001b[K\\r\\u001b[A\\u001b[K\\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/desktop-normal-483c11ac-77fb-43a3-86f4-28d92e74d5aa$ t^C\\u001b[?2004l\\r\\u001b[?2004hb-43a3-86f4-28d92e74d5aa$ tttySize=$(stty size); printf 'R_GEOM_exact_46_%sx%s\\\\n' \\\"${ttySize#* }\\\" \\\"${ttySize% *}\\\"\\r\\n\\u001b[?2004l\\r\\r\\nR_GEOM_exact_46_72x33\\r\\n\\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/desktop-normal-483c11ac-77fb-43a3-86f4-28d92e74d5aa$ \\r\\u001b[K\\r\\u001b[A\\u001b[K\\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/desktop-normal-483c11ac-77fb-43a3-86f4-28d92e74d5aa$ \"}",
+  "checks": [
+    {
+      "name": "startup opens one new home terminal without choosing project; last pane can reopen directly",
+      "status": "pass",
+      "detail": {
+        "first": "session-65898c9a-c361-4edd-bbee-18d245405277",
+        "second": "session-fcf01a75-d269-43fb-81ed-0e69d5d6cc92",
+        "projects": 0,
+        "defaultHome": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\desktop-normal-483c11ac-77fb-43a3-86f4-28d92e74d5aa\\home"
+      }
+    },
+    {
+      "name": "actual product new-workspace form opens real Git Bash",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-4542649d-83d6-4445-aa4f-53cf3717ff10",
+          "paneId": "pane-a9b5e3f7-f045-4dc0-8bdc-390eae930038",
+          "workspaceId": "workspace-6b326f20-7915-4c2e-b3ef-8a81a0ff8883",
+          "generation": 1,
+          "state": "running",
+          "cols": 141,
+          "rows": 33,
+          "pid": 39496,
+          "createdAt": "134366398644656295",
+          "workerPid": 25364,
+          "workerCreatedAt": "134366398644093756",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 106,
+          "pending": 0,
+          "pids": [
+            25364,
+            32884,
+            39496,
+            34204
+          ]
+        }
+      ]
+    },
+    {
+      "name": "first spawn uses measured grid, not fixed 80x24, and footer matches Shell",
+      "status": "pass",
+      "detail": {
+        "label": "first",
+        "records": [
+          {
+            "paneId": "pane-a9b5e3f7-f045-4dc0-8bdc-390eae930038",
+            "sessionId": "session-4542649d-83d6-4445-aa4f-53cf3717ff10",
+            "state": "running",
+            "visible": true,
+            "cols": 141,
+            "rows": 33,
+            "proposed": {
+              "cols": 141,
+              "rows": 33
+            },
+            "applied": "141x33",
+            "pending": false,
+            "initial": {
+              "cols": 141,
+              "rows": 33
+            },
+            "fontSize": 14,
+            "lineHeight": 1.1177058823529413,
+            "cell": {
+              "width": 7.695035460992908,
+              "height": 19
+            },
+            "host": {
+              "w": 1101,
+              "h": 634
+            },
+            "footer": "141×33",
+            "dpr": 1,
+            "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+          }
+        ],
+        "shell": {
+          "cols": 141,
+          "rows": 33
+        },
+        "ttyProbeAttempts": 1
+      }
+    },
+    {
+      "name": "GUI keyboard input survives immediate input after applied window resize",
+      "status": "pass",
+      "detail": {
+        "before": {
+          "cols": 141,
+          "rows": 33
+        },
+        "after": {
+          "cols": 122,
+          "rows": 27
+        },
+        "marker": "M1_GUI_RESIZE_42"
+      }
+    },
+    {
+      "name": "right/down nested splits preserve existing xterm DOM instance and session IDs",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-4542649d-83d6-4445-aa4f-53cf3717ff10",
+          "paneId": "pane-a9b5e3f7-f045-4dc0-8bdc-390eae930038",
+          "workspaceId": "workspace-6b326f20-7915-4c2e-b3ef-8a81a0ff8883",
+          "generation": 1,
+          "state": "running",
+          "cols": 56,
+          "rows": 27,
+          "pid": 39496,
+          "createdAt": "134366398644656295",
+          "workerPid": 25364,
+          "workerCreatedAt": "134366398644093756",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 106,
+          "pending": 0,
+          "pids": [
+            25364,
+            32884,
+            39496,
+            34204
+          ]
+        },
+        {
+          "sessionId": "session-05c10886-671e-49bc-bffe-4b7a7698a8ac",
+          "paneId": "pane-44942f42-d079-454d-ae0c-9311457e22c4",
+          "workspaceId": "workspace-6b326f20-7915-4c2e-b3ef-8a81a0ff8883",
+          "generation": 1,
+          "state": "running",
+          "cols": 56,
+          "rows": 10,
+          "pid": 39476,
+          "createdAt": "134366398708609309",
+          "workerPid": 37472,
+          "workerCreatedAt": "134366398708045760",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 109,
+          "pending": 0,
+          "pids": [
+            37472,
+            33692,
+            39476,
+            36568
+          ]
+        },
+        {
+          "sessionId": "session-7a7d677f-74ca-4340-a366-0361894459ad",
+          "paneId": "pane-959ceb17-bf87-49b7-8340-e4ff7e3b1a7a",
+          "workspaceId": "workspace-6b326f20-7915-4c2e-b3ef-8a81a0ff8883",
+          "generation": 1,
+          "state": "running",
+          "cols": 56,
+          "rows": 10,
+          "pid": 38856,
+          "createdAt": "134366398742239878",
+          "workerPid": 39740,
+          "workerCreatedAt": "134366398741666814",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 106,
+          "pending": 0,
+          "pids": [
+            39740,
+            39896,
+            38856,
+            38548
+          ]
+        }
+      ]
+    },
+    {
+      "name": "auxiliary input focus returns to original terminal and fits nonzero sizes",
+      "status": "pass",
+      "detail": [
+        {
+          "paneId": "pane-a9b5e3f7-f045-4dc0-8bdc-390eae930038",
+          "cols": 56,
+          "rows": 27
+        },
+        {
+          "paneId": "pane-44942f42-d079-454d-ae0c-9311457e22c4",
+          "cols": 56,
+          "rows": 10
+        },
+        {
+          "paneId": "pane-959ceb17-bf87-49b7-8340-e4ff7e3b1a7a",
+          "cols": 56,
+          "rows": 10
+        }
+      ]
+    },
+    {
+      "name": "zoom/focus retains all sessions and xterm elements",
+      "status": "pass",
+      "detail": {
+        "sessions": 3
+      }
+    },
+    {
+      "name": "rename keeps session; close folds only current leaf and other sessions survive",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-4542649d-83d6-4445-aa4f-53cf3717ff10",
+          "paneId": "pane-a9b5e3f7-f045-4dc0-8bdc-390eae930038",
+          "workspaceId": "workspace-6b326f20-7915-4c2e-b3ef-8a81a0ff8883",
+          "generation": 1,
+          "state": "running",
+          "cols": 56,
+          "rows": 27,
+          "pid": 39496,
+          "createdAt": "134366398644656295",
+          "workerPid": 25364,
+          "workerCreatedAt": "134366398644093756",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 110,
+          "pending": 0,
+          "pids": [
+            25364,
+            32884,
+            39496,
+            34204
+          ]
+        },
+        {
+          "sessionId": "session-05c10886-671e-49bc-bffe-4b7a7698a8ac",
+          "paneId": "pane-44942f42-d079-454d-ae0c-9311457e22c4",
+          "workspaceId": "workspace-6b326f20-7915-4c2e-b3ef-8a81a0ff8883",
+          "generation": 1,
+          "state": "running",
+          "cols": 56,
+          "rows": 27,
+          "pid": 39476,
+          "createdAt": "134366398708609309",
+          "workerPid": 37472,
+          "workerCreatedAt": "134366398708045760",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 110,
+          "pending": 0,
+          "pids": [
+            37472,
+            33692,
+            39476,
+            36568
+          ]
+        }
+      ]
+    },
+    {
+      "name": "real pointer splitter drag resizes Shell and preserves other sessions",
+      "status": "pass",
+      "detail": {
+        "label": "pointer_drag",
+        "records": [
+          {
+            "paneId": "pane-a9b5e3f7-f045-4dc0-8bdc-390eae930038",
+            "sessionId": "session-4542649d-83d6-4445-aa4f-53cf3717ff10",
+            "state": "running",
+            "visible": true,
+            "cols": 62,
+            "rows": 27,
+            "proposed": {
+              "cols": 62,
+              "rows": 27
+            },
+            "applied": "62x27",
+            "pending": false,
+            "initial": {
+              "cols": 141,
+              "rows": 33
+            },
+            "fontSize": 14,
+            "lineHeight": 1.1177058823529413,
+            "cell": {
+              "width": 7.693548387096774,
+              "height": 19
+            },
+            "host": {
+              "w": 496,
+              "h": 513
+            },
+            "footer": "62×27",
+            "dpr": 1,
+            "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+          },
+          {
+            "paneId": "pane-44942f42-d079-454d-ae0c-9311457e22c4",
+            "sessionId": "session-05c10886-671e-49bc-bffe-4b7a7698a8ac",
+            "state": "running",
+            "visible": true,
+            "cols": 50,
+            "rows": 27,
+            "proposed": {
+              "cols": 50,
+              "rows": 27
+            },
+            "applied": "50x27",
+            "pending": false,
+            "initial": {
+              "cols": 56,
+              "rows": 27
+            },
+            "fontSize": 14,
+            "lineHeight": 1.1177058823529413,
+            "cell": {
+              "width": 7.7,
+              "height": 19
+            },
+            "host": {
+              "w": 405,
+              "h": 513
+            },
+            "footer": "50×27",
+            "dpr": 1,
+            "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+          }
+        ],
+        "shell": {
+          "cols": 62,
+          "rows": 27
+        },
+        "ttyProbeAttempts": 3
+      }
+    },
+    {
+      "name": "narrow window reports space constraint without destroying hidden sessions or sending zero size",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-4542649d-83d6-4445-aa4f-53cf3717ff10",
+          "cols": 68,
+          "rows": 12
+        },
+        {
+          "sessionId": "session-05c10886-671e-49bc-bffe-4b7a7698a8ac",
+          "cols": 50,
+          "rows": 27
+        }
+      ]
+    },
+    {
+      "name": "Esc and Ctrl+C reach terminal unchanged when no product layer is open",
+      "status": "pass",
+      "detail": {
+        "esc": true,
+        "ctrlC": true
+      }
+    },
+    {
+      "name": "four theme combinations and nativeTheme runtime updates reach product page",
+      "status": "pass",
+      "detail": [
+        {
+          "theme": "light",
+          "terminal": "#fbfcfe",
+          "focus": "TEXTAREA",
+          "terminalPixelBGRA": [
+            254,
+            252,
+            251,
+            255
+          ]
+        },
+        {
+          "theme": "dark",
+          "terminal": "#1b1f27",
+          "focus": "TEXTAREA",
+          "terminalPixelBGRA": [
+            39,
+            31,
+            27,
+            255
+          ]
+        },
+        {
+          "theme": "light",
+          "terminal": "#fbfcfe",
+          "focus": "TEXTAREA",
+          "terminalPixelBGRA": [
+            254,
+            252,
+            251,
+            255
+          ]
+        },
+        {
+          "theme": "dark",
+          "terminal": "#1b1f27",
+          "focus": "TEXTAREA",
+          "terminalPixelBGRA": [
+            39,
+            31,
+            27,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "name": "production bridge negative cases reject generations, dimensions, schema and navigation",
+      "status": "pass",
+      "detail": {
+        "rejected": [
+          "Error: Error: STALE_SESSION",
+          "Error: Error: INVALID_SIZE",
+          "Error: Error: INVALID_SCHEMA",
+          "Error: Error: SESSION_GONE",
+          "Error: Error: INVALID_INPUT"
+        ],
+        "node": "undefined",
+        "ipc": "undefined",
+        "newWindow": true
+      }
+    }
+  ],
+  "consoleErrors": []
+}

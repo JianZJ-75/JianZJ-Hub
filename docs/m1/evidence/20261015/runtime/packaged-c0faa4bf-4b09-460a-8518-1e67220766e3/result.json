@@ -1,0 +1,126 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "unmodified packaged executable opens real workspace through form and xterm input",
+      "status": "pass",
+      "detail": {
+        "url": "file:///D:/Code/JianZJ-Hub/release/m1/2026-10-15T10-20-32-557Z-c0ee4209/win-unpacked/resources/app.asar/out/m1/renderer/index.html",
+        "node": "undefined",
+        "executable": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T10-20-32-557Z-c0ee4209\\win-unpacked\\Workstation.exe"
+      }
+    },
+    {
+      "name": "packaged right/down splits, drawer focus, zoom and live resize",
+      "status": "pass",
+      "detail": [
+        "真实 PowerShell76×22",
+        "真实 PowerShell76×9",
+        "真实 PowerShell76×9"
+      ]
+    },
+    {
+      "name": "packaged explicit dark/light theme and terminal pane shutdown preserve other panes",
+      "status": "pass",
+      "detail": [
+        {
+          "theme": "dark",
+          "terminal": "#1b1f27"
+        },
+        {
+          "theme": "light",
+          "terminal": "#fbfcfe"
+        }
+      ]
+    },
+    {
+      "name": "real native exit confirmation and full managed process-tree cleanup",
+      "status": "pass",
+      "detail": {
+        "code": 0,
+        "nativeConfirmation": true,
+        "identities": [
+          {
+            "pid": 161552,
+            "createdAt": "134365334270221627"
+          },
+          {
+            "pid": 174976,
+            "createdAt": "134365334270243323"
+          },
+          {
+            "pid": 154620,
+            "createdAt": "134365334270306158"
+          },
+          {
+            "pid": 139444,
+            "createdAt": "134365334272782315"
+          },
+          {
+            "pid": 136336,
+            "createdAt": "134365334273111997"
+          },
+          {
+            "pid": 139344,
+            "createdAt": "134365334273331991"
+          },
+          {
+            "pid": 174728,
+            "createdAt": "134365334306366943"
+          },
+          {
+            "pid": 174180,
+            "createdAt": "134365334306659375"
+          },
+          {
+            "pid": 168168,
+            "createdAt": "134365334306833362"
+          },
+          {
+            "pid": 162164,
+            "createdAt": "134365334270362328"
+          },
+          {
+            "pid": 172636,
+            "createdAt": "134365334271073335"
+          }
+        ],
+        "allExited": true
+      }
+    },
+    {
+      "name": "packaged restart retains config/preferences but creates no terminal or command replay",
+      "status": "pass",
+      "detail": {
+        "workspaces": [
+          {
+            "id": "workspace-e288781c-abf3-4e5d-afe2-a6877effdeec",
+            "name": "打包体验工作区",
+            "cwd": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-c0faa4bf-4b09-460a-8518-1e67220766e3",
+            "layout": "single"
+          }
+        ],
+        "preferences": {
+          "theme": "light",
+          "fontSize": 14,
+          "density": "comfortable"
+        },
+        "terminalCount": 0,
+        "code": 0
+      }
+    }
+  ],
+  "archiveUnmodified": true,
+  "controlSurvived": true,
+  "fallbackPids": [],
+  "manifest": [
+    {
+      "file": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T10-20-32-557Z-c0ee4209\\win-unpacked\\Workstation.exe",
+      "sha256": "ba173577fd98d3ea5de55c2842750512a1b24241c0cd0860a66a46e9b810881c"
+    },
+    {
+      "file": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T10-20-32-557Z-c0ee4209\\win-unpacked\\resources\\app.asar",
+      "sha256": "69f2e7703852145d489e4097f86d666fbab119406aea5066d7eec6e4ccc12cdc"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "status": "fail",
+  "error": "Error: SyntaxError: Invalid or unexpected token\n    at js (file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:32:38)\n    at async file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:103:5\n    at async check (file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:61:50)\n    at async file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:97:3",
+  "checks": [
+    {
+      "name": "unmodified packaged executable opens real workspace through form and xterm input",
+      "status": "pass",
+      "detail": {
+        "url": "file:///D:/Code/JianZJ-Hub/release/m1/2026-10-15T17-44-16-215Z-1223e54b/win-unpacked/resources/app.asar/out/m1/renderer/index.html",
+        "node": "undefined",
+        "executable": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-15T17-44-16-215Z-1223e54b\\win-unpacked\\Workstation.exe"
+      }
+    },
+    {
+      "name": "packaged right/down splits, drawer focus, zoom and live resize",
+      "status": "pass",
+      "detail": [
+        "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-69459099-fc2f-4d39-9161-143be496ff5776×35Git Bash",
+        "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-69459099-fc2f-4d39-9161-143be496ff5776×14Git Bash",
+        "D:\\Code\\JianZJ-Hub\\.m1-scratch\\packaged-69459099-fc2f-4d39-9161-143be496ff5776×14Git Bash"
+      ]
+    },
+    {
+      "name": "packaged explicit dark/light theme and terminal pane shutdown preserve other panes",
+      "status": "pass",
+      "detail": [
+        {
+          "theme": "dark",
+          "terminal": "#1b1f27"
+        },
+        {
+          "theme": "light",
+          "terminal": "#fbfcfe"
+        }
+      ]
+    }
+  ],
+  "fallbackPids": [
+    181108,
+    182104,
+    155064,
+    157092,
+    178232,
+    165464,
+    179844,
+    183180,
+    173328,
+    159668,
+    179224,
+    180412,
+    152988,
+    175548,
+    170704,
+    171816,
+    182540,
+    181540
+  ]
+}

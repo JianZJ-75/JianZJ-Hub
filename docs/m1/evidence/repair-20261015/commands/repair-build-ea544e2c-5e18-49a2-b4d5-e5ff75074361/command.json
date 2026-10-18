@@ -1,0 +1,14 @@
+{
+  "cwd": "D:\\Code\\JianZJ-Hub",
+  "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+  "args": [
+    "node_modules/electron-vite/bin/electron-vite.js",
+    "build",
+    "--config",
+    "electron.vite.m1.config.ts"
+  ],
+  "started": "2026-10-15T12:15:46.109Z",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\repair-build-ea544e2c-5e18-49a2-b4d5-e5ff75074361",
+  "finished": "2026-10-15T12:15:49.894Z",
+  "exitCode": 0
+}

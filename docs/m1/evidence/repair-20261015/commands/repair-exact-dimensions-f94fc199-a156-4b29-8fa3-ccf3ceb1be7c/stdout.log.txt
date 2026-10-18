@@ -1,0 +1,40 @@
+{
+  "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\repair-repro-20261015b",
+  "status": "failed",
+  "error": "Error: CDP_TIMEOUT:Runtime.evaluate\n    at Timeout._onTimeout (file:///D:/Code/JianZJ-Hub/.m1-scratch/repair-repro-20261015b/reproduce.mjs:24:151)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)",
+  "metrics": [],
+  "cleanup": [
+    {
+      "label": "prototype",
+      "mainPid": 174616,
+      "createdAt": "134365379921324643",
+      "beforeFallback": [
+        174616,
+        173560,
+        174072,
+        173280
+      ],
+      "remaining": []
+    },
+    {
+      "label": "application",
+      "mainPid": 171432,
+      "createdAt": "134365379925161002",
+      "beforeFallback": [
+        171432,
+        169836,
+        172208,
+        171332,
+        137900,
+        174244,
+        174708,
+        150924,
+        146704,
+        129864,
+        160660,
+        171932
+      ],
+      "remaining": []
+    }
+  ]
+}

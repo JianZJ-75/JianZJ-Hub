@@ -1,0 +1,90 @@
+{
+  "mode": "classic",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\wez-tui-classic-66bfa58b-acd7-4873-8643-7899ac154552",
+  "requests": [],
+  "steps": [
+    "real CLI startup in requested classic mode",
+    "edit and clear unsent CJK/English draft",
+    "local theme menu and Esc",
+    "resize and local exit to Bash"
+  ],
+  "version": "wezterm 20240203-110809-5046fc22\n",
+  "settings": {
+    "fontSizePt": 10.5,
+    "pixels": 14,
+    "dpi": 96,
+    "cols": 141,
+    "rows": 33,
+    "theme": "light",
+    "config": "isolated; no personal config or mux"
+  },
+  "content": {
+    "width": 1172,
+    "height": 667
+  },
+  "start": "ref:~$ 'C:/Users/Administrator/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/bin/claude.exe' --bare --settings '{\"theme\":\"light\"\n,\"tui\":\"default\"}'\n ▐▛███▛█   Claude Code v2.1.300\n▝▜██████▀  Opus 5.5 · API Usage Billing                                                                                                      \n ▝▝   ▝▝   D:\\Code\\JianZJ-Hub\\.m1-scratch\\wez-tui-classic-66bfa58b-acd7-4873-8643-7899ac154552\\home                                          \n\n▎ Auto mode is now Claude Code's default permission mode.                                                                                    \n▎ Auto mode lets Claude handle permission prompts automatically. Claude checks each tool call for risky actions and prompt injection before\n▎ executing, runs the ones it assesses as lower-risk, and blocks the rest.                                                                   \n▎ https://code.claude.com/docs/en/permission-modes                                                                                           \n                                                                                                                                             \n─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────\n❯  \n─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────\n  ⏵⏵ auto mode on (shift+tab to cycle) · ← for agents                                                                    ◐ medium · /effort\n                                                                                                                                             \n                                                                                                                                             \n\n                                                                                                                                             \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "grid": [
+    {
+      "window_id": 0,
+      "tab_id": 0,
+      "pane_id": 0,
+      "workspace": "default",
+      "size": {
+        "rows": 33,
+        "cols": 141,
+        "pixel_width": 1128,
+        "pixel_height": 627,
+        "dpi": 96
+      },
+      "title": "✳ Claude Code",
+      "cwd": "file:///D:/Code/JianZJ-Hub/.m1-scratch/wez-tui-classic-66bfa58b-acd7-4873-8643-7899ac154552/home/",
+      "cursor_x": 139,
+      "cursor_y": 14,
+      "cursor_shape": "Default",
+      "cursor_visibility": "Hidden",
+      "left_col": 0,
+      "top_row": 0,
+      "tab_title": "",
+      "window_title": "✳ Claude Code",
+      "is_active": true,
+      "is_zoomed": false,
+      "tty_name": null
+    }
+  ],
+  "resized": [
+    {
+      "window_id": 0,
+      "tab_id": 0,
+      "pane_id": 0,
+      "workspace": "default",
+      "size": {
+        "rows": 33,
+        "cols": 119,
+        "pixel_width": 952,
+        "pixel_height": 627,
+        "dpi": 96
+      },
+      "title": "✳ Claude Code",
+      "cwd": "file:///D:/Code/JianZJ-Hub/.m1-scratch/wez-tui-classic-66bfa58b-acd7-4873-8643-7899ac154552/home/",
+      "cursor_x": 118,
+      "cursor_y": 32,
+      "cursor_shape": "Default",
+      "cursor_visibility": "Hidden",
+      "left_col": 0,
+      "top_row": 0,
+      "tab_title": "",
+      "window_title": "✳ Claude Code",
+      "is_active": true,
+      "is_zoomed": false,
+      "tty_name": null
+    }
+  ],
+  "status": "pass",
+  "beforeCleanup": [
+    176084,
+    156512,
+    177908,
+    171524
+  ],
+  "remaining": []
+}

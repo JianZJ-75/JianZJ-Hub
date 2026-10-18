@@ -1,0 +1,13 @@
+{
+  "cwd": "D:\\Code\\JianZJ-Hub",
+  "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+  "args": [
+    "scripts/m1/probe-run.mjs",
+    "fault",
+    "main-crash"
+  ],
+  "started": "2026-10-15T10:37:04.134Z",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\fault-main-crash-994134ab-7def-4982-92ef-667cf1e6f5d9",
+  "finished": "2026-10-15T10:37:07.721Z",
+  "exitCode": 0
+}

@@ -1,0 +1,55 @@
+[36mvite v7.3.7 [32mbuilding ssr environment for production...[36m[39m
+transforming...
+[32m✓[39m 19 modules transformed.
+rendering chunks...
+[2mout/m1/main/[22m[36mconout-reader.js            [39m[1m[2m 0.79 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mindex.js                    [39m[1m[2m 0.89 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mdata-service.js             [39m[1m[2m 1.97 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mchunks/rules-BFOwma_U.js    [39m[1m[2m 2.77 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mprobe.js                    [39m[1m[2m 2.82 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mfault.js                    [39m[1m[2m 3.12 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mchunks/service-Boslv04S.js  [39m[1m[2m 3.64 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mchunks/shell-BqJoE8ZE.js    [39m[1m[2m 3.99 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mpty-worker.js               [39m[1m[2m 4.69 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mjob-adapter.js              [39m[1m[2m 5.01 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mvisual.js                   [39m[1m[2m 5.08 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mbash.js                     [39m[1m[2m 6.27 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mpty-service.js              [39m[1m[2m 9.70 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mstress.js                   [39m[1m[2m10.43 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mtui.js                      [39m[1m[2m10.59 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mchunks/app-BLUAD94g.js      [39m[1m[2m11.80 kB[22m[1m[22m
+[2mout/m1/main/[22m[36mdesktop.js                  [39m[1m[2m26.13 kB[22m[1m[22m
+[32m✓ built in 188ms[39m
+[36mvite v7.3.7 [32mbuilding ssr environment for production...[36m[39m
+transforming...
+[32m✓[39m 1 modules transformed.
+rendering chunks...
+[2mout/m1/preload/[22m[36mworkstation.js  [39m[1m[2m1.22 kB[22m[1m[22m
+[32m✓ built in 9ms[39m
+[36mvite v7.3.7 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 38 modules transformed.
+rendering chunks...
+[2m../../../out/m1/renderer/[22m[32mindex.html                 [39m[1m[2m    0.60 kB[22m[1m[22m
+[2m../../../out/m1/renderer/[22m[35massets/index-Cd8wF5HU.css  [39m[1m[2m   28.35 kB[22m[1m[22m
+[2m../../../out/m1/renderer/[22m[36massets/index-DUjrkb0Z.js   [39m[1m[33m1,123.85 kB[39m[22m
+[32m✓ built in 968ms[39m
+{"cwd":"D:\\Code\\JianZJ-Hub","executable":"D:\\Program Files (x86)\\nodejs\\node.exe","args":["node_modules/electron-vite/bin/electron-vite.js","build","--config","electron.vite.m1.config.ts"],"started":"2026-10-15T17:41:03.756Z","directory":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\build-test-205b3b0b-e2fa-4205-8597-ab7e19aa4eb4","finished":"2026-10-15T17:41:05.363Z","exitCode":0}
+{"entry":"probe","mode":"normal","dir":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\probe-normal-376275ad-eb3c-4773-9ed1-c63365306420","started":"2026-10-15T17:41:05.457Z","control":{"pid":181272,"createdAt":"134365596654479634"},"app":{"pid":134076,"createdAt":"134365596654548426"},"code":0,"remaining":[],"controlSurvived":true,"status":"pass","fallbackPids":[],"finished":"2026-10-15T17:41:12.977Z"}
+{"cwd":"D:\\Code\\JianZJ-Hub","executable":"D:\\Program Files (x86)\\nodejs\\node.exe","args":["scripts/m1/probe-run.mjs","probe","normal"],"started":"2026-10-15T17:41:05.400Z","directory":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\probe-normal-a389a9ef-dca3-4fd3-9b34-92e9b9af9798","finished":"2026-10-15T17:41:12.985Z","exitCode":0}
+{"entry":"desktop","mode":"normal","dir":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\desktop-normal-c16bb7d0-c496-40ef-bf77-4dedfada671d","started":"2026-10-15T17:41:13.079Z","control":{"pid":178284,"createdAt":"134365596730691966"},"app":{"pid":183168,"createdAt":"134365596730757708"},"code":0,"remaining":[],"controlSurvived":true,"status":"pass","fallbackPids":[],"finished":"2026-10-15T17:41:59.915Z"}
+{"cwd":"D:\\Code\\JianZJ-Hub","executable":"D:\\Program Files (x86)\\nodejs\\node.exe","args":["scripts/m1/probe-run.mjs","desktop","normal"],"started":"2026-10-15T17:41:13.023Z","directory":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\desktop-normal-595cafcd-cb72-456f-8a79-9ccedff96c60","finished":"2026-10-15T17:41:59.923Z","exitCode":0}
+{"entry":"stress","mode":"normal","dir":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\stress-normal-be20f201-f31b-45d8-86ce-ad80687f1458","started":"2026-10-15T17:42:00.015Z","control":{"pid":182404,"createdAt":"134365597200032558"},"app":{"pid":159668,"createdAt":"134365597200115251"},"code":0,"remaining":[],"controlSurvived":true,"status":"pass","fallbackPids":[],"finished":"2026-10-15T17:43:05.462Z"}
+{"cwd":"D:\\Code\\JianZJ-Hub","executable":"D:\\Program Files (x86)\\nodejs\\node.exe","args":["scripts/m1/probe-run.mjs","stress","normal"],"started":"2026-10-15T17:41:59.958Z","directory":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\stress-normal-18b53f84-a689-4914-832c-e520844b2e82","finished":"2026-10-15T17:43:05.471Z","exitCode":0}
+{"entry":"bash","mode":"normal","dir":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\bash-normal-7679b890-2a0c-4e52-bdce-e0beb9c30d20","started":"2026-10-15T17:43:05.585Z","control":{"pid":168508,"createdAt":"134365597855727070"},"app":{"pid":176688,"createdAt":"134365597855823145"},"code":0,"remaining":[],"controlSurvived":true,"status":"pass","fallbackPids":[],"finished":"2026-10-15T17:43:26.792Z"}
+{"cwd":"D:\\Code\\JianZJ-Hub","executable":"D:\\Program Files (x86)\\nodejs\\node.exe","args":["scripts/m1/probe-run.mjs","bash","normal"],"started":"2026-10-15T17:43:05.515Z","directory":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\bash-normal-4c2012df-d1c6-4eb8-ac4b-4bbc0daf284b","finished":"2026-10-15T17:43:26.802Z","exitCode":0}
+{"entry":"visual","mode":"normal","dir":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\visual-normal-70adb423-d7e3-4f62-8d24-37d44ea18c79","started":"2026-10-15T17:43:26.911Z","control":{"pid":177800,"createdAt":"134365598068993517"},"app":{"pid":166084,"createdAt":"134365598069076137"},"code":0,"remaining":[],"controlSurvived":true,"status":"pass","fallbackPids":[],"finished":"2026-10-15T17:43:35.116Z"}
+{"cwd":"D:\\Code\\JianZJ-Hub","executable":"D:\\Program Files (x86)\\nodejs\\node.exe","args":["scripts/m1/probe-run.mjs","visual","normal"],"started":"2026-10-15T17:43:26.847Z","directory":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\visual-normal-2546a7d0-c5c7-46e6-b5f3-5e48faaf0cc3","finished":"2026-10-15T17:43:35.126Z","exitCode":0}
+{"entry":"tui","mode":"classic","dir":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\tui-classic-a5fda8b2-5fda-4ea0-b313-bba2be177b9f","started":"2026-10-15T17:43:35.225Z","control":{"pid":167140,"createdAt":"134365598152127655"},"app":{"pid":169344,"createdAt":"134365598152205561"},"code":0,"remaining":[],"controlSurvived":true,"status":"pass","fallbackPids":[],"finished":"2026-10-15T17:43:49.881Z"}
+{"cwd":"D:\\Code\\JianZJ-Hub","executable":"D:\\Program Files (x86)\\nodejs\\node.exe","args":["scripts/m1/probe-run.mjs","tui","classic"],"started":"2026-10-15T17:43:35.165Z","directory":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\tui-classic-1b6adf58-10e8-411e-b807-5e489e446507","finished":"2026-10-15T17:43:49.891Z","exitCode":0}
+{"entry":"tui","mode":"fullscreen","dir":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\tui-fullscreen-2644623b-d7c3-44ac-a6f8-7269fdd5a454","started":"2026-10-15T17:43:50.005Z","control":{"pid":182396,"createdAt":"134365598299942198"},"app":{"pid":170696,"createdAt":"134365598300027038"},"code":0,"remaining":[],"controlSurvived":true,"status":"pass","fallbackPids":[],"finished":"2026-10-15T17:44:04.820Z"}
+{"cwd":"D:\\Code\\JianZJ-Hub","executable":"D:\\Program Files (x86)\\nodejs\\node.exe","args":["scripts/m1/probe-run.mjs","tui","fullscreen"],"started":"2026-10-15T17:43:49.937Z","directory":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\tui-fullscreen-e2da1312-977d-40d0-bcf7-d5a4385f4c76","finished":"2026-10-15T17:44:04.831Z","exitCode":0}
+{"entry":"fault","mode":"service-fault","dir":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\fault-service-fault-8d9c1f91-b599-49fb-a83d-f4a11764bd95","started":"2026-10-15T17:44:04.943Z","control":{"pid":170240,"createdAt":"134365598449311664"},"app":{"pid":182708,"createdAt":"134365598449397506"},"code":0,"remaining":[],"controlSurvived":true,"status":"pass","fallbackPids":[],"finished":"2026-10-15T17:44:08.664Z"}
+{"cwd":"D:\\Code\\JianZJ-Hub","executable":"D:\\Program Files (x86)\\nodejs\\node.exe","args":["scripts/m1/probe-run.mjs","fault","service-fault"],"started":"2026-10-15T17:44:04.876Z","directory":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\fault-service-fault-1e01a52c-c3c4-46bf-99e7-0c972448c3b4","finished":"2026-10-15T17:44:08.673Z","exitCode":0}
+{"entry":"fault","mode":"main-crash","dir":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\fault-main-crash-8cce450f-5cd2-4b94-8019-b7d913688ee1","started":"2026-10-15T17:44:08.781Z","control":{"pid":171728,"createdAt":"134365598487692483"},"app":{"pid":178852,"createdAt":"134365598487775409"},"armed":{"mode":"main-crash","service":182188,"managed":[{"pid":182188,"createdAt":"134365598488710762"},{"pid":168276,"createdAt":"134365598489274870"},{"pid":167492,"createdAt":"134365598489683968"},{"pid":182212,"createdAt":"134365598489928783"},{"pid":182940,"createdAt":"134365598522826157"},{"pid":179000,"createdAt":"134365598523181509"}],"tree":[{"pid":182940,"role":"child","started":"2026-10-15T17:44:12.312Z"},{"pid":179000,"role":"grandchild","started":"2026-10-15T17:44:12.347Z"}]},"identitiesExited":true,"code":1,"remaining":[],"controlSurvived":true,"status":"pass","fallbackPids":[],"finished":"2026-10-15T17:44:12.457Z"}
+{"cwd":"D:\\Code\\JianZJ-Hub","executable":"D:\\Program Files (x86)\\nodejs\\node.exe","args":["scripts/m1/probe-run.mjs","fault","main-crash"],"started":"2026-10-15T17:44:08.716Z","directory":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\fault-main-crash-4692ad51-e689-41ee-80d7-0ab090d9b0b6","finished":"2026-10-15T17:44:12.467Z","exitCode":0}

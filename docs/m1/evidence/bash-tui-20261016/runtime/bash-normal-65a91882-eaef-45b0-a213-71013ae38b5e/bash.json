@@ -1,0 +1,29 @@
+{
+  "status": "fail",
+  "error": "Error: BASH_TIMEOUT",
+  "checks": [
+    {
+      "name": "actual Git Bash supports /c /d and cd c from root with no PowerShell drive command",
+      "status": "pass",
+      "detail": {
+        "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+        "drives": [
+          "/c",
+          "/d"
+        ],
+        "unicodePath": true
+      }
+    }
+  ],
+  "events": [],
+  "output": [
+    [
+      "session-7c564c32-0113-46a2-910f-0e43f2e40749",
+      "\u001b[1t\u001b[c\u001b[?1004h\u001b[?9001h\u001b]1337;WS_READY_107a1433-8dbe-41ee-991e-c7a8b6ab7edb\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-65a91882-eaef-45b0-a213-71013ae38b5e/中文 space$ cd /; cd c; printf 'DRIVE_C:%s\\n' \"$PWD\"; cd /d; printf 'DRIVE_D:%s\\n' \"$PWD\"; cd 'D:/Code/JianZJ-Hub/.m1-scratch/bash-normal-65a91882-eaef-45b0-a213-71013ae38b5e/中文 space'; printf 'CWD_UNICODE:%s\\n' \"$PWD\"; printf 'BASH_MATH_%s\\n' \"$((19+23))\"\r\n\u001b[?2004l\rDRIVE_C:/c\r\nDRIVE_D:/d\r\nCWD_UNICODE:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-65a91882-eaef-45b0-a213-71013ae38b5e/中文 space\r\nBASH_MATH_42\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-65a91882-eaef-45b0-a213-71013ae38b5e/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-65a91882-eaef-45b0-a213-71013ae38b5e/中文 space$ rintf 'STTY:%s\\n' \"$(stty size)\"\r\n\u001b[?2004l\rbash: rintf: command not found\r\n\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-65a91882-eaef-45b0-a213-71013ae38b5e/中文 space$ "
+    ],
+    [
+      "session-37db685e-6dc5-4c89-a8f0-43d58e642f45",
+      "\u001b[1t\u001b[c\u001b[?1004h\u001b[?9001h\u001b]1337;WS_READY_e0a01100-0700-400f-ade9-a8dab0913d8d\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-65a91882-eaef-45b0-a213-71013ae38b5e/中文 space$ "
+    ]
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "cols": 141,
+  "rows": 33,
+  "buffer": "normal",
+  "lines": [
+    "Administrator:/d/Code/JianZJ-Hub/.m1-scratch/tui-classic-425327e6-c5b0-419f-bc7f-328be0fe76c7/home$ claude --bare --settings '{\"theme\":\"light",
+    "\",\"tui\":\"default\"}'",
+    "─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────",
+    " Accessing workspace:",
+    " D:\\Code\\JianZJ-Hub\\.m1-scratch\\tui-classic-425327e6-c5b0-419f-bc7f-328be0fe76c7\\home",
+    " Quick safety check: Is this a project you created or one you trust? (Like your own code, a well-known open source project, or work from",
+    " your team). If not, take a moment to review what's in this folder first.",
+    " Claude Code'll be able to read, edit, and execute files here.",
+    " Security guide",
+    " ❯ No, exit",
+    "   Yes, I trust this folder",
+    " Enter to confirm · Esc to cancel"
+  ],
+  "dimensions": {
+    "css": {
+      "canvas": {
+        "width": 1085,
+        "height": 627
+      },
+      "cell": {
+        "width": 7.695035460992908,
+        "height": 19
+      }
+    },
+    "device": {
+      "canvas": {
+        "width": 1085.314453125,
+        "height": 627
+      },
+      "cell": {
+        "width": 7.697265625,
+        "height": 19
+      },
+      "char": {
+        "width": 7.697265625,
+        "height": 17,
+        "left": 0,
+        "top": 0
+      }
+    }
+  },
+  "font": "\"Cascadia Code\",\"Cascadia Mono\",\"SFMono-Regular\",Menlo,Consolas,\"Microsoft YaHei\",monospace",
+  "blocks": []
+}

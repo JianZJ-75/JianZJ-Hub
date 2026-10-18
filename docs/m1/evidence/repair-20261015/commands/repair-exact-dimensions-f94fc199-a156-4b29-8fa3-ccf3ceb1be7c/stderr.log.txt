@@ -1,0 +1,4 @@
+Error: CDP_TIMEOUT:Runtime.evaluate
+    at Timeout._onTimeout (file:///D:/Code/JianZJ-Hub/.m1-scratch/repair-repro-20261015b/reproduce.mjs:24:151)
+    at listOnTimeout (node:internal/timers:585:17)
+    at process.processTimers (node:internal/timers:521:7)

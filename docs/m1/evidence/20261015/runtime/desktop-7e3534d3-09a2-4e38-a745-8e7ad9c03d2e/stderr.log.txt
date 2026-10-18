@@ -1,0 +1,4 @@
+Error: WaitForSingleObject:4294967295
+    at get exited (D:\Code\JianZJ-Hub\out\m1\main\job-adapter.js:46:47)
+    at ProcessHandle.waitForExit (D:\Code\JianZJ-Hub\out\m1\main\job-adapter.js:57:18)
+    at async Service.reclaim (D:\Code\JianZJ-Hub\out\m1\main\chunks\service-2m0A-6x2.js:87:5)
