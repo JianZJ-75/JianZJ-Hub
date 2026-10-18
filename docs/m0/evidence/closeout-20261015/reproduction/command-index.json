@@ -1,0 +1,756 @@
+[
+  {
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "build"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:38:20.611Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:38:22.163Z",
+    "record": "evidence/commands/build/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "m0:check"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "m0:check"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:46:29.348Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:46:29.833Z",
+    "record": "evidence/commands/check/command.json"
+  },
+  {
+    "command": [
+      "node",
+      "D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f/harness/collect.mjs",
+      "D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f"
+    ],
+    "actual": [
+      "node",
+      "D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f/harness/collect.mjs",
+      "D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:26:25.850Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:26:28.851Z",
+    "record": "evidence/commands/collect/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "m0:run"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "m0:run"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:50:47.811Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:52:58.015Z",
+    "record": "evidence/commands/dev-full/command.json"
+  },
+  {
+    "command": [
+      "node",
+      "scripts/m0/run.mjs",
+      "dev",
+      "--mode=normal"
+    ],
+    "actual": [
+      "node",
+      "scripts/m0/run.mjs",
+      "dev",
+      "--mode=normal"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:49:55.552Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:50:21.611Z",
+    "record": "evidence/commands/dev-normal/command.json"
+  },
+  {
+    "command": [
+      "node",
+      "scripts/m0/run.mjs",
+      "dev",
+      "--mode=concurrent-exit",
+      "--repeat=2"
+    ],
+    "actual": [
+      "node",
+      "scripts/m0/run.mjs",
+      "dev",
+      "--mode=concurrent-exit",
+      "--repeat=2"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:55:08.341Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:57:45.740Z",
+    "record": "evidence/commands/dev-repeat/command.json"
+  },
+  {
+    "command": [
+      "bash",
+      "-lc",
+      "for p in . project/node_modules cache/npm project/.m0-scratch/cache/electron project/.m0-scratch/downloads project/out project/release evidence; do du -sm \"$p\"; done"
+    ],
+    "actual": [
+      "bash",
+      "-lc",
+      "for p in . project/node_modules cache/npm project/.m0-scratch/cache/electron project/.m0-scratch/downloads project/out project/release evidence; do du -sm \"$p\"; done"
+    ],
+    "cwd": "D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f",
+    "started": "2026-10-15T08:56:10.820Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:56:12.317Z",
+    "record": "evidence/commands/disk-usage/command.json"
+  },
+  {
+    "command": [
+      "node",
+      "D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f/harness/finalize.mjs"
+    ],
+    "actual": [
+      "node",
+      "D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f/harness/finalize.mjs"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T09:02:59.632Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T09:02:59.826Z",
+    "record": "evidence/commands/finalize/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "ci",
+      "--ignore-scripts",
+      "--include=optional",
+      "--registry=https://registry.npmjs.org",
+      "--cache=D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f/cache/npm",
+      "--no-audit",
+      "--no-fund"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "ci",
+      "--ignore-scripts",
+      "--include=optional",
+      "--registry=https://registry.npmjs.org",
+      "--cache=D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f/cache/npm",
+      "--no-audit",
+      "--no-fund"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:35:17.244Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:35:29.615Z",
+    "record": "evidence/commands/npm-ci/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "m0:package"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "m0:package"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:46:31.057Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 1,
+    "signal": null,
+    "finished": "2026-10-15T08:46:34.389Z",
+    "record": "evidence/commands/package/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "m0:package"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "m0:package"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:49:11.942Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:49:15.466Z",
+    "record": "evidence/commands/package-pathfix/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "m0:packaged"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "m0:packaged"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:52:58.048Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:55:08.308Z",
+    "record": "evidence/commands/packaged-full/command.json"
+  },
+  {
+    "command": [
+      "node",
+      "scripts/m0/run.mjs",
+      "packaged",
+      "--mode=normal"
+    ],
+    "actual": [
+      "node",
+      "scripts/m0/run.mjs",
+      "packaged",
+      "--mode=normal"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:50:21.644Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:50:47.778Z",
+    "record": "evidence/commands/packaged-normal/command.json"
+  },
+  {
+    "command": [
+      "node",
+      "scripts/m0/run.mjs",
+      "packaged",
+      "--mode=concurrent-exit",
+      "--repeat=2"
+    ],
+    "actual": [
+      "node",
+      "scripts/m0/run.mjs",
+      "packaged",
+      "--mode=concurrent-exit",
+      "--repeat=2"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:57:45.773Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T09:00:23.221Z",
+    "record": "evidence/commands/packaged-repeat/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "m0:prepare",
+      "--",
+      "--allow-downloads"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "m0:prepare",
+      "--",
+      "--allow-downloads"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:43:18.404Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:43:34.284Z",
+    "record": "evidence/commands/preparation/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "test"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "test"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:37:08.231Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 1,
+    "signal": null,
+    "finished": "2026-10-15T08:37:09.010Z",
+    "record": "evidence/commands/preparation-unit/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "test"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "test"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:38:19.654Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:38:19.968Z",
+    "record": "evidence/commands/preparation-unit-nodezip/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "m0:prepare"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "m0:prepare"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:58:02.595Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:58:03.088Z",
+    "record": "evidence/commands/prepare-final/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "m0:prepare"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "m0:prepare"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:46:29.875Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:46:30.348Z",
+    "record": "evidence/commands/prepare-idempotent/command.json"
+  },
+  {
+    "command": [
+      "bash",
+      "-lc",
+      "lark-cli docs +media-download --token O7q5bB2W7ooAKsxtRrgcyYj4nxd --output intake/prototype/workstation-comfort.html --as user"
+    ],
+    "actual": [
+      "bash",
+      "-lc",
+      "lark-cli docs +media-download --token O7q5bB2W7ooAKsxtRrgcyYj4nxd --output intake/prototype/workstation-comfort.html --as user"
+    ],
+    "cwd": "D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f",
+    "started": "2026-10-15T08:26:51.861Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:26:52.993Z",
+    "record": "evidence/commands/prototype-download/command.json"
+  },
+  {
+    "command": [
+      "git",
+      "ls-remote",
+      "origin",
+      "refs/heads/main"
+    ],
+    "actual": [
+      "git",
+      "ls-remote",
+      "origin",
+      "refs/heads/main"
+    ],
+    "cwd": "D:/Code/JianZJ-Hub",
+    "started": "2026-10-15T08:53:29.867Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:53:32.799Z",
+    "record": "evidence/commands/remote-main-final/command.json"
+  },
+  {
+    "command": [
+      "node",
+      "D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f/harness/report.mjs"
+    ],
+    "actual": [
+      "node",
+      "D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f/harness/report.mjs"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T09:03:30.275Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T09:03:30.312Z",
+    "record": "evidence/commands/report/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "typecheck"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "typecheck"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:38:20.011Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:38:20.567Z",
+    "record": "evidence/commands/typecheck/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "typecheck"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "typecheck"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:53:32.840Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:53:33.112Z",
+    "record": "evidence/commands/typecheck-final/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "test"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "test"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:51:29.557Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:51:30.233Z",
+    "record": "evidence/commands/unit-final/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "test"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "test"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:58:03.128Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:58:03.804Z",
+    "record": "evidence/commands/unit-final-source/command.json"
+  },
+  {
+    "command": [
+      "node",
+      "--test",
+      "tests/m0/preparation.test.mjs"
+    ],
+    "actual": [
+      "node",
+      "--test",
+      "tests/m0/preparation.test.mjs"
+    ],
+    "cwd": "D:/Code/JianZJ-Hub",
+    "started": "2026-10-15T08:36:05.342Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 1,
+    "signal": null,
+    "finished": "2026-10-15T08:36:05.909Z",
+    "record": "evidence/commands/unit-initial/command.json"
+  },
+  {
+    "command": [
+      "npm",
+      "test"
+    ],
+    "actual": [
+      "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "test"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T08:46:30.390Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T08:46:31.015Z",
+    "record": "evidence/commands/unit-prepared/command.json"
+  },
+  {
+    "command": [
+      "node",
+      "D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f/harness/verify-archive.mjs"
+    ],
+    "actual": [
+      "node",
+      "D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f/harness/verify-archive.mjs"
+    ],
+    "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "started": "2026-10-15T09:04:48.136Z",
+    "environment": {
+      "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+      "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+      "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+      "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+      "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+    },
+    "exitCode": 0,
+    "signal": null,
+    "finished": "2026-10-15T09:04:48.211Z",
+    "record": "evidence/commands/verify-archive/command.json"
+  }
+]

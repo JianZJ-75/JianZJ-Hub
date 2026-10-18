@@ -1,0 +1,24 @@
+{
+  "command": [
+    "bash",
+    "-lc",
+    "for p in . project/node_modules cache/npm project/.m0-scratch/cache/electron project/.m0-scratch/downloads project/out project/release evidence; do du -sm \"$p\"; done"
+  ],
+  "actual": [
+    "bash",
+    "-lc",
+    "for p in . project/node_modules cache/npm project/.m0-scratch/cache/electron project/.m0-scratch/downloads project/out project/release evidence; do du -sm \"$p\"; done"
+  ],
+  "cwd": "D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f",
+  "started": "2026-10-15T08:56:10.820Z",
+  "environment": {
+    "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+    "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+    "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+    "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\.m0-scratch\\cache\\builder",
+    "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\.m0-scratch\\cache\\electron"
+  },
+  "exitCode": 0,
+  "signal": null,
+  "finished": "2026-10-15T08:56:12.317Z"
+}

@@ -1,0 +1,17 @@
+{
+  "reason": "Correct builder Electron license rename; bind receipt to npm lock and mandatory dist metadata",
+  "files": [
+    {
+      "file": "scripts/m0/package.mjs",
+      "sha256": "cb6fb45ce73d08b83de64e096dd76f21675aa6331031a23df549fa6b753893df"
+    },
+    {
+      "file": "scripts/m0/preparation.mjs",
+      "sha256": "383aafe81a0198e093f52f6447dbfcb8ccc19c25402022c5edf572e2250e90f8"
+    },
+    {
+      "file": "tests/m0/preparation.test.mjs",
+      "sha256": "2c74d1c46d251c4fa00b7e7967ddc9eaf43f71eeca1f5cd8a293419cd410a41d"
+    }
+  ]
+}

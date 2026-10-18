@@ -1,0 +1,749 @@
+{
+  "recorded": "2026-10-15T09:02:59.695Z",
+  "scope": "same-machine clean-directory reproduction, not independent-machine validation",
+  "supervisedLaunches": 16,
+  "concurrentPairs": 60,
+  "nativePaths": [
+    "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\node_modules\\better-sqlite3\\prebuilds\\win32-x64.node",
+    "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node",
+    "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\node_modules\\@koromix\\koffi-win32-x64\\win32_x64\\koffi.node",
+    "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\release\\m0\\win-unpacked\\resources\\app.asar\\node_modules\\better-sqlite3\\prebuilds\\win32-x64.node",
+    "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\release\\m0\\win-unpacked\\resources\\app.asar\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node",
+    "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\release\\m0\\win-unpacked\\resources\\app.asar\\node_modules\\@koromix\\koffi-win32-x64\\win32_x64\\koffi.node"
+  ],
+  "cases": [
+    {
+      "target": "dev",
+      "mode": "concurrent-exit",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\dev-concurrent-exit-600d1ed9-5433-42e6-b1d2-af28b4635c14",
+      "started": "2026-10-15T08:55:08.380Z",
+      "finished": "2026-10-15T08:56:26.918Z",
+      "status": "pass",
+      "appExitCode": 0,
+      "checks": [
+        {
+          "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+          "status": "pass"
+        },
+        {
+          "name": "actual GUI click and xterm keyboard input/output",
+          "status": "pass"
+        },
+        {
+          "name": "PTY Unicode input and real arithmetic",
+          "status": "pass"
+        },
+        {
+          "name": "PSReadLine history is disabled and uses test-local path",
+          "status": "pass"
+        },
+        {
+          "name": "PTY resize observed by real Shell",
+          "status": "pass"
+        },
+        {
+          "name": "invalid size and stale generation rejected",
+          "status": "pass"
+        },
+        {
+          "name": "ten pairs of simultaneous natural exits preserve broker and surviving session",
+          "status": "pass"
+        }
+      ],
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    },
+    {
+      "target": "dev",
+      "mode": "concurrent-exit",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\dev-concurrent-exit-acf5403e-dd8f-44ce-ae09-533e564de531",
+      "started": "2026-10-15T08:56:26.920Z",
+      "finished": "2026-10-15T08:57:45.734Z",
+      "status": "pass",
+      "appExitCode": 0,
+      "checks": [
+        {
+          "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+          "status": "pass"
+        },
+        {
+          "name": "actual GUI click and xterm keyboard input/output",
+          "status": "pass"
+        },
+        {
+          "name": "PTY Unicode input and real arithmetic",
+          "status": "pass"
+        },
+        {
+          "name": "PSReadLine history is disabled and uses test-local path",
+          "status": "pass"
+        },
+        {
+          "name": "PTY resize observed by real Shell",
+          "status": "pass"
+        },
+        {
+          "name": "invalid size and stale generation rejected",
+          "status": "pass"
+        },
+        {
+          "name": "ten pairs of simultaneous natural exits preserve broker and surviving session",
+          "status": "pass"
+        }
+      ],
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    },
+    {
+      "target": "dev",
+      "mode": "concurrent-exit",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\dev-concurrent-exit-d4ea65e4-eac3-44a8-b076-08522b2c26ae",
+      "started": "2026-10-15T08:51:39.492Z",
+      "finished": "2026-10-15T08:52:58.003Z",
+      "status": "pass",
+      "appExitCode": 0,
+      "checks": [
+        {
+          "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+          "status": "pass"
+        },
+        {
+          "name": "actual GUI click and xterm keyboard input/output",
+          "status": "pass"
+        },
+        {
+          "name": "PTY Unicode input and real arithmetic",
+          "status": "pass"
+        },
+        {
+          "name": "PSReadLine history is disabled and uses test-local path",
+          "status": "pass"
+        },
+        {
+          "name": "PTY resize observed by real Shell",
+          "status": "pass"
+        },
+        {
+          "name": "invalid size and stale generation rejected",
+          "status": "pass"
+        },
+        {
+          "name": "ten pairs of simultaneous natural exits preserve broker and surviving session",
+          "status": "pass"
+        }
+      ],
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    },
+    {
+      "target": "dev",
+      "mode": "main-crash",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\dev-main-crash-b0595cb8-4098-4df7-88b1-653116192094",
+      "started": "2026-10-15T08:51:31.187Z",
+      "finished": "2026-10-15T08:51:39.491Z",
+      "status": "pass",
+      "appExitCode": 1,
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    },
+    {
+      "target": "dev",
+      "mode": "normal",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\dev-normal-16bad764-352c-4a17-880b-dd7d9c07d664",
+      "started": "2026-10-15T08:49:55.591Z",
+      "finished": "2026-10-15T08:50:21.605Z",
+      "status": "pass",
+      "appExitCode": 0,
+      "checks": [
+        {
+          "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+          "status": "pass"
+        },
+        {
+          "name": "actual GUI click and xterm keyboard input/output",
+          "status": "pass"
+        },
+        {
+          "name": "PTY Unicode input and real arithmetic",
+          "status": "pass"
+        },
+        {
+          "name": "PSReadLine history is disabled and uses test-local path",
+          "status": "pass"
+        },
+        {
+          "name": "PTY resize observed by real Shell",
+          "status": "pass"
+        },
+        {
+          "name": "invalid size and stale generation rejected",
+          "status": "pass"
+        },
+        {
+          "name": "single session closes child/grandchild and is idempotent",
+          "status": "pass"
+        },
+        {
+          "name": "other session remains interactive",
+          "status": "pass"
+        },
+        {
+          "name": "natural Shell exit is not restored and rejects further input",
+          "status": "pass"
+        },
+        {
+          "name": "failed creation cleans only its worker and leaves broker usable",
+          "status": "pass"
+        },
+        {
+          "name": "concurrent creates and concurrent closes preserve another session",
+          "status": "pass"
+        },
+        {
+          "name": "signaled process can legitimately exit with code 259",
+          "status": "pass"
+        },
+        {
+          "name": "service normal shutdown reclaims remaining process trees",
+          "status": "pass"
+        }
+      ],
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    },
+    {
+      "target": "dev",
+      "mode": "normal",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\dev-normal-8e1be39f-bcb3-47c7-8e66-45e7bde78240",
+      "started": "2026-10-15T08:50:47.956Z",
+      "finished": "2026-10-15T08:51:13.869Z",
+      "status": "pass",
+      "appExitCode": 0,
+      "checks": [
+        {
+          "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+          "status": "pass"
+        },
+        {
+          "name": "actual GUI click and xterm keyboard input/output",
+          "status": "pass"
+        },
+        {
+          "name": "PTY Unicode input and real arithmetic",
+          "status": "pass"
+        },
+        {
+          "name": "PSReadLine history is disabled and uses test-local path",
+          "status": "pass"
+        },
+        {
+          "name": "PTY resize observed by real Shell",
+          "status": "pass"
+        },
+        {
+          "name": "invalid size and stale generation rejected",
+          "status": "pass"
+        },
+        {
+          "name": "single session closes child/grandchild and is idempotent",
+          "status": "pass"
+        },
+        {
+          "name": "other session remains interactive",
+          "status": "pass"
+        },
+        {
+          "name": "natural Shell exit is not restored and rejects further input",
+          "status": "pass"
+        },
+        {
+          "name": "failed creation cleans only its worker and leaves broker usable",
+          "status": "pass"
+        },
+        {
+          "name": "concurrent creates and concurrent closes preserve another session",
+          "status": "pass"
+        },
+        {
+          "name": "signaled process can legitimately exit with code 259",
+          "status": "pass"
+        },
+        {
+          "name": "service normal shutdown reclaims remaining process trees",
+          "status": "pass"
+        }
+      ],
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    },
+    {
+      "target": "dev",
+      "mode": "service-fault",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\dev-service-fault-fc2854b2-836e-42b6-81d1-f58bdbda90ed",
+      "started": "2026-10-15T08:51:22.633Z",
+      "finished": "2026-10-15T08:51:31.187Z",
+      "status": "pass",
+      "appExitCode": 0,
+      "checks": [
+        {
+          "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+          "status": "pass"
+        },
+        {
+          "name": "actual GUI click and xterm keyboard input/output",
+          "status": "pass"
+        },
+        {
+          "name": "PTY Unicode input and real arithmetic",
+          "status": "pass"
+        },
+        {
+          "name": "PSReadLine history is disabled and uses test-local path",
+          "status": "pass"
+        },
+        {
+          "name": "PTY resize observed by real Shell",
+          "status": "pass"
+        },
+        {
+          "name": "invalid size and stale generation rejected",
+          "status": "pass"
+        },
+        {
+          "name": "service forced exit reclaims managed Shell and descendants",
+          "status": "pass"
+        }
+      ],
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    },
+    {
+      "target": "dev",
+      "mode": "worker-fault",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\dev-worker-fault-db7a2f31-d430-4aed-9de2-0ee0d3e824e1",
+      "started": "2026-10-15T08:51:13.870Z",
+      "finished": "2026-10-15T08:51:22.632Z",
+      "status": "pass",
+      "appExitCode": 0,
+      "checks": [
+        {
+          "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+          "status": "pass"
+        },
+        {
+          "name": "actual GUI click and xterm keyboard input/output",
+          "status": "pass"
+        },
+        {
+          "name": "PTY Unicode input and real arithmetic",
+          "status": "pass"
+        },
+        {
+          "name": "PSReadLine history is disabled and uses test-local path",
+          "status": "pass"
+        },
+        {
+          "name": "PTY resize observed by real Shell",
+          "status": "pass"
+        },
+        {
+          "name": "invalid size and stale generation rejected",
+          "status": "pass"
+        },
+        {
+          "name": "one native worker failure does not kill broker or another session",
+          "status": "pass"
+        }
+      ],
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    },
+    {
+      "target": "packaged",
+      "mode": "concurrent-exit",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\packaged-concurrent-exit-434e070e-3fe2-44ce-b753-ccf26c9d8883",
+      "started": "2026-10-15T08:59:04.498Z",
+      "finished": "2026-10-15T09:00:23.217Z",
+      "status": "pass",
+      "appExitCode": 0,
+      "checks": [
+        {
+          "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+          "status": "pass"
+        },
+        {
+          "name": "actual GUI click and xterm keyboard input/output",
+          "status": "pass"
+        },
+        {
+          "name": "PTY Unicode input and real arithmetic",
+          "status": "pass"
+        },
+        {
+          "name": "PSReadLine history is disabled and uses test-local path",
+          "status": "pass"
+        },
+        {
+          "name": "PTY resize observed by real Shell",
+          "status": "pass"
+        },
+        {
+          "name": "invalid size and stale generation rejected",
+          "status": "pass"
+        },
+        {
+          "name": "ten pairs of simultaneous natural exits preserve broker and surviving session",
+          "status": "pass"
+        }
+      ],
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    },
+    {
+      "target": "packaged",
+      "mode": "concurrent-exit",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\packaged-concurrent-exit-a36bc372-6d4a-4875-bc8a-1b6080b91408",
+      "started": "2026-10-15T08:53:49.668Z",
+      "finished": "2026-10-15T08:55:08.296Z",
+      "status": "pass",
+      "appExitCode": 0,
+      "checks": [
+        {
+          "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+          "status": "pass"
+        },
+        {
+          "name": "actual GUI click and xterm keyboard input/output",
+          "status": "pass"
+        },
+        {
+          "name": "PTY Unicode input and real arithmetic",
+          "status": "pass"
+        },
+        {
+          "name": "PSReadLine history is disabled and uses test-local path",
+          "status": "pass"
+        },
+        {
+          "name": "PTY resize observed by real Shell",
+          "status": "pass"
+        },
+        {
+          "name": "invalid size and stale generation rejected",
+          "status": "pass"
+        },
+        {
+          "name": "ten pairs of simultaneous natural exits preserve broker and surviving session",
+          "status": "pass"
+        }
+      ],
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    },
+    {
+      "target": "packaged",
+      "mode": "concurrent-exit",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\packaged-concurrent-exit-af908fff-1277-4806-a2a3-07216561eeb5",
+      "started": "2026-10-15T08:57:45.810Z",
+      "finished": "2026-10-15T08:59:04.497Z",
+      "status": "pass",
+      "appExitCode": 0,
+      "checks": [
+        {
+          "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+          "status": "pass"
+        },
+        {
+          "name": "actual GUI click and xterm keyboard input/output",
+          "status": "pass"
+        },
+        {
+          "name": "PTY Unicode input and real arithmetic",
+          "status": "pass"
+        },
+        {
+          "name": "PSReadLine history is disabled and uses test-local path",
+          "status": "pass"
+        },
+        {
+          "name": "PTY resize observed by real Shell",
+          "status": "pass"
+        },
+        {
+          "name": "invalid size and stale generation rejected",
+          "status": "pass"
+        },
+        {
+          "name": "ten pairs of simultaneous natural exits preserve broker and surviving session",
+          "status": "pass"
+        }
+      ],
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    },
+    {
+      "target": "packaged",
+      "mode": "main-crash",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\packaged-main-crash-437e7a08-e280-410e-b71c-2cb33f575b69",
+      "started": "2026-10-15T08:53:41.341Z",
+      "finished": "2026-10-15T08:53:49.668Z",
+      "status": "pass",
+      "appExitCode": 1,
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    },
+    {
+      "target": "packaged",
+      "mode": "normal",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\packaged-normal-139df189-d322-483a-915d-53040a7ed2a9",
+      "started": "2026-10-15T08:50:21.683Z",
+      "finished": "2026-10-15T08:50:47.772Z",
+      "status": "pass",
+      "appExitCode": 0,
+      "checks": [
+        {
+          "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+          "status": "pass"
+        },
+        {
+          "name": "actual GUI click and xterm keyboard input/output",
+          "status": "pass"
+        },
+        {
+          "name": "PTY Unicode input and real arithmetic",
+          "status": "pass"
+        },
+        {
+          "name": "PSReadLine history is disabled and uses test-local path",
+          "status": "pass"
+        },
+        {
+          "name": "PTY resize observed by real Shell",
+          "status": "pass"
+        },
+        {
+          "name": "invalid size and stale generation rejected",
+          "status": "pass"
+        },
+        {
+          "name": "single session closes child/grandchild and is idempotent",
+          "status": "pass"
+        },
+        {
+          "name": "other session remains interactive",
+          "status": "pass"
+        },
+        {
+          "name": "natural Shell exit is not restored and rejects further input",
+          "status": "pass"
+        },
+        {
+          "name": "failed creation cleans only its worker and leaves broker usable",
+          "status": "pass"
+        },
+        {
+          "name": "concurrent creates and concurrent closes preserve another session",
+          "status": "pass"
+        },
+        {
+          "name": "signaled process can legitimately exit with code 259",
+          "status": "pass"
+        },
+        {
+          "name": "service normal shutdown reclaims remaining process trees",
+          "status": "pass"
+        }
+      ],
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    },
+    {
+      "target": "packaged",
+      "mode": "normal",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\packaged-normal-80cbcdd7-4570-4589-8a05-ecc5216d2840",
+      "started": "2026-10-15T08:52:58.194Z",
+      "finished": "2026-10-15T08:53:24.098Z",
+      "status": "pass",
+      "appExitCode": 0,
+      "checks": [
+        {
+          "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+          "status": "pass"
+        },
+        {
+          "name": "actual GUI click and xterm keyboard input/output",
+          "status": "pass"
+        },
+        {
+          "name": "PTY Unicode input and real arithmetic",
+          "status": "pass"
+        },
+        {
+          "name": "PSReadLine history is disabled and uses test-local path",
+          "status": "pass"
+        },
+        {
+          "name": "PTY resize observed by real Shell",
+          "status": "pass"
+        },
+        {
+          "name": "invalid size and stale generation rejected",
+          "status": "pass"
+        },
+        {
+          "name": "single session closes child/grandchild and is idempotent",
+          "status": "pass"
+        },
+        {
+          "name": "other session remains interactive",
+          "status": "pass"
+        },
+        {
+          "name": "natural Shell exit is not restored and rejects further input",
+          "status": "pass"
+        },
+        {
+          "name": "failed creation cleans only its worker and leaves broker usable",
+          "status": "pass"
+        },
+        {
+          "name": "concurrent creates and concurrent closes preserve another session",
+          "status": "pass"
+        },
+        {
+          "name": "signaled process can legitimately exit with code 259",
+          "status": "pass"
+        },
+        {
+          "name": "service normal shutdown reclaims remaining process trees",
+          "status": "pass"
+        }
+      ],
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    },
+    {
+      "target": "packaged",
+      "mode": "service-fault",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\packaged-service-fault-0db8d4e7-9d2c-4725-a217-644e5287a3b4",
+      "started": "2026-10-15T08:53:32.885Z",
+      "finished": "2026-10-15T08:53:41.340Z",
+      "status": "pass",
+      "appExitCode": 0,
+      "checks": [
+        {
+          "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+          "status": "pass"
+        },
+        {
+          "name": "actual GUI click and xterm keyboard input/output",
+          "status": "pass"
+        },
+        {
+          "name": "PTY Unicode input and real arithmetic",
+          "status": "pass"
+        },
+        {
+          "name": "PSReadLine history is disabled and uses test-local path",
+          "status": "pass"
+        },
+        {
+          "name": "PTY resize observed by real Shell",
+          "status": "pass"
+        },
+        {
+          "name": "invalid size and stale generation rejected",
+          "status": "pass"
+        },
+        {
+          "name": "service forced exit reclaims managed Shell and descendants",
+          "status": "pass"
+        }
+      ],
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    },
+    {
+      "target": "packaged",
+      "mode": "worker-fault",
+      "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\packaged-worker-fault-de4f6116-a63e-47be-a79c-4118bb31a3d5",
+      "started": "2026-10-15T08:53:24.099Z",
+      "finished": "2026-10-15T08:53:32.884Z",
+      "status": "pass",
+      "appExitCode": 0,
+      "checks": [
+        {
+          "name": "data-service SQLite/simple Chinese, pinyin and jieba",
+          "status": "pass"
+        },
+        {
+          "name": "actual GUI click and xterm keyboard input/output",
+          "status": "pass"
+        },
+        {
+          "name": "PTY Unicode input and real arithmetic",
+          "status": "pass"
+        },
+        {
+          "name": "PSReadLine history is disabled and uses test-local path",
+          "status": "pass"
+        },
+        {
+          "name": "PTY resize observed by real Shell",
+          "status": "pass"
+        },
+        {
+          "name": "invalid size and stale generation rejected",
+          "status": "pass"
+        },
+        {
+          "name": "one native worker failure does not kill broker or another session",
+          "status": "pass"
+        }
+      ],
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true
+    }
+  ],
+  "cleanup": {
+    "checked": "2026-10-15T09:02:59.693Z",
+    "identitiesChecked": 406,
+    "matchingLiveIdentities": [],
+    "unavailable": [],
+    "pidReusedNotKilled": [
+      {
+        "pid": 171520,
+        "createdAt": "134365281686865067",
+        "currentCreatedAt": "134365285795974403"
+      },
+      {
+        "pid": 173936,
+        "createdAt": "134365282089702463",
+        "currentCreatedAt": "134365285796042656"
+      },
+      {
+        "pid": 171520,
+        "createdAt": "134365280657296225",
+        "currentCreatedAt": "134365285795974403"
+      }
+    ],
+    "confirmedExited": 403,
+    "source": "current isolated run supervisor/result/fixture identities; process handles, never kill by name"
+  }
+}

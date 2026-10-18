@@ -1,0 +1,5 @@
+{
+  "reason": "@electron/asar Windows API needs native path separator; also compare actual unpacked binary bytes",
+  "file": "scripts/m0/package.mjs",
+  "sha256": "eaff509a2360a87aad803390c90daa3fcb79e0cebc75b9d610cc59dd324da9d1"
+}

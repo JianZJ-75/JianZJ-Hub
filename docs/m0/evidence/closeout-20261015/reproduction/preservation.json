@@ -1,0 +1,50 @@
+{
+  "checked": "2026-10-15T09:05:55.047Z",
+  "changedTracked": [
+    {
+      "file": "README.md",
+      "before": "c12abaacf6f79ada70b8817a60a0c4cf27e25e0e09893a6f0cb14f8edac575da",
+      "after": "56a85a328fba85e682a89f054bf729aff52b07916557540fd149d18090a82615"
+    },
+    {
+      "file": "docs/m0/README.md",
+      "before": "49319978ff9b023ffdf6df8b1332ce22e6008b4c82adefbd0fa063242c80a98d",
+      "after": "2727b0dfc6475d531352572d3ea3e2f7887047e131c505a4434db1b50306b8d0"
+    },
+    {
+      "file": "package.json",
+      "before": "9e8109f2722a8695cc3ebf3b1862e2dca0fbc1b772481975cf766337cc72814b",
+      "after": "4ace572be53dabf938f1186a5b35efc0203aad0c80f11d7552e9d95ff26c4340"
+    },
+    {
+      "file": "scripts/m0/package.mjs",
+      "before": "d3ffd4f3f86ccfc01d491b95220ae188bc883364b3773ef1b311f915f09b03b1",
+      "after": "eaff509a2360a87aad803390c90daa3fcb79e0cebc75b9d610cc59dd324da9d1"
+    }
+  ],
+  "unexpectedChangedTracked": [],
+  "preserved": [
+    {
+      "file": "prototypes/comfort-redesign/workstation-comfort.html",
+      "sha256": "1033c2dab321312f09ac220450d2fea7fbbf0f905ade18c450a5ed1281e6917a",
+      "actual": "1033c2dab321312f09ac220450d2fea7fbbf0f905ade18c450a5ed1281e6917a"
+    },
+    {
+      "file": "out/main/pty-service.js",
+      "sha256": "2db6ea27e1a69984aa3ff0deeddbbeda20630e0fddb8d7b5018033b489e3df8c",
+      "actual": "2db6ea27e1a69984aa3ff0deeddbbeda20630e0fddb8d7b5018033b489e3df8c"
+    },
+    {
+      "file": "out/main/pty-session.js",
+      "sha256": "5a325a7db6271ccf394903b34d6362999d5fa7a56d66278cddde4df3c0ecdf54",
+      "actual": "5a325a7db6271ccf394903b34d6362999d5fa7a56d66278cddde4df3c0ecdf54"
+    },
+    {
+      "file": "release/m0/win-unpacked/resources/app.asar",
+      "sha256": "c5650d8f43225f142a731397456f3446dd1b973009faed5cf40313372495422f",
+      "actual": "c5650d8f43225f142a731397456f3446dd1b973009faed5cf40313372495422f"
+    }
+  ],
+  "sourceVsTestedInputMismatches": [],
+  "protectedTrackedUnchanged": 520
+}

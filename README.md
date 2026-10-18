@@ -10,7 +10,7 @@
 
 ## 当前状态
 
-- **阶段**：M0 阻塞已修复并完成开发/打包复验；是否进入 M1 等待用户明确确认。
+- **阶段**：M0 核心技术基线已通过；2026-10-15 交付一致性与同机干净目录复现收尾已完成。未进入 M1，等待用户明确确认。
 - 产品方向：终端为主工作区，辅助能力围绕终端服务；当前代码仅为 M0 最小探针，不是完整产品。
 - 技术栈（已定）：Electron + TypeScript + electron-vite + electron-builder + better-sqlite3 + React。
 
@@ -28,11 +28,11 @@ JianZJ-Hub/
     └── renderer/    # React / xterm 最小验证界面
 ```
 
-> **说明**：旧 `docs/` 设计资产与 `prototypes/` 保持忽略；`docs/m0/` 是已放行的开发记录。尚未进行 Git 提交或推送。
+> **说明**：旧 `docs/` 设计资产与 `prototypes/` 保持忽略；`docs/m0/` 是已放行的开发记录。收尾验收起点的本地/远端 main 均为 `524f107`；随后用户已明确授权提交并推送本轮收尾。本轮交付内容以本文件所在提交为准，远端完成状态须独立核对引用。认可原型仍通过飞书附件交接，见 [原型交接](docs/m0/PROTOTYPE-HANDOFF.md)。
 
 ## 文档
 
-产品定义、技术选型、决策记录等完整内容见 [`docs/`](docs/README.md)。
+当前产品定义以[飞书 PRD](https://zenova-ai.feishu.cn/wiki/I3hlw2Bqqif9sVk1AOScsRJFnkg)和[飞书技术计划](https://zenova-ai.feishu.cn/wiki/NM5EwK5ObiCZFEklAHkcsBpBnAg)为准；本轮代码验证与交接见 [M0 记录](docs/m0/README.md)。其他本地 docs 设计资产保持忽略，不能假设 Git 克隆能获取它们。
 
 ## 下一步
 
@@ -45,4 +45,8 @@ M0 已采用每会话独立原生 worker 和 Windows 句柄退出码，重复并
 
 ## GitHub 交付状态
 
-M0 已获授权仅提交并推送到 main，不进入 M1。[交付前审计](docs/m0/DELIVERY-AUDIT.md) 保留当时的空仓库状态；[Git 交付记录](docs/m0/GIT-DELIVERY.md) 记录提交实施与证据保真规则。是否已推送以远端 main 的实际提交为准，不将本地验证或提交等同于远端交付。
+此前 M0 基线已经提交；2026-10-15 只读查询确认远端 main 与本地 HEAD 均为 `524f107e93ec1782554f10b8c799d2cfca6a3497`。随后用户已明确授权提交并推送本轮 M0 收尾，不进入 M1。[交付前审计](docs/m0/DELIVERY-AUDIT.md) 保留当时的空仓库状态；[Git 交付记录](docs/m0/GIT-DELIVERY.md) 记录提交实施与证据保真规则。是否已推送以远端 main 的实际提交为准，不将本地验证或提交等同于远端交付。
+
+## M0 收尾（2026-10-15）
+
+准备与同机复现步骤见 [可复现说明](docs/m0/REPRODUCIBILITY.md)，当前实际进展见 [收尾报告](docs/m0/CLOSEOUT.md)，后续边界见 [M1 验收清单](docs/m0/M1-ACCEPTANCE.md)。本地验证、本地提交、远端上传三项分开报告，不以 push 作为技术验证通过条件。

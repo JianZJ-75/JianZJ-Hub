@@ -1,0 +1,34 @@
+[
+  {
+    "file": "scripts/m0/preparation.mjs",
+    "sha256": "3c1a2c1890372bfa18b5973836774b3cac6022c379f0df15a1ac28ade7c99f14"
+  },
+  {
+    "file": "scripts/m0/prepare.mjs",
+    "sha256": "9fdb8c3710e1e20f9efd850f3e1ed6d98feb6516b70e95ed8906c3c7ac1249c9"
+  },
+  {
+    "file": "scripts/m0/preflight.mjs",
+    "sha256": "9bc881a465dc84fae6624351fcc469adcc0f54924871649287add99a55a7e564"
+  },
+  {
+    "file": "scripts/m0/extract.ps1",
+    "sha256": "009898369954f11552eff42db761bf18d275ac787c5b91f7d34004b0424d0e78"
+  },
+  {
+    "file": "scripts/m0/native-probe.cjs",
+    "sha256": "8a687faf0b2a98b4e84f1ea1f2b14e035ab3f03ae792680f09d0fc7d1f465931"
+  },
+  {
+    "file": "scripts/m0/package.mjs",
+    "sha256": "9a6395f6783268542d6d79eef1a02acf4244561ac00d8565ef8250d13f5fac91"
+  },
+  {
+    "file": "scripts/m0/resources.lock.json",
+    "sha256": "004ea4a45912a121ca0e49e299b2ae608c34ce4ea27bd727ebb617c6855cb4df"
+  },
+  {
+    "file": "tests/m0/preparation.test.mjs",
+    "sha256": "da980c2696fbdfd9200b67bcb7f81f215010a7315cbc26aba7a00396017c1168"
+  }
+]

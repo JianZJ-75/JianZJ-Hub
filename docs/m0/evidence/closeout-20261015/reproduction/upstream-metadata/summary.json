@@ -1,0 +1,33 @@
+{
+  "recorded": "2026-10-15T08:26:28.842Z",
+  "simpleRelease": {
+    "url": "https://api.github.com/repos/wangfenjin/simple/releases/tags/v0.7.1",
+    "assetId": 360837918,
+    "size": 5473005,
+    "digest": "sha256:7f03cc28cf307721f5621b5a52ef3bcb26c5215de012b09900492eb34d5bed0b",
+    "downloadUrl": "https://github.com/wangfenjin/simple/releases/download/v0.7.1/libsimple-windows-x64.zip"
+  },
+  "electronRelease": {
+    "url": "https://api.github.com/repos/electron/electron/releases/tags/v44.7.2",
+    "assetId": 638657063,
+    "size": 157867015,
+    "digest": "sha256:10a89447ef64ac5cb9f782af48ffd83734a40ae91681259d1048ca3c9e6c5da4",
+    "downloadUrl": "https://github.com/electron/electron/releases/download/v44.7.2/electron-v44.7.2-win32-x64.zip"
+  },
+  "simpleLicense": {
+    "url": "https://api.github.com/repos/wangfenjin/simple/contents/LICENSE?ref=4ed008934495fc55ff4bf6620bba58311988b23e",
+    "commit": "https://github.com/wangfenjin/simple/blob/4ed008934495fc55ff4bf6620bba58311988b23e/LICENSE",
+    "gitBlob": "76066c3159af3c7e665731fd87fe579309c1fe6f",
+    "sha256": "d7dec946e6e8e6206aca0bda7ba75e847088f1ef641b5e1e9d389f66f97250fd",
+    "bytes": 36501,
+    "downloadUrl": "https://raw.githubusercontent.com/wangfenjin/simple/4ed008934495fc55ff4bf6620bba58311988b23e/LICENSE"
+  },
+  "cppjiebaLicense": {
+    "url": "https://api.github.com/repos/yanyiwu/cppjieba/contents/LICENSE?ref=194c144d8b5ed1baf3190d07c5226e804454ab47",
+    "commit": "https://github.com/yanyiwu/cppjieba/blob/194c144d8b5ed1baf3190d07c5226e804454ab47/LICENSE",
+    "gitBlob": "6308e939b739d6508837371ccb695a280135132e",
+    "sha256": "ba898a14f729ba5e9965da34e3eecd5edd3795f2cc5d7c923b815ba79bb851b0",
+    "bytes": 1066,
+    "downloadUrl": "https://raw.githubusercontent.com/yanyiwu/cppjieba/194c144d8b5ed1baf3190d07c5226e804454ab47/LICENSE"
+  }
+}

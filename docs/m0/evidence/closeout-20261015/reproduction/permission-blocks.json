@@ -1,0 +1,38 @@
+{
+  "recorded": "2026-10-15T08:40:48.690Z",
+  "denied": [
+    {
+      "action": "PowerShell ExecutionPolicy Bypass in proposed script",
+      "resolution": "Removed; ultimately replaced PowerShell extraction entirely with Node builtins"
+    },
+    {
+      "action": "npm run m0:prepare -- --allow-downloads",
+      "reason": "Tool classifier requested explicit user approval to install/run named upstream Electron and native code",
+      "status": "User subsequently explicitly authorized the named sources via AskUserQuestion; preparation then ran with exit 0"
+    }
+  ],
+  "implementationFailures": [
+    {
+      "stage": "large heredoc shell parsing",
+      "exitCode": 2,
+      "rawOutputRetained": false,
+      "impact": "No application run; script syntax checked after repair"
+    },
+    {
+      "stage": "preparation.mjs backslash syntax",
+      "exitCode": 1,
+      "rawOutputRetained": false,
+      "fix": "Use node:path sep instead of escaped backslash"
+    }
+  ],
+  "authorizedSources": {
+    "electron": "44.7.2 Windows x64 official Release",
+    "npmNative": [
+      "node-pty 1.1.0",
+      "better-sqlite3 13.0.3",
+      "Koffi 3.3.3"
+    ],
+    "simple": "0.7.1 official Windows x64",
+    "scope": "existing isolated directory, project only; no global toolchain, execution policy change, commit or push"
+  }
+}

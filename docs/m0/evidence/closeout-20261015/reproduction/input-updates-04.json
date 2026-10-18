@@ -1,0 +1,5 @@
+{
+  "reason": "Add direct negative test that the preparation CLI cannot download without explicit authorization",
+  "file": "tests/m0/preparation.test.mjs",
+  "sha256": "f4405c0390d1671e45057b7100d9366d6c432b90e139f50ccc90ff289cb7c286"
+}

@@ -1,0 +1,14 @@
+
+> jianzj-hub@0.0.0 m0:package
+> node scripts/m0/package.mjs
+
+  • electron-builder  version=26.15.3 os=10.0.26100
+  • loaded configuration  file=D:\Code\JianZJ-Hub-M0-repro-20261015-37002e9f\project\electron-builder.m0.json
+  • author is missed in the package.json  appPackageFile=D:\Code\JianZJ-Hub-M0-repro-20261015-37002e9f\project\package.json
+  • skipped dependencies rebuild  reason=npmRebuild is set to false
+  • packaging       platform=win32 arch=x64 electron=44.7.2 appOutDir=release\m0\win-unpacked
+  • using custom unpacked Electron distribution  electronDist=node_modules\electron\dist
+  • copying unpacked Electron  source=D:\Code\JianZJ-Hub-M0-repro-20261015-37002e9f\project\node_modules\electron\dist destination=D:\Code\JianZJ-Hub-M0-repro-20261015-37002e9f\project\release\m0\win-unpacked
+  • searching for node modules  pm=npm searchDir=D:\Code\JianZJ-Hub-M0-repro-20261015-37002e9f\project
+  • updating asar integrity executable resource  executablePath=release\m0\win-unpacked\JianZJ Hub M0.exe
+  • executable resource editing and code signing skipped — signAndEditExecutable is false. To skip only code signing while keeping icon and metadata applied, use signExecutable: false instead.  exe=release\m0\win-unpacked\JianZJ Hub M0.exe

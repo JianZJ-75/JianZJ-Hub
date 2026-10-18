@@ -1,0 +1,120 @@
+
+> jianzj-hub@0.0.0 test
+> node --test tests/m0/*.test.mjs
+
+TAP version 13
+# Subtest: exit is emitted once and requires an actual DWORD exit code
+ok 1 - exit is emitted once and requires an actual DWORD exit code
+  ---
+  duration_ms: 0.9288
+  type: 'test'
+  ...
+# Subtest: failed native worker remains failed after confirmed process cleanup
+ok 2 - failed native worker remains failed after confirmed process cleanup
+  ---
+  duration_ms: 0.1201
+  type: 'test'
+  ...
+# Subtest: close is idempotent and exited sessions cannot restart
+ok 3 - close is idempotent and exited sessions cannot restart
+  ---
+  duration_ms: 0.1292
+  type: 'test'
+  ...
+# Subtest: preparation rejects platform/architecture and non-AMD64 PE before native load
+ok 4 - preparation rejects platform/architecture and non-AMD64 PE before native load
+  ---
+  duration_ms: 0.8254
+  type: 'test'
+  ...
+# Subtest: missing resources and incorrect fixed versions identify the file/module
+ok 5 - missing resources and incorrect fixed versions identify the file/module
+  ---
+  duration_ms: 7.5394
+  type: 'test'
+  ...
+# Subtest: cache hits are still hashed; path traversal cannot read outside project
+ok 6 - cache hits are still hashed; path traversal cannot read outside project
+  ---
+  duration_ms: 4.8228
+  type: 'test'
+  ...
+# Subtest: preflight rejects incomplete receipt and missing license; it never downloads
+ok 7 - preflight rejects incomplete receipt and missing license; it never downloads
+  ---
+  duration_ms: 21.1529
+  type: 'test'
+  ...
+# Subtest: child command nonzero exit is not hidden
+ok 8 - child command nonzero exit is not hidden
+  ---
+  duration_ms: 26.6223
+  type: 'test'
+  ...
+# Subtest: offline CLI fails without receipt without creating download/cache directories
+ok 9 - offline CLI fails without receipt without creating download/cache directories
+  ---
+  duration_ms: 35.7825
+  type: 'test'
+  ...
+# Subtest: ZIP traversal is rejected before extraction writes any destination
+not ok 10 - ZIP traversal is rejected before extraction writes any destination
+  ---
+  duration_ms: 475.2305
+  type: 'test'
+  location: 'D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\tests\\m0\\preparation.test.mjs:63:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The input did not match the regular expression /M0_UNSAFE_ZIP_ENTRY/. Input:
+    
+    '�޷������ļ� D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\scripts\\m0\\extract.ps1����Ϊ�ڴ�ϵͳ�Ͻ�ֹ���нű���\r\n' +
+      '�й���ϸ��Ϣ������� https:/go.microsoft.com/fwlink/?LinkID=135170 �е� about_Execution_Policies��\r\n' +
+      '    + CategoryInfo          : SecurityError: (:) []��ParentContainsErrorRecordException\r\n' +
+      '    + FullyQualifiedErrorId : UnauthorizedAccess\r\n'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+  actual: |-
+    �޷������ļ� D:\Code\JianZJ-Hub-M0-repro-20261015-37002e9f\project\scripts\m0\extract.ps1����Ϊ�ڴ�ϵͳ�Ͻ�ֹ���нű���
+    �й���ϸ��Ϣ������� https:/go.microsoft.com/fwlink/?LinkID=135170 �е� about_Execution_Policies��
+        + CategoryInfo          : SecurityError: (:) []��ParentContainsErrorRecordException
+        + FullyQualifiedErrorId : UnauthorizedAccess
+    
+  operator: 'match'
+  stack: |-
+    TestContext.<anonymous> (file:///D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f/project/tests/m0/preparation.test.mjs:71:45)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: size rejects zero, fractional, NaN, string and excessive values
+ok 11 - size rejects zero, fractional, NaN, string and excessive values
+  ---
+  duration_ms: 0.5921
+  type: 'test'
+  ...
+# Subtest: session ID is scoped, not an arbitrary process identifier
+ok 12 - session ID is scoped, not an arbitrary process identifier
+  ---
+  duration_ms: 0.1647
+  type: 'test'
+  ...
+# Subtest: write preserves control input but limits UTF-8 byte size
+ok 13 - write preserves control input but limits UTF-8 byte size
+  ---
+  duration_ms: 0.4847
+  type: 'test'
+  ...
+1..13
+# tests 13
+# suites 0
+# pass 12
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 629.3588

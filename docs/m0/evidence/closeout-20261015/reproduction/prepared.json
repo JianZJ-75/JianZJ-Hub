@@ -1,0 +1,592 @@
+{
+  "schema": 1,
+  "prepared": "2026-10-15T08:43:33.638Z",
+  "lockSha256": "004ea4a45912a121ca0e49e299b2ae608c34ce4ea27bd727ebb617c6855cb4df",
+  "npmLockSha256": "e6b33180de8e21dd3dcab8bef2e93590b4ebbe0a7f6adb92df4bdfd113cd39cd",
+  "versions": {
+    "electron": "44.7.2",
+    "node-pty": "1.1.0",
+    "better-sqlite3": "13.0.3",
+    "koffi": "3.3.3",
+    "@koromix/koffi-win32-x64": "3.3.3"
+  },
+  "probes": {
+    "host": {
+      "versions": {
+        "node": "22.23.2",
+        "acorn": "8.16.0",
+        "ada": "2.9.2",
+        "amaro": "1.1.8",
+        "ares": "1.34.6",
+        "brotli": "1.1.0",
+        "cjs_module_lexer": "2.2.0",
+        "cldr": "48.0",
+        "icu": "78.2",
+        "llhttp": "9.4.3",
+        "modules": "127",
+        "napi": "10",
+        "nbytes": "0.1.3",
+        "ncrypto": "0.0.1",
+        "nghttp2": "1.69.0",
+        "openssl": "3.5.7",
+        "simdjson": "4.5.0",
+        "simdutf": "6.4.2",
+        "sqlite": "3.51.3",
+        "tz": "2026a",
+        "undici": "6.28.0",
+        "unicode": "17.0",
+        "uv": "1.51.0",
+        "uvwasi": "0.0.23",
+        "v8": "12.4.254.21-node.56",
+        "zlib": "1.3.1-e00f703",
+        "zstd": "1.5.7"
+      },
+      "platform": "win32",
+      "arch": "x64",
+      "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+      "sqlite": {
+        "version": "3.53.4"
+      },
+      "currentPid": 141144,
+      "bindings": [
+        "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node",
+        "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\node_modules\\@koromix\\koffi-win32-x64\\win32_x64\\koffi.node",
+        "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\node_modules\\better-sqlite3\\prebuilds\\win32-x64.node"
+      ]
+    },
+    "electron": {
+      "versions": {
+        "node": "24.21.0",
+        "acorn": "8.18.0",
+        "ada": "4.0.0",
+        "amaro": "1.1.11",
+        "ares": "1.34.8",
+        "brotli": "1.2.0",
+        "cldr": "48.0",
+        "icu": "78.2",
+        "llhttp": "9.4.3",
+        "merve": "1.2.2",
+        "modules": "149",
+        "napi": "10",
+        "nbytes": "0.1.4",
+        "ncrypto": "0.0.1",
+        "nghttp2": "1.70.0",
+        "nghttp3": "",
+        "ngtcp2": "",
+        "openssl": "0.0.0",
+        "simdjson": "4.6.7",
+        "simdutf": "7.7.0",
+        "sqlite": "3.53.4",
+        "tz": "2026d",
+        "undici": "7.29.1",
+        "unicode": "17.0",
+        "uv": "1.52.1",
+        "uvwasi": "0.0.23",
+        "v8": "15.2.124.37-electron.0",
+        "zlib": "1.3.2.1-motley",
+        "zstd": "1.6.0",
+        "electron": "44.7.2",
+        "chrome": "152.0.7977.149"
+      },
+      "platform": "win32",
+      "arch": "x64",
+      "executable": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\node_modules\\electron\\dist\\electron.exe",
+      "sqlite": {
+        "version": "3.53.4"
+      },
+      "currentPid": 157560,
+      "bindings": [
+        "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\node_modules\\node-pty\\prebuilds\\win32-x64\\conpty.node",
+        "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\node_modules\\@koromix\\koffi-win32-x64\\win32_x64\\koffi.node",
+        "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\node_modules\\better-sqlite3\\prebuilds\\win32-x64.node"
+      ]
+    }
+  },
+  "files": [
+    {
+      "file": ".m0-scratch/downloads/simple-0.7.1/extracted/libsimple-windows-x64/dict/README.md",
+      "bytes": 714,
+      "sha256": "324dbf050d1516b8eb938b02d19a3f90cc67c97e9fc002033595c54c0cd5cd9e"
+    },
+    {
+      "file": ".m0-scratch/downloads/simple-0.7.1/extracted/libsimple-windows-x64/dict/hmm_model.utf8",
+      "bytes": 519773,
+      "sha256": "c2781984c4c6be66862ff1bc9aace264256bcd174cd900d7f3725debe6c71255"
+    },
+    {
+      "file": ".m0-scratch/downloads/simple-0.7.1/extracted/libsimple-windows-x64/dict/idf.utf8",
+      "bytes": 6257543,
+      "sha256": "d91455238e015eb0af6dd9539d55d5c4f5059513724545e1b057ed696438c663"
+    },
+    {
+      "file": ".m0-scratch/downloads/simple-0.7.1/extracted/libsimple-windows-x64/dict/jieba.dict.utf8",
+      "bytes": 5420186,
+      "sha256": "59578ca2e4bf8b0ca9de879d6484fe70453cb7d46dbc430d15bf943541d5a330"
+    },
+    {
+      "file": ".m0-scratch/downloads/simple-0.7.1/extracted/libsimple-windows-x64/dict/pos_dict/char_state_tab.utf8",
+      "bytes": 333792,
+      "sha256": "d5e2f71cfb65aeeda9899b0268aa3fb2ce917813c5b5f89d4393f5ca39e030c0"
+    },
+    {
+      "file": ".m0-scratch/downloads/simple-0.7.1/extracted/libsimple-windows-x64/dict/pos_dict/prob_emit.utf8",
+      "bytes": 1687852,
+      "sha256": "5f4dca59263df0f2a1c3cf706daf0222619a979315a94b3f05fd750951a01ff0"
+    },
+    {
+      "file": ".m0-scratch/downloads/simple-0.7.1/extracted/libsimple-windows-x64/dict/pos_dict/prob_start.utf8",
+      "bytes": 4606,
+      "sha256": "46446f353d293b934d6bacb4f8e16adc2535ff2e72bc0712de6846c33d732993"
+    },
+    {
+      "file": ".m0-scratch/downloads/simple-0.7.1/extracted/libsimple-windows-x64/dict/pos_dict/prob_trans.utf8",
+      "bytes": 129381,
+      "sha256": "5c051d34df75d414bf41d8df2b080961e3760b900e8f13e5f891df3cb4ea7e03"
+    },
+    {
+      "file": ".m0-scratch/downloads/simple-0.7.1/extracted/libsimple-windows-x64/dict/stop_words.utf8",
+      "bytes": 10508,
+      "sha256": "01190ee2a5199f1eafaa90a4d192420d3389ff17a81772a303c8912a1882a485"
+    },
+    {
+      "file": ".m0-scratch/downloads/simple-0.7.1/extracted/libsimple-windows-x64/dict/user.dict.utf8",
+      "bytes": 53,
+      "sha256": "88b5d41305b7fc121dbf0c762b708a3c863fa4ac0769316b1819f44cd452d22b"
+    },
+    {
+      "file": ".m0-scratch/downloads/simple-0.7.1/extracted/libsimple-windows-x64/simple.dll",
+      "bytes": 1518592,
+      "sha256": "27c700ca34cd5935ff934459f1f9c107cdefef7e54250de5a1c6646e05f21a4f"
+    },
+    {
+      "file": ".m0-scratch/downloads/simple-0.7.1/simple.zip",
+      "bytes": 5473005,
+      "sha256": "7f03cc28cf307721f5621b5a52ef3bcb26c5215de012b09900492eb34d5bed0b"
+    },
+    {
+      "file": ".m0-scratch/downloads/simple-license/CPPJIEBA-LICENSE",
+      "bytes": 1066,
+      "sha256": "ba898a14f729ba5e9965da34e3eecd5edd3795f2cc5d7c923b815ba79bb851b0"
+    },
+    {
+      "file": ".m0-scratch/downloads/simple-license/LICENSE",
+      "bytes": 36501,
+      "sha256": "d7dec946e6e8e6206aca0bda7ba75e847088f1ef641b5e1e9d389f66f97250fd"
+    },
+    {
+      "file": "node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
+      "bytes": 1049600,
+      "sha256": "f7af4982457657d2e7ad46acb076614ed7122d6efbdbfbc75f21ec12681fa121"
+    },
+    {
+      "file": "node_modules/better-sqlite3/LICENSE",
+      "bytes": 1078,
+      "sha256": "09856b52897c91ab67e7456ef43067019f31dfd3b87fda72e655736b1ebdee55"
+    },
+    {
+      "file": "node_modules/better-sqlite3/prebuilds/win32-x64.node",
+      "bytes": 1989632,
+      "sha256": "e21e5efd71fba66578e95b62554d9028064a80dafd7221bf8a8ef155de8d240a"
+    },
+    {
+      "file": "node_modules/electron/dist/LICENSE",
+      "bytes": 1096,
+      "sha256": "5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d"
+    },
+    {
+      "file": "node_modules/electron/dist/LICENSES.chromium.html",
+      "bytes": 20477229,
+      "sha256": "e6e6b1f9cb0f32235412be113de7716333e88121f9159a0ea0ff3be652021af7"
+    },
+    {
+      "file": "node_modules/electron/dist/chrome_100_percent.pak",
+      "bytes": 719654,
+      "sha256": "ab7c4b7b6cb8832a31d44b95ec50ce52294f49422a3bdde4e21968eca2930cbe"
+    },
+    {
+      "file": "node_modules/electron/dist/chrome_200_percent.pak",
+      "bytes": 1269017,
+      "sha256": "30fa4a6e27c9ff2fb0f939f01158477e621a67d86e9ecb84cf11b3947db8eb9d"
+    },
+    {
+      "file": "node_modules/electron/dist/d3dcompiler_47.dll",
+      "bytes": 4741488,
+      "sha256": "a05f99734f7c4822fefc12b367af21fd0976ed6608752fb1e1e80b6ece7ecbbb"
+    },
+    {
+      "file": "node_modules/electron/dist/dxcompiler.dll",
+      "bytes": 25744384,
+      "sha256": "fef76d190438ad137cfd585bd5ea340e51e66da175c3de97a3f42bed88cbd493"
+    },
+    {
+      "file": "node_modules/electron/dist/dxil.dll",
+      "bytes": 1509760,
+      "sha256": "77e039c905030a641e53658a008b74e90635a5ea9b6b79eabd0f2003bdfca59a"
+    },
+    {
+      "file": "node_modules/electron/dist/electron.exe",
+      "bytes": 245589504,
+      "sha256": "1f41127064012c5e74422b2e0dfc35ff0b0fe8d7908b97d01503becd1b7fa9e1"
+    },
+    {
+      "file": "node_modules/electron/dist/ffmpeg.dll",
+      "bytes": 3113472,
+      "sha256": "53fdd1a47262180499a1897d99dc36234be6ef6fb36bfd22a754ef1ac68d873f"
+    },
+    {
+      "file": "node_modules/electron/dist/icudtl.dat",
+      "bytes": 10875024,
+      "sha256": "da53f0b69843aaa43315f0f210a67e4a874b0be338f3dae08ff57b8afe76ab0d"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/af.pak",
+      "bytes": 636155,
+      "sha256": "3017b141bd16e24190d810f0748612f0fd4352ca8553002b9a63a7f77f7154f8"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/am.pak",
+      "bytes": 1029450,
+      "sha256": "67b938d162bc75db067120bb8366b5bafd9a75fa99a0ca9ad4f46b47d1d37634"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/ar.pak",
+      "bytes": 1130928,
+      "sha256": "560244ecff0d522b6fbf97693bdde0a318c5bc516615cb15751ee2527a6eb730"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/bg.pak",
+      "bytes": 1178203,
+      "sha256": "2eb9c74c67e4b13b45a73061fa978738e335bc245da71bab0ea9b205fe91074e"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/bn.pak",
+      "bytes": 1513545,
+      "sha256": "415621a5c0b1546e6e447d43b76414425a8703cc7681d637ec1f283ad0c787e7"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/ca.pak",
+      "bytes": 716908,
+      "sha256": "6f28297c1ccb628f534d65dade167ae559f83eace359acf47e48ff890b9409d5"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/cs.pak",
+      "bytes": 743351,
+      "sha256": "799a789ce531991cb975425730db310f9a8fe74091eee568f3e65fcc7ef0cd57"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/da.pak",
+      "bytes": 666471,
+      "sha256": "530fd95daee21d793b99492ca7d0bf9979daffe42944e24414d4b08a3d23b9fe"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/de.pak",
+      "bytes": 717834,
+      "sha256": "db23cb28e804095d1518aa722f26cab0c478a9714fe367bfa3353dd492376f6a"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/el.pak",
+      "bytes": 1295538,
+      "sha256": "37d2e1ef69fea9bdb1e0902cbc61a458baa9009fc3761029bd1c1882a7a0c9b2"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/en-GB.pak",
+      "bytes": 580030,
+      "sha256": "56ea59d5f21fbd25dfc02a6de4504cb134464f388e64509b2ea1657e238aa427"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/en-US.pak",
+      "bytes": 586582,
+      "sha256": "23b271e8009bfa14783700cd0712b4ecaa5b8f2ea28a4d81ae1d7e05bc0c96b1"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/es-419.pak",
+      "bytes": 707621,
+      "sha256": "530e5b8edc93f95a64700178c2a3fbb55f4d4eadec8cabba25fd21bc5835c63e"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/es.pak",
+      "bytes": 703944,
+      "sha256": "f0982c7ebc30101e609225e2011339378c96075e094e082b694a467eca1108cd"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/et.pak",
+      "bytes": 642216,
+      "sha256": "1e3b4eb21d233e3adaab469310a8c6c61e045379771cbc381c4c000e1716ab28"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/fa.pak",
+      "bytes": 1063104,
+      "sha256": "0e57a54b3be643b9f5e3c46d40a26d40e00915828b0ab9dfd39991cff1283240"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/fi.pak",
+      "bytes": 655113,
+      "sha256": "1f3123d7fb5c22a95b5250ea17450b665c3c6cd6a6dfd28bbdde15e1bf684a0e"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/fil.pak",
+      "bytes": 741385,
+      "sha256": "02e2c70d3d85b0deb677a9ae576ae3cf89e80774532cb3315c14f1e8ce64b310"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/fr.pak",
+      "bytes": 763461,
+      "sha256": "8bad7fd88072ac66649dd9307da9163962f8ab00313e627bf1c5ca4450a48b4a"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/gu.pak",
+      "bytes": 1495625,
+      "sha256": "e86e8c240d4b6283abb03c49df9e8899607ef9def6d4933c7a541d63b5835271"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/he.pak",
+      "bytes": 928748,
+      "sha256": "ddc1f304ab1f4489d19ae2b31e7f8e3ffb47dae439520159e8975422c65e4115"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/hi.pak",
+      "bytes": 1586602,
+      "sha256": "015b3856dc05e8635a48e749e6970fe43f5d620b8dbd04e5abff586178213f6e"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/hr.pak",
+      "bytes": 715279,
+      "sha256": "d46c64ae8af3562e37eb80438aa2bee228fafda251d58ba4d0991291f1c72aab"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/hu.pak",
+      "bytes": 765640,
+      "sha256": "0a46fc8d50f74effd1cfe1979e677df3de6fc47e6b551267303d93d57bd83f50"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/id.pak",
+      "bytes": 635080,
+      "sha256": "f567569c42a25bb2dfc5c33e13aac558c0e2a1d5d4b969592bbd0841b36438db"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/it.pak",
+      "bytes": 693987,
+      "sha256": "0a4090fd79acda3b75ea4cbf59c299b7fbb2c8ed69696158c6f3620bf1901955"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/ja.pak",
+      "bytes": 842050,
+      "sha256": "8b9919cb0f36ec467175b4ee172f97f8bd8c506698b1e2a15acda7a594878996"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/kn.pak",
+      "bytes": 1720240,
+      "sha256": "af5fed2130102ecc0c878059c88faed9d6db2e8b147fb5ae9e15e3fe69706c8a"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/ko.pak",
+      "bytes": 718705,
+      "sha256": "6898cd5c1d6a8f7d4ec8c1af087836c44bd6692f9e96a85eb5769fa0449e9b61"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/lt.pak",
+      "bytes": 777281,
+      "sha256": "af969f4407c190dd01a426fa1244cb1ec7cdf2909d1c3ba5b87ff662ba567303"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/lv.pak",
+      "bytes": 774733,
+      "sha256": "4455ab7c06172c2c80796a99558e41f452cc3b33be76654d70440cf4ac7a2d34"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/ml.pak",
+      "bytes": 1767850,
+      "sha256": "b5606265910e45098a88e989202a550531f6d00333c6b112ed4c5cbc07b2ff6a"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/mr.pak",
+      "bytes": 1467313,
+      "sha256": "8465d4077ed5414cbcb7d9bdb00d85e515a1a069703cdc1d4d67c9d6e5623fb0"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/ms.pak",
+      "bytes": 668356,
+      "sha256": "af7021a00befa586aa067ae3ccb339079e6f13ee0cab1621836f6abb608b6f2a"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/nb.pak",
+      "bytes": 638121,
+      "sha256": "d97a2b0cbe6adc99add2ed3ce0d15d0bb124b778086c466c126634d60ea72608"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/nl.pak",
+      "bytes": 664759,
+      "sha256": "b642c8ab5ce11438e9a8fd4639244fa8f1d55cfd70269565490bc55ee907b048"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/pl.pak",
+      "bytes": 742064,
+      "sha256": "8a0969fc743d3e2f5111387d53c0d79e8c1d9f68256ad6553b87fca2bcaa7e6e"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/pt-BR.pak",
+      "bytes": 697001,
+      "sha256": "b6b06ca87d3cabb4b2751906b6a96f62d619024c36acadd178755dc2c9238a0e"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/pt-PT.pak",
+      "bytes": 701056,
+      "sha256": "bdfa7264dddf70f936f1785737969559a577b51d1952c820a468c611d18b17ca"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/ro.pak",
+      "bytes": 728144,
+      "sha256": "1e6b5b0dac63a9e951daf523de310f6bd9e5c53e281f37706d41bd35d2a08bb5"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/ru.pak",
+      "bytes": 1200985,
+      "sha256": "a9e76536472c45b39e7ae2af5f3ae1bc0e50a11646efdb6fb3ca373b5f2e2c70"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/sk.pak",
+      "bytes": 755529,
+      "sha256": "8eff7365eff78623cd26e40d40540f52b511df96c2824f62531da65f0d3a8087"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/sl.pak",
+      "bytes": 722714,
+      "sha256": "0e1c50e529821f318e4200e024d863daccd78e15de1a5658fa3fb1ebf6312bd1"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/sr.pak",
+      "bytes": 1112909,
+      "sha256": "c42a674e3f43aa70cef005931915c8b7ceb34b29566fba3309f8da931dc7861f"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/sv.pak",
+      "bytes": 646543,
+      "sha256": "7b0399a206bfbebe77d1a4fc598c8a6636a1bd940d3ab56519cf4af0134b6edb"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/sw.pak",
+      "bytes": 685127,
+      "sha256": "bd41ea707a0d90d683ec8d5d0f0c79f3e925747bc4ea1982562dfb75080199b9"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/ta.pak",
+      "bytes": 1758067,
+      "sha256": "91fb1460711df108d8d435a378c8be1d1e80b0886c0158d8c6ae92f35812681b"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/te.pak",
+      "bytes": 1629379,
+      "sha256": "fc8c2706c5dfd36e7af8e380a240e0f697cc5fe969b512092a2185896512c4af"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/th.pak",
+      "bytes": 1368866,
+      "sha256": "c1f4235c31bc05153230b0e55b7aabc9020d7460d5b0a025c386885e1e4bda3c"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/tr.pak",
+      "bytes": 697398,
+      "sha256": "3a3bc4efffaf53859a9b2d8488f2ea4862a6a082c2af68a125923cc01f69a79c"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/uk.pak",
+      "bytes": 1211563,
+      "sha256": "ec5d0b426e289c064e8f2d63636ae2a544ff30fc1e99dde04fe1920971e4d060"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/ur.pak",
+      "bytes": 1047994,
+      "sha256": "c218e21744df2ff0669a87d497d65d76333073577360d4c662c592de146bf82a"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/vi.pak",
+      "bytes": 830000,
+      "sha256": "8d32fb38164de79abae2d878c83c52057015a0badfe0c554a861fdeb90a7f548"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/zh-CN.pak",
+      "bytes": 592069,
+      "sha256": "66c3984c1345b5aba722005458b9cc0af54496260ad06f2509c7afa011d4981f"
+    },
+    {
+      "file": "node_modules/electron/dist/locales/zh-TW.pak",
+      "bytes": 583885,
+      "sha256": "eab3b103f6d45f0dff7ac9466d7373d55bbe5d6fe0badef729a35e9b38ba517a"
+    },
+    {
+      "file": "node_modules/electron/dist/resources.pak",
+      "bytes": 12436139,
+      "sha256": "0a56d979807acb1543b5da7625a873068f3225b1749518fa840b8013b28b7af7"
+    },
+    {
+      "file": "node_modules/electron/dist/resources/default_app.asar",
+      "bytes": 110862,
+      "sha256": "0eb2491b0a9ac94790389d39c09dd5005c6c1f0665842943829bbd0193f6cc4f"
+    },
+    {
+      "file": "node_modules/electron/dist/snapshot_blob.bin",
+      "bytes": 369024,
+      "sha256": "abbf81c8c638603b894c89afd12019cab1380447e5322f0c61629665ea40bfb2"
+    },
+    {
+      "file": "node_modules/electron/dist/v8_context_snapshot.bin",
+      "bytes": 742456,
+      "sha256": "0818ebffaaab815bdaf1965ffe9ecf97a7cd46576258df9ef9f36a6ecf93ca43"
+    },
+    {
+      "file": "node_modules/electron/dist/version",
+      "bytes": 6,
+      "sha256": "6c2e974c7c389942acf1219ad8fccd94145bc04778fb735d68244686d80cc7b5"
+    },
+    {
+      "file": "node_modules/electron/dist/vk_swiftshader.dll",
+      "bytes": 5520384,
+      "sha256": "8aa00a2e238f16c7568e495fe3c04adab79d4a1c7170f0636112e00cf0825a49"
+    },
+    {
+      "file": "node_modules/electron/dist/vk_swiftshader_icd.json",
+      "bytes": 106,
+      "sha256": "32d83ff113fef532a9f97e0d2831f8656628ab1c99e9060f0332b1532839afd9"
+    },
+    {
+      "file": "node_modules/electron/dist/vulkan-1.dll",
+      "bytes": 939520,
+      "sha256": "43e5e0182edb1ced86595a771e7efaa563bfaae595ea0bb74dc3c2df0de47b1a"
+    },
+    {
+      "file": "node_modules/electron/path.txt",
+      "bytes": 12,
+      "sha256": "dcedf875e21343ecbf6371ffa7e5420b1badf3136ebdc98f908b9ef2ace9fa86"
+    },
+    {
+      "file": "node_modules/koffi/LICENSE.txt",
+      "bytes": 1117,
+      "sha256": "22bcbbbacd739b026a8dc484f62a31484ce4c4e31f3408b60b29b4e41d62b290"
+    },
+    {
+      "file": "node_modules/node-pty/LICENSE",
+      "bytes": 3326,
+      "sha256": "a3d60eaf32d2fb09c9d82ef39f14bd6e2c0f3ca7de30daa827486c0d6f8b6e9f"
+    },
+    {
+      "file": "node_modules/node-pty/build/Release/conpty/OpenConsole.exe",
+      "bytes": 1148448,
+      "sha256": "d1fe7faa62f9e955e2ac2371f95d7e5513df4d496255097158f979c94782c5fc"
+    },
+    {
+      "file": "node_modules/node-pty/build/Release/conpty/conpty.dll",
+      "bytes": 109600,
+      "sha256": "7c7430632052ff703540b68371ec43821820aa1335d8e11dfbcd9ff00e9daaed"
+    },
+    {
+      "file": "node_modules/node-pty/prebuilds/win32-x64/conpty.node",
+      "bytes": 312320,
+      "sha256": "ee8f4e6f4dad71939eecfda11de249400e34bfefe4c8b48af13f3b5476f4035b"
+    },
+    {
+      "file": "node_modules/node-pty/prebuilds/win32-x64/conpty_console_list.node",
+      "bytes": 134656,
+      "sha256": "879dd94cfc79f1e263a00077597ae9448a5394b7d193381aaa50d992a1f91090"
+    }
+  ]
+}

@@ -10,7 +10,9 @@
     "m0:run": "node scripts/m0/run.mjs dev",
     "m0:package": "node scripts/m0/package.mjs",
     "m0:packaged": "node scripts/m0/run.mjs packaged",
-    "test": "node --test tests/m0/*.test.mjs"
+    "test": "node --test tests/m0/*.test.mjs",
+    "m0:prepare": "node scripts/m0/prepare.mjs",
+    "m0:check": "node scripts/m0/preflight.mjs"
   },
   "dependencies": {
     "@xterm/addon-fit": "0.11.0",

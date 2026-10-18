@@ -1,0 +1,105 @@
+{
+  "checked": "2026-10-15T08:49:15.299Z",
+  "comparisons": [
+    {
+      "file": "node_modules/node-pty/prebuilds/win32-x64/conpty.node",
+      "sha256": "ee8f4e6f4dad71939eecfda11de249400e34bfefe4c8b48af13f3b5476f4035b"
+    },
+    {
+      "file": "node_modules/node-pty/prebuilds/win32-x64/conpty_console_list.node",
+      "sha256": "879dd94cfc79f1e263a00077597ae9448a5394b7d193381aaa50d992a1f91090"
+    },
+    {
+      "file": "node_modules/node-pty/build/Release/conpty/conpty.dll",
+      "sha256": "7c7430632052ff703540b68371ec43821820aa1335d8e11dfbcd9ff00e9daaed"
+    },
+    {
+      "file": "node_modules/node-pty/build/Release/conpty/OpenConsole.exe",
+      "sha256": "d1fe7faa62f9e955e2ac2371f95d7e5513df4d496255097158f979c94782c5fc"
+    },
+    {
+      "file": "node_modules/better-sqlite3/prebuilds/win32-x64.node",
+      "sha256": "e21e5efd71fba66578e95b62554d9028064a80dafd7221bf8a8ef155de8d240a"
+    },
+    {
+      "file": "node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
+      "sha256": "f7af4982457657d2e7ad46acb076614ed7122d6efbdbfbc75f21ec12681fa121"
+    },
+    {
+      "file": "node_modules/node-pty/LICENSE",
+      "sha256": "a3d60eaf32d2fb09c9d82ef39f14bd6e2c0f3ca7de30daa827486c0d6f8b6e9f"
+    },
+    {
+      "file": "node_modules/better-sqlite3/LICENSE",
+      "sha256": "09856b52897c91ab67e7456ef43067019f31dfd3b87fda72e655736b1ebdee55"
+    },
+    {
+      "file": "node_modules/koffi/LICENSE.txt",
+      "sha256": "22bcbbbacd739b026a8dc484f62a31484ce4c4e31f3408b60b29b4e41d62b290"
+    },
+    {
+      "file": "resources/simple/dict/README.md",
+      "sha256": "324dbf050d1516b8eb938b02d19a3f90cc67c97e9fc002033595c54c0cd5cd9e"
+    },
+    {
+      "file": "resources/simple/dict/hmm_model.utf8",
+      "sha256": "c2781984c4c6be66862ff1bc9aace264256bcd174cd900d7f3725debe6c71255"
+    },
+    {
+      "file": "resources/simple/dict/idf.utf8",
+      "sha256": "d91455238e015eb0af6dd9539d55d5c4f5059513724545e1b057ed696438c663"
+    },
+    {
+      "file": "resources/simple/dict/jieba.dict.utf8",
+      "sha256": "59578ca2e4bf8b0ca9de879d6484fe70453cb7d46dbc430d15bf943541d5a330"
+    },
+    {
+      "file": "resources/simple/dict/pos_dict/char_state_tab.utf8",
+      "sha256": "d5e2f71cfb65aeeda9899b0268aa3fb2ce917813c5b5f89d4393f5ca39e030c0"
+    },
+    {
+      "file": "resources/simple/dict/pos_dict/prob_emit.utf8",
+      "sha256": "5f4dca59263df0f2a1c3cf706daf0222619a979315a94b3f05fd750951a01ff0"
+    },
+    {
+      "file": "resources/simple/dict/pos_dict/prob_start.utf8",
+      "sha256": "46446f353d293b934d6bacb4f8e16adc2535ff2e72bc0712de6846c33d732993"
+    },
+    {
+      "file": "resources/simple/dict/pos_dict/prob_trans.utf8",
+      "sha256": "5c051d34df75d414bf41d8df2b080961e3760b900e8f13e5f891df3cb4ea7e03"
+    },
+    {
+      "file": "resources/simple/dict/stop_words.utf8",
+      "sha256": "01190ee2a5199f1eafaa90a4d192420d3389ff17a81772a303c8912a1882a485"
+    },
+    {
+      "file": "resources/simple/dict/user.dict.utf8",
+      "sha256": "88b5d41305b7fc121dbf0c762b708a3c863fa4ac0769316b1819f44cd452d22b"
+    },
+    {
+      "file": "resources/simple/simple.dll",
+      "sha256": "27c700ca34cd5935ff934459f1f9c107cdefef7e54250de5a1c6646e05f21a4f"
+    },
+    {
+      "file": "resources/simple/licenses/CPPJIEBA-LICENSE",
+      "sha256": "ba898a14f729ba5e9965da34e3eecd5edd3795f2cc5d7c923b815ba79bb851b0"
+    },
+    {
+      "file": "resources/simple/licenses/LICENSE",
+      "sha256": "d7dec946e6e8e6206aca0bda7ba75e847088f1ef641b5e1e9d389f66f97250fd"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "release/m0/win-unpacked/JianZJ Hub M0.exe",
+      "bytes": 245590016,
+      "sha256": "18de71d22c87874ed5c666520e46df8a632f4244f6be33024695debaadea960b"
+    },
+    {
+      "file": "release/m0/win-unpacked/resources/app.asar",
+      "bytes": 15846769,
+      "sha256": "c5650d8f43225f142a731397456f3446dd1b973009faed5cf40313372495422f"
+    }
+  ]
+}

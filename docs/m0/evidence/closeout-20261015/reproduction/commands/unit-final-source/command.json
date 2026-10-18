@@ -1,0 +1,23 @@
+{
+  "command": [
+    "npm",
+    "test"
+  ],
+  "actual": [
+    "D:\\Program Files (x86)\\nodejs\\node.exe",
+    "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+    "test"
+  ],
+  "cwd": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+  "started": "2026-10-15T08:58:03.128Z",
+  "environment": {
+    "npm_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\cache\\npm",
+    "npm_config_userconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty.npmrc",
+    "npm_config_globalconfig": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\harness\\empty-global.npmrc",
+    "ELECTRON_BUILDER_CACHE": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\builder",
+    "electron_config_cache": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\cache\\electron"
+  },
+  "exitCode": 0,
+  "signal": null,
+  "finished": "2026-10-15T08:58:03.804Z"
+}

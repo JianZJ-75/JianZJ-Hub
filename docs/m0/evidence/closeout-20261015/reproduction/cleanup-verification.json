@@ -1,0 +1,25 @@
+{
+  "checked": "2026-10-15T09:02:59.693Z",
+  "identitiesChecked": 406,
+  "matchingLiveIdentities": [],
+  "unavailable": [],
+  "pidReusedNotKilled": [
+    {
+      "pid": 171520,
+      "createdAt": "134365281686865067",
+      "currentCreatedAt": "134365285795974403"
+    },
+    {
+      "pid": 173936,
+      "createdAt": "134365282089702463",
+      "currentCreatedAt": "134365285796042656"
+    },
+    {
+      "pid": 171520,
+      "createdAt": "134365280657296225",
+      "currentCreatedAt": "134365285795974403"
+    }
+  ],
+  "confirmedExited": 403,
+  "source": "current isolated run supervisor/result/fixture identities; process handles, never kill by name"
+}

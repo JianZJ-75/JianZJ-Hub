@@ -1,0 +1,118 @@
+{
+  "checked": "2026-10-15T08:57:14.824Z",
+  "interpretation": "current file/hash check of historical evidence, not a rerun or reconstruction of original command output",
+  "historical": [
+    {
+      "file": "src/services/pty/m0.ts",
+      "sha256": "b4ec5ad34e2ddd5267137ab4c2001bf66bd48402bb6ae3ff24cedb8e82e6c8ee",
+      "actual": "b4ec5ad34e2ddd5267137ab4c2001bf66bd48402bb6ae3ff24cedb8e82e6c8ee"
+    },
+    {
+      "file": "src/services/pty/session.m0.ts",
+      "sha256": "0d4d7765f9afb9f6f7547f82a65b635d5c24402c0b44ab0986bc32e4a2108d6a",
+      "actual": "0d4d7765f9afb9f6f7547f82a65b635d5c24402c0b44ab0986bc32e4a2108d6a"
+    },
+    {
+      "file": "src/services/pty/lifecycle.mjs",
+      "sha256": "c64eb57ec92a336af1eb4fc751fc664e43728129e21ec9462552d6e55469c7b4",
+      "actual": "c64eb57ec92a336af1eb4fc751fc664e43728129e21ec9462552d6e55469c7b4"
+    },
+    {
+      "file": "src/adapters/windows/job-object.ts",
+      "sha256": "8c3b239b29a5954cbd49b630d8a596dbea05dfd7747da0ecc24debef67d82340",
+      "actual": "8c3b239b29a5954cbd49b630d8a596dbea05dfd7747da0ecc24debef67d82340"
+    },
+    {
+      "file": "src/main/m0-checks.ts",
+      "sha256": "d428ec50b99c27f975325170412aef6343641392af12d7b62ae51d578028265a",
+      "actual": "d428ec50b99c27f975325170412aef6343641392af12d7b62ae51d578028265a"
+    },
+    {
+      "file": "out/main/pty-service.js",
+      "sha256": "2db6ea27e1a69984aa3ff0deeddbbeda20630e0fddb8d7b5018033b489e3df8c",
+      "actual": "2db6ea27e1a69984aa3ff0deeddbbeda20630e0fddb8d7b5018033b489e3df8c"
+    },
+    {
+      "file": "out/main/pty-session.js",
+      "sha256": "5a325a7db6271ccf394903b34d6362999d5fa7a56d66278cddde4df3c0ecdf54",
+      "actual": "5a325a7db6271ccf394903b34d6362999d5fa7a56d66278cddde4df3c0ecdf54"
+    },
+    {
+      "file": "release/m0/win-unpacked/resources/app.asar",
+      "sha256": "c5650d8f43225f142a731397456f3446dd1b973009faed5cf40313372495422f",
+      "actual": "c5650d8f43225f142a731397456f3446dd1b973009faed5cf40313372495422f"
+    }
+  ],
+  "acceptance": [
+    {
+      "file": ".m0-scratch/acceptance-dev.log",
+      "bytes": 32569,
+      "sha256": "bbe4cf152aec44ab145cf2cbe5ba73f3f550a89c00b7edbd7120c4b41cb50b8d",
+      "target": "dev",
+      "mode": "normal",
+      "status": "pass",
+      "appExitCode": 0,
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true,
+      "historicalShellCommand": "not retained; target and mode are read from report, not a reconstructed original invocation",
+      "historicalOuterExitCode": "not retained"
+    },
+    {
+      "file": ".m0-scratch/acceptance-packaged.log",
+      "bytes": 33231,
+      "sha256": "8a5f992f85b729a2848dfb1dab7af2ed8af3988dc93a6fdf90984bc977e81bfa",
+      "target": "packaged",
+      "mode": "normal",
+      "status": "pass",
+      "appExitCode": 0,
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true,
+      "historicalShellCommand": "not retained; target and mode are read from report, not a reconstructed original invocation",
+      "historicalOuterExitCode": "not retained"
+    },
+    {
+      "file": ".m0-scratch/acceptance-worker.log",
+      "bytes": 21676,
+      "sha256": "69211d98d181c799c9cee4bcfdda94cc7fa733ad16955aa36e96f95e5ea1e143",
+      "target": "dev",
+      "mode": "worker-fault",
+      "status": "pass",
+      "appExitCode": 0,
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true,
+      "historicalShellCommand": "not retained; target and mode are read from report, not a reconstructed original invocation",
+      "historicalOuterExitCode": "not retained"
+    },
+    {
+      "file": ".m0-scratch/acceptance-crash.log",
+      "bytes": 1030,
+      "sha256": "8b579591f8fda0fd64aef5b052e4558d687cf0848149d30b61e9aa6bb6c5e9d4",
+      "target": "packaged",
+      "mode": "main-crash",
+      "status": "pass",
+      "appExitCode": 1,
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true,
+      "historicalShellCommand": "not retained; target and mode are read from report, not a reconstructed original invocation",
+      "historicalOuterExitCode": "not retained"
+    },
+    {
+      "file": ".m0-scratch/acceptance-concurrent.log",
+      "bytes": 39256,
+      "sha256": "507b0f9beb0665ccce4624701a45b508ccae286a9a77ced5dc1aa5d6c2e9c946",
+      "target": "packaged",
+      "mode": "concurrent-exit",
+      "status": "pass",
+      "appExitCode": 0,
+      "afterAppExit": [],
+      "fallbackPids": [],
+      "controlSurvived": true,
+      "historicalShellCommand": "not retained; target and mode are read from report, not a reconstructed original invocation",
+      "historicalOuterExitCode": "not retained"
+    }
+  ]
+}

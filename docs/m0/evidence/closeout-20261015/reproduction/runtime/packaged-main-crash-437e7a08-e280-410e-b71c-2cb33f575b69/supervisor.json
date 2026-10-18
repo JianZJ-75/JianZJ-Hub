@@ -1,0 +1,53 @@
+{
+  "target": "packaged",
+  "mode": "main-crash",
+  "directory": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project\\.m0-scratch\\evidence\\packaged-main-crash-437e7a08-e280-410e-b71c-2cb33f575b69",
+  "started": "2026-10-15T08:53:41.341Z",
+  "control": {
+    "pid": 135668,
+    "createdAt": "134365280213427556"
+  },
+  "app": {
+    "pid": 169076,
+    "createdAt": "134365280213482795"
+  },
+  "beforeCrash": [
+    169076,
+    168040,
+    168100,
+    167704,
+    168112,
+    173980,
+    159192,
+    133648,
+    173024,
+    163924,
+    141392,
+    169472,
+    171532,
+    143836
+  ],
+  "mainCrashManagedCleanup": {
+    "managed": [
+      {
+        "pid": 163924,
+        "createdAt": "134365280259005457"
+      },
+      {
+        "pid": 141392,
+        "createdAt": "134365280293852479"
+      },
+      {
+        "pid": 169472,
+        "createdAt": "134365280294138968"
+      }
+    ],
+    "allExited": true
+  },
+  "exitCode": 1,
+  "afterAppExit": [],
+  "controlSurvived": true,
+  "status": "pass",
+  "fallbackPids": [],
+  "finished": "2026-10-15T08:53:49.668Z"
+}
