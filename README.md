@@ -45,4 +45,4 @@ M0 已采用每会话独立原生 worker 和 Windows 句柄退出码，重复并
 
 ## GitHub 交付状态
 
-本地 M0 成果已存在，但尚无 Git 提交或推送，公开远端 main 仍返回空仓库。详见 [交付核对](docs/m0/DELIVERY-AUDIT.md) 与 [实际命令输出](docs/m0/COMMAND-OUTPUTS.md)。是否 commit/push 需要明确授权；不将本地验证等同于 GitHub 交付。
+M0 已获授权仅提交并推送到 main，不进入 M1。[交付前审计](docs/m0/DELIVERY-AUDIT.md) 保留当时的空仓库状态；[Git 交付记录](docs/m0/GIT-DELIVERY.md) 记录提交实施与证据保真规则。是否已推送以远端 main 的实际提交为准，不将本地验证或提交等同于远端交付。
