@@ -3,6 +3,7 @@ import assert from 'node:assert/strict'
 import { mkdtempSync, mkdirSync, writeFileSync, rmSync } from 'node:fs'
 import { join } from 'node:path'
 import { lineGeometry, minimumPane, ResizeQueue } from '../../src/renderer/workstation/geometry.mjs'
+mkdirSync(join(process.cwd(), '.m1-scratch'), { recursive: true })
 import { shellEnvironment } from '../../src/adapters/windows/workstation/cli-environment.mjs'
 for (const dpr of [1,1.25,1.5,2]) test(`CSS target line height maps to xterm device grid at DPR ${dpr} without changing font size`,()=>{
   for(const fontSize of [12,14,18])for(const density of ['comfortable','compact']){

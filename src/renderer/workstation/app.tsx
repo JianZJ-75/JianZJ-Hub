@@ -45,7 +45,7 @@ function App() {
   const [prefs, setPrefs] = useState<Preferences>({ theme: 'system', fontSize: 14, density: 'comfortable' }), [dark, setDark] = useState(false)
   const [modal, setModal] = useState<string | null>(null), [target, setTarget] = useState<string | null>(null), [message, setMessage] = useState(''), [loaded, setLoaded] = useState(false), [busy, setBusy] = useState(false)
   const [name, setName] = useState(''), [cwd, setCwd] = useState(''), [layout, setLayout] = useState<Workspace['layout']>('single'), [query, setQuery] = useState(''), [dataDir, setDataDir] = useState('')
-  const preferenceRevision = useRef(0)
+  const preferenceRevision = useRef(0), composing = useRef(false)
   const [, refresh] = useState(0), stage = useRef<HTMLDivElement>(null), lastActive = useRef<Record<string, string>>({}), returnPane = useRef<string | null>(null)
   const [stageSize, setStageSize] = useState({ width: 10000, height: 10000, viewport: 10000 })
   const [defaultTerminal, setDefaultTerminal] = useState<Workspace | null>(null), started = useRef(false)
@@ -133,14 +133,14 @@ function App() {
   function toggleFocus() { setFocus(value => { if (!value) { priorTool.current = tool; setTool(null) } else setTool(priorTool.current); return !value }); focus() }
   function openTool(name: string) { returnPane.current = active; setFocus(false); setTool(old => old === name ? null : name); requestAnimationFrame(() => { const input = document.querySelector<HTMLElement>('.drawer textarea,.drawer input'); if (input) input.focus(); else focus() }) }
   const keys = (e: KeyboardEvent) => {
-    if (e.isComposing || e.defaultPrevented) return false
+    if (composing.current || e.isComposing || e.keyCode === 229 || e.defaultPrevented) return false
     if (e.key === 'Escape') { if (modal) closeModal(); else if (zoom) { setZoom(null); focus() } else if (tool) { setTool(null); focus(returnPane.current || active) } else if (focusMode) toggleFocus(); else return false; e.preventDefault(); return true }
     if (e.ctrlKey && !e.shiftKey && e.key.toLowerCase() === 'k') { e.preventDefault(); openModal('search'); return true }
     if (!modal && e.ctrlKey && e.shiftKey && ['d', 'e', 'n', 't'].includes(e.key.toLowerCase())) { e.preventDefault(); if (e.key.toLowerCase() === 'n') openTool('notes'); else void splitPane(e.key.toLowerCase() === 'd' ? 'right' : 'down'); return true }
     return false
   }
   manager.shortcut = keys
-  useEffect(() => { const listener = (e: KeyboardEvent) => keys(e); document.addEventListener('keydown', listener); return () => document.removeEventListener('keydown', listener) })
+  useEffect(() => { const listener = (e: KeyboardEvent) => keys(e), start = () => { composing.current = true }, end = () => { composing.current = false }; document.addEventListener('keydown', listener); document.addEventListener('compositionstart', start, true); document.addEventListener('compositionend', end, true); document.addEventListener('compositioncancel', end, true); return () => { document.removeEventListener('keydown', listener); document.removeEventListener('compositionstart', start, true); document.removeEventListener('compositionend', end, true); document.removeEventListener('compositioncancel', end, true) } })
   function renderTree(node: any): ReactNode {
     if (!node) return null
     if (node.type === 'leaf') {

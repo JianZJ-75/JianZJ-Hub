@@ -50,6 +50,16 @@ const { palettes, resolved, terminalTheme } = await import('../../src/renderer/w
 for (const [mode, systemDark, expected] of [['light', false, 'light'], ['dark', true, 'dark'], ['system', false, 'light'], ['system', true, 'dark']]) test(`theme ${mode} / OS dark=${systemDark} resolves page and xterm from same palette`, () => { const actual = resolved(mode, systemDark), p = palettes[actual]; assert.equal(actual, expected); assert.equal(terminalTheme(p).background, p.terminal); assert.equal(terminalTheme(p).foreground, p.text); assert.equal(terminalTheme(p).cursor, p.accent) })
 test('runtime system toggle changes system resolution, not explicit theme', () => { assert.notEqual(resolved('system', false), resolved('system', true)); assert.equal(resolved('light', true), 'light'); assert.equal(resolved('dark', false), 'dark') })
 
+const { isImeKey } = await import('../../src/renderer/workstation/keyboard.mjs')
+test('IME candidate and commit keys bypass product shortcuts while ordinary keys remain eligible', () => {
+  assert.equal(isImeKey({ isComposing: true, keyCode: 49 }), true)
+  assert.equal(isImeKey({ isComposing: false, keyCode: 229 }), true)
+  assert.equal(isImeKey({ isComposing: false, which: 229 }), true)
+  assert.equal(isImeKey({ isComposing: false, keyCode: 49, which: 49 }, true), true)
+  assert.equal(isImeKey({ isComposing: false, keyCode: 49, which: 49 }), false)
+  assert.equal(isImeKey({ isComposing: false, keyCode: 13, which: 13 }), false)
+})
+
 // Bash readline renders CJK input as octal \nnn unless a UTF-8 locale governs it.
 // A packaged app launched from Explorer inherits no LANG/LC_CTYPE, so the launch
 // environment must supply one. Guards the fix in src/adapters/windows/workstation/shell.ts.

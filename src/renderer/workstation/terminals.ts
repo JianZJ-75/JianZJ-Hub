@@ -4,6 +4,7 @@ import type { Preferences } from '../../shared/workstation-protocol'
 import { palettes, baseTokens, resolved, terminalTheme } from './palette.mjs'
 import { lineGeometry, minimumPane, ResizeQueue } from './geometry.mjs'
 import { paintBlockRows } from './block-glyphs.mjs'
+import { isImeKey } from './keyboard.mjs'
 export interface LivePane {
   paneId: string; workspaceId: string; name: string; cwd: string; sessionId?: string; generation?: number
   state: string; shellLabel: string; reclaimed?: boolean; exitCode?: number; error?: string; claudeExecutable?: string | null
@@ -35,6 +36,10 @@ export class Terminals {
     const term = new Terminal({ fontSize: this.preferences.fontSize, fontFamily: baseTokens.mono, lineHeight: 1, letterSpacing: .05, disableStdin: true, scrollback: 4000, allowProposedApi: false, cursorBlink: true, theme: terminalTheme(palettes[resolved(this.preferences.theme, this.dark)]) })
     const fit = new FitAddon(); term.loadAddon(fit); term.open(host)
     const pane = { paneId, workspaceId, name, cwd, shellLabel: 'Git Bash', state: 'creating', host, term, fit, seq: 0, dimensions: '', disposed: false, inputBytes: 0, inputChain: Promise.resolve(), cwdEscape: '' } as LivePane
+    let composing = false
+    host.addEventListener('compositionstart', () => { composing = true })
+    host.addEventListener('compositionend', () => { composing = false })
+    host.addEventListener('compositioncancel', () => { composing = false })
     pane.resize = new ResizeQueue(async (size: { cols: number; rows: number }) => {
       if (pane.disposed || pane.state !== 'running' || !pane.sessionId) throw new Error('SESSION_NOT_RUNNING')
       await bridge.resize({ sessionId: pane.sessionId, generation: pane.generation!, ...size })
@@ -58,7 +63,7 @@ export class Terminals {
       // that commits it (Enter, candidate digits). Returning false for every
       // composing key here skips that helper, so the commit key is swallowed —
       // the committed text is never flushed and Enter never reaches the shell.
-      if (this.shortcut(e)) return false
+      if (!isImeKey(e, composing) && this.shortcut(e)) return false
       if (e.ctrlKey && e.key.toLowerCase() === 'c' && term.hasSelection()) { e.preventDefault(); void bridge.clipboardWrite(term.getSelection()).catch(error => this.error(pane, error)); return false }
       // Paste: both Ctrl+V and Ctrl+Shift+V. The app documents them as paste; leaving
       // Ctrl+V to xterm turns it into readline's quoted-insert (\x16), which never pastes.

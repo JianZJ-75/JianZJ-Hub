@@ -5,16 +5,16 @@
 ## 本次应打开的程序
 
 ```text
-D:\Code\JianZJ-Hub\release\m1\2026-10-17T15-00-23-185Z-bac9a883\win-unpacked\Workstation.exe
+D:\Code\JianZJ-Hub\release\m1\2026-10-18T17-54-40-394Z-8345f2bc\win-unpacked\Workstation.exe
 ```
 
-[打开新EXE](../../release/m1/2026-10-17T15-00-23-185Z-bac9a883/win-unpacked/Workstation.exe) · [完整ZIP](../../release/m1/2026-10-17T15-00-23-185Z-bac9a883/Workstation-M1-win32-x64.zip)
+[打开新EXE](../../release/m1/2026-10-18T17-54-40-394Z-8345f2bc/win-unpacked/Workstation.exe) · [完整ZIP](../../release/m1/2026-10-18T17-54-40-394Z-8345f2bc/Workstation-M1-win32-x64.zip)
 
 | 产物 | SHA-256 |
 |---|---|
-| Workstation.exe | `830bee7e746ac88e1dca384a47f8d59707bdf9addb42027ea9d2797c4a23e8da` |
-| resources/app.asar | `3b4b5c69f4005294bbe77446ed62c91a2e92b5c170e451b5ec98348455005df3` |
-| Workstation-M1-win32-x64.zip | `5aa4366a4310f195017225e369f862304e1d7951f7dc137bcb2c049c6153eae8` |
+| Workstation.exe | `53b30c33c9a3eabbcc4b929e4fa8ec40832542777703bec6e85d01533a5fee11` |
+| resources/app.asar | `0b24b9625b4e01fcf5a9c6b2e30955fafd3e4bd4ae0a7d74019a6cf13145f2de` |
+| Workstation-M1-win32-x64.zip | `8fe2b495cea4f94ac1368840482c146a3b0e9ffe91146de3a2f692ff7f8fb7e3` |
 
 旧包全部保留，请不要再打开早先的 `2026-10-15`、`2026-10-16` 以及 `13-11-56-641Z-721bbec8` 版本判断本轮效果。目录包无签名、无安装器，必须完整解压，不能只复制EXE。
 
@@ -58,12 +58,13 @@ node scripts/m1/zip.mjs
 
 ## 验收状态
 
-新默认启动、尺寸同步、分屏/项目切换、背压/尾输出、故障清理、主题及正式包已自动复测。最近三轮问题已定位并修复：
+新默认启动、尺寸同步、分屏/项目切换、背压/尾输出、故障清理、主题及正式包已自动复测。最近四轮问题已定位并修复：
 
 - **resize 与输入竞态**（2026-10-16）：resize ACK 前写入中性 NUL fence，输入不再丢首字符。见 [证据](evidence/resize-input-20261016/)。
 - **中文输入**（2026-10-17）：注入 `LC_ALL=C.UTF-8` 解决八进制回显；删除自定义按键处理器对输入法提交键的拦截，交回 xterm `CompositionHelper`。见 [证据](evidence/ime-20261017/)。
 - **粘贴**（2026-10-17）：Electron 44 的 `clipboard.readText()/writeText()` 为异步，主进程未 `await` 导致恒抛 `INVALID_CLIPBOARD_TEXT`；`Ctrl+V` 也未接线。已改为 await，并让 `Ctrl+V`/`Ctrl+Shift+V` 共用粘贴路径。见 [证据](evidence/paste-20261017/)。
+- **中文输入候选提交**（2026-10-18）：真实复验发现候选数字仍可能先经过工作站快捷键层；组合态/229 事件现在直接交给 xterm `CompositionHelper`，避免按 `1` 选择候选时提交被吞。自动键路回归已通过，真实 Microsoft 拼音候选仍待人工复验。见 [终端说明](BASH-TUI.md)。
 
-最新自动结果：类型检查通过；M1 单元 25/25；开发桌面套件 19/19；正式包验收 7/7、`archiveUnmodified: true`、兜底进程为空。具体命令、失败记录与边界见 [BASH-TUI.md](BASH-TUI.md)。**视觉是否满意、真实 IME 组合/候选、人工复制粘贴与鼠标选择、全屏程序及 Windows 跟随系统主题仍待本人确认/人工复核**，不由自动脚本替代。
+最新自动结果：类型检查通过；M1 单元 **26/26**；开发桌面套件 **10 个入口全部通过**（含桌面、粘贴、TUI 与故障清理）；此前正式包验收 7/7、`archiveUnmodified: true`、兜底进程为空。具体命令、失败记录与边界见 [BASH-TUI.md](BASH-TUI.md)。**视觉是否满意、真实 IME 候选、人工复制粘贴与鼠标选择、全屏程序及 Windows 跟随系统主题仍待本人确认/人工复核**，不由自动脚本替代。
 
-更早的实现和对照保留在 [历史返修](REPAIR-20261015.md)、[原型对照](REPAIR-COMPARISON.md)、[历史验收](ACCEPTANCE.md)；旧“先项目”和“默认抽屉”口径已被取代，不能再作为产品要求。M0代码、原型、旧证据和回退包未覆盖；M1 代码已提交到分支 `git-bash-workstation` 并推送 origin（`main` 内容不变，仅提交说明改写）。
+更早的实现和对照保留在 [历史返修](REPAIR-20261015.md)、[原型对照](REPAIR-COMPARISON.md)、[历史验收](ACCEPTANCE.md)；旧“先项目”和“默认抽屉”口径已被取代，不能再作为产品要求。M0代码、原型、旧证据和回退包未覆盖；当前工作站代码已合入 `main` 并推送 origin。

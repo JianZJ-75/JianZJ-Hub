@@ -4,7 +4,7 @@
 
 > 本文保留首轮实现记录。首轮人工体验未通过；最新界面/行距/尺寸/CLI 返修及未验范围见 [返修记录](REPAIR-20261015.md)。下文首轮自动结果不能当作人工验收通过。
 
-> **2026-10-17/18 之后的修复**（`worker.ts`、`shell.ts`、`terminals.ts`、`app.ts`）：resize/输入竞态、中文输入回显为八进制与输入法提交键被吞、以及 `Ctrl+V`/`Ctrl+Shift+V` 粘贴失效均已定位并修复。自动回归、前后对照与证据见 [BASH-TUI.md](BASH-TUI.md) 及 `evidence/` 下各轮目录；正文各节为总体技术与边界说明，不代表某一轮快照。
+> **2026-10-17/18 之后的修复**（`worker.ts`、`shell.ts`、`terminals.ts`、`app.ts`）：resize/输入竞态、中文输入回显为八进制、第一次输入法提交路径修复，以及 `Ctrl+V`/`Ctrl+Shift+V` 粘贴失效均已定位；2026-10-18 又修正了工作站快捷键层提前阻止 xterm `CompositionHelper` 的候选数字提交路径。自动回归、前后对照与证据见 [BASH-TUI.md](BASH-TUI.md) 及 `evidence/` 下各轮目录；正文各节为总体技术与边界说明，不代表某一轮快照。
 
 ## 基线与已确认口径
 

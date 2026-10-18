@@ -1,21 +1,22 @@
 # M1 · 原型外壳、Git Bash 与 Claude TUI
 
-**2026-10-17：本轮修复中文输入回显为八进制、候选数字/回车提交被吞，以及 Ctrl+V / Ctrl+Shift+V 粘贴失效的问题，并完成单元、开发 GUI 与正式包回归；不宣称 M1 全部人工验收通过。** 三个原有目标继续保持：认可原型式外壳；默认已有 Git Bash；实际验证 Claude 的 classic/fullscreen 界面并修复证实的字形问题。打开即终端、项目可选、辅助默认收起仍保留，不进入 M2。
+**2026-10-18：本轮继续修复中文输入法候选数字提交被工作站快捷键层提前截断的问题；此前已修复中文输入回显为八进制、候选数字/回车提交被吞，以及 Ctrl+V / Ctrl+Shift+V 粘贴失效，并完成单元、开发 GUI 与正式包回归；不宣称人工验收全部通过。** 三个原有目标继续保持：认可原型式外壳；默认已有 Git Bash；实际验证 Claude 的 classic/fullscreen 界面并修复证实的字形问题。打开即终端、项目可选、辅助默认收起仍保留，不进入 M2。
 
 ## 本次应打开的程序
 
 ```text
-D:\Code\JianZJ-Hub\release\m1\2026-10-17T15-00-23-185Z-bac9a883\win-unpacked\Workstation.exe
+D:\Code\JianZJ-Hub\release\m1\2026-10-18T17-54-40-394Z-8345f2bc\win-unpacked\Workstation.exe
 ```
 
-[打开新 EXE](../../release/m1/2026-10-17T15-00-23-185Z-bac9a883/win-unpacked/Workstation.exe) · [新包清单](../../release/m1/2026-10-17T15-00-23-185Z-bac9a883/manifest.json)
+[打开新 EXE](../../release/m1/2026-10-18T17-54-40-394Z-8345f2bc/win-unpacked/Workstation.exe) · [新包清单](../../release/m1/2026-10-18T17-54-40-394Z-8345f2bc/manifest.json) · [ZIP](../../release/m1/2026-10-18T17-54-40-394Z-8345f2bc/Workstation-M1-win32-x64.zip)
 
-请先关闭旧版，再打开此新路径。包无签名/安装器，未发布或推送。
+请先关闭旧版，再打开此新路径。这个包包含 2026-10-18 中文输入法候选数字提交修复；包无签名/安装器。
 
 | 产物 | SHA-256 |
 |---|---|
-| Workstation.exe | `830bee7e746ac88e1dca384a47f8d59707bdf9addb42027ea9d2797c4a23e8da` |
-| resources/app.asar | `3b4b5c69f4005294bbe77446ed62c91a2e92b5c170e451b5ec98348455005df3` |
+| Workstation.exe | `53b30c33c9a3eabbcc4b929e4fa8ec40832542777703bec6e85d01533a5fee11` |
+| resources/app.asar | `0b24b9625b4e01fcf5a9c6b2e30955fafd3e4bd4ae0a7d74019a6cf13145f2de` |
+| Workstation-M1-win32-x64.zip | `8fe2b495cea4f94ac1368840482c146a3b0e9ffe91146de3a2f692ff7f8fb7e3` |
 
 [包清单](evidence/bash-tui-20261016/package-manifest.json)。本机已安装 Git for Windows，不需新增安装；**包不捆绑 Git Bash**，其他机器需要已有 Git for Windows。找不到会明确报告，不静默回退 PowerShell 或下载。
 
@@ -39,6 +40,14 @@ D:\Code\JianZJ-Hub\release\m1\2026-10-17T15-00-23-185Z-bac9a883\win-unpacked\Wor
 2. **自定义按键处理器吞掉输入法提交键。** `terminals.ts` 对所有 `isComposing`/`keyCode===229` 的 keydown 返回 `false`，使 xterm 的 `_keyDown` 提前中止、不再调用 `CompositionHelper.keydown()`；于是回车提交键没有作为 `\r` 发给 Shell，数字选择候选的提交路径也被跳过。xterm 自带逻辑已对 229 返回 `false`，应用的重复拦截破坏了标准 IME 路径。
 
 **修复：** `shell.ts` 在 Git Bash 启动环境中，若没有 UTF-8 locale 则设置 `LC_ALL=C.UTF-8`，已有 UTF-8 locale 时不覆盖；`terminals.ts` 删除对输入法组合键的提前拦截，交给 xterm `CompositionHelper`，产品快捷键（Ctrl+C / Ctrl+Shift+V 等）仍保留。未丢弃、截断、替换或重发用户输入，未识别提示符/命令，未固定 sleep，未重建 Shell 或 xterm。详见 [证据说明](evidence/ime-20261017/README.md)。
+
+## 本轮中文输入候选提交加固（2026-10-18）
+
+用户复验发现：中文输入法候选栏显示 `1 方案` 时，按 `1` 后候选没有稳定提交，后续文本可能直接变成错误内容（例如把“方案”丢掉）。根因不是把数字映射成了“继续”，而是 xterm 的自定义 key handler 先调用工作站快捷键；应用层在 `isComposing` 时返回 `false`，该返回值随后被 xterm 当成“禁止继续处理”，从而跳过 `CompositionHelper` 的候选提交路径。
+
+修复：`terminals.ts` 对 `isComposing`、`keyCode/which === 229` 的 keydown 不再调用工作站快捷键，直接返回 `true` 让 xterm 的 `CompositionHelper` 决定如何消费候选数字/回车；`app.tsx` 同时把 229 视为输入法事件。普通 Escape、Ctrl+K、Ctrl+Shift+D/E/N/T、Ctrl+C 和 Ctrl+V/ Ctrl+Shift+V 的既有路径不变。没有把候选数字硬编码成某个文本，没有自行重发、替换、截断或延迟输入。
+
+新增单元回归覆盖 `isComposing`、229、`which=229` 与普通数字/回车；开发 GUI 套件 10 个入口全部通过。自动测试不能替代真实 Microsoft 拼音候选体验，仍需人工确认 `fang'an` → 按 `1` → “方案”，再输入“继续”得到“按这个方案继续”。
 
 ## 本轮粘贴修复（2026-10-17）
 

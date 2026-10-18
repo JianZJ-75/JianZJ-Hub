@@ -4,6 +4,7 @@ import {mkdtempSync,mkdirSync,writeFileSync,rmSync,readdirSync} from 'node:fs'
 import {join} from 'node:path'
 import {blockRects} from '../../src/renderer/workstation/block-glyphs.mjs'
 import {gitBash,shellLaunch} from '../../src/adapters/windows/workstation/shell.ts'
+mkdirSync(join(process.cwd(),'.m1-scratch'),{recursive:true})
 test('Unicode block elements cover exact cell geometry and leave shades/text to font renderer',()=>{
  assert.deepEqual(blockRects('█'),[[0,0,1,1]]);assert.deepEqual(blockRects('▀'),[[0,0,1,.5]]);assert.deepEqual(blockRects('▐'),[[.5,0,.5,1]])
  assert.deepEqual(blockRects('▝'),[[.5,0,.5,.5]]);assert.equal(blockRects('▛').length,3);assert.deepEqual(blockRects(' '),[]);assert.equal(blockRects('A'),undefined);assert.equal(blockRects('░'),undefined)
