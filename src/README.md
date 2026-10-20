@@ -1,5 +1,7 @@
 # src · 工作站
 
+开发时同时遵循 [代码规范](../docs/CODE_STYLE.md) 和 [贡献指南](../CONTRIBUTING.md)；本页继续维护入口与目录职责。
+
 M0 探针和 M1 产品入口独立：
 
 - `main/index.ts`、`preload/index.ts`、`renderer/m0.*`：原 M0 验证，不当作产品页。

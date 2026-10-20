@@ -66,6 +66,5 @@ process.on('message', (req: any) => {
     }
     else if (operation === 'shutdown') { if (!eof || pending || credit.bytes) throw new Error('OUTPUT_NOT_DRAINED'); process.send!({ requestId, ok: true }, () => process.exit(0)); return }
     else throw new Error('INVALID_OPERATION')
-    send({ requestId, ok: true, result: {} })
   } catch (error) { send({ requestId, ok: false, error: String(error) }) }
 })

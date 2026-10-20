@@ -18,7 +18,11 @@
     "m1:test": "node --test tests/m1/*.test.mjs",
     "m1:package": "node scripts/m1/package.mjs",
     "m1:test:dev": "node scripts/m1/test.mjs dev",
-    "m1:test:packaged": "node scripts/m1/test.mjs packaged"
+    "m1:test:packaged": "node scripts/m1/test.mjs packaged",
+    "lint": "node scripts/check.mjs lint",
+    "format:check": "node scripts/check.mjs format:check",
+    "test:tooling": "node scripts/check.mjs test:tooling",
+    "check": "node scripts/check.mjs"
   },
   "dependencies": {
     "@xterm/addon-fit": "0.11.0",
@@ -30,6 +34,8 @@
     "react-dom": "19.3.0"
   },
   "devDependencies": {
+    "@babel/core": "8.0.7",
+    "@babel/eslint-parser": "8.0.7",
     "@types/better-sqlite3": "9.6.0",
     "@types/node": "22.20.5",
     "@types/react": "19.3.0",
@@ -38,6 +44,9 @@
     "electron": "44.7.2",
     "electron-builder": "26.15.3",
     "electron-vite": "5.0.0",
+    "eslint": "10.13.0",
+    "globals": "17.13.0",
+    "prettier": "3.9.10",
     "typescript": "7.0.2",
     "vite": "7.3.7"
   }

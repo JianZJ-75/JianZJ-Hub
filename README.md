@@ -31,6 +31,12 @@ JianZJ-Hub/
 
 > **说明**：旧 `docs/` 设计资产与 `prototypes/` 保持忽略；`docs/m0/`、`docs/m1/` 是已放行的开发记录。M1 基线的原始 HEAD 为 `31ce4c7`；M1 代码已提交到分支 `git-bash-workstation` 并推送到 origin，`main` 内容不变、仅提交说明改写；不将本地验证等同远端交付。认可原型仍通过飞书附件交接，见 [原型交接](docs/m0/PROTOTYPE-HANDOFF.md)。
 
+## 开发与贡献
+
+协作流程与验证矩阵见 [贡献指南](CONTRIBUTING.md)，各技术栈的编码与架构边界见 [代码规范](docs/CODE_STYLE.md)。
+
+基础检查：`npm run check`（静态检查、首批文件格式检查、工具回归、现有类型检查与两组 Node 单元测试；不包含 GUI/原生 IME/正式包验收）。覆盖限制与新依赖导致的资源 receipt 失效说明见贡献指南。
+
 ## 文档
 
 当前产品定义以[飞书 PRD](https://zenova-ai.feishu.cn/wiki/I3hlw2Bqqif9sVk1AOScsRJFnkg)和[飞书技术计划](https://zenova-ai.feishu.cn/wiki/NM5EwK5ObiCZFEklAHkcsBpBnAg)为准；本轮代码验证与交接见 [M0 记录](docs/m0/README.md)。其他本地 docs 设计资产保持忽略，不能假设 Git 克隆能获取它们。
