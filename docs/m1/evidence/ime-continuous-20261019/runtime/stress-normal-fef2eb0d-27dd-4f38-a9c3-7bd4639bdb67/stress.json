@@ -1,0 +1,1424 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "two independent sessions reject stale generation, bad resize and repeated close is idempotent",
+      "status": "pass",
+      "detail": {
+        "closed": {
+          "sessionId": "session-1584ce78-e25b-47de-9a43-c2163395141f",
+          "paneId": "pane-d82670a5-ad02-4686-9361-08d1e8bc4150",
+          "workspaceId": "workspace-ab371438-33c8-44a6-acbf-4a39bfe5cb7b",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 52820,
+          "createdAt": "134368555544403296",
+          "workerPid": 51184,
+          "workerCreatedAt": "134368555543915066",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "powershell",
+          "shellLabel": "PowerShell（回归）",
+          "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "exitCode": 1,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 3,
+          "peak": 53,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          }
+        },
+        "survivorPid": 42676
+      }
+    },
+    {
+      "name": "paused consumer bounds service output; resumed slow consumer preserves every record at natural EOF",
+      "status": "pass",
+      "detail": {
+        "paused": {
+          "sessionId": "session-41433762-4cf6-425a-a74d-44116fca0d91",
+          "paneId": "pane-a9103a91-40ae-4383-9cfe-0f49fc780f4b",
+          "workspaceId": "workspace-ae852f2c-cff1-4931-9042-273e36759d68",
+          "generation": 1,
+          "state": "running",
+          "cols": 100,
+          "rows": 30,
+          "pid": 53768,
+          "createdAt": "134368555578462564",
+          "workerPid": 56344,
+          "workerCreatedAt": "134368555578010805",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "powershell",
+          "shellLabel": "PowerShell（回归）",
+          "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "bytes": 5058,
+          "peak": 5058,
+          "pending": 0,
+          "pids": [
+            56344,
+            55792,
+            53768,
+            41460
+          ]
+        },
+        "exit": {
+          "sessionId": "session-41433762-4cf6-425a-a74d-44116fca0d91",
+          "paneId": "pane-a9103a91-40ae-4383-9cfe-0f49fc780f4b",
+          "workspaceId": "workspace-ae852f2c-cff1-4931-9042-273e36759d68",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 53768,
+          "createdAt": "134368555578462564",
+          "workerPid": 56344,
+          "workerCreatedAt": "134368555578010805",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "powershell",
+          "shellLabel": "PowerShell（回归）",
+          "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "exitCode": 5,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 636,
+          "peak": 118784,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          },
+          "type": "exit"
+        },
+        "output": {
+          "records": 16000,
+          "actualSha256": "523fb0e148369899a3a413b7968e4e30642f2662dc934bde8bfe00036498f0c5",
+          "expectedSha256": "523fb0e148369899a3a413b7968e4e30642f2662dc934bde8bfe00036498f0c5",
+          "tailUnicode": true,
+          "outputBytes": 392074
+        }
+      }
+    },
+    {
+      "name": "active close keeps output reader alive and delivers all produced tail bytes before reclaim",
+      "status": "pass",
+      "detail": {
+        "result": {
+          "sessionId": "session-19c70e2c-6f0d-4270-9d5c-1d92b7c16bec",
+          "paneId": "pane-9034e747-4744-4c7c-9dea-7937a5e511d8",
+          "workspaceId": "workspace-534453d8-4032-4f76-a5b9-d6ec137c68b6",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 55904,
+          "createdAt": "134368555619792668",
+          "workerPid": 47956,
+          "workerCreatedAt": "134368555619339127",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "powershell",
+          "shellLabel": "PowerShell（回归）",
+          "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "exitCode": 1,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 1623,
+          "peak": 118784,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          }
+        },
+        "output": {
+          "records": 16000,
+          "actualSha256": "523fb0e148369899a3a413b7968e4e30642f2662dc934bde8bfe00036498f0c5",
+          "expectedSha256": "523fb0e148369899a3a413b7968e4e30642f2662dc934bde8bfe00036498f0c5",
+          "tailUnicode": true,
+          "outputBytes": 391261
+        }
+      }
+    },
+    {
+      "name": "worker crash reclaims only its Job; survivor still interactive",
+      "status": "pass",
+      "detail": {
+        "sessionId": "session-b51ede45-7e24-4141-b51b-f0c5031d4d34",
+        "paneId": "pane-67f40ac1-1162-4b20-b5bd-b20fd4b3904f",
+        "workspaceId": "workspace-3f7ef166-a857-47bb-afb5-f79a3d095342",
+        "generation": 1,
+        "state": "failed",
+        "cols": 100,
+        "rows": 30,
+        "pid": 55208,
+        "createdAt": "134368555658380013",
+        "workerPid": 56356,
+        "workerCreatedAt": "134368555657933711",
+        "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+        "shellId": "powershell",
+        "shellLabel": "PowerShell（回归）",
+        "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "error": "WORKER_CRASH:1",
+        "cleanup": {
+          "before": [
+            40472,
+            55208
+          ],
+          "remaining": []
+        },
+        "outputComplete": false,
+        "type": "fault"
+      }
+    },
+    {
+      "name": "simultaneous natural exits keep per-session output and exit events isolated",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-0c7df75c-6699-4dd9-bfe2-4ef2ea5ac10c",
+          "paneId": "pane-6880042e-1979-4b40-8b98-bf269a36ca73",
+          "workspaceId": "workspace-c663b926-fb09-45dc-923c-fa0559be4ea9",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 55388,
+          "createdAt": "134368555691876686",
+          "workerPid": 56780,
+          "workerCreatedAt": "134368555691433239",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "powershell",
+          "shellLabel": "PowerShell（回归）",
+          "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "exitCode": 5,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 56,
+          "peak": 301,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          },
+          "type": "exit"
+        },
+        {
+          "sessionId": "session-bed38879-4d84-415f-8ed0-d68c90715ac6",
+          "paneId": "pane-7fe1353e-562e-4d09-991e-0b017d8d044a",
+          "workspaceId": "workspace-395b8760-649e-4ee1-a377-779978c70be0",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 55864,
+          "createdAt": "134368555724370123",
+          "workerPid": 52340,
+          "workerCreatedAt": "134368555723887711",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "powershell",
+          "shellLabel": "PowerShell（回归）",
+          "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "exitCode": 7,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 50,
+          "peak": 280,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          },
+          "type": "exit"
+        }
+      ]
+    },
+    {
+      "name": "repeated create/close releases active registry, pending requests and native workers",
+      "status": "pass",
+      "detail": {
+        "rounds": [
+          {
+            "round": 0,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 1,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 2,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 3,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 4,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 5,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 6,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 7,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 8,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 9,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 10,
+            "peak": 53,
+            "active": 1
+          },
+          {
+            "round": 11,
+            "peak": 53,
+            "active": 1
+          }
+        ],
+        "handlesBefore": 333,
+        "handlesAfter": 329
+      }
+    },
+    {
+      "name": "service normal stop cleans running Shell and native worker; all retained identities exited",
+      "status": "pass",
+      "detail": {
+        "before": {
+          "active": [
+            {
+              "sessionId": "session-92207368-e6fb-4b7b-94f6-911fdb907b9f",
+              "paneId": "pane-f6058c85-6f22-47a8-ab39-09583dcd5f82",
+              "workspaceId": "workspace-e4969433-99e8-4708-9fc7-e5f227febcd4",
+              "generation": 1,
+              "state": "running",
+              "cols": 100,
+              "rows": 30,
+              "pid": 42676,
+              "createdAt": "134368555511315110",
+              "workerPid": 57264,
+              "workerCreatedAt": "134368555510824306",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "bytes": 0,
+              "peak": 136,
+              "pending": 0,
+              "pids": [
+                57264,
+                55876,
+                42676
+              ]
+            }
+          ],
+          "ended": [
+            {
+              "sessionId": "session-1584ce78-e25b-47de-9a43-c2163395141f",
+              "paneId": "pane-d82670a5-ad02-4686-9361-08d1e8bc4150",
+              "workspaceId": "workspace-ab371438-33c8-44a6-acbf-4a39bfe5cb7b",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 52820,
+              "createdAt": "134368555544403296",
+              "workerPid": 51184,
+              "workerCreatedAt": "134368555543915066",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-41433762-4cf6-425a-a74d-44116fca0d91",
+              "paneId": "pane-a9103a91-40ae-4383-9cfe-0f49fc780f4b",
+              "workspaceId": "workspace-ae852f2c-cff1-4931-9042-273e36759d68",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 53768,
+              "createdAt": "134368555578462564",
+              "workerPid": 56344,
+              "workerCreatedAt": "134368555578010805",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 5,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 636,
+              "peak": 118784,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-19c70e2c-6f0d-4270-9d5c-1d92b7c16bec",
+              "paneId": "pane-9034e747-4744-4c7c-9dea-7937a5e511d8",
+              "workspaceId": "workspace-534453d8-4032-4f76-a5b9-d6ec137c68b6",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 55904,
+              "createdAt": "134368555619792668",
+              "workerPid": 47956,
+              "workerCreatedAt": "134368555619339127",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 1623,
+              "peak": 118784,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-b51ede45-7e24-4141-b51b-f0c5031d4d34",
+              "paneId": "pane-67f40ac1-1162-4b20-b5bd-b20fd4b3904f",
+              "workspaceId": "workspace-3f7ef166-a857-47bb-afb5-f79a3d095342",
+              "generation": 1,
+              "state": "failed",
+              "cols": 100,
+              "rows": 30,
+              "pid": 55208,
+              "createdAt": "134368555658380013",
+              "workerPid": 56356,
+              "workerCreatedAt": "134368555657933711",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "error": "WORKER_CRASH:1",
+              "cleanup": {
+                "before": [
+                  40472,
+                  55208
+                ],
+                "remaining": []
+              },
+              "outputComplete": false
+            },
+            {
+              "sessionId": "session-0c7df75c-6699-4dd9-bfe2-4ef2ea5ac10c",
+              "paneId": "pane-6880042e-1979-4b40-8b98-bf269a36ca73",
+              "workspaceId": "workspace-c663b926-fb09-45dc-923c-fa0559be4ea9",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 55388,
+              "createdAt": "134368555691876686",
+              "workerPid": 56780,
+              "workerCreatedAt": "134368555691433239",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 5,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 56,
+              "peak": 301,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-bed38879-4d84-415f-8ed0-d68c90715ac6",
+              "paneId": "pane-7fe1353e-562e-4d09-991e-0b017d8d044a",
+              "workspaceId": "workspace-395b8760-649e-4ee1-a377-779978c70be0",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 55864,
+              "createdAt": "134368555724370123",
+              "workerPid": 52340,
+              "workerCreatedAt": "134368555723887711",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 7,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 50,
+              "peak": 280,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-85b4396b-b1bc-4056-987b-535451209c1e",
+              "paneId": "pane-bc99797c-2a41-4f00-8825-076652d63936",
+              "workspaceId": "workspace-fd751478-bab5-4c06-a0c5-1e9dd960fe97",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 57532,
+              "createdAt": "134368555758998751",
+              "workerPid": 57448,
+              "workerCreatedAt": "134368555758546306",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-84354324-88ab-4cf8-8e26-9c0ef77aae1d",
+              "paneId": "pane-73309bb5-3b2a-43c4-a904-0d6d0b6d5e5a",
+              "workspaceId": "workspace-ec946d99-1afb-45aa-8ba9-6d0dc4debd5b",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 57788,
+              "createdAt": "134368555792450036",
+              "workerPid": 57704,
+              "workerCreatedAt": "134368555791995114",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-0c72a791-abe1-450c-9470-aacf7532a711",
+              "paneId": "pane-7fb3b390-615e-4137-b13e-0e0e0a73dc66",
+              "workspaceId": "workspace-4c058d98-60e9-4971-9c7a-ea39d249b5b9",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 58044,
+              "createdAt": "134368555825773401",
+              "workerPid": 57960,
+              "workerCreatedAt": "134368555825325317",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-3e749b8f-caf0-4308-ae4d-cac59485780f",
+              "paneId": "pane-1a9632c6-b786-4371-8f35-8cd0647207f9",
+              "workspaceId": "workspace-74ff8297-b8a8-4163-8f19-a8885f72f234",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 58308,
+              "createdAt": "134368555859186677",
+              "workerPid": 58224,
+              "workerCreatedAt": "134368555858747017",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-61d2c2e0-91dd-487a-9ab5-ce9375d97c54",
+              "paneId": "pane-3c04bc60-ac4d-40e1-ba6b-5108f4d4c511",
+              "workspaceId": "workspace-43d5f92a-258d-44fc-8529-7ec38a56b9cf",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 50632,
+              "createdAt": "134368555892632976",
+              "workerPid": 56644,
+              "workerCreatedAt": "134368555892164146",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-860b999e-5563-4352-82f2-aff619e2e9b8",
+              "paneId": "pane-df82c8f0-4bfd-49de-b6d5-c5856bc9b508",
+              "workspaceId": "workspace-81ce9598-9b38-4845-af8a-5c8f472815ac",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 57600,
+              "createdAt": "134368555925947119",
+              "workerPid": 39648,
+              "workerCreatedAt": "134368555925496955",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-0bb218de-27d1-42e4-8bfc-63fddcf7f19d",
+              "paneId": "pane-03cdb77f-a553-414b-ac4f-72cf906f9703",
+              "workspaceId": "workspace-657024b2-1983-4d7f-b274-99625ae33fd9",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 45260,
+              "createdAt": "134368555959322630",
+              "workerPid": 57484,
+              "workerCreatedAt": "134368555958869327",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-4f70a665-4110-48f5-b264-80f140babae4",
+              "paneId": "pane-2ca7a224-cc33-428e-bced-9b8b19132545",
+              "workspaceId": "workspace-7d839fdc-03fe-4462-8ef7-a755a201caa8",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 55884,
+              "createdAt": "134368555992675483",
+              "workerPid": 36684,
+              "workerCreatedAt": "134368555992228730",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-d710786c-b434-4a71-9b57-41d9b8226a46",
+              "paneId": "pane-cfafd8fd-4083-4495-9917-2794b4e7c6ec",
+              "workspaceId": "workspace-d07c5bb1-62e3-416d-913d-5de14abe0a01",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 58284,
+              "createdAt": "134368556026113268",
+              "workerPid": 58040,
+              "workerCreatedAt": "134368556025665844",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-2533d2ee-5627-4273-acc1-72cf56b98d03",
+              "paneId": "pane-db8f5b32-817c-4da1-9c4c-f1c88a46d604",
+              "workspaceId": "workspace-da6faf8a-6148-4773-973a-fc1c1a998998",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 56764,
+              "createdAt": "134368556059502526",
+              "workerPid": 57080,
+              "workerCreatedAt": "134368556059059702",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-e32a5908-82e4-41f0-a33f-cfd275aac6a8",
+              "paneId": "pane-229b15c8-4edc-4720-a517-f26ab9381c3a",
+              "workspaceId": "workspace-7924ed0b-2d54-418b-814d-ea4dd88a17c3",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 58276,
+              "createdAt": "134368556093018436",
+              "workerPid": 55560,
+              "workerCreatedAt": "134368556092548727",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            },
+            {
+              "sessionId": "session-11a5819a-f177-48ff-9284-3922251cd0a3",
+              "paneId": "pane-5c1a7865-c7a6-4d8e-8a8e-182ec89107fc",
+              "workspaceId": "workspace-62cb6e85-e335-4acd-ac36-f64409a7e6b6",
+              "generation": 1,
+              "state": "exited",
+              "cols": 100,
+              "rows": 30,
+              "pid": 41752,
+              "createdAt": "134368556126519468",
+              "workerPid": 53788,
+              "workerCreatedAt": "134368556126065190",
+              "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+              "shellId": "powershell",
+              "shellLabel": "PowerShell（回归）",
+              "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "exitCode": 1,
+              "exitCodeSource": "process-handle",
+              "outputComplete": true,
+              "lastSeq": 3,
+              "peak": 53,
+              "cleanup": {
+                "before": [],
+                "remaining": []
+              }
+            }
+          ],
+          "native": [
+            "D:\\Code\\JianZJ-Hub\\node_modules\\@koromix\\koffi-win32-x64\\win32_x64\\koffi.node"
+          ]
+        },
+        "identities": [
+          {
+            "pid": 42676,
+            "createdAt": "134368555511315110",
+            "exited": true
+          },
+          {
+            "pid": 52820,
+            "createdAt": "134368555544403296",
+            "exited": true
+          },
+          {
+            "pid": 53768,
+            "createdAt": "134368555578462564",
+            "exited": true
+          },
+          {
+            "pid": 55904,
+            "createdAt": "134368555619792668",
+            "exited": true
+          },
+          {
+            "pid": 55208,
+            "createdAt": "134368555658380013",
+            "exited": true
+          },
+          {
+            "pid": 55388,
+            "createdAt": "134368555691876686",
+            "exited": true
+          },
+          {
+            "pid": 55864,
+            "createdAt": "134368555724370123",
+            "exited": true
+          },
+          {
+            "pid": 57532,
+            "createdAt": "134368555758998751",
+            "exited": true
+          },
+          {
+            "pid": 57788,
+            "createdAt": "134368555792450036",
+            "exited": true
+          },
+          {
+            "pid": 58044,
+            "createdAt": "134368555825773401",
+            "exited": true
+          },
+          {
+            "pid": 58308,
+            "createdAt": "134368555859186677",
+            "exited": true
+          },
+          {
+            "pid": 50632,
+            "createdAt": "134368555892632976",
+            "exited": true
+          },
+          {
+            "pid": 57600,
+            "createdAt": "134368555925947119",
+            "exited": true
+          },
+          {
+            "pid": 45260,
+            "createdAt": "134368555959322630",
+            "exited": true
+          },
+          {
+            "pid": 55884,
+            "createdAt": "134368555992675483",
+            "exited": true
+          },
+          {
+            "pid": 58284,
+            "createdAt": "134368556026113268",
+            "exited": true
+          },
+          {
+            "pid": 56764,
+            "createdAt": "134368556059502526",
+            "exited": true
+          },
+          {
+            "pid": 58276,
+            "createdAt": "134368556093018436",
+            "exited": true
+          },
+          {
+            "pid": 41752,
+            "createdAt": "134368556126519468",
+            "exited": true
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "sessionId": "session-1584ce78-e25b-47de-9a43-c2163395141f",
+      "paneId": "pane-d82670a5-ad02-4686-9361-08d1e8bc4150",
+      "workspaceId": "workspace-ab371438-33c8-44a6-acbf-4a39bfe5cb7b",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 52820,
+      "createdAt": "134368555544403296",
+      "workerPid": 51184,
+      "workerCreatedAt": "134368555543915066",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-41433762-4cf6-425a-a74d-44116fca0d91",
+      "paneId": "pane-a9103a91-40ae-4383-9cfe-0f49fc780f4b",
+      "workspaceId": "workspace-ae852f2c-cff1-4931-9042-273e36759d68",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 53768,
+      "createdAt": "134368555578462564",
+      "workerPid": 56344,
+      "workerCreatedAt": "134368555578010805",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 5,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 636,
+      "peak": 118784,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-19c70e2c-6f0d-4270-9d5c-1d92b7c16bec",
+      "paneId": "pane-9034e747-4744-4c7c-9dea-7937a5e511d8",
+      "workspaceId": "workspace-534453d8-4032-4f76-a5b9-d6ec137c68b6",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 55904,
+      "createdAt": "134368555619792668",
+      "workerPid": 47956,
+      "workerCreatedAt": "134368555619339127",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 1623,
+      "peak": 118784,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-b51ede45-7e24-4141-b51b-f0c5031d4d34",
+      "paneId": "pane-67f40ac1-1162-4b20-b5bd-b20fd4b3904f",
+      "workspaceId": "workspace-3f7ef166-a857-47bb-afb5-f79a3d095342",
+      "generation": 1,
+      "state": "failed",
+      "cols": 100,
+      "rows": 30,
+      "pid": 55208,
+      "createdAt": "134368555658380013",
+      "workerPid": 56356,
+      "workerCreatedAt": "134368555657933711",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "error": "WORKER_CRASH:1",
+      "cleanup": {
+        "before": [
+          40472,
+          55208
+        ],
+        "remaining": []
+      },
+      "outputComplete": false,
+      "type": "fault"
+    },
+    {
+      "sessionId": "session-0c7df75c-6699-4dd9-bfe2-4ef2ea5ac10c",
+      "paneId": "pane-6880042e-1979-4b40-8b98-bf269a36ca73",
+      "workspaceId": "workspace-c663b926-fb09-45dc-923c-fa0559be4ea9",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 55388,
+      "createdAt": "134368555691876686",
+      "workerPid": 56780,
+      "workerCreatedAt": "134368555691433239",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 5,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 56,
+      "peak": 301,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-bed38879-4d84-415f-8ed0-d68c90715ac6",
+      "paneId": "pane-7fe1353e-562e-4d09-991e-0b017d8d044a",
+      "workspaceId": "workspace-395b8760-649e-4ee1-a377-779978c70be0",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 55864,
+      "createdAt": "134368555724370123",
+      "workerPid": 52340,
+      "workerCreatedAt": "134368555723887711",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 7,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 50,
+      "peak": 280,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-85b4396b-b1bc-4056-987b-535451209c1e",
+      "paneId": "pane-bc99797c-2a41-4f00-8825-076652d63936",
+      "workspaceId": "workspace-fd751478-bab5-4c06-a0c5-1e9dd960fe97",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 57532,
+      "createdAt": "134368555758998751",
+      "workerPid": 57448,
+      "workerCreatedAt": "134368555758546306",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-84354324-88ab-4cf8-8e26-9c0ef77aae1d",
+      "paneId": "pane-73309bb5-3b2a-43c4-a904-0d6d0b6d5e5a",
+      "workspaceId": "workspace-ec946d99-1afb-45aa-8ba9-6d0dc4debd5b",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 57788,
+      "createdAt": "134368555792450036",
+      "workerPid": 57704,
+      "workerCreatedAt": "134368555791995114",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-0c72a791-abe1-450c-9470-aacf7532a711",
+      "paneId": "pane-7fb3b390-615e-4137-b13e-0e0e0a73dc66",
+      "workspaceId": "workspace-4c058d98-60e9-4971-9c7a-ea39d249b5b9",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 58044,
+      "createdAt": "134368555825773401",
+      "workerPid": 57960,
+      "workerCreatedAt": "134368555825325317",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-3e749b8f-caf0-4308-ae4d-cac59485780f",
+      "paneId": "pane-1a9632c6-b786-4371-8f35-8cd0647207f9",
+      "workspaceId": "workspace-74ff8297-b8a8-4163-8f19-a8885f72f234",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 58308,
+      "createdAt": "134368555859186677",
+      "workerPid": 58224,
+      "workerCreatedAt": "134368555858747017",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-61d2c2e0-91dd-487a-9ab5-ce9375d97c54",
+      "paneId": "pane-3c04bc60-ac4d-40e1-ba6b-5108f4d4c511",
+      "workspaceId": "workspace-43d5f92a-258d-44fc-8529-7ec38a56b9cf",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 50632,
+      "createdAt": "134368555892632976",
+      "workerPid": 56644,
+      "workerCreatedAt": "134368555892164146",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-860b999e-5563-4352-82f2-aff619e2e9b8",
+      "paneId": "pane-df82c8f0-4bfd-49de-b6d5-c5856bc9b508",
+      "workspaceId": "workspace-81ce9598-9b38-4845-af8a-5c8f472815ac",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 57600,
+      "createdAt": "134368555925947119",
+      "workerPid": 39648,
+      "workerCreatedAt": "134368555925496955",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-0bb218de-27d1-42e4-8bfc-63fddcf7f19d",
+      "paneId": "pane-03cdb77f-a553-414b-ac4f-72cf906f9703",
+      "workspaceId": "workspace-657024b2-1983-4d7f-b274-99625ae33fd9",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 45260,
+      "createdAt": "134368555959322630",
+      "workerPid": 57484,
+      "workerCreatedAt": "134368555958869327",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-4f70a665-4110-48f5-b264-80f140babae4",
+      "paneId": "pane-2ca7a224-cc33-428e-bced-9b8b19132545",
+      "workspaceId": "workspace-7d839fdc-03fe-4462-8ef7-a755a201caa8",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 55884,
+      "createdAt": "134368555992675483",
+      "workerPid": 36684,
+      "workerCreatedAt": "134368555992228730",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-d710786c-b434-4a71-9b57-41d9b8226a46",
+      "paneId": "pane-cfafd8fd-4083-4495-9917-2794b4e7c6ec",
+      "workspaceId": "workspace-d07c5bb1-62e3-416d-913d-5de14abe0a01",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 58284,
+      "createdAt": "134368556026113268",
+      "workerPid": 58040,
+      "workerCreatedAt": "134368556025665844",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-2533d2ee-5627-4273-acc1-72cf56b98d03",
+      "paneId": "pane-db8f5b32-817c-4da1-9c4c-f1c88a46d604",
+      "workspaceId": "workspace-da6faf8a-6148-4773-973a-fc1c1a998998",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 56764,
+      "createdAt": "134368556059502526",
+      "workerPid": 57080,
+      "workerCreatedAt": "134368556059059702",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-e32a5908-82e4-41f0-a33f-cfd275aac6a8",
+      "paneId": "pane-229b15c8-4edc-4720-a517-f26ab9381c3a",
+      "workspaceId": "workspace-7924ed0b-2d54-418b-814d-ea4dd88a17c3",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 58276,
+      "createdAt": "134368556093018436",
+      "workerPid": 55560,
+      "workerCreatedAt": "134368556092548727",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-11a5819a-f177-48ff-9284-3922251cd0a3",
+      "paneId": "pane-5c1a7865-c7a6-4d8e-8a8e-182ec89107fc",
+      "workspaceId": "workspace-62cb6e85-e335-4acd-ac36-f64409a7e6b6",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 41752,
+      "createdAt": "134368556126519468",
+      "workerPid": 53788,
+      "workerCreatedAt": "134368556126065190",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 3,
+      "peak": 53,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-92207368-e6fb-4b7b-94f6-911fdb907b9f",
+      "paneId": "pane-f6058c85-6f22-47a8-ab39-09583dcd5f82",
+      "workspaceId": "workspace-e4969433-99e8-4708-9fc7-e5f227febcd4",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 42676,
+      "createdAt": "134368555511315110",
+      "workerPid": 57264,
+      "workerCreatedAt": "134368555510824306",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "powershell",
+      "shellLabel": "PowerShell（回归）",
+      "shellExecutable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 111,
+      "peak": 189,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    }
+  ]
+}

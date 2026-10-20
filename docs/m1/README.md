@@ -5,16 +5,16 @@
 ## 本次应打开的程序
 
 ```text
-D:\Code\JianZJ-Hub\release\m1\2026-10-18T17-54-40-394Z-8345f2bc\win-unpacked\Workstation.exe
+D:\Code\JianZJ-Hub\release\m1\2026-10-19T04-11-46-558Z-ac161117\win-unpacked\Workstation.exe
 ```
 
-[打开新EXE](../../release/m1/2026-10-18T17-54-40-394Z-8345f2bc/win-unpacked/Workstation.exe) · [完整ZIP](../../release/m1/2026-10-18T17-54-40-394Z-8345f2bc/Workstation-M1-win32-x64.zip)
+[打开新EXE](../../release/m1/2026-10-19T04-11-46-558Z-ac161117/win-unpacked/Workstation.exe) · [完整ZIP](../../release/m1/2026-10-19T04-11-46-558Z-ac161117/Workstation-M1-win32-x64.zip)
 
 | 产物 | SHA-256 |
 |---|---|
-| Workstation.exe | `53b30c33c9a3eabbcc4b929e4fa8ec40832542777703bec6e85d01533a5fee11` |
-| resources/app.asar | `0b24b9625b4e01fcf5a9c6b2e30955fafd3e4bd4ae0a7d74019a6cf13145f2de` |
-| Workstation-M1-win32-x64.zip | `8fe2b495cea4f94ac1368840482c146a3b0e9ffe91146de3a2f692ff7f8fb7e3` |
+| Workstation.exe | `86ca9504a26f9055b90d5d029118d815d9908d1ddea5b11fc0d9d7c4619d1e81` |
+| resources/app.asar | `f82c6cf7a3ce2366a004d9560f98add99b7ce62dbfcb237ddff00ff444e6e68a` |
+| Workstation-M1-win32-x64.zip | `72e7ebedd8917b2af24f1bcd51c7f5f8b130c15ee039b2a6f0babe3767aa2814` |
 
 旧包全部保留，请不要再打开早先的 `2026-10-15`、`2026-10-16` 以及 `13-11-56-641Z-721bbec8` 版本判断本轮效果。目录包无签名、无安装器，必须完整解压，不能只复制EXE。
 
@@ -58,13 +58,13 @@ node scripts/m1/zip.mjs
 
 ## 验收状态
 
-新默认启动、尺寸同步、分屏/项目切换、背压/尾输出、故障清理、主题及正式包已自动复测。最近四轮问题已定位并修复：
+新默认启动、尺寸同步、分屏/项目切换、背压/尾输出、故障清理、主题及正式包已自动复测。resize、回显与粘贴保留既有证据；中文候选须以最新连续输入记录为准：
 
 - **resize 与输入竞态**（2026-10-16）：resize ACK 前写入中性 NUL fence，输入不再丢首字符。见 [证据](evidence/resize-input-20261016/)。
 - **中文输入**（2026-10-17）：注入 `LC_ALL=C.UTF-8` 解决八进制回显；删除自定义按键处理器对输入法提交键的拦截，交回 xterm `CompositionHelper`。见 [证据](evidence/ime-20261017/)。
 - **粘贴**（2026-10-17）：Electron 44 的 `clipboard.readText()/writeText()` 为异步，主进程未 `await` 导致恒抛 `INVALID_CLIPBOARD_TEXT`；`Ctrl+V` 也未接线。已改为 await，并让 `Ctrl+V`/`Ctrl+Shift+V` 共用粘贴路径。见 [证据](evidence/paste-20261017/)。
-- **中文输入候选提交**（2026-10-18）：真实复验发现候选数字仍可能先经过工作站快捷键层；组合态/229 事件现在直接交给 xterm `CompositionHelper`，避免按 `1` 选择候选时提交被吞。自动键路回归已通过，真实 Microsoft 拼音候选仍待人工复验。见 [终端说明](BASH-TUI.md)。
+- **连续中文候选输入**（2026-10-19）：用户复验后撤回上一轮“快捷键截断是根因”的结论。真实 Windows 拼音已复现“按这个这个这个”，定位到隐藏 textarea 的 selection=0 与 xterm 增量起点不一致；新回归逐段验证 onData、main/worker 输入与 Shell HEX，不再用粘入中文代替 IME。见 [新证据](evidence/ime-continuous-20261019/README.md)。
 
-最新自动结果：类型检查通过；M1 单元 **26/26**；开发桌面套件 **10 个入口全部通过**（含桌面、粘贴、TUI 与故障清理）；此前正式包验收 7/7、`archiveUnmodified: true`、兜底进程为空。具体命令、失败记录与边界见 [BASH-TUI.md](BASH-TUI.md)。**视觉是否满意、真实 IME 候选、人工复制粘贴与鼠标选择、全屏程序及 Windows 跟随系统主题仍待本人确认/人工复核**，不由自动脚本替代。
+2026-10-19 连续输入返修已建立真实 Windows 拼音与 Shell HEX 前后对照，最终实现不改原生 textarea/光标，仅适配 xterm 的组合读取视图。类型检查、35/35 单元、完整开发 11 个关卡、正式 EXE 9/9（含真实拼音）、ZIP 完整性检查均通过；实际 helper 9 项确定性回归也已通过。失败记录、正式包与验收边界见 [新证据](evidence/ime-continuous-20261019/README.md)。**本人最终输入体验、人工复制粘贴与鼠标选择、全屏程序及 Windows 跟随系统主题仍待确认/人工复核**，不由自动脚本替代。
 
-更早的实现和对照保留在 [历史返修](REPAIR-20261015.md)、[原型对照](REPAIR-COMPARISON.md)、[历史验收](ACCEPTANCE.md)；旧“先项目”和“默认抽屉”口径已被取代，不能再作为产品要求。M0代码、原型、旧证据和回退包未覆盖；当前工作站代码已合入 `main` 并推送 origin。
+更早的实现和对照保留在 [历史返修](REPAIR-20261015.md)、[原型对照](REPAIR-COMPARISON.md)、[历史验收](ACCEPTANCE.md)；旧“先项目”和“默认抽屉”口径已被取代，不能再作为产品要求。M0代码、原型、旧证据和回退包未覆盖；此前工作站代码已合入 `main` 并推送 origin；本轮连续输入返修的提交状态以 Git 为准，不将工作树中的新修复冒称已远端交付。

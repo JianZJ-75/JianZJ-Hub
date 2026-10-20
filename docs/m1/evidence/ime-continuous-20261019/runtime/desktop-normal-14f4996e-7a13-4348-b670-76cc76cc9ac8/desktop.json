@@ -1,0 +1,1317 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "startup opens one new home terminal without choosing project; last pane can reopen directly",
+      "status": "pass",
+      "detail": {
+        "first": "session-9e5391dd-5510-4e03-9771-5cf343f24748",
+        "second": "session-c59ec1c6-4960-46ff-ae8b-df5312c7bf4e",
+        "projects": 0,
+        "defaultHome": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\desktop-normal-14f4996e-7a13-4348-b670-76cc76cc9ac8\\home"
+      }
+    },
+    {
+      "name": "actual product new-workspace form opens real Git Bash",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+          "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+          "workspaceId": "workspace-77639ec0-6ad3-4b6f-be51-b29b4fc3b72e",
+          "generation": 1,
+          "state": "running",
+          "cols": 141,
+          "rows": 33,
+          "pid": 56036,
+          "createdAt": "134368562480964177",
+          "workerPid": 57096,
+          "workerCreatedAt": "134368562480474376",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 200,
+          "pending": 0,
+          "pids": [
+            57096,
+            53516,
+            56036,
+            56416
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CJK input, pasted text and Shell cwd update reach the real terminal",
+      "status": "pass",
+      "detail": {
+        "cjk": "M1_CJK_中文",
+        "paste": "M1_PASTE_42",
+        "displayUtf8": true,
+        "cwd": "D:\\Code\\JianZJ-Hub"
+      }
+    },
+    {
+      "name": "first spawn uses measured grid, not fixed 80x24, and footer matches Shell",
+      "status": "pass",
+      "detail": {
+        "label": "first",
+        "records": [
+          {
+            "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+            "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+            "state": "running",
+            "visible": true,
+            "cols": 141,
+            "rows": 33,
+            "proposed": {
+              "cols": 141,
+              "rows": 33
+            },
+            "applied": "141x33",
+            "pending": false,
+            "initial": {
+              "cols": 141,
+              "rows": 33
+            },
+            "fontSize": 14,
+            "lineHeight": 1.1177058823529413,
+            "cell": {
+              "width": 7.695035460992908,
+              "height": 19
+            },
+            "host": {
+              "w": 1101,
+              "h": 634
+            },
+            "footer": "141×33",
+            "dpr": 1,
+            "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+          }
+        ],
+        "shell": {
+          "cols": 141,
+          "rows": 33
+        },
+        "ttyProbeAttempts": 1
+      }
+    },
+    {
+      "name": "GUI keyboard input survives immediate input after applied window resize",
+      "status": "pass",
+      "detail": {
+        "before": {
+          "cols": 141,
+          "rows": 33
+        },
+        "after": {
+          "cols": 122,
+          "rows": 27
+        },
+        "marker": "M1_GUI_RESIZE_42"
+      }
+    },
+    {
+      "name": "right/down nested splits preserve existing xterm DOM instance and session IDs",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+          "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+          "workspaceId": "workspace-77639ec0-6ad3-4b6f-be51-b29b4fc3b72e",
+          "generation": 1,
+          "state": "running",
+          "cols": 56,
+          "rows": 27,
+          "pid": 56036,
+          "createdAt": "134368562480964177",
+          "workerPid": 57096,
+          "workerCreatedAt": "134368562480474376",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 200,
+          "pending": 0,
+          "pids": [
+            57096,
+            53516,
+            56036,
+            56416
+          ]
+        },
+        {
+          "sessionId": "session-dfa41f89-6ea8-403a-87b9-44227a94c460",
+          "paneId": "pane-9e5db75c-9bd7-4916-9a57-9f8454ac3e1a",
+          "workspaceId": "workspace-77639ec0-6ad3-4b6f-be51-b29b4fc3b72e",
+          "generation": 1,
+          "state": "running",
+          "cols": 56,
+          "rows": 10,
+          "pid": 57724,
+          "createdAt": "134368562523749504",
+          "workerPid": 57452,
+          "workerCreatedAt": "134368562523304973",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 200,
+          "pending": 0,
+          "pids": [
+            57452,
+            58180,
+            57724,
+            58276
+          ]
+        },
+        {
+          "sessionId": "session-cf9b1ad0-5b78-480f-af02-cb5c8ce1a370",
+          "paneId": "pane-f892c3a4-ee67-453a-b4d3-40645072d202",
+          "workspaceId": "workspace-77639ec0-6ad3-4b6f-be51-b29b4fc3b72e",
+          "generation": 1,
+          "state": "running",
+          "cols": 56,
+          "rows": 10,
+          "pid": 56756,
+          "createdAt": "134368562557075739",
+          "workerPid": 57624,
+          "workerCreatedAt": "134368562556598266",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 200,
+          "pending": 0,
+          "pids": [
+            57624,
+            57680,
+            56756,
+            57300
+          ]
+        }
+      ]
+    },
+    {
+      "name": "auxiliary input focus returns to original terminal and fits nonzero sizes",
+      "status": "pass",
+      "detail": [
+        {
+          "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+          "cols": 56,
+          "rows": 27
+        },
+        {
+          "paneId": "pane-9e5db75c-9bd7-4916-9a57-9f8454ac3e1a",
+          "cols": 56,
+          "rows": 10
+        },
+        {
+          "paneId": "pane-f892c3a4-ee67-453a-b4d3-40645072d202",
+          "cols": 56,
+          "rows": 10
+        }
+      ]
+    },
+    {
+      "name": "zoom/focus retains all sessions and xterm elements",
+      "status": "pass",
+      "detail": {
+        "sessions": 3
+      }
+    },
+    {
+      "name": "rename keeps session; close folds only current leaf and other sessions survive",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+          "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+          "workspaceId": "workspace-77639ec0-6ad3-4b6f-be51-b29b4fc3b72e",
+          "generation": 1,
+          "state": "running",
+          "cols": 56,
+          "rows": 27,
+          "pid": 56036,
+          "createdAt": "134368562480964177",
+          "workerPid": 57096,
+          "workerCreatedAt": "134368562480474376",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 200,
+          "pending": 0,
+          "pids": [
+            57096,
+            53516,
+            56036,
+            56416
+          ]
+        },
+        {
+          "sessionId": "session-dfa41f89-6ea8-403a-87b9-44227a94c460",
+          "paneId": "pane-9e5db75c-9bd7-4916-9a57-9f8454ac3e1a",
+          "workspaceId": "workspace-77639ec0-6ad3-4b6f-be51-b29b4fc3b72e",
+          "generation": 1,
+          "state": "running",
+          "cols": 56,
+          "rows": 27,
+          "pid": 57724,
+          "createdAt": "134368562523749504",
+          "workerPid": 57452,
+          "workerCreatedAt": "134368562523304973",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 200,
+          "pending": 0,
+          "pids": [
+            57452,
+            58180,
+            57724,
+            58276
+          ]
+        }
+      ]
+    },
+    {
+      "name": "real pointer splitter drag resizes Shell and preserves other sessions",
+      "status": "pass",
+      "detail": {
+        "label": "pointer_drag",
+        "records": [
+          {
+            "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+            "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+            "state": "running",
+            "visible": true,
+            "cols": 62,
+            "rows": 27,
+            "proposed": {
+              "cols": 62,
+              "rows": 27
+            },
+            "applied": "62x27",
+            "pending": false,
+            "initial": {
+              "cols": 141,
+              "rows": 33
+            },
+            "fontSize": 14,
+            "lineHeight": 1.1177058823529413,
+            "cell": {
+              "width": 7.693548387096774,
+              "height": 19
+            },
+            "host": {
+              "w": 496,
+              "h": 513
+            },
+            "footer": "62×27",
+            "dpr": 1,
+            "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+          },
+          {
+            "paneId": "pane-9e5db75c-9bd7-4916-9a57-9f8454ac3e1a",
+            "sessionId": "session-dfa41f89-6ea8-403a-87b9-44227a94c460",
+            "state": "running",
+            "visible": true,
+            "cols": 50,
+            "rows": 27,
+            "proposed": {
+              "cols": 50,
+              "rows": 27
+            },
+            "applied": "50x27",
+            "pending": false,
+            "initial": {
+              "cols": 56,
+              "rows": 27
+            },
+            "fontSize": 14,
+            "lineHeight": 1.1177058823529413,
+            "cell": {
+              "width": 7.7,
+              "height": 19
+            },
+            "host": {
+              "w": 405,
+              "h": 513
+            },
+            "footer": "50×27",
+            "dpr": 1,
+            "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+          }
+        ],
+        "shell": {
+          "cols": 62,
+          "rows": 27
+        },
+        "ttyProbeAttempts": 1
+      }
+    },
+    {
+      "name": "narrow window reports space constraint without destroying hidden sessions or sending zero size",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+          "cols": 68,
+          "rows": 12
+        },
+        {
+          "sessionId": "session-dfa41f89-6ea8-403a-87b9-44227a94c460",
+          "cols": 50,
+          "rows": 27
+        }
+      ]
+    },
+    {
+      "name": "Esc and Ctrl+C reach terminal unchanged when no product layer is open",
+      "status": "pass",
+      "detail": {
+        "esc": true,
+        "ctrlC": true
+      }
+    },
+    {
+      "name": "four theme combinations and nativeTheme runtime updates reach product page",
+      "status": "pass",
+      "detail": [
+        {
+          "theme": "light",
+          "terminal": "#fbfcfe",
+          "focus": "TEXTAREA",
+          "terminalPixelBGRA": [
+            254,
+            252,
+            251,
+            255
+          ]
+        },
+        {
+          "theme": "dark",
+          "terminal": "#1b1f27",
+          "focus": "TEXTAREA",
+          "terminalPixelBGRA": [
+            39,
+            31,
+            27,
+            255
+          ]
+        },
+        {
+          "theme": "light",
+          "terminal": "#fbfcfe",
+          "focus": "TEXTAREA",
+          "terminalPixelBGRA": [
+            254,
+            252,
+            251,
+            255
+          ]
+        },
+        {
+          "theme": "dark",
+          "terminal": "#1b1f27",
+          "focus": "TEXTAREA",
+          "terminalPixelBGRA": [
+            39,
+            31,
+            27,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "name": "production bridge negative cases reject generations, dimensions, schema and navigation",
+      "status": "pass",
+      "detail": {
+        "rejected": [
+          "Error: Error: STALE_SESSION",
+          "Error: Error: INVALID_SIZE",
+          "Error: Error: INVALID_SCHEMA",
+          "Error: Error: SESSION_GONE",
+          "Error: Error: INVALID_INPUT"
+        ],
+        "node": "undefined",
+        "ipc": "undefined",
+        "newWindow": true
+      }
+    },
+    {
+      "name": "footer / xterm / applied PTY / Shell equality across layout, font and density changes",
+      "status": "pass",
+      "detail": [
+        {
+          "label": "exact_46",
+          "records": [
+            {
+              "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+              "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+              "state": "running",
+              "visible": true,
+              "cols": 72,
+              "rows": 33,
+              "proposed": {
+                "cols": 72,
+                "rows": 33
+              },
+              "applied": "72x33",
+              "pending": false,
+              "initial": {
+                "cols": 141,
+                "rows": 33
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.694444444444445,
+                "height": 19
+              },
+              "host": {
+                "w": 574,
+                "h": 634
+              },
+              "footer": "72×33",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            },
+            {
+              "paneId": "pane-9e5db75c-9bd7-4916-9a57-9f8454ac3e1a",
+              "sessionId": "session-dfa41f89-6ea8-403a-87b9-44227a94c460",
+              "state": "running",
+              "visible": true,
+              "cols": 59,
+              "rows": 33,
+              "proposed": {
+                "cols": 59,
+                "rows": 33
+              },
+              "applied": "59x33",
+              "pending": false,
+              "initial": {
+                "cols": 56,
+                "rows": 27
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.694915254237288,
+                "height": 19
+              },
+              "host": {
+                "w": 471,
+                "h": 634
+              },
+              "footer": "59×33",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            }
+          ],
+          "shell": {
+            "cols": 72,
+            "rows": 33
+          },
+          "ttyProbeAttempts": 1
+        },
+        {
+          "label": "window_small",
+          "records": [
+            {
+              "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+              "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+              "state": "running",
+              "visible": true,
+              "cols": 62,
+              "rows": 27,
+              "proposed": {
+                "cols": 62,
+                "rows": 27
+              },
+              "applied": "62x27",
+              "pending": false,
+              "initial": {
+                "cols": 141,
+                "rows": 33
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.693548387096774,
+                "height": 19
+              },
+              "host": {
+                "w": 496,
+                "h": 513
+              },
+              "footer": "62×27",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            },
+            {
+              "paneId": "pane-9e5db75c-9bd7-4916-9a57-9f8454ac3e1a",
+              "sessionId": "session-dfa41f89-6ea8-403a-87b9-44227a94c460",
+              "state": "running",
+              "visible": true,
+              "cols": 50,
+              "rows": 27,
+              "proposed": {
+                "cols": 50,
+                "rows": 27
+              },
+              "applied": "50x27",
+              "pending": false,
+              "initial": {
+                "cols": 56,
+                "rows": 27
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.7,
+                "height": 19
+              },
+              "host": {
+                "w": 405,
+                "h": 513
+              },
+              "footer": "50×27",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            }
+          ],
+          "shell": {
+            "cols": 62,
+            "rows": 27
+          },
+          "ttyProbeAttempts": 1
+        },
+        {
+          "label": "drawer_open",
+          "records": [
+            {
+              "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+              "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+              "state": "running",
+              "visible": true,
+              "cols": 40,
+              "rows": 27,
+              "proposed": {
+                "cols": 40,
+                "rows": 27
+              },
+              "applied": "40x27",
+              "pending": false,
+              "initial": {
+                "cols": 141,
+                "rows": 33
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.7,
+                "height": 19
+              },
+              "host": {
+                "w": 330,
+                "h": 513
+              },
+              "footer": "40×27",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            },
+            {
+              "paneId": "pane-9e5db75c-9bd7-4916-9a57-9f8454ac3e1a",
+              "sessionId": "session-dfa41f89-6ea8-403a-87b9-44227a94c460",
+              "state": "running",
+              "visible": true,
+              "cols": 32,
+              "rows": 27,
+              "proposed": {
+                "cols": 32,
+                "rows": 27
+              },
+              "applied": "32x27",
+              "pending": false,
+              "initial": {
+                "cols": 56,
+                "rows": 27
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.6875,
+                "height": 19
+              },
+              "host": {
+                "w": 267,
+                "h": 513
+              },
+              "footer": "32×27",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            }
+          ],
+          "shell": {
+            "cols": 40,
+            "rows": 27
+          },
+          "ttyProbeAttempts": 1
+        },
+        {
+          "label": "drawer_closed",
+          "records": [
+            {
+              "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+              "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+              "state": "running",
+              "visible": true,
+              "cols": 62,
+              "rows": 27,
+              "proposed": {
+                "cols": 62,
+                "rows": 27
+              },
+              "applied": "62x27",
+              "pending": false,
+              "initial": {
+                "cols": 141,
+                "rows": 33
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.693548387096774,
+                "height": 19
+              },
+              "host": {
+                "w": 496,
+                "h": 513
+              },
+              "footer": "62×27",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            },
+            {
+              "paneId": "pane-9e5db75c-9bd7-4916-9a57-9f8454ac3e1a",
+              "sessionId": "session-dfa41f89-6ea8-403a-87b9-44227a94c460",
+              "state": "running",
+              "visible": true,
+              "cols": 50,
+              "rows": 27,
+              "proposed": {
+                "cols": 50,
+                "rows": 27
+              },
+              "applied": "50x27",
+              "pending": false,
+              "initial": {
+                "cols": 56,
+                "rows": 27
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.7,
+                "height": 19
+              },
+              "host": {
+                "w": 405,
+                "h": 513
+              },
+              "footer": "50×27",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            }
+          ],
+          "shell": {
+            "cols": 62,
+            "rows": 27
+          },
+          "ttyProbeAttempts": 1
+        },
+        {
+          "label": "window_restored",
+          "records": [
+            {
+              "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+              "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+              "state": "running",
+              "visible": true,
+              "cols": 73,
+              "rows": 32,
+              "proposed": {
+                "cols": 73,
+                "rows": 32
+              },
+              "applied": "73x32",
+              "pending": false,
+              "initial": {
+                "cols": 141,
+                "rows": 33
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.698630136986301,
+                "height": 19
+              },
+              "host": {
+                "w": 583,
+                "h": 613
+              },
+              "footer": "73×32",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            },
+            {
+              "paneId": "pane-9e5db75c-9bd7-4916-9a57-9f8454ac3e1a",
+              "sessionId": "session-dfa41f89-6ea8-403a-87b9-44227a94c460",
+              "state": "running",
+              "visible": true,
+              "cols": 60,
+              "rows": 32,
+              "proposed": {
+                "cols": 60,
+                "rows": 32
+              },
+              "applied": "60x32",
+              "pending": false,
+              "initial": {
+                "cols": 56,
+                "rows": 27
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.7,
+                "height": 19
+              },
+              "host": {
+                "w": 478,
+                "h": 613
+              },
+              "footer": "60×32",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            }
+          ],
+          "shell": {
+            "cols": 73,
+            "rows": 32
+          },
+          "ttyProbeAttempts": 1
+        },
+        {
+          "label": "zoom",
+          "records": [
+            {
+              "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+              "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+              "state": "running",
+              "visible": true,
+              "cols": 143,
+              "rows": 32,
+              "proposed": {
+                "cols": 143,
+                "rows": 32
+              },
+              "applied": "143x32",
+              "pending": false,
+              "initial": {
+                "cols": 141,
+                "rows": 33
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.699300699300699,
+                "height": 19
+              },
+              "host": {
+                "w": 1117,
+                "h": 613
+              },
+              "footer": "143×32",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            },
+            {
+              "paneId": "pane-9e5db75c-9bd7-4916-9a57-9f8454ac3e1a",
+              "sessionId": "session-dfa41f89-6ea8-403a-87b9-44227a94c460",
+              "state": "running",
+              "visible": false,
+              "cols": 60,
+              "rows": 32,
+              "proposed": {
+                "cols": 11,
+                "rows": 5
+              },
+              "applied": "60x32",
+              "pending": false,
+              "initial": {
+                "cols": 56,
+                "rows": 27
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.7,
+                "height": 19
+              },
+              "host": {
+                "w": 0,
+                "h": 0
+              },
+              "footer": "60×32",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            }
+          ],
+          "shell": {
+            "cols": 143,
+            "rows": 32
+          },
+          "ttyProbeAttempts": 1
+        },
+        {
+          "label": "unzoom",
+          "records": [
+            {
+              "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+              "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+              "state": "running",
+              "visible": true,
+              "cols": 73,
+              "rows": 32,
+              "proposed": {
+                "cols": 73,
+                "rows": 32
+              },
+              "applied": "73x32",
+              "pending": false,
+              "initial": {
+                "cols": 141,
+                "rows": 33
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.698630136986301,
+                "height": 19
+              },
+              "host": {
+                "w": 583,
+                "h": 613
+              },
+              "footer": "73×32",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            },
+            {
+              "paneId": "pane-9e5db75c-9bd7-4916-9a57-9f8454ac3e1a",
+              "sessionId": "session-dfa41f89-6ea8-403a-87b9-44227a94c460",
+              "state": "running",
+              "visible": true,
+              "cols": 60,
+              "rows": 32,
+              "proposed": {
+                "cols": 60,
+                "rows": 32
+              },
+              "applied": "60x32",
+              "pending": false,
+              "initial": {
+                "cols": 56,
+                "rows": 27
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.7,
+                "height": 19
+              },
+              "host": {
+                "w": 478,
+                "h": 613
+              },
+              "footer": "60×32",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            }
+          ],
+          "shell": {
+            "cols": 73,
+            "rows": 32
+          },
+          "ttyProbeAttempts": 1
+        },
+        {
+          "label": "font_16_comfortable",
+          "records": [
+            {
+              "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+              "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+              "state": "running",
+              "visible": true,
+              "cols": 64,
+              "rows": 27,
+              "proposed": {
+                "cols": 64,
+                "rows": 27
+              },
+              "applied": "64x27",
+              "pending": false,
+              "initial": {
+                "cols": 141,
+                "rows": 33
+              },
+              "fontSize": 16,
+              "lineHeight": 1.1579473684210526,
+              "cell": {
+                "width": 8.796875,
+                "height": 22
+              },
+              "host": {
+                "w": 583,
+                "h": 613
+              },
+              "footer": "64×27",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            },
+            {
+              "paneId": "pane-9e5db75c-9bd7-4916-9a57-9f8454ac3e1a",
+              "sessionId": "session-dfa41f89-6ea8-403a-87b9-44227a94c460",
+              "state": "running",
+              "visible": true,
+              "cols": 52,
+              "rows": 27,
+              "proposed": {
+                "cols": 52,
+                "rows": 27
+              },
+              "applied": "52x27",
+              "pending": false,
+              "initial": {
+                "cols": 56,
+                "rows": 27
+              },
+              "fontSize": 16,
+              "lineHeight": 1.1579473684210526,
+              "cell": {
+                "width": 8.788461538461538,
+                "height": 22
+              },
+              "host": {
+                "w": 478,
+                "h": 613
+              },
+              "footer": "52×27",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            }
+          ],
+          "shell": {
+            "cols": 64,
+            "rows": 27
+          },
+          "ttyProbeAttempts": 1
+        },
+        {
+          "label": "font_16_compact",
+          "records": [
+            {
+              "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+              "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+              "state": "running",
+              "visible": true,
+              "cols": 64,
+              "rows": 30,
+              "proposed": {
+                "cols": 64,
+                "rows": 30
+              },
+              "applied": "64x30",
+              "pending": false,
+              "initial": {
+                "cols": 141,
+                "rows": 33
+              },
+              "fontSize": 16,
+              "lineHeight": 1.0526842105263159,
+              "cell": {
+                "width": 8.796875,
+                "height": 20
+              },
+              "host": {
+                "w": 583,
+                "h": 613
+              },
+              "footer": "64×30",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            },
+            {
+              "paneId": "pane-9e5db75c-9bd7-4916-9a57-9f8454ac3e1a",
+              "sessionId": "session-dfa41f89-6ea8-403a-87b9-44227a94c460",
+              "state": "running",
+              "visible": true,
+              "cols": 52,
+              "rows": 30,
+              "proposed": {
+                "cols": 52,
+                "rows": 30
+              },
+              "applied": "52x30",
+              "pending": false,
+              "initial": {
+                "cols": 56,
+                "rows": 27
+              },
+              "fontSize": 16,
+              "lineHeight": 1.0526842105263159,
+              "cell": {
+                "width": 8.788461538461538,
+                "height": 20
+              },
+              "host": {
+                "w": 478,
+                "h": 613
+              },
+              "footer": "52×30",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            }
+          ],
+          "shell": {
+            "cols": 64,
+            "rows": 30
+          },
+          "ttyProbeAttempts": 1
+        },
+        {
+          "label": "font_14_comfortable",
+          "records": [
+            {
+              "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+              "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+              "state": "running",
+              "visible": true,
+              "cols": 73,
+              "rows": 32,
+              "proposed": {
+                "cols": 73,
+                "rows": 32
+              },
+              "applied": "73x32",
+              "pending": false,
+              "initial": {
+                "cols": 141,
+                "rows": 33
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.698630136986301,
+                "height": 19
+              },
+              "host": {
+                "w": 583,
+                "h": 613
+              },
+              "footer": "73×32",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            },
+            {
+              "paneId": "pane-9e5db75c-9bd7-4916-9a57-9f8454ac3e1a",
+              "sessionId": "session-dfa41f89-6ea8-403a-87b9-44227a94c460",
+              "state": "running",
+              "visible": true,
+              "cols": 60,
+              "rows": 32,
+              "proposed": {
+                "cols": 60,
+                "rows": 32
+              },
+              "applied": "60x32",
+              "pending": false,
+              "initial": {
+                "cols": 56,
+                "rows": 27
+              },
+              "fontSize": 14,
+              "lineHeight": 1.1177058823529413,
+              "cell": {
+                "width": 7.7,
+                "height": 19
+              },
+              "host": {
+                "w": 478,
+                "h": 613
+              },
+              "footer": "60×32",
+              "dpr": 1,
+              "cli": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+            }
+          ],
+          "shell": {
+            "cols": 73,
+            "rows": 32
+          },
+          "ttyProbeAttempts": 1
+        }
+      ]
+    },
+    {
+      "name": "existing native Claude resolves in application Shell without changing execution policy",
+      "status": "pass",
+      "detail": {
+        "native": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+        "policy": "Restricted",
+        "bareExit": 0,
+        "cmdExit": 0,
+        "version": "2.1.303",
+        "scope": "isolated version commands only; no login/task"
+      }
+    },
+    {
+      "name": "workspace switching preserves hidden session and xterm without zero-size resize",
+      "status": "pass",
+      "detail": {
+        "sessions": 3,
+        "persisted": [
+          {
+            "id": "workspace-77639ec0-6ad3-4b6f-be51-b29b4fc3b72e",
+            "name": "M1 中文工作区",
+            "cwd": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\desktop-normal-14f4996e-7a13-4348-b670-76cc76cc9ac8",
+            "layout": "single"
+          },
+          {
+            "id": "workspace-587bde41-04a3-453e-ac65-1e47a830bd8c",
+            "name": "第二工作区",
+            "cwd": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\desktop-normal-14f4996e-7a13-4348-b670-76cc76cc9ac8",
+            "layout": "single"
+          }
+        ]
+      }
+    },
+    {
+      "name": "actual rendered font fallback sample via Chromium platform font inspection",
+      "status": "pass",
+      "detail": {
+        "fonts": [
+          {
+            "familyName": "Consolas",
+            "glyphCount": 22,
+            "isCustomFont": false,
+            "postScriptName": "Consolas"
+          },
+          {
+            "familyName": "Microsoft YaHei",
+            "glyphCount": 2,
+            "isCustomFont": false,
+            "postScriptName": "MicrosoftYaHei"
+          }
+        ]
+      }
+    },
+    {
+      "name": "window close finishes all managed product sessions and service processes",
+      "status": "pass",
+      "detail": [
+        {
+          "sessionId": "session-06d4ba90-7f93-4096-8c20-9113d2bcda9d",
+          "paneId": "pane-f4ebbf0c-3873-4bcc-a28e-55140d87d854",
+          "workspaceId": "workspace-77639ec0-6ad3-4b6f-be51-b29b4fc3b72e",
+          "generation": 1,
+          "state": "running",
+          "cols": 73,
+          "rows": 32,
+          "pid": 56036,
+          "createdAt": "134368562480964177",
+          "workerPid": 57096,
+          "workerCreatedAt": "134368562480474376",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 282,
+          "pending": 0,
+          "pids": [
+            57096,
+            53516,
+            56036,
+            56416
+          ]
+        },
+        {
+          "sessionId": "session-dfa41f89-6ea8-403a-87b9-44227a94c460",
+          "paneId": "pane-9e5db75c-9bd7-4916-9a57-9f8454ac3e1a",
+          "workspaceId": "workspace-77639ec0-6ad3-4b6f-be51-b29b4fc3b72e",
+          "generation": 1,
+          "state": "running",
+          "cols": 60,
+          "rows": 32,
+          "pid": 57724,
+          "createdAt": "134368562523749504",
+          "workerPid": 57452,
+          "workerCreatedAt": "134368562523304973",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 200,
+          "pending": 0,
+          "pids": [
+            57452,
+            58180,
+            57724,
+            58276
+          ]
+        },
+        {
+          "sessionId": "session-b50e5645-14cf-4a5d-905f-e9a98dd5aa6f",
+          "paneId": "pane-24c74447-bbe4-4001-86f2-21efbc8eddcd",
+          "workspaceId": "workspace-587bde41-04a3-453e-ac65-1e47a830bd8c",
+          "generation": 1,
+          "state": "running",
+          "cols": 143,
+          "rows": 32,
+          "pid": 57956,
+          "createdAt": "134368562698874280",
+          "workerPid": 53768,
+          "workerCreatedAt": "134368562698378982",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "bytes": 0,
+          "peak": 200,
+          "pending": 0,
+          "pids": [
+            53768,
+            56420,
+            57956,
+            41444
+          ]
+        }
+      ]
+    }
+  ],
+  "consoleErrors": []
+}

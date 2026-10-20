@@ -1,0 +1,194 @@
+TAP version 13
+# Subtest: compositionend retains scratch text until xterm has emitted its committed data
+ok 1 - compositionend retains scratch text until xterm has emitted its committed data
+  ---
+  duration_ms: 0.6622
+  type: 'test'
+  ...
+# Subtest: ordinary input, cancellation and a newer live composition are not cleared
+ok 2 - ordinary input, cancellation and a newer live composition are not cleared
+  ---
+  duration_ms: 8.1068
+  type: 'test'
+  ...
+# Subtest: pinned xterm deferred commit survives protocol replies before its textarea read
+ok 3 - pinned xterm deferred commit survives protocol replies before its textarea read
+  ---
+  duration_ms: 2.2214
+  type: 'test'
+  ...
+# Subtest: pinned xterm overlapping append compositions do not erase the newer live input
+ok 4 - pinned xterm overlapping append compositions do not erase the newer live input
+  ---
+  duration_ms: 0.4733
+  type: 'test'
+  ...
+# Subtest: split targets current leaf; nested close preserves all unrelated identities
+ok 5 - split targets current leaf; nested close preserves all unrelated identities
+  ---
+  duration_ms: 1.0207
+  type: 'test'
+  ...
+# Subtest: random deterministic split/close sequences have no duplicate, missing or unary leaves
+ok 6 - random deterministic split/close sequences have no duplicate, missing or unary leaves
+  ---
+  duration_ms: 36.0169
+  type: 'test'
+  ...
+# Subtest: recursive minimum bounds drag ratio; insufficient span leaves layout unchanged
+ok 7 - recursive minimum bounds drag ratio; insufficient span leaves layout unchanged
+  ---
+  duration_ms: 0.2667
+  type: 'test'
+  ...
+# Subtest: invalid splits, duplicates, ratios and axes are rejected
+ok 8 - invalid splits, duplicates, ratios and axes are rejected
+  ---
+  duration_ms: 0.6768
+  type: 'test'
+  ...
+# Subtest: credit has a hard byte bound and strictly scoped cumulative acknowledgements
+ok 9 - credit has a hard byte bound and strictly scoped cumulative acknowledgements
+  ---
+  duration_ms: 0.2644
+  type: 'test'
+  ...
+# Subtest: dimensions, UTF-8 input and generation reject malformed and excessive values
+ok 10 - dimensions, UTF-8 input and generation reject malformed and excessive values
+  ---
+  duration_ms: 0.2165
+  type: 'test'
+  ...
+# Subtest: schemas do not accept extra fields, arbitrary paths-as-identifiers or invalid preferences
+ok 11 - schemas do not accept extra fields, arbitrary paths-as-identifiers or invalid preferences
+  ---
+  duration_ms: 0.3408
+  type: 'test'
+  ...
+# Subtest: production sender must be exactly the owning WebContents, mainFrame and app URL
+ok 12 - production sender must be exactly the owning WebContents, mainFrame and app URL
+  ---
+  duration_ms: 0.2236
+  type: 'test'
+  ...
+# Subtest: theme light / OS dark=false resolves page and xterm from same palette
+ok 13 - theme light / OS dark=false resolves page and xterm from same palette
+  ---
+  duration_ms: 0.2809
+  type: 'test'
+  ...
+# Subtest: theme dark / OS dark=true resolves page and xterm from same palette
+ok 14 - theme dark / OS dark=true resolves page and xterm from same palette
+  ---
+  duration_ms: 0.3581
+  type: 'test'
+  ...
+# Subtest: theme system / OS dark=false resolves page and xterm from same palette
+ok 15 - theme system / OS dark=false resolves page and xterm from same palette
+  ---
+  duration_ms: 0.1297
+  type: 'test'
+  ...
+# Subtest: theme system / OS dark=true resolves page and xterm from same palette
+ok 16 - theme system / OS dark=true resolves page and xterm from same palette
+  ---
+  duration_ms: 0.0603
+  type: 'test'
+  ...
+# Subtest: runtime system toggle changes system resolution, not explicit theme
+ok 17 - runtime system toggle changes system resolution, not explicit theme
+  ---
+  duration_ms: 0.102
+  type: 'test'
+  ...
+# Subtest: IME candidate and commit keys bypass product shortcuts while ordinary keys remain eligible
+ok 18 - IME candidate and commit keys bypass product shortcuts while ordinary keys remain eligible
+  ---
+  duration_ms: 0.155
+  type: 'test'
+  ...
+# Subtest: locale-free Git Bash env is given a UTF-8 ctype; an existing UTF-8 locale is preserved
+ok 19 - locale-free Git Bash env is given a UTF-8 ctype; an existing UTF-8 locale is preserved
+  ---
+  duration_ms: 0.1777
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 1 without changing font size
+ok 20 - CSS target line height maps to xterm device grid at DPR 1 without changing font size
+  ---
+  duration_ms: 1.0715
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 1.25 without changing font size
+ok 21 - CSS target line height maps to xterm device grid at DPR 1.25 without changing font size
+  ---
+  duration_ms: 0.1707
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 1.5 without changing font size
+ok 22 - CSS target line height maps to xterm device grid at DPR 1.5 without changing font size
+  ---
+  duration_ms: 0.0736
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 2 without changing font size
+ok 23 - CSS target line height maps to xterm device grid at DPR 2 without changing font size
+  ---
+  duration_ms: 0.0966
+  type: 'test'
+  ...
+# Subtest: zero/unavailable glyph metrics do not produce a fake geometry
+ok 24 - zero/unavailable glyph metrics do not produce a fake geometry
+  ---
+  duration_ms: 0.2542
+  type: 'test'
+  ...
+# Subtest: resize applies serially, coalesces intermediate sizes and never displays an old reply as the newest size
+ok 25 - resize applies serially, coalesces intermediate sizes and never displays an old reply as the newest size
+  ---
+  duration_ms: 4.2158
+  type: 'test'
+  ...
+# Subtest: resize failure stays unconfirmed and disposal ignores late replies
+ok 26 - resize failure stays unconfirmed and disposal ignores late replies
+  ---
+  duration_ms: 0.6119
+  type: 'test'
+  ...
+# Subtest: application Shell PATH prefers only an existing native Claude install and preserves environment/key case
+ok 27 - application Shell PATH prefers only an existing native Claude install and preserves environment/key case
+  ---
+  duration_ms: 3.2637
+  type: 'test'
+  ...
+# (node:41800) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/Code/JianZJ-Hub/src/adapters/windows/workstation/shell.ts is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to D:\\Code\\JianZJ-Hub\\package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Unicode block elements cover exact cell geometry and leave shades/text to font renderer
+ok 28 - Unicode block elements cover exact cell geometry and leave shades/text to font renderer
+  ---
+  duration_ms: 1.0108
+  type: 'test'
+  ...
+# Subtest: Shell profiles discover fixed Git for Windows, never arbitrary bash from WSL or a user command
+ok 29 - Shell profiles discover fixed Git for Windows, never arbitrary bash from WSL or a user command
+  ---
+  duration_ms: 3.7411
+  type: 'test'
+  ...
+# Subtest: Git Bash launch forces a UTF-8 locale when none is set, but never overrides an explicit one
+ok 30 - Git Bash launch forces a UTF-8 locale when none is set, but never overrides an explicit one
+  ---
+  duration_ms: 2.018
+  type: 'test'
+  ...
+1..30
+# tests 30
+# suites 0
+# pass 30
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 101.6367

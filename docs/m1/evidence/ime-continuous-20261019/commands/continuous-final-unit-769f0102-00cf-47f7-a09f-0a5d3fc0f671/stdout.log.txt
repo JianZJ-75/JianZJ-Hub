@@ -1,0 +1,224 @@
+TAP version 13
+# Subtest: actual pinned helper reproduces old CJK suffixes and the adapter reads only new candidates
+ok 1 - actual pinned helper reproduces old CJK suffixes and the adapter reads only new candidates
+  ---
+  duration_ms: 2.5076
+  type: 'test'
+  ...
+# Subtest: partial and full native scratch selections do not inflate the helper start position
+ok 2 - partial and full native scratch selections do not inflate the helper start position
+  ---
+  duration_ms: 1.6244
+  type: 'test'
+  ...
+# Subtest: equal selected replacements are new commits, but empty cancellation restores no old text
+ok 3 - equal selected replacements are new commits, but empty cancellation restores no old text
+  ---
+  duration_ms: 0.8655
+  type: 'test'
+  ...
+# Subtest: append insertion and equal repeated words remain valid, including surrogate pairs
+ok 4 - append insertion and equal repeated words remain valid, including surrogate pairs
+  ---
+  duration_ms: 0.5766
+  type: 'test'
+  ...
+# Subtest: protocol replies cannot acknowledge or mutate a pending composition
+ok 5 - protocol replies cannot acknowledge or mutate a pending composition
+  ---
+  duration_ms: 1.1082
+  type: 'test'
+  ...
+# Subtest: empty commit and pending 229 punctuation survive replies and unrelated input
+ok 6 - empty commit and pending 229 punctuation survive replies and unrelated input
+  ---
+  duration_ms: 0.816
+  type: 'test'
+  ...
+# Subtest: multiple queued 229 reads cannot turn scratch handling into a spurious DEL
+ok 7 - multiple queued 229 reads cannot turn scratch handling into a spurious DEL
+  ---
+  duration_ms: 0.4696
+  type: 'test'
+  ...
+# Subtest: old deferred read can run during the next prepend composition without losing either word
+ok 8 - old deferred read can run during the next prepend composition without losing either word
+  ---
+  duration_ms: 0.4448
+  type: 'test'
+  ...
+# Subtest: native Enter/blur-style textarea clearing resets the read view before new input
+ok 9 - native Enter/blur-style textarea clearing resets the read view before new input
+  ---
+  duration_ms: 0.6083
+  type: 'test'
+  ...
+# Subtest: split targets current leaf; nested close preserves all unrelated identities
+ok 10 - split targets current leaf; nested close preserves all unrelated identities
+  ---
+  duration_ms: 1.2202
+  type: 'test'
+  ...
+# Subtest: random deterministic split/close sequences have no duplicate, missing or unary leaves
+ok 11 - random deterministic split/close sequences have no duplicate, missing or unary leaves
+  ---
+  duration_ms: 40.0858
+  type: 'test'
+  ...
+# Subtest: recursive minimum bounds drag ratio; insufficient span leaves layout unchanged
+ok 12 - recursive minimum bounds drag ratio; insufficient span leaves layout unchanged
+  ---
+  duration_ms: 0.2572
+  type: 'test'
+  ...
+# Subtest: invalid splits, duplicates, ratios and axes are rejected
+ok 13 - invalid splits, duplicates, ratios and axes are rejected
+  ---
+  duration_ms: 0.736
+  type: 'test'
+  ...
+# Subtest: credit has a hard byte bound and strictly scoped cumulative acknowledgements
+ok 14 - credit has a hard byte bound and strictly scoped cumulative acknowledgements
+  ---
+  duration_ms: 0.2555
+  type: 'test'
+  ...
+# Subtest: dimensions, UTF-8 input and generation reject malformed and excessive values
+ok 15 - dimensions, UTF-8 input and generation reject malformed and excessive values
+  ---
+  duration_ms: 0.2823
+  type: 'test'
+  ...
+# Subtest: schemas do not accept extra fields, arbitrary paths-as-identifiers or invalid preferences
+ok 16 - schemas do not accept extra fields, arbitrary paths-as-identifiers or invalid preferences
+  ---
+  duration_ms: 0.4697
+  type: 'test'
+  ...
+# Subtest: production sender must be exactly the owning WebContents, mainFrame and app URL
+ok 17 - production sender must be exactly the owning WebContents, mainFrame and app URL
+  ---
+  duration_ms: 0.129
+  type: 'test'
+  ...
+# Subtest: theme light / OS dark=false resolves page and xterm from same palette
+ok 18 - theme light / OS dark=false resolves page and xterm from same palette
+  ---
+  duration_ms: 0.2701
+  type: 'test'
+  ...
+# Subtest: theme dark / OS dark=true resolves page and xterm from same palette
+ok 19 - theme dark / OS dark=true resolves page and xterm from same palette
+  ---
+  duration_ms: 0.211
+  type: 'test'
+  ...
+# Subtest: theme system / OS dark=false resolves page and xterm from same palette
+ok 20 - theme system / OS dark=false resolves page and xterm from same palette
+  ---
+  duration_ms: 0.116
+  type: 'test'
+  ...
+# Subtest: theme system / OS dark=true resolves page and xterm from same palette
+ok 21 - theme system / OS dark=true resolves page and xterm from same palette
+  ---
+  duration_ms: 0.0565
+  type: 'test'
+  ...
+# Subtest: runtime system toggle changes system resolution, not explicit theme
+ok 22 - runtime system toggle changes system resolution, not explicit theme
+  ---
+  duration_ms: 0.085
+  type: 'test'
+  ...
+# Subtest: IME candidate and commit keys bypass product shortcuts while ordinary keys remain eligible
+ok 23 - IME candidate and commit keys bypass product shortcuts while ordinary keys remain eligible
+  ---
+  duration_ms: 0.0626
+  type: 'test'
+  ...
+# Subtest: locale-free Git Bash env is given a UTF-8 ctype; an existing UTF-8 locale is preserved
+ok 24 - locale-free Git Bash env is given a UTF-8 ctype; an existing UTF-8 locale is preserved
+  ---
+  duration_ms: 0.1015
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 1 without changing font size
+ok 25 - CSS target line height maps to xterm device grid at DPR 1 without changing font size
+  ---
+  duration_ms: 1.1139
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 1.25 without changing font size
+ok 26 - CSS target line height maps to xterm device grid at DPR 1.25 without changing font size
+  ---
+  duration_ms: 0.2407
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 1.5 without changing font size
+ok 27 - CSS target line height maps to xterm device grid at DPR 1.5 without changing font size
+  ---
+  duration_ms: 0.0881
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 2 without changing font size
+ok 28 - CSS target line height maps to xterm device grid at DPR 2 without changing font size
+  ---
+  duration_ms: 0.0714
+  type: 'test'
+  ...
+# Subtest: zero/unavailable glyph metrics do not produce a fake geometry
+ok 29 - zero/unavailable glyph metrics do not produce a fake geometry
+  ---
+  duration_ms: 0.1965
+  type: 'test'
+  ...
+# Subtest: resize applies serially, coalesces intermediate sizes and never displays an old reply as the newest size
+ok 30 - resize applies serially, coalesces intermediate sizes and never displays an old reply as the newest size
+  ---
+  duration_ms: 3.5427
+  type: 'test'
+  ...
+# Subtest: resize failure stays unconfirmed and disposal ignores late replies
+ok 31 - resize failure stays unconfirmed and disposal ignores late replies
+  ---
+  duration_ms: 0.5361
+  type: 'test'
+  ...
+# Subtest: application Shell PATH prefers only an existing native Claude install and preserves environment/key case
+ok 32 - application Shell PATH prefers only an existing native Claude install and preserves environment/key case
+  ---
+  duration_ms: 2.6469
+  type: 'test'
+  ...
+# (node:44672) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/Code/JianZJ-Hub/src/adapters/windows/workstation/shell.ts is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to D:\\Code\\JianZJ-Hub\\package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Unicode block elements cover exact cell geometry and leave shades/text to font renderer
+ok 33 - Unicode block elements cover exact cell geometry and leave shades/text to font renderer
+  ---
+  duration_ms: 1.2199
+  type: 'test'
+  ...
+# Subtest: Shell profiles discover fixed Git for Windows, never arbitrary bash from WSL or a user command
+ok 34 - Shell profiles discover fixed Git for Windows, never arbitrary bash from WSL or a user command
+  ---
+  duration_ms: 4.1592
+  type: 'test'
+  ...
+# Subtest: Git Bash launch forces a UTF-8 locale when none is set, but never overrides an explicit one
+ok 35 - Git Bash launch forces a UTF-8 locale when none is set, but never overrides an explicit one
+  ---
+  duration_ms: 2.9009
+  type: 'test'
+  ...
+1..35
+# tests 35
+# suites 0
+# pass 35
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 105.8041

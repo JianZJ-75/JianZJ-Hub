@@ -1,0 +1,63 @@
+{
+  "entry": "fault",
+  "mode": "main-crash",
+  "dir": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\fault-main-crash-5c8b3ce4-e539-46ba-b3a1-29eff41eb3d9",
+  "started": "2026-10-19T04:11:20.610Z",
+  "control": {
+    "pid": 57752,
+    "createdAt": "134368566806026229"
+  },
+  "app": {
+    "pid": 58080,
+    "createdAt": "134368566806082161"
+  },
+  "armed": {
+    "mode": "main-crash",
+    "service": 37168,
+    "managed": [
+      {
+        "pid": 37168,
+        "createdAt": "134368566806766473"
+      },
+      {
+        "pid": 56636,
+        "createdAt": "134368566807171288"
+      },
+      {
+        "pid": 55072,
+        "createdAt": "134368566807466739"
+      },
+      {
+        "pid": 57048,
+        "createdAt": "134368566807642857"
+      },
+      {
+        "pid": 57648,
+        "createdAt": "134368566840417091"
+      },
+      {
+        "pid": 57556,
+        "createdAt": "134368566840697385"
+      }
+    ],
+    "tree": [
+      {
+        "pid": 57648,
+        "role": "child",
+        "started": "2026-10-19T04:11:24.064Z"
+      },
+      {
+        "pid": 57556,
+        "role": "grandchild",
+        "started": "2026-10-19T04:11:24.090Z"
+      }
+    ]
+  },
+  "identitiesExited": true,
+  "code": 1,
+  "remaining": [],
+  "controlSurvived": true,
+  "status": "pass",
+  "fallbackPids": [],
+  "finished": "2026-10-19T04:11:24.185Z"
+}

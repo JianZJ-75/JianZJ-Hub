@@ -1,0 +1,103 @@
+{
+  "baseline": "465375d5c564149d58b115cacde4fb70a6614e44",
+  "typecheck": {
+    "record": "commands/continuous-final-typecheck-19458ebd-c459-4d28-8833-6297e54b91ab/command.json",
+    "exitCode": 0
+  },
+  "unit": {
+    "record": "commands/continuous-final-unit-769f0102-00cf-47f7-a09f-0a5d3fc0f671/command.json",
+    "exitCode": 0,
+    "tests": 35
+  },
+  "m0Unit": {
+    "record": "commands/continuous-m0-unit-d5f95a94-cc10-44e6-beb6-c95350436b53/command.json",
+    "exitCode": 0,
+    "tests": 14
+  },
+  "development": {
+    "record": "commands/continuous-delivery-dev-ff67a8fe-84c0-4011-8971-bbef774826e8/command.json",
+    "exitCode": 0,
+    "gates": 11
+  },
+  "native": {
+    "record": "runtime/ime-native-96bb7423-61ed-41ae-b59b-adfd0b71c067/ime.json",
+    "cases": 4,
+    "method": "Windows SendInput, existing Chinese IME, foreground PID checked before every key"
+  },
+  "packaged": {
+    "record": "runtime/packaged-a3c12ae9-2544-4a1d-8b1e-615435425267/result.json",
+    "checks": 9,
+    "archiveUnmodified": true,
+    "fallbackPids": [],
+    "nativeChunks": [
+      "按这个",
+      "方案",
+      "继续"
+    ]
+  },
+  "release": {
+    "created": "2026-10-19T04:11:54.306Z",
+    "source": "D:\\Code\\JianZJ-Hub-M0-repro-20261015-37002e9f\\project",
+    "sourceReceiptSha256": "ee8c9670a05b8505eb67f9885cb2a86af2de66096be3a2af424b4a92dda0a351",
+    "staging": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\package-2026-10-19T04-11-46-558Z-ac161117",
+    "output": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-19T04-11-46-558Z-ac161117",
+    "executable": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-19T04-11-46-558Z-ac161117\\win-unpacked\\Workstation.exe",
+    "archive": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-19T04-11-46-558Z-ac161117\\win-unpacked\\resources\\app.asar",
+    "artifacts": [
+      {
+        "file": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-19T04-11-46-558Z-ac161117\\win-unpacked\\Workstation.exe",
+        "sha256": "86ca9504a26f9055b90d5d029118d815d9908d1ddea5b11fc0d9d7c4619d1e81"
+      },
+      {
+        "file": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-19T04-11-46-558Z-ac161117\\win-unpacked\\resources\\app.asar",
+        "sha256": "f82c6cf7a3ce2366a004d9560f98add99b7ce62dbfcb237ddff00ff444e6e68a"
+      }
+    ],
+    "nativeComparisons": [
+      {
+        "file": "node_modules/node-pty/prebuilds/win32-x64/conpty.node",
+        "sha256": "ee8f4e6f4dad71939eecfda11de249400e34bfefe4c8b48af13f3b5476f4035b"
+      },
+      {
+        "file": "node_modules/node-pty/prebuilds/win32-x64/conpty_console_list.node",
+        "sha256": "879dd94cfc79f1e263a00077597ae9448a5394b7d193381aaa50d992a1f91090"
+      },
+      {
+        "file": "node_modules/node-pty/build/Release/conpty/conpty.dll",
+        "sha256": "7c7430632052ff703540b68371ec43821820aa1335d8e11dfbcd9ff00e9daaed"
+      },
+      {
+        "file": "node_modules/node-pty/build/Release/conpty/OpenConsole.exe",
+        "sha256": "d1fe7faa62f9e955e2ac2371f95d7e5513df4d496255097158f979c94782c5fc"
+      },
+      {
+        "file": "node_modules/better-sqlite3/prebuilds/win32-x64.node",
+        "sha256": "e21e5efd71fba66578e95b62554d9028064a80dafd7221bf8a8ef155de8d240a"
+      },
+      {
+        "file": "node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
+        "sha256": "f7af4982457657d2e7ad46acb076614ed7122d6efbdbfbc75f21ec12681fa121"
+      },
+      {
+        "file": "node_modules/node-pty/LICENSE",
+        "sha256": "a3d60eaf32d2fb09c9d82ef39f14bd6e2c0f3ca7de30daa827486c0d6f8b6e9f"
+      },
+      {
+        "file": "node_modules/better-sqlite3/LICENSE",
+        "sha256": "09856b52897c91ab67e7456ef43067019f31dfd3b87fda72e655736b1ebdee55"
+      },
+      {
+        "file": "node_modules/koffi/LICENSE.txt",
+        "sha256": "22bcbbbacd739b026a8dc484f62a31484ce4c4e31f3408b60b29b4e41d62b290"
+      }
+    ],
+    "signed": false,
+    "downloads": false,
+    "zip": {
+      "file": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-19T04-11-46-558Z-ac161117\\Workstation-M1-win32-x64.zip",
+      "bytes": 170036330,
+      "sha256": "72e7ebedd8917b2af24f1bcd51c7f5f8b130c15ee039b2a6f0babe3767aa2814"
+    }
+  },
+  "manualAcceptance": "pending user confirmation"
+}

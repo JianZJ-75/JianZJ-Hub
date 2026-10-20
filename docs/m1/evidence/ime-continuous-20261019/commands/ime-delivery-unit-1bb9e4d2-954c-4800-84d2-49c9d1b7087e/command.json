@@ -1,0 +1,15 @@
+{
+  "cwd": "D:\\Code\\JianZJ-Hub",
+  "executable": "D:\\Program Files (x86)\\nodejs\\node.exe",
+  "args": [
+    "--test",
+    "tests/m1/composition.test.mjs",
+    "tests/m1/core.test.mjs",
+    "tests/m1/geometry.test.mjs",
+    "tests/m1/render-shell.test.mjs"
+  ],
+  "started": "2026-10-19T03:51:47.278Z",
+  "directory": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\commands\\ime-delivery-unit-1bb9e4d2-954c-4800-84d2-49c9d1b7087e",
+  "finished": "2026-10-19T03:51:47.428Z",
+  "exitCode": 0
+}

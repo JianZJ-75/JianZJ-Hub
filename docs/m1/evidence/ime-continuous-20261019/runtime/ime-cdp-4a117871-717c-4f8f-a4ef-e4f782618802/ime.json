@@ -1,0 +1,2398 @@
+{
+  "mode": "cdp",
+  "cases": [
+    {
+      "name": "Chromium-composition-commits",
+      "expected": "按这个方案继续",
+      "expectedHex": "e68c89e8bf99e4b8aae696b9e6a188e7bba7e7bbad",
+      "beforeEnter": "按这个方案继续",
+      "renderer": {
+        "events": [
+          {
+            "type": "compositionstart",
+            "data": "",
+            "trusted": true,
+            "value": "",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 0
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionupdate",
+            "data": "按这个",
+            "trusted": true,
+            "value": "",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 0
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "beforeinput",
+            "isComposing": true,
+            "data": "按这个",
+            "inputType": "insertCompositionText",
+            "trusted": true,
+            "value": "",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 0
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "input",
+            "isComposing": true,
+            "data": "按这个",
+            "inputType": "insertCompositionText",
+            "trusted": true,
+            "value": "按这个",
+            "start": 3,
+            "end": 3,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 0
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionstart:settled",
+            "value": "按这个",
+            "start": 3,
+            "end": 3,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 0
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionupdate:settled",
+            "value": "按这个",
+            "start": 3,
+            "end": 3,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 0
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "beforeinput:settled",
+            "value": "按这个",
+            "start": 3,
+            "end": 3,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "input:settled",
+            "value": "按这个",
+            "start": 3,
+            "end": 3,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionupdate",
+            "data": "按这个",
+            "trusted": true,
+            "value": "按这个",
+            "start": 0,
+            "end": 3,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "beforeinput",
+            "isComposing": true,
+            "data": "按这个",
+            "inputType": "insertCompositionText",
+            "trusted": true,
+            "value": "按这个",
+            "start": 0,
+            "end": 3,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "input",
+            "isComposing": true,
+            "data": "按这个",
+            "inputType": "insertCompositionText",
+            "trusted": true,
+            "value": "按这个",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionend",
+            "data": "按这个",
+            "trusted": false,
+            "value": "按这个",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionupdate:settled",
+            "value": "按这个",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": true,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "beforeinput:settled",
+            "value": "按这个",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": true,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "input:settled",
+            "value": "按这个",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": true,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionend:settled",
+            "value": "按这个",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": true,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionstart",
+            "data": "",
+            "trusted": true,
+            "value": "",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionupdate",
+            "data": "方案",
+            "trusted": true,
+            "value": "",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "beforeinput",
+            "isComposing": true,
+            "data": "方案",
+            "inputType": "insertCompositionText",
+            "trusted": true,
+            "value": "",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "input",
+            "isComposing": true,
+            "data": "方案",
+            "inputType": "insertCompositionText",
+            "trusted": true,
+            "value": "方案",
+            "start": 2,
+            "end": 2,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionstart:settled",
+            "value": "方案",
+            "start": 2,
+            "end": 2,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionupdate:settled",
+            "value": "方案",
+            "start": 2,
+            "end": 2,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "beforeinput:settled",
+            "value": "方案",
+            "start": 2,
+            "end": 2,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "input:settled",
+            "value": "方案",
+            "start": 2,
+            "end": 2,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionupdate",
+            "data": "方案",
+            "trusted": true,
+            "value": "方案",
+            "start": 0,
+            "end": 2,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "beforeinput",
+            "isComposing": true,
+            "data": "方案",
+            "inputType": "insertCompositionText",
+            "trusted": true,
+            "value": "方案",
+            "start": 0,
+            "end": 2,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "input",
+            "isComposing": true,
+            "data": "方案",
+            "inputType": "insertCompositionText",
+            "trusted": true,
+            "value": "方案",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionend",
+            "data": "方案",
+            "trusted": false,
+            "value": "方案",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionupdate:settled",
+            "value": "方案",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": true,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "beforeinput:settled",
+            "value": "方案",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": true,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "input:settled",
+            "value": "方案",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": true,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionend:settled",
+            "value": "方案",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": true,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionstart",
+            "data": "",
+            "trusted": true,
+            "value": "",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionupdate",
+            "data": "继续",
+            "trusted": true,
+            "value": "",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "beforeinput",
+            "isComposing": true,
+            "data": "继续",
+            "inputType": "insertCompositionText",
+            "trusted": true,
+            "value": "",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "input",
+            "isComposing": true,
+            "data": "继续",
+            "inputType": "insertCompositionText",
+            "trusted": true,
+            "value": "继续",
+            "start": 2,
+            "end": 2,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionstart:settled",
+            "value": "继续",
+            "start": 2,
+            "end": 2,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionupdate:settled",
+            "value": "继续",
+            "start": 2,
+            "end": 2,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionupdate",
+            "data": "继续",
+            "trusted": true,
+            "value": "继续",
+            "start": 0,
+            "end": 2,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "beforeinput",
+            "isComposing": true,
+            "data": "继续",
+            "inputType": "insertCompositionText",
+            "trusted": true,
+            "value": "继续",
+            "start": 0,
+            "end": 2,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "input",
+            "isComposing": true,
+            "data": "继续",
+            "inputType": "insertCompositionText",
+            "trusted": true,
+            "value": "继续",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionend",
+            "data": "继续",
+            "trusted": false,
+            "value": "继续",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": true,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "beforeinput:settled",
+            "value": "继续",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": true,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "input:settled",
+            "value": "继续",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": true,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionupdate:settled",
+            "value": "继续",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": true,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "beforeinput:settled",
+            "value": "继续",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": true,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "input:settled",
+            "value": "继续",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": true,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "compositionend:settled",
+            "value": "继续",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": true,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "keydown",
+            "key": "Enter",
+            "code": 13,
+            "isComposing": false,
+            "trusted": true,
+            "value": "",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "type": "keyup",
+            "key": "Enter",
+            "code": 13,
+            "isComposing": false,
+            "trusted": true,
+            "value": "",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          }
+        ],
+        "data": [
+          {
+            "data": "按这个",
+            "value": "",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 3
+              },
+              "sent": ""
+            }
+          },
+          {
+            "data": "方案",
+            "value": "",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "data": "继续",
+            "value": "",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          },
+          {
+            "data": "\r",
+            "value": "",
+            "start": 0,
+            "end": 0,
+            "helper": {
+              "composing": false,
+              "sending": false,
+              "position": {
+                "start": 0,
+                "end": 2
+              },
+              "sent": ""
+            }
+          }
+        ],
+        "output": [
+          "printf 'IME_RE''ADY_0",
+          "\r\n",
+          "\u001b[?2004l",
+          "\r",
+          "\u001b[?2004h",
+          "> ",
+          "'; read -r ime_line; printf '",
+          "\r\n",
+          "\u001b[?2004l",
+          "\r",
+          "\u001b[?2004h",
+          "> ",
+          "IME_HEX_0_%s",
+          "\r\n",
+          "\u001b[?2004l",
+          "\r",
+          "\u001b[?2004h",
+          "> ",
+          "' \"$(printf '%s' \"$ime_line\" | od -An -tx1 | tr -d ' ",
+          "\r\n\u001b[?2004l",
+          "\r",
+          "\u001b[?2004h",
+          "> ",
+          "')\"",
+          "\r\n",
+          "\u001b[?2004l",
+          "\r",
+          "IME_READY_0\r\n",
+          "按",
+          "这",
+          "个",
+          "方",
+          "案",
+          "继",
+          "续"
+        ]
+      },
+      "writes": [
+        {
+          "data": "按这个",
+          "hex": "e68c89e8bf99e4b8aa"
+        },
+        {
+          "data": "方案",
+          "hex": "e696b9e6a188"
+        },
+        {
+          "data": "继续",
+          "hex": "e7bba7e7bbad"
+        },
+        {
+          "data": "\r",
+          "hex": "0d"
+        }
+      ],
+      "worker": [
+        {
+          "at": 1792380167623,
+          "pid": 39604,
+          "event": "worker-receive",
+          "requestId": "7a6de541-824b-41d5-a971-29907cd0ee24",
+          "operation": "write",
+          "dataHex": "e68c89e8bf99e4b8aa"
+        },
+        {
+          "at": 1792380167624,
+          "pid": 39604,
+          "event": "worker-receive",
+          "requestId": "35afb3c1-661f-4b6b-887e-c816b53844fe",
+          "operation": "write",
+          "dataHex": "e696b9e6a188"
+        },
+        {
+          "at": 1792380167627,
+          "pid": 39604,
+          "event": "worker-receive",
+          "requestId": "48d77887-0ed9-4387-93c0-22acdcf2a9b0",
+          "operation": "write",
+          "dataHex": "e7bba7e7bbad"
+        },
+        {
+          "at": 1792380167628,
+          "pid": 39604,
+          "event": "worker-receive",
+          "requestId": "b72e71f4-b4be-4fe4-8590-e562b5182cb4",
+          "operation": "write",
+          "dataHex": "0d"
+        }
+      ],
+      "status": "fail"
+    }
+  ],
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(record.renderer.output.join(\"\").includes(marker + record.expectedHex + \"\\r\\n\"))\n",
+  "lastRenderer": {
+    "events": [
+      {
+        "type": "compositionstart",
+        "data": "",
+        "trusted": true,
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 0
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionupdate",
+        "data": "按这个",
+        "trusted": true,
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 0
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "beforeinput",
+        "isComposing": true,
+        "data": "按这个",
+        "inputType": "insertCompositionText",
+        "trusted": true,
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 0
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "input",
+        "isComposing": true,
+        "data": "按这个",
+        "inputType": "insertCompositionText",
+        "trusted": true,
+        "value": "按这个",
+        "start": 3,
+        "end": 3,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 0
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionstart:settled",
+        "value": "按这个",
+        "start": 3,
+        "end": 3,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 0
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionupdate:settled",
+        "value": "按这个",
+        "start": 3,
+        "end": 3,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 0
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "beforeinput:settled",
+        "value": "按这个",
+        "start": 3,
+        "end": 3,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "input:settled",
+        "value": "按这个",
+        "start": 3,
+        "end": 3,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionupdate",
+        "data": "按这个",
+        "trusted": true,
+        "value": "按这个",
+        "start": 0,
+        "end": 3,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "beforeinput",
+        "isComposing": true,
+        "data": "按这个",
+        "inputType": "insertCompositionText",
+        "trusted": true,
+        "value": "按这个",
+        "start": 0,
+        "end": 3,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "input",
+        "isComposing": true,
+        "data": "按这个",
+        "inputType": "insertCompositionText",
+        "trusted": true,
+        "value": "按这个",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionend",
+        "data": "按这个",
+        "trusted": false,
+        "value": "按这个",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionupdate:settled",
+        "value": "按这个",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": true,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "beforeinput:settled",
+        "value": "按这个",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": true,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "input:settled",
+        "value": "按这个",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": true,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionend:settled",
+        "value": "按这个",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": true,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionstart",
+        "data": "",
+        "trusted": true,
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionupdate",
+        "data": "方案",
+        "trusted": true,
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "beforeinput",
+        "isComposing": true,
+        "data": "方案",
+        "inputType": "insertCompositionText",
+        "trusted": true,
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "input",
+        "isComposing": true,
+        "data": "方案",
+        "inputType": "insertCompositionText",
+        "trusted": true,
+        "value": "方案",
+        "start": 2,
+        "end": 2,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionstart:settled",
+        "value": "方案",
+        "start": 2,
+        "end": 2,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionupdate:settled",
+        "value": "方案",
+        "start": 2,
+        "end": 2,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "beforeinput:settled",
+        "value": "方案",
+        "start": 2,
+        "end": 2,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "input:settled",
+        "value": "方案",
+        "start": 2,
+        "end": 2,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionupdate",
+        "data": "方案",
+        "trusted": true,
+        "value": "方案",
+        "start": 0,
+        "end": 2,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "beforeinput",
+        "isComposing": true,
+        "data": "方案",
+        "inputType": "insertCompositionText",
+        "trusted": true,
+        "value": "方案",
+        "start": 0,
+        "end": 2,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "input",
+        "isComposing": true,
+        "data": "方案",
+        "inputType": "insertCompositionText",
+        "trusted": true,
+        "value": "方案",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionend",
+        "data": "方案",
+        "trusted": false,
+        "value": "方案",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionupdate:settled",
+        "value": "方案",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": true,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "beforeinput:settled",
+        "value": "方案",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": true,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "input:settled",
+        "value": "方案",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": true,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionend:settled",
+        "value": "方案",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": true,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionstart",
+        "data": "",
+        "trusted": true,
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionupdate",
+        "data": "继续",
+        "trusted": true,
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "beforeinput",
+        "isComposing": true,
+        "data": "继续",
+        "inputType": "insertCompositionText",
+        "trusted": true,
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "input",
+        "isComposing": true,
+        "data": "继续",
+        "inputType": "insertCompositionText",
+        "trusted": true,
+        "value": "继续",
+        "start": 2,
+        "end": 2,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionstart:settled",
+        "value": "继续",
+        "start": 2,
+        "end": 2,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionupdate:settled",
+        "value": "继续",
+        "start": 2,
+        "end": 2,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionupdate",
+        "data": "继续",
+        "trusted": true,
+        "value": "继续",
+        "start": 0,
+        "end": 2,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "beforeinput",
+        "isComposing": true,
+        "data": "继续",
+        "inputType": "insertCompositionText",
+        "trusted": true,
+        "value": "继续",
+        "start": 0,
+        "end": 2,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "input",
+        "isComposing": true,
+        "data": "继续",
+        "inputType": "insertCompositionText",
+        "trusted": true,
+        "value": "继续",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionend",
+        "data": "继续",
+        "trusted": false,
+        "value": "继续",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": true,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "beforeinput:settled",
+        "value": "继续",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": true,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "input:settled",
+        "value": "继续",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": true,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionupdate:settled",
+        "value": "继续",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": true,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "beforeinput:settled",
+        "value": "继续",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": true,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "input:settled",
+        "value": "继续",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": true,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "compositionend:settled",
+        "value": "继续",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": true,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "keydown",
+        "key": "Enter",
+        "code": 13,
+        "isComposing": false,
+        "trusted": true,
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "keyup",
+        "key": "Enter",
+        "code": 13,
+        "isComposing": false,
+        "trusted": true,
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "keydown:settled",
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "type": "keyup:settled",
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      }
+    ],
+    "data": [
+      {
+        "data": "按这个",
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 3
+          },
+          "sent": ""
+        }
+      },
+      {
+        "data": "方案",
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "data": "继续",
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      },
+      {
+        "data": "\r",
+        "value": "",
+        "start": 0,
+        "end": 0,
+        "helper": {
+          "composing": false,
+          "sending": false,
+          "position": {
+            "start": 0,
+            "end": 2
+          },
+          "sent": ""
+        }
+      }
+    ],
+    "output": [
+      "printf 'IME_RE''ADY_0",
+      "\r\n",
+      "\u001b[?2004l",
+      "\r",
+      "\u001b[?2004h",
+      "> ",
+      "'; read -r ime_line; printf '",
+      "\r\n",
+      "\u001b[?2004l",
+      "\r",
+      "\u001b[?2004h",
+      "> ",
+      "IME_HEX_0_%s",
+      "\r\n",
+      "\u001b[?2004l",
+      "\r",
+      "\u001b[?2004h",
+      "> ",
+      "' \"$(printf '%s' \"$ime_line\" | od -An -tx1 | tr -d ' ",
+      "\r\n\u001b[?2004l",
+      "\r",
+      "\u001b[?2004h",
+      "> ",
+      "')\"",
+      "\r\n",
+      "\u001b[?2004l",
+      "\r",
+      "IME_READY_0\r\n",
+      "按",
+      "这",
+      "个",
+      "方",
+      "案",
+      "继",
+      "续",
+      "\r\n"
+    ]
+  },
+  "writes": [
+    {
+      "data": "\u001b[I",
+      "hex": "1b5b49"
+    },
+    {
+      "data": "按这个",
+      "hex": "e68c89e8bf99e4b8aa"
+    },
+    {
+      "data": "方案",
+      "hex": "e696b9e6a188"
+    },
+    {
+      "data": "继续",
+      "hex": "e7bba7e7bbad"
+    },
+    {
+      "data": "\r",
+      "hex": "0d"
+    }
+  ],
+  "io": [
+    {
+      "at": 1792380163613,
+      "pid": 51552,
+      "event": "broker-send-worker",
+      "sessionId": "session-66a8947a-3fa5-47a9-baf0-7dae32a242f6",
+      "requestId": "edc60186-6a90-45b0-848f-856a41086dfd",
+      "operation": "create"
+    },
+    {
+      "at": 1792380163636,
+      "pid": 39604,
+      "event": "worker-receive",
+      "requestId": "edc60186-6a90-45b0-848f-856a41086dfd",
+      "operation": "create"
+    },
+    {
+      "at": 1792380163666,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380163666,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380166916,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380166918,
+      "pid": 51552,
+      "event": "broker-send-worker",
+      "sessionId": "session-66a8947a-3fa5-47a9-baf0-7dae32a242f6",
+      "requestId": "cd85846d-9124-486f-9372-165f3d507de3",
+      "operation": "write",
+      "dataHex": "1b5b49"
+    },
+    {
+      "at": 1792380166918,
+      "pid": 39604,
+      "event": "worker-receive",
+      "requestId": "cd85846d-9124-486f-9372-165f3d507de3",
+      "operation": "write",
+      "dataHex": "1b5b49"
+    },
+    {
+      "at": 1792380166919,
+      "pid": 39604,
+      "event": "worker-write-callback",
+      "requestId": "cd85846d-9124-486f-9372-165f3d507de3",
+      "ok": true
+    },
+    {
+      "at": 1792380166920,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380166920,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380166920,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380166936,
+      "pid": 51552,
+      "event": "broker-send-worker",
+      "sessionId": "session-66a8947a-3fa5-47a9-baf0-7dae32a242f6",
+      "requestId": "3eef6608-eeca-433e-a38d-2edbd137bfdb",
+      "operation": "write",
+      "dataHex": "7072696e74662027494d455f524527274144595f300a273b2072656164202d7220696d655f6c696e653b207072696e746620270a494d455f4845585f305f25730a27202224287072696e74662027257327202224696d655f6c696e6522207c206f64202d416e202d747831207c207472202d642027200a2729220d"
+    },
+    {
+      "at": 1792380166937,
+      "pid": 39604,
+      "event": "worker-receive",
+      "requestId": "3eef6608-eeca-433e-a38d-2edbd137bfdb",
+      "operation": "write",
+      "dataHex": "7072696e74662027494d455f524527274144595f300a273b2072656164202d7220696d655f6c696e653b207072696e746620270a494d455f4845585f305f25730a27202224287072696e74662027257327202224696d655f6c696e6522207c206f64202d416e202d747831207c207472202d642027200a2729220d"
+    },
+    {
+      "at": 1792380166937,
+      "pid": 39604,
+      "event": "worker-write-callback",
+      "requestId": "3eef6608-eeca-433e-a38d-2edbd137bfdb",
+      "ok": true
+    },
+    {
+      "at": 1792380167152,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167152,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167152,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167152,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167152,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167153,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167358,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167359,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167359,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167359,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167359,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167359,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167428,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167429,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167429,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167429,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167429,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167429,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167581,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167581,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167581,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167581,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167581,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167584,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167585,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167585,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167586,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167586,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167623,
+      "pid": 51552,
+      "event": "broker-send-worker",
+      "sessionId": "session-66a8947a-3fa5-47a9-baf0-7dae32a242f6",
+      "requestId": "7a6de541-824b-41d5-a971-29907cd0ee24",
+      "operation": "write",
+      "dataHex": "e68c89e8bf99e4b8aa"
+    },
+    {
+      "at": 1792380167623,
+      "pid": 39604,
+      "event": "worker-receive",
+      "requestId": "7a6de541-824b-41d5-a971-29907cd0ee24",
+      "operation": "write",
+      "dataHex": "e68c89e8bf99e4b8aa"
+    },
+    {
+      "at": 1792380167623,
+      "pid": 39604,
+      "event": "worker-write-callback",
+      "requestId": "7a6de541-824b-41d5-a971-29907cd0ee24",
+      "ok": true
+    },
+    {
+      "at": 1792380167624,
+      "pid": 51552,
+      "event": "broker-send-worker",
+      "sessionId": "session-66a8947a-3fa5-47a9-baf0-7dae32a242f6",
+      "requestId": "35afb3c1-661f-4b6b-887e-c816b53844fe",
+      "operation": "write",
+      "dataHex": "e696b9e6a188"
+    },
+    {
+      "at": 1792380167624,
+      "pid": 39604,
+      "event": "worker-receive",
+      "requestId": "35afb3c1-661f-4b6b-887e-c816b53844fe",
+      "operation": "write",
+      "dataHex": "e696b9e6a188"
+    },
+    {
+      "at": 1792380167625,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167625,
+      "pid": 39604,
+      "event": "worker-write-callback",
+      "requestId": "35afb3c1-661f-4b6b-887e-c816b53844fe",
+      "ok": true
+    },
+    {
+      "at": 1792380167627,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167626,
+      "pid": 51552,
+      "event": "broker-send-worker",
+      "sessionId": "session-66a8947a-3fa5-47a9-baf0-7dae32a242f6",
+      "requestId": "48d77887-0ed9-4387-93c0-22acdcf2a9b0",
+      "operation": "write",
+      "dataHex": "e7bba7e7bbad"
+    },
+    {
+      "at": 1792380167627,
+      "pid": 39604,
+      "event": "worker-receive",
+      "requestId": "48d77887-0ed9-4387-93c0-22acdcf2a9b0",
+      "operation": "write",
+      "dataHex": "e7bba7e7bbad"
+    },
+    {
+      "at": 1792380167627,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167627,
+      "pid": 39604,
+      "event": "worker-write-callback",
+      "requestId": "48d77887-0ed9-4387-93c0-22acdcf2a9b0",
+      "ok": true
+    },
+    {
+      "at": 1792380167627,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167627,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167627,
+      "pid": 51552,
+      "event": "broker-send-worker",
+      "sessionId": "session-66a8947a-3fa5-47a9-baf0-7dae32a242f6",
+      "requestId": "b72e71f4-b4be-4fe4-8590-e562b5182cb4",
+      "operation": "write",
+      "dataHex": "0d"
+    },
+    {
+      "at": 1792380167628,
+      "pid": 39604,
+      "event": "worker-receive",
+      "requestId": "b72e71f4-b4be-4fe4-8590-e562b5182cb4",
+      "operation": "write",
+      "dataHex": "0d"
+    },
+    {
+      "at": 1792380167628,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167628,
+      "pid": 39604,
+      "event": "worker-write-callback",
+      "requestId": "b72e71f4-b4be-4fe4-8590-e562b5182cb4",
+      "ok": true
+    },
+    {
+      "at": 1792380167632,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    },
+    {
+      "at": 1792380167632,
+      "pid": 39604,
+      "event": "worker-receive",
+      "operation": "ack"
+    }
+  ]
+}

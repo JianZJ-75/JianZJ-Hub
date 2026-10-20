@@ -1,0 +1,46 @@
+{
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: native input must target only our retained packaged process\n\n54688 !== 54112\n\n    at own (file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:83:138)\n    at file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:84:41\n    at async check (file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:61:50)\n    at async file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:76:87",
+  "checks": [
+    {
+      "name": "unmodified packaged executable opens real workspace through form and xterm input",
+      "status": "pass",
+      "detail": {
+        "url": "file:///D:/Code/JianZJ-Hub/release/m1/2026-10-19T04-11-46-558Z-ac161117/win-unpacked/resources/app.asar/out/m1/renderer/index.html",
+        "node": "undefined",
+        "executable": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-19T04-11-46-558Z-ac161117\\win-unpacked\\Workstation.exe"
+      }
+    },
+    {
+      "name": "packaged consecutive CJK composition / cdp",
+      "status": "pass",
+      "detail": {
+        "chunks": [
+          "按这个",
+          "方案",
+          "继续"
+        ],
+        "utf8Hex": "e68c89e8bf99e4b8aae696b9e6a188e7bba7e7bbad",
+        "nativeValue": "继续方案按这个printf 'PACK_IME_cdp_%s\\n' '",
+        "shellMarker": "PACK_IME_cdp_按这个方案继续",
+        "executableUnmodified": true
+      }
+    }
+  ],
+  "fallbackPids": [
+    54112,
+    51608,
+    58328,
+    49132,
+    40412,
+    36684,
+    41860,
+    39320,
+    56452,
+    49776,
+    55500,
+    54744,
+    56956,
+    56088
+  ]
+}
