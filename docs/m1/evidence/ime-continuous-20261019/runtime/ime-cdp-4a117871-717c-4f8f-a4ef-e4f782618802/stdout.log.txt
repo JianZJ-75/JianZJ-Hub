@@ -1,0 +1,2 @@
+
+{"status":"fail","cases":[{"name":"Chromium-composition-commits","status":"fail","beforeEnter":"按这个方案继续"}],"error":"AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(record.renderer.output.join(\"\").includes(marker + record.expectedHex + \"\\r\\n\"))\n","directory":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\ime-cdp-4a117871-717c-4f8f-a4ef-e4f782618802"}

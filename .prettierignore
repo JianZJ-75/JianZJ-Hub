@@ -1,0 +1,28 @@
+# Generated/local assets and exact dependency/resource locks are not formatting targets.
+node_modules/
+.git/
+.idea/
+.vscode/
+out/
+dist/
+release/
+.m0-scratch/
+.m1-scratch/
+prototypes/
+package-lock.json
+**/*.lock.json
+*.log
+*.log.txt
+*.sqlite
+*.db
+.env
+.env.*
+
+# Old design/research assets stay local. Only the new coding standard is enrolled.
+docs/*
+!docs/CODE_STYLE.md
+
+# Evidence is original data, including README/JSON/logs: never normalize bytes.
+docs/m0/audit-evidence/**
+docs/m0/evidence/**
+docs/m1/evidence/**

@@ -1,0 +1,212 @@
+TAP version 13
+# Subtest: actual pinned helper reproduces old CJK suffixes and the adapter reads only new candidates
+ok 1 - actual pinned helper reproduces old CJK suffixes and the adapter reads only new candidates
+  ---
+  duration_ms: 2.2637
+  type: 'test'
+  ...
+# Subtest: append insertion and equal repeated words remain valid, including surrogate pairs
+ok 2 - append insertion and equal repeated words remain valid, including surrogate pairs
+  ---
+  duration_ms: 0.5203
+  type: 'test'
+  ...
+# Subtest: protocol replies cannot acknowledge or mutate a pending composition
+ok 3 - protocol replies cannot acknowledge or mutate a pending composition
+  ---
+  duration_ms: 1.2791
+  type: 'test'
+  ...
+# Subtest: empty commit and pending 229 punctuation survive replies and unrelated input
+ok 4 - empty commit and pending 229 punctuation survive replies and unrelated input
+  ---
+  duration_ms: 0.6174
+  type: 'test'
+  ...
+# Subtest: multiple queued 229 reads cannot turn scratch handling into a spurious DEL
+ok 5 - multiple queued 229 reads cannot turn scratch handling into a spurious DEL
+  ---
+  duration_ms: 0.5443
+  type: 'test'
+  ...
+# Subtest: old deferred read can run during the next prepend composition without losing either word
+ok 6 - old deferred read can run during the next prepend composition without losing either word
+  ---
+  duration_ms: 0.4695
+  type: 'test'
+  ...
+# Subtest: native Enter/blur-style textarea clearing resets the read view before new input
+ok 7 - native Enter/blur-style textarea clearing resets the read view before new input
+  ---
+  duration_ms: 0.3775
+  type: 'test'
+  ...
+# Subtest: split targets current leaf; nested close preserves all unrelated identities
+ok 8 - split targets current leaf; nested close preserves all unrelated identities
+  ---
+  duration_ms: 1.0742
+  type: 'test'
+  ...
+# Subtest: random deterministic split/close sequences have no duplicate, missing or unary leaves
+ok 9 - random deterministic split/close sequences have no duplicate, missing or unary leaves
+  ---
+  duration_ms: 41.6361
+  type: 'test'
+  ...
+# Subtest: recursive minimum bounds drag ratio; insufficient span leaves layout unchanged
+ok 10 - recursive minimum bounds drag ratio; insufficient span leaves layout unchanged
+  ---
+  duration_ms: 0.3253
+  type: 'test'
+  ...
+# Subtest: invalid splits, duplicates, ratios and axes are rejected
+ok 11 - invalid splits, duplicates, ratios and axes are rejected
+  ---
+  duration_ms: 0.8019
+  type: 'test'
+  ...
+# Subtest: credit has a hard byte bound and strictly scoped cumulative acknowledgements
+ok 12 - credit has a hard byte bound and strictly scoped cumulative acknowledgements
+  ---
+  duration_ms: 0.2774
+  type: 'test'
+  ...
+# Subtest: dimensions, UTF-8 input and generation reject malformed and excessive values
+ok 13 - dimensions, UTF-8 input and generation reject malformed and excessive values
+  ---
+  duration_ms: 0.2256
+  type: 'test'
+  ...
+# Subtest: schemas do not accept extra fields, arbitrary paths-as-identifiers or invalid preferences
+ok 14 - schemas do not accept extra fields, arbitrary paths-as-identifiers or invalid preferences
+  ---
+  duration_ms: 0.4309
+  type: 'test'
+  ...
+# Subtest: production sender must be exactly the owning WebContents, mainFrame and app URL
+ok 15 - production sender must be exactly the owning WebContents, mainFrame and app URL
+  ---
+  duration_ms: 0.1285
+  type: 'test'
+  ...
+# Subtest: theme light / OS dark=false resolves page and xterm from same palette
+ok 16 - theme light / OS dark=false resolves page and xterm from same palette
+  ---
+  duration_ms: 0.2526
+  type: 'test'
+  ...
+# Subtest: theme dark / OS dark=true resolves page and xterm from same palette
+ok 17 - theme dark / OS dark=true resolves page and xterm from same palette
+  ---
+  duration_ms: 0.2931
+  type: 'test'
+  ...
+# Subtest: theme system / OS dark=false resolves page and xterm from same palette
+ok 18 - theme system / OS dark=false resolves page and xterm from same palette
+  ---
+  duration_ms: 0.0991
+  type: 'test'
+  ...
+# Subtest: theme system / OS dark=true resolves page and xterm from same palette
+ok 19 - theme system / OS dark=true resolves page and xterm from same palette
+  ---
+  duration_ms: 0.0412
+  type: 'test'
+  ...
+# Subtest: runtime system toggle changes system resolution, not explicit theme
+ok 20 - runtime system toggle changes system resolution, not explicit theme
+  ---
+  duration_ms: 0.0793
+  type: 'test'
+  ...
+# Subtest: IME candidate and commit keys bypass product shortcuts while ordinary keys remain eligible
+ok 21 - IME candidate and commit keys bypass product shortcuts while ordinary keys remain eligible
+  ---
+  duration_ms: 0.0591
+  type: 'test'
+  ...
+# Subtest: locale-free Git Bash env is given a UTF-8 ctype; an existing UTF-8 locale is preserved
+ok 22 - locale-free Git Bash env is given a UTF-8 ctype; an existing UTF-8 locale is preserved
+  ---
+  duration_ms: 0.1325
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 1 without changing font size
+ok 23 - CSS target line height maps to xterm device grid at DPR 1 without changing font size
+  ---
+  duration_ms: 1.2663
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 1.25 without changing font size
+ok 24 - CSS target line height maps to xterm device grid at DPR 1.25 without changing font size
+  ---
+  duration_ms: 0.2645
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 1.5 without changing font size
+ok 25 - CSS target line height maps to xterm device grid at DPR 1.5 without changing font size
+  ---
+  duration_ms: 0.0867
+  type: 'test'
+  ...
+# Subtest: CSS target line height maps to xterm device grid at DPR 2 without changing font size
+ok 26 - CSS target line height maps to xterm device grid at DPR 2 without changing font size
+  ---
+  duration_ms: 0.0674
+  type: 'test'
+  ...
+# Subtest: zero/unavailable glyph metrics do not produce a fake geometry
+ok 27 - zero/unavailable glyph metrics do not produce a fake geometry
+  ---
+  duration_ms: 0.244
+  type: 'test'
+  ...
+# Subtest: resize applies serially, coalesces intermediate sizes and never displays an old reply as the newest size
+ok 28 - resize applies serially, coalesces intermediate sizes and never displays an old reply as the newest size
+  ---
+  duration_ms: 3.3572
+  type: 'test'
+  ...
+# Subtest: resize failure stays unconfirmed and disposal ignores late replies
+ok 29 - resize failure stays unconfirmed and disposal ignores late replies
+  ---
+  duration_ms: 0.4697
+  type: 'test'
+  ...
+# Subtest: application Shell PATH prefers only an existing native Claude install and preserves environment/key case
+ok 30 - application Shell PATH prefers only an existing native Claude install and preserves environment/key case
+  ---
+  duration_ms: 3.159
+  type: 'test'
+  ...
+# (node:56652) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/Code/JianZJ-Hub/src/adapters/windows/workstation/shell.ts is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to D:\\Code\\JianZJ-Hub\\package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Unicode block elements cover exact cell geometry and leave shades/text to font renderer
+ok 31 - Unicode block elements cover exact cell geometry and leave shades/text to font renderer
+  ---
+  duration_ms: 1.0223
+  type: 'test'
+  ...
+# Subtest: Shell profiles discover fixed Git for Windows, never arbitrary bash from WSL or a user command
+ok 32 - Shell profiles discover fixed Git for Windows, never arbitrary bash from WSL or a user command
+  ---
+  duration_ms: 4.5168
+  type: 'test'
+  ...
+# Subtest: Git Bash launch forces a UTF-8 locale when none is set, but never overrides an explicit one
+ok 33 - Git Bash launch forces a UTF-8 locale when none is set, but never overrides an explicit one
+  ---
+  duration_ms: 2.8506
+  type: 'test'
+  ...
+1..33
+# tests 33
+# suites 0
+# pass 33
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 114.1298

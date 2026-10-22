@@ -1,0 +1,19 @@
+{
+  "entry": "ime",
+  "mode": "cdp",
+  "dir": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\ime-cdp-eac5617d-cec7-4776-89a7-8f908341b347",
+  "started": "2026-10-19T03:21:47.369Z",
+  "control": {
+    "pid": 51352,
+    "createdAt": "134368537073604704"
+  },
+  "app": {
+    "pid": 54696,
+    "createdAt": "134368537073664924"
+  },
+  "code": 1,
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n",
+  "fallbackPids": [],
+  "finished": "2026-10-19T03:21:51.786Z"
+}

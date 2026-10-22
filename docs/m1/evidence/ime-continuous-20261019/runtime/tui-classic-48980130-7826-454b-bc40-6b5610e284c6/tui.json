@@ -1,0 +1,1273 @@
+{
+  "status": "pass",
+  "mode": "classic",
+  "checks": [
+    {
+      "name": "real CLI mode and startup",
+      "mode": "classic",
+      "buffer": "normal",
+      "cols": 141,
+      "rows": 33
+    },
+    {
+      "name": "editable Chinese/English draft cleared without submitting a model prompt"
+    },
+    {
+      "name": "local menu, resize, split and zoom preserve TUI mode",
+      "resized": {
+        "cols": 112,
+        "rows": 27
+      },
+      "split": {
+        "cols": 67,
+        "rows": 32
+      }
+    },
+    {
+      "name": "CLI local exit returns to same Bash; zero local API requests",
+      "requests": 0
+    }
+  ],
+  "started": {
+    "cols": 141,
+    "rows": 33,
+    "buffer": "normal",
+    "lines": [
+      "Administrator:/d/Code/JianZJ-Hub/.m1-scratch/tui-classic-48980130-7826-454b-bc40-6b5610e284c6/home$ claude --bare --settings '{\"theme\":\"light",
+      "\",\"tui\":\"default\"}'",
+      " ▐▛███▛█   Claude Code v2.1.303",
+      "▝▜██████▀  Opus 5.5 · API Usage Billing",
+      " ▝▝   ▝▝   D:\\Code\\JianZJ-Hub\\.m1-scratch\\tui-classic-48980130-7826-454b-bc40-6b5610e284c6\\home",
+      "▎ Auto mode is now Claude Code's default permission mode.",
+      "▎ Auto mode lets Claude handle permission prompts automatically. Claude checks each tool call for risky actions and prompt injection before",
+      "▎ executing, runs the ones it assesses as lower-risk, and blocks the rest.",
+      "▎ https://code.claude.com/docs/en/permission-modes",
+      "─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────",
+      "❯  ",
+      "─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────",
+      "  ⏵⏵ auto mode on (shift+tab to cycle) · ← for agents                                                                    ◐ medium · /effort"
+    ],
+    "dimensions": {
+      "css": {
+        "canvas": {
+          "width": 1085,
+          "height": 627
+        },
+        "cell": {
+          "width": 7.695035460992908,
+          "height": 19
+        }
+      },
+      "device": {
+        "canvas": {
+          "width": 1085.314453125,
+          "height": 627
+        },
+        "cell": {
+          "width": 7.697265625,
+          "height": 19
+        },
+        "char": {
+          "width": 7.697265625,
+          "height": 17,
+          "left": 0,
+          "top": 0
+        }
+      }
+    },
+    "font": "\"Cascadia Code\",\"Cascadia Mono\",\"SFMono-Regular\",Menlo,Consolas,\"Microsoft YaHei\",monospace",
+    "blocks": [
+      {
+        "text": " ▐",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 15.3901px;\" data-block-run=\"7.695035460992908rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\"> </span><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▐<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "15.375px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▐",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▐<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▛",
+        "html": "<span style=\"background-color: rgb(0, 0, 0); color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.69504px;\" data-block-run=\"7.695035460992908rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▛<i style=\"position: absolute; left: 0%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 0%; top: 50%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgb(0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▛",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▛<i style=\"position: absolute; left: 0%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 0%; top: 50%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "███",
+        "html": "<span style=\"background-color: rgb(0, 0, 0); color: rgb(215, 119, 87); letter-spacing: 0px; width: 23.0851px;\" data-block-run=\"7.695035460992908rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgb(0, 0, 0)",
+          "width": "23.0781px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▛",
+        "html": "<span style=\"background-color: rgb(0, 0, 0); color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.69504px;\" data-block-run=\"7.695035460992908rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▛<i style=\"position: absolute; left: 0%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 0%; top: 50%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgb(0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▛",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▛<i style=\"position: absolute; left: 0%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 0%; top: 50%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"background-color: rgb(0, 0, 0); color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.69504px;\" data-block-run=\"7.695035460992908rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgb(0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝▜",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 15.3901px;\" data-block-run=\"7.695035460992908rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▜<i style=\"position: absolute; left: 0%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 50%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "15.375px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▜",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▜<i style=\"position: absolute; left: 0%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 50%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█████",
+        "html": "<span style=\"background-color: rgb(0, 0, 0); color: rgb(215, 119, 87); letter-spacing: 0px; width: 38.4752px;\" data-block-run=\"7.695035460992908rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgb(0, 0, 0)",
+          "width": "38.4688px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█▀",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 15.3901px;\" data-block-run=\"7.695035460992908rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▀<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "15.375px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▀",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▀<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝▝",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 15.3901px;\" data-block-run=\"7.695035460992908rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "15.375px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝▝",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 15.3901px;\" data-block-run=\"7.695035460992908rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "15.375px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.69504px;\" data-block-run=\"7.695035460992908rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.69504px;\" data-block-run=\"7.695035460992908rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.69504px;\" data-block-run=\"7.695035460992908rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.69504px;\" data-block-run=\"7.695035460992908rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.69504px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      }
+    ]
+  },
+  "resized": {
+    "cols": 112,
+    "rows": 27,
+    "buffer": "normal",
+    "lines": [
+      "Administrator:/d/Code/JianZJ-Hub/.m1-scratch/tui-classic-48980130-7826-454b-bc40-6b5610e284c6/home$ claude --bar",
+      "e --settings '{\"theme\":\"light\",\"tui\":\"default\"}'",
+      " ▐▛███▛█   Claude Code v2.1.303",
+      "▝▜██████▀  Opus 5.5 · API Usage Billing",
+      " ▐▛███▛█   Claude Code v2.1.303",
+      "▝▜██████▀  Opus 5.5 · API Usage Billing",
+      " ▝▝   ▝▝   D:\\Code\\JianZJ-Hub\\.m1-scratch\\tui-classic-48980130-7826-454b-bc40-6b5610e284c6\\home",
+      "▎ Auto mode is now Claude Code's default permission mode.",
+      "▎ Auto mode lets Claude handle permission prompts automatically. Claude checks each tool call for risky actions",
+      "and prompt injection before",
+      "▎ executing, runs the ones it assesses as lower-risk, and blocks the rest.",
+      "▎ https://code.claude.com/docs/en/permission-modes",
+      "❯ /theme ",
+      "  ⎿  Theme picker dismissed",
+      "────────────────────────────────────────────────────────────────────────────────────────────────────────────────",
+      "─────────────────────────────",
+      "❯  ",
+      "────────────────────────────────────────────────────────────────────────────────────────────────────────────────",
+      "  ⏵⏵ auto mode on (shift+tab to cycle) · ← for agents                                                          C",
+      "trl+Y to paste deleted text"
+    ],
+    "dimensions": {
+      "css": {
+        "canvas": {
+          "width": 862,
+          "height": 513
+        },
+        "cell": {
+          "width": 7.696428571428571,
+          "height": 19
+        }
+      },
+      "device": {
+        "canvas": {
+          "width": 862.09375,
+          "height": 513
+        },
+        "cell": {
+          "width": 7.697265625,
+          "height": 19
+        },
+        "char": {
+          "width": 7.697265625,
+          "height": 17,
+          "left": 0,
+          "top": 0
+        }
+      }
+    },
+    "font": "\"Cascadia Code\",\"Cascadia Mono\",\"SFMono-Regular\",Menlo,Consolas,\"Microsoft YaHei\",monospace",
+    "blocks": [
+      {
+        "text": "▎",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: -0.709821px;\">▎</span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.70312px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: -0.709821px;\">▎</span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.70312px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: -0.709821px;\">▎</span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.70312px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: -0.709821px;\">▎</span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.70312px",
+          "height": "19px"
+        }
+      }
+    ]
+  },
+  "split": {
+    "cols": 67,
+    "rows": 32,
+    "buffer": "normal",
+    "lines": [
+      "Administrator:/d/Code/JianZJ-Hub/.m1-scratch/tui-classic-48980130-7",
+      "826-454b-bc40-6b5610e284c6/home$ claude --bare --settings '{\"theme\"",
+      ":\"light\",\"tui\":\"default\"}'",
+      " ▐▛███▛█   Claude Code v2.1.303",
+      "▝▜██████▀  Opus 5.5 · API Usage Billing",
+      " ▐▛███▛█   Claude Code v2.1.303",
+      "▝▜██████▀  Opus 5.5 · API Usage Billing",
+      " ▝▝   ▝▝   D:\\Code\\JianZJ-Hub\\.m1-scratch\\tui-classic-48980130-7826",
+      "-454b-bc40-6b5610e284c6\\home",
+      "▎ Auto mode is now Claude Code's default permission mode.",
+      "▎ Auto mode lets Claude handle permission prompts automatically. Cl",
+      "aude checks each tool call for risky actions and prompt injection b",
+      "efore",
+      " ▐▛███▛█   Claude Code v2.1.303",
+      "▝▜██████▀  Opus 5.5 · API Usage Billing",
+      " ▝▝   ▝▝   D:\\Code\\JianZJ-Hub\\.m1-scratch\\tui-classic-48980130…",
+      "▎ Auto mode is now Claude Code's default permission mode.",
+      "▎ Auto mode lets Claude handle permission prompts automatically.",
+      "▎ Claude checks each tool call for risky actions and prompt",
+      "▎ injection before executing, runs the ones it assesses as",
+      "▎ lower-risk, and blocks the rest.",
+      "▎ https://code.claude.com/docs/en/permission-modes",
+      "❯ /theme ",
+      "  ⎿  Theme picker dismissed",
+      "───────────────────────────────────────────────────────────────────",
+      "❯ ",
+      "───────────────────────────────────────────────────────────────────",
+      "  ⏵⏵ auto mode on (shift+tab to cycle) · ← for agents",
+      "                                     Ctrl+Y to paste deleted text"
+    ],
+    "dimensions": {
+      "css": {
+        "canvas": {
+          "width": 516,
+          "height": 608
+        },
+        "cell": {
+          "width": 7.701492537313433,
+          "height": 19
+        }
+      },
+      "device": {
+        "canvas": {
+          "width": 515.716796875,
+          "height": 608
+        },
+        "cell": {
+          "width": 7.697265625,
+          "height": 19
+        },
+        "char": {
+          "width": 7.697265625,
+          "height": 17,
+          "left": 0,
+          "top": 0
+        }
+      }
+    },
+    "font": "\"Cascadia Code\",\"Cascadia Mono\",\"SFMono-Regular\",Menlo,Consolas,\"Microsoft YaHei\",monospace",
+    "blocks": [
+      {
+        "text": " ▐",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 15.403px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\"> </span><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▐<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "15.3906px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▐",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▐<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▛",
+        "html": "<span style=\"background-color: rgb(0, 0, 0); color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.70149px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▛<i style=\"position: absolute; left: 0%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 0%; top: 50%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgb(0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▛",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▛<i style=\"position: absolute; left: 0%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 0%; top: 50%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "███",
+        "html": "<span style=\"background-color: rgb(0, 0, 0); color: rgb(215, 119, 87); letter-spacing: 0px; width: 23.1045px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgb(0, 0, 0)",
+          "width": "23.0938px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▛",
+        "html": "<span style=\"background-color: rgb(0, 0, 0); color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.70149px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▛<i style=\"position: absolute; left: 0%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 0%; top: 50%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgb(0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▛",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▛<i style=\"position: absolute; left: 0%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 0%; top: 50%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"background-color: rgb(0, 0, 0); color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.70149px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgb(0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝▜",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 15.403px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▜<i style=\"position: absolute; left: 0%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 50%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "15.3906px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▜",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▜<i style=\"position: absolute; left: 0%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i><i style=\"position: absolute; left: 50%; top: 50%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█████",
+        "html": "<span style=\"background-color: rgb(0, 0, 0); color: rgb(215, 119, 87); letter-spacing: 0px; width: 38.5075px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgb(0, 0, 0)",
+          "width": "38.5px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█▀",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 15.403px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▀<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "15.3906px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "█",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">█<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▀",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▀<i style=\"position: absolute; left: 0%; top: 0%; width: 100%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝▝",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 15.403px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "15.3906px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝▝",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 15.403px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "15.3906px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▝",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▝<i style=\"position: absolute; left: 50%; top: 0%; width: 50%; height: 50%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.70149px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.70149px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.70149px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.70149px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.70149px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"color: rgb(215, 119, 87); letter-spacing: 0px; width: 7.70149px;\" data-block-run=\"7.701492537313433rgb(215, 119, 87)\"><span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgb(215, 119, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      },
+      {
+        "text": "▎",
+        "html": "<span style=\"display: inline-block; position: relative; width: 7.70149px; letter-spacing: 0px; color: transparent; overflow: hidden;\">▎<i style=\"position: absolute; left: 0%; top: 0%; width: 25%; height: 100%; background: rgb(215, 119, 87); pointer-events: none;\"></i></span>",
+        "style": {
+          "font": "\"Cascadia Code\", \"Cascadia Mono\", SFMono-Regular, Menlo, Consolas, \"Microsoft YaHei\", monospace",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": "7.6875px",
+          "height": "19px"
+        }
+      }
+    ]
+  },
+  "final": {
+    "cols": 67,
+    "rows": 32,
+    "buffer": "normal",
+    "lines": [
+      "Administrator:/d/Code/JianZJ-Hub/.m1-scratch/tui-classic-48980130-7",
+      "826-454b-bc40-6b5610e284c6/home$ claude --bare --settings '{\"theme\"",
+      ":\"light\",\"tui\":\"default\"}'",
+      " ▐▛███▛█   Claude Code v2.1.303",
+      "▝▜██████▀  Opus 5.5 · API Usage Billing",
+      " ▐▛███▛█   Claude Code v2.1.303",
+      "▝▜██████▀  Opus 5.5 · API Usage Billing",
+      " ▝▝   ▝▝   D:\\Code\\JianZJ-Hub\\.m1-scratch\\tui-classic-48980130-7826",
+      "-454b-bc40-6b5610e284c6\\home",
+      "▎ Auto mode is now Claude Code's default permission mode.",
+      "▎ Auto mode lets Claude handle permission prompts automatically. Cl",
+      "aude checks each tool call for risky actions and prompt injection b",
+      "efore",
+      " ▐▛███▛█   Claude Code v2.1.303",
+      "▝▜██████▀  Opus 5.5 · API Usage Billing",
+      " ▝▝   ▝▝   D:\\Code\\JianZJ-Hub\\.m1-scratch\\tui-classic-48980130-7826",
+      "-454b-bc40-6b5610e284c6\\home",
+      "▎ Auto mode is now Claude Code's default permission mode.",
+      "▎ Auto mode lets Claude handle permission prompts automatically. Cl",
+      "aude checks each tool call for risky actions and prompt injection b",
+      "efore",
+      "▎ executing, runs the ones it assesses as lower-risk, and blocks th",
+      "e rest.",
+      "▎ https://code.claude.com/docs/en/permission-modes",
+      "❯ /theme ",
+      "  ⎿  Theme picker dismissed",
+      "───────────────────────────────────────────────────────────────────",
+      "───────────────────────────────────────────────────────────────────",
+      "─────────",
+      "❯  ",
+      "───────────────────────────────────────────────────────────────────",
+      "───────────────────────────────────────────────────────────────────",
+      "─────────",
+      "  /exit o mode on (shift+tab to cycle) · ← for agents",
+      "                                              Ctrl+Y to paste delet",
+      "ed❯ /exit                       Exit the CLI",
+      "    /context                    Visualize current context usage asc",
+      "olored                                                            g",
+      "rid",
+      "Resume this session with:",
+      "claude --resume ce0258aa-cd2f-4c11-b27a-c2cc0d9679a5",
+      "Administrator:/d/Code/JianZJ-Hub/.m1-scratch/tui-classic-48980130-7",
+      "826-454b-bc40-6b5610e284c6/home$ printf 'TUI_RETURN_%s\\n' \"$((19+23",
+      "))\"",
+      "TUI_RETURN_42",
+      "Administrator:/d/Code/JianZJ-Hub/.m1-scratch/tui-classic-48980130-7",
+      "826-454b-bc40-6b5610e284c6/home$ "
+    ],
+    "dimensions": {
+      "css": {
+        "canvas": {
+          "width": 516,
+          "height": 608
+        },
+        "cell": {
+          "width": 7.701492537313433,
+          "height": 19
+        }
+      },
+      "device": {
+        "canvas": {
+          "width": 515.716796875,
+          "height": 608
+        },
+        "cell": {
+          "width": 7.697265625,
+          "height": 19
+        },
+        "char": {
+          "width": 7.697265625,
+          "height": 17,
+          "left": 0,
+          "top": 0
+        }
+      }
+    },
+    "font": "\"Cascadia Code\",\"Cascadia Mono\",\"SFMono-Regular\",Menlo,Consolas,\"Microsoft YaHei\",monospace",
+    "blocks": []
+  },
+  "requests": [],
+  "events": [
+    {
+      "sessionId": "session-12cf588b-2b6e-47ce-a122-6d2d51b126ac",
+      "paneId": "pane-552edafb-886d-4363-9d2a-20e6644901c1",
+      "workspaceId": "terminal-7119539e-d1fe-46da-8214-daa6c5244e00",
+      "generation": 1,
+      "state": "exited",
+      "cols": 67,
+      "rows": 32,
+      "pid": 57236,
+      "createdAt": "134368566512181361",
+      "workerPid": 56648,
+      "workerCreatedAt": "134368566511696590",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "git-bash",
+      "shellLabel": "Git Bash",
+      "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 63,
+      "peak": 3014,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-1adba172-a86e-49bc-9676-7b13712bfd54",
+      "paneId": "pane-f553cc69-d78b-43a2-bb47-654398b3cf82",
+      "workspaceId": "terminal-7119539e-d1fe-46da-8214-daa6c5244e00",
+      "generation": 1,
+      "state": "exited",
+      "cols": 67,
+      "rows": 32,
+      "pid": 55760,
+      "createdAt": "134368566596443678",
+      "workerPid": 57752,
+      "workerCreatedAt": "134368566595970037",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "git-bash",
+      "shellLabel": "Git Bash",
+      "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 6,
+      "peak": 204,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    }
+  ],
+  "scope": "bare, isolated fake credentials, loopback rejection server, no model prompt submitted"
+}

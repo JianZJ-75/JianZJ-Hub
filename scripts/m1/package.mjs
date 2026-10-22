@@ -6,14 +6,14 @@ import { spawnSync } from 'node:child_process'
 import { check, nativeFiles, nativeLicenses, fileBytes, verifyHash } from '../m0/preparation.mjs'
 const root = resolve('.'), source = resolve(process.env.M1_RESOURCE_SOURCE || 'D:/Code/JianZJ-Hub-M0-repro-20261015-37002e9f/project')
 const receipt = check(source), lock = readFileSync(join(root, 'package-lock.json'))
-for (const name of ['probe', 'desktop', 'stress', 'fault', 'tui', 'bash', 'visual']) if (existsSync(join(root, 'out/m1/main', name + '.js'))) throw new Error('PRODUCT_BUILD_REQUIRED: run npm run m1:build without M1_TEST_BUILD')
+for (const name of ['probe', 'desktop', 'stress', 'fault', 'tui', 'bash', 'visual', 'paste', 'ime']) if (existsSync(join(root, 'out/m1/main', name + '.js'))) throw new Error('PRODUCT_BUILD_REQUIRED: run npm run m1:build without M1_TEST_BUILD')
 verifyHash(lock, receipt.npmLockSha256, 'current package-lock')
 const key = new Date().toISOString().replace(/[:.]/g, '-') + '-' + randomUUID().slice(0, 8)
 const stage = join(root, '.m1-scratch', 'package-' + key), output = join(root, 'release/m1', key)
 mkdirSync(stage, { recursive: true }); mkdirSync(output, { recursive: true })
 // Offline, immutable source reuse; never run preparation against the old workspace.
 cpSync(join(source, 'node_modules'), join(stage, 'node_modules'), { recursive: true })
-cpSync(join(root, 'out/m1'), join(stage, 'out/m1'), { recursive: true, filter: path => !/[/\\](probe|desktop|stress|fault|tui|bash|visual)\.js$/.test(path) })
+cpSync(join(root, 'out/m1'), join(stage, 'out/m1'), { recursive: true, filter: path => !/[/\\](probe|desktop|stress|fault|tui|bash|visual|paste|ime)\.js$/.test(path) })
 const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8'))
 writeFileSync(join(stage, 'package.json'), JSON.stringify({ name: pkg.name, version: '0.1.0', private: true, description: '工作站 — M1 真实终端工作区', main: 'out/m1/main/index.js', dependencies: Object.fromEntries(['node-pty', 'koffi', 'better-sqlite3'].map(name => [name, pkg.dependencies[name]])) }, null, 2))
 mkdirSync(join(stage, 'licenses'))
@@ -34,7 +34,7 @@ for (const file of [...nativeFiles, ...nativeLicenses]) {
   comparisons.push({ file, sha256: expected })
 }
 const list = asar.listPackage(archive)
-if (list.some(path => /[/\\](probe|desktop|stress|fault|tui|bash|visual)\.js$/.test(path))) throw new Error('TEST_ENTRY_IN_PRODUCT')
+if (list.some(path => /[/\\](probe|desktop|stress|fault|tui|bash|visual|paste|ime)\.js$/.test(path))) throw new Error('TEST_ENTRY_IN_PRODUCT')
 const exe = join(output, 'win-unpacked/Workstation.exe')
 if (!existsSync(exe)) throw new Error('EXECUTABLE_MISSING')
 const sha = file => createHash('sha256').update(readFileSync(file)).digest('hex')

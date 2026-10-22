@@ -1,24 +1,24 @@
 # M1 · 原型外壳、Git Bash 与 Claude TUI
 
-**2026-10-18：本轮继续修复中文输入法候选数字提交被工作站快捷键层提前截断的问题；此前已修复中文输入回显为八进制、候选数字/回车提交被吞，以及 Ctrl+V / Ctrl+Shift+V 粘贴失效，并完成单元、开发 GUI 与正式包回归；不宣称人工验收全部通过。** 三个原有目标继续保持：认可原型式外壳；默认已有 Git Bash；实际验证 Claude 的 classic/fullscreen 界面并修复证实的字形问题。打开即终端、项目可选、辅助默认收起仍保留，不进入 M2。
+**2026-10-19：用户确认上一轮仍失败；已用真实 Windows 拼音按键复现“按这个这个这个”，定位到隐藏 textarea 的旧值与插入位置不一致，而非工作站快捷键。此前把快捷键旁路称为根因修复是错误判断，现撤回该结论。** 新一轮修复与验证记录见下方“连续中文组合输入”，人工最终验收仍待确认；不进入 M2。
 
 ## 本次应打开的程序
 
 ```text
-D:\Code\JianZJ-Hub\release\m1\2026-10-18T17-54-40-394Z-8345f2bc\win-unpacked\Workstation.exe
+D:\Code\JianZJ-Hub\release\m1\2026-10-19T04-11-46-558Z-ac161117\win-unpacked\Workstation.exe
 ```
 
-[打开新 EXE](../../release/m1/2026-10-18T17-54-40-394Z-8345f2bc/win-unpacked/Workstation.exe) · [新包清单](../../release/m1/2026-10-18T17-54-40-394Z-8345f2bc/manifest.json) · [ZIP](../../release/m1/2026-10-18T17-54-40-394Z-8345f2bc/Workstation-M1-win32-x64.zip)
+[打开新 EXE](../../release/m1/2026-10-19T04-11-46-558Z-ac161117/win-unpacked/Workstation.exe) · [新包清单](../../release/m1/2026-10-19T04-11-46-558Z-ac161117/manifest.json) · [ZIP](../../release/m1/2026-10-19T04-11-46-558Z-ac161117/Workstation-M1-win32-x64.zip)
 
-请先关闭旧版，再打开此新路径。这个包包含 2026-10-18 中文输入法候选数字提交修复；包无签名/安装器。
+请先关闭旧版，再打开此新路径。这个包包含 2026-10-19 连续中文候选读取修复，并已在未改写 ASAR 的正式 EXE 中通过真实拼音和 CDP 组合输入验证；包无签名/安装器。
 
 | 产物 | SHA-256 |
 |---|---|
-| Workstation.exe | `53b30c33c9a3eabbcc4b929e4fa8ec40832542777703bec6e85d01533a5fee11` |
-| resources/app.asar | `0b24b9625b4e01fcf5a9c6b2e30955fafd3e4bd4ae0a7d74019a6cf13145f2de` |
-| Workstation-M1-win32-x64.zip | `8fe2b495cea4f94ac1368840482c146a3b0e9ffe91146de3a2f692ff7f8fb7e3` |
+| Workstation.exe | `86ca9504a26f9055b90d5d029118d815d9908d1ddea5b11fc0d9d7c4619d1e81` |
+| resources/app.asar | `f82c6cf7a3ce2366a004d9560f98add99b7ce62dbfcb237ddff00ff444e6e68a` |
+| Workstation-M1-win32-x64.zip | `72e7ebedd8917b2af24f1bcd51c7f5f8b130c15ee039b2a6f0babe3767aa2814` |
 
-[包清单](evidence/bash-tui-20261016/package-manifest.json)。本机已安装 Git for Windows，不需新增安装；**包不捆绑 Git Bash**，其他机器需要已有 Git for Windows。找不到会明确报告，不静默回退 PowerShell 或下载。
+[本轮包清单](evidence/ime-continuous-20261019/package-manifest.json)。本机已安装 Git for Windows，不需新增安装；**包不捆绑 Git Bash**，其他机器需要已有 Git for Windows。找不到会明确报告，不静默回退 PowerShell 或下载。
 
 ## 本轮 resize/输入竞态修复
 
@@ -41,13 +41,17 @@ D:\Code\JianZJ-Hub\release\m1\2026-10-18T17-54-40-394Z-8345f2bc\win-unpacked\Wor
 
 **修复：** `shell.ts` 在 Git Bash 启动环境中，若没有 UTF-8 locale 则设置 `LC_ALL=C.UTF-8`，已有 UTF-8 locale 时不覆盖；`terminals.ts` 删除对输入法组合键的提前拦截，交给 xterm `CompositionHelper`，产品快捷键（Ctrl+C / Ctrl+Shift+V 等）仍保留。未丢弃、截断、替换或重发用户输入，未识别提示符/命令，未固定 sleep，未重建 Shell 或 xterm。详见 [证据说明](evidence/ime-20261017/README.md)。
 
-## 本轮中文输入候选提交加固（2026-10-18）
+## 连续中文组合输入（2026-10-19）
 
-用户复验发现：中文输入法候选栏显示 `1 方案` 时，按 `1` 后候选没有稳定提交，后续文本可能直接变成错误内容（例如把“方案”丢掉）。根因不是把数字映射成了“继续”，而是 xterm 的自定义 key handler 先调用工作站快捷键；应用层在 `isComposing` 时返回 `false`，该返回值随后被 xterm 当成“禁止继续处理”，从而跳过 `CompositionHelper` 的候选提交路径。
+**上一轮结论撤回：** `465375d` 仅做了快捷键旁路加固，没有解决用户的连续候选问题。`keys()` 返回 `false` 时，`if (this.shortcut(e)) return false` 不会执行，不能据此断言跳过 `CompositionHelper`。上一轮的类型/单元/GUI/打包通过记录仍是真实运行结果，但没有覆盖连续真实输入法，不能作为该故障已经修复的证据。
 
-修复：`terminals.ts` 对 `isComposing`、`keyCode/which === 229` 的 keydown 不再调用工作站快捷键，直接返回 `true` 让 xterm 的 `CompositionHelper` 决定如何消费候选数字/回车；`app.tsx` 同时把 229 视为输入法事件。普通 Escape、Ctrl+K、Ctrl+Shift+D/E/N/T、Ctrl+C 和 Ctrl+V/ Ctrl+Shift+V 的既有路径不变。没有把候选数字硬编码成某个文本，没有自行重发、替换、截断或延迟输入。
+**本轮实测定位：** 在全新隔离 home 与真实工作站窗口里，用 Windows `SendInput` 输入 `anzhege+1`、`fangan+1`、`jixu+1`，输入法确实提交了“按这个 / 方案 / 继续”。但每次提交后隐藏 textarea 的 selection 回到 0；后两段分别插到旧文本前面，变成“方案按这个”和“继续方案按这个”。xterm 6 的 `CompositionHelper` 则把旧 value.length（3、5）当本轮起点，从后缀读出“这个”。实际 onData、main 转发、worker 接收及 Shell HEX 均证实错误文本来自 renderer，不是 Claude TUI 回显，也不是数字键映射。
 
-新增单元回归覆盖 `isComposing`、229、`which=229` 与普通数字/回车；开发 GUI 套件 10 个入口全部通过。自动测试不能替代真实 Microsoft 拼音候选体验，仍需人工确认 `fang'an` → 按 `1` → “方案”，再输入“继续”得到“按这个方案继续”。
+**实际修复：** `keyboard.mjs` 的 `installCompositionInput` 只给锁定 xterm 6.0.0 的 `CompositionHelper._textarea` 提供一个读取视图。compositionstart 捕获阶段记录原生 selectionStart/End 及选区外的 prefix/suffix，把该范围中的实际本轮编辑投影为 helper 所期待的“旧虚拟前缀 + 新增量”。首个 input 前只呈现旧基线，避免将原选中文字重复计入起点；input 事件只标记原生编辑已发生，保证相同词替换也属于合法新提交。保留虚拟前缀，支持上一轮延迟读取落在下一轮开始之后；229 的非组合字符差分也使用相同编辑范围锚点。
+
+原生 textarea 的 value、selection 与 CoreService 均不改；`onData` 原样转发，没有内容去重、硬编码候选、重发/替换用户输入、清空暂存或新增生产定时器。此前试过的移动 caret/提交后清空等方案只作为失败/中间对照保留，不是最终交付实现。这里是明确的锁定版本私有兼容接缝，升级 xterm 时必须重查读取方式并跑实际 helper 回归，不能把它当成任意版本通用能力。
+
+**验证入口：** `tests/m1/ime.ts` 新增 Chromium 编辑器组合回归（接入开发套件）和显式 `native` 模式。原生模式要求已有中文输入法，且每次 `SendInput` 前核对前台窗口 PID 是本测试进程；不切换系统键盘设置，不附着用户已有终端，不启动真实 CLI 任务。逐段比较 onData、main write、worker HEX 与 Shell 接收 HEX；覆盖连续候选、Esc 取消、退格、空格选词、相同词连续输入、数字和 Enter。CDP 回归另覆盖快速提交及非 BMP 字符，不冒充真实输入法。最终结果/失败原件见 [证据目录](evidence/ime-continuous-20261019/README.md)。
 
 ## 本轮粘贴修复（2026-10-17）
 
@@ -122,7 +126,9 @@ pwd
 
 测试使用全新cwd/home/CLAUDE_CONFIG_DIR、`--bare`、假测试API key和绑定127.0.0.1的本地拒绝服务器；禁非必要流量/更新。正式包夹具只在新隔离配置中预置该测试目录信任及假key批准，避免初始化提示的外部CDP时序问题；没有改本人配置/凭据。**所有通过的TUI报告中API请求记录均为零，未提交模型提示词、未做真实登录或读取私人会话。** 假本地key并不代表真实认证成功，API/真实任务运行仍未验。
 
-## 交付前自查结果
+## 历史交付前自查结果（2026-10-16/17）
+
+以下保留历史轮次口径，连续中文输入的新结果以 [2026-10-19 证据](evidence/ime-continuous-20261019/README.md) 为准。
 
 | 项目 | 本轮结果 |
 |---|---|
@@ -146,7 +152,7 @@ pwd
 - 早期TUI观察曾停在初始化提示，或选择了默认“不信任”而退出；这些不计为完整UI验收。后续开发/WezTerm使用实际菜单交互，正式包使用明确隔离夹具初始化。失败图/日志保留，不改写成通过。
 - 外部CDP注入、测试脚本转义/字符串替换及窗口尺寸事件时序出现过失败；修正驱动并保留原件。测试中一次快速输入丢了环境赋值首字符，导致夹具EXE误以GUI方式启动，出现隔离缓存错误；所属Job已清理，不涉及本人配置。最终针对性 GUI resize/input 检查通过；同次完整 desktop 套件随后在既有 `window_small` 几何探针出现旧尺寸 `R_GEOM_first`，保留于 [gui-final-failure](evidence/resize-input-20261016/gui-final-failure/desktop.json)，不计为本竞态的失败或整套 GUI 全通过。
 - **resize/输入竞态已由本轮修复并自动回归确认**：基线失败原件仍保留；现在 worker 在 resize ACK 前完成 PTY 输入 fence，开发服务链路、GUI 原生键盘路径和正式包 CDP 键盘路径均通过，不再以等待提示符作为测试条件。真实人工连续缩放、IME 和其他全屏程序仍属于人工待验，不能由这些合成探针替代。
-- **中文输入回显/提交已由本轮修复**：根因是无 UTF-8 locale 与自定义按键处理器拦截输入法组合键，已改为注入 `LC_ALL=C.UTF-8` 并交由 xterm `CompositionHelper` 处理。证据与前后对照见 [ime-20261017](evidence/ime-20261017/README.md)。合成事件能证明字节与回显路径正确，但**不能替代真实 Microsoft 拼音的组合/候选操作**，需用新包人工复核。
+- **中文输入的分轮结论**：无 UTF-8 locale 的八进制回显证据仍有效；上一轮用快捷键解释连续候选故障的结论撤回。本轮已建立真实 Windows 拼音原生按键与 onData/main/worker/Shell HEX 对照，最终只读编辑视图的回归见 [连续输入证据](evidence/ime-continuous-20261019/README.md)，本人最终体验仍待确认。
 - **粘贴已由本轮修复**：根因是 Electron 44 的 `clipboard.readText()/writeText()` 返回 Promise 而 `app.ts` 未 `await`，加上 `Ctrl+V` 未接线。已改为 await 异步剪贴板 API，并让 `Ctrl+V` 与 `Ctrl+Shift+V` 共用 `clipboardRead → term.paste`。新增常驻回归 `paste` 以真实剪贴板与真实按键验证，前后对照见 [paste-20261017](evidence/paste-20261017/README.md)。真实剪贴板读取仍要求窗口聚焦，这是既有守卫，未放松。
 - **desktop 开发套件**在本轮 19/19 通过（含此前偶发的 `exact_46` resize 几何探针）；此前偶发失败的原件仍保留，不改写为通过。
 - 外壳已恢复、默认Bash与两种TUI已实测；原生与DOM的字体栅格、扩展键协议等仍不等同。未实现WebGL新依赖或硬嵌WezTerm；没有默认强制Claude使用classic/fullscreen，个人选择不改。
@@ -158,4 +164,4 @@ pwd
 
 所有成功监督关卡最终Job空、无兜底残留、独立对照存活；WezTerm参照各自Job最终也为空。最终按PID+创建时间复核 **487个已留存身份：匹配存活0、无法核查0，4个PID已复用且按创建时间区别、未误杀**；见cleanup，不按名称杀进程。正常关闭释放注册表/句柄/worker/xterm；失败进程强制收尾时可能保留无敏感内容的独立启动rc/夹具/日志在本轮scratch，保留不等于后台运行。旧包和失败证据不删除。
 
-没有新增依赖/下载、安装全局工具、改系统/用户PATH、profile或执行策略，没有提交/推送或进入M2。当前工程仍在原main工作树，等待本人验收。
+历史交付与后续提交状态分别以 Git 为准；本轮没有新增依赖/下载或改系统/用户PATH、profile、执行策略，不进入M2。旧证据与旧包保留，等待本人复验。

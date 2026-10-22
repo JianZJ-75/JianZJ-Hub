@@ -1,0 +1,3717 @@
+{
+  "status": "pass",
+  "trace": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44\\io-trace.jsonl",
+  "checks": [
+    {
+      "name": "actual Git Bash supports /c /d and cd c from root with no PowerShell drive command",
+      "status": "pass",
+      "detail": {
+        "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+        "drives": [
+          "/c",
+          "/d"
+        ],
+        "unicodePath": true
+      }
+    },
+    {
+      "name": "resize acknowledgement does not drop bytes for a non-readline cat reader",
+      "status": "pass",
+      "detail": {
+        "iterations": 40,
+        "records": [
+          {
+            "i": 0,
+            "cols": 90,
+            "rows": 22,
+            "resizedAt": 1792382748452,
+            "ackAt": 1792382748453,
+            "sentAt": 1792382748453,
+            "received": "P000\r\nP000\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 1,
+            "cols": 91,
+            "rows": 23,
+            "resizedAt": 1792382748498,
+            "ackAt": 1792382748499,
+            "sentAt": 1792382748499,
+            "received": "P001\r\nP001\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 2,
+            "cols": 92,
+            "rows": 24,
+            "resizedAt": 1792382748529,
+            "ackAt": 1792382748530,
+            "sentAt": 1792382748530,
+            "received": "P002\r\nP002\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 3,
+            "cols": 93,
+            "rows": 25,
+            "resizedAt": 1792382748574,
+            "ackAt": 1792382748575,
+            "sentAt": 1792382748575,
+            "received": "P003\r\nP003\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 4,
+            "cols": 94,
+            "rows": 26,
+            "resizedAt": 1792382748605,
+            "ackAt": 1792382748606,
+            "sentAt": 1792382748606,
+            "received": "P004\r\nP004\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 5,
+            "cols": 95,
+            "rows": 27,
+            "resizedAt": 1792382748651,
+            "ackAt": 1792382748652,
+            "sentAt": 1792382748652,
+            "received": "P005\r\nP005\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 6,
+            "cols": 96,
+            "rows": 28,
+            "resizedAt": 1792382748697,
+            "ackAt": 1792382748697,
+            "sentAt": 1792382748697,
+            "received": "P006\r\nP006\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 7,
+            "cols": 97,
+            "rows": 29,
+            "resizedAt": 1792382748743,
+            "ackAt": 1792382748744,
+            "sentAt": 1792382748744,
+            "received": "P007\r\nP007\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 8,
+            "cols": 98,
+            "rows": 30,
+            "resizedAt": 1792382748788,
+            "ackAt": 1792382748789,
+            "sentAt": 1792382748789,
+            "received": "P008\r\nP008\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 9,
+            "cols": 99,
+            "rows": 31,
+            "resizedAt": 1792382748834,
+            "ackAt": 1792382748835,
+            "sentAt": 1792382748835,
+            "received": "P009\r\nP009\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 10,
+            "cols": 100,
+            "rows": 32,
+            "resizedAt": 1792382748879,
+            "ackAt": 1792382748880,
+            "sentAt": 1792382748880,
+            "received": "P010\r\nP010\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 11,
+            "cols": 101,
+            "rows": 22,
+            "resizedAt": 1792382748926,
+            "ackAt": 1792382748927,
+            "sentAt": 1792382748927,
+            "received": "P011\r\nP011\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 12,
+            "cols": 102,
+            "rows": 23,
+            "resizedAt": 1792382748972,
+            "ackAt": 1792382748973,
+            "sentAt": 1792382748973,
+            "received": "P012\r\nP012\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 13,
+            "cols": 103,
+            "rows": 24,
+            "resizedAt": 1792382749018,
+            "ackAt": 1792382749019,
+            "sentAt": 1792382749019,
+            "received": "P013\r\nP013\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 14,
+            "cols": 104,
+            "rows": 25,
+            "resizedAt": 1792382749064,
+            "ackAt": 1792382749065,
+            "sentAt": 1792382749065,
+            "received": "P014\r\nP014\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 15,
+            "cols": 105,
+            "rows": 26,
+            "resizedAt": 1792382749110,
+            "ackAt": 1792382749111,
+            "sentAt": 1792382749111,
+            "received": "P015\r\nP015\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 16,
+            "cols": 106,
+            "rows": 27,
+            "resizedAt": 1792382749141,
+            "ackAt": 1792382749142,
+            "sentAt": 1792382749142,
+            "received": "P016\r\nP016\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 17,
+            "cols": 107,
+            "rows": 28,
+            "resizedAt": 1792382749187,
+            "ackAt": 1792382749188,
+            "sentAt": 1792382749188,
+            "received": "P017\r\nP017\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 18,
+            "cols": 108,
+            "rows": 29,
+            "resizedAt": 1792382749233,
+            "ackAt": 1792382749234,
+            "sentAt": 1792382749234,
+            "received": "P018\r\nP018\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 19,
+            "cols": 109,
+            "rows": 30,
+            "resizedAt": 1792382749279,
+            "ackAt": 1792382749280,
+            "sentAt": 1792382749280,
+            "received": "P019\r\nP019\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 20,
+            "cols": 110,
+            "rows": 31,
+            "resizedAt": 1792382749311,
+            "ackAt": 1792382749311,
+            "sentAt": 1792382749311,
+            "received": "P020\r\nP020\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 21,
+            "cols": 111,
+            "rows": 32,
+            "resizedAt": 1792382749357,
+            "ackAt": 1792382749357,
+            "sentAt": 1792382749357,
+            "received": "P021\r\nP021\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 22,
+            "cols": 112,
+            "rows": 22,
+            "resizedAt": 1792382749403,
+            "ackAt": 1792382749404,
+            "sentAt": 1792382749404,
+            "received": "P022\r\nP022\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 23,
+            "cols": 113,
+            "rows": 23,
+            "resizedAt": 1792382749449,
+            "ackAt": 1792382749450,
+            "sentAt": 1792382749450,
+            "received": "P023\r\nP023\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 24,
+            "cols": 114,
+            "rows": 24,
+            "resizedAt": 1792382749495,
+            "ackAt": 1792382749495,
+            "sentAt": 1792382749495,
+            "received": "P024\r\nP024\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 25,
+            "cols": 115,
+            "rows": 25,
+            "resizedAt": 1792382749541,
+            "ackAt": 1792382749541,
+            "sentAt": 1792382749541,
+            "received": "P025\r\nP025\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 26,
+            "cols": 116,
+            "rows": 26,
+            "resizedAt": 1792382749572,
+            "ackAt": 1792382749573,
+            "sentAt": 1792382749573,
+            "received": "P026\r\nP026\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 27,
+            "cols": 117,
+            "rows": 27,
+            "resizedAt": 1792382749603,
+            "ackAt": 1792382749603,
+            "sentAt": 1792382749603,
+            "received": "P027\r\nP027\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 28,
+            "cols": 118,
+            "rows": 28,
+            "resizedAt": 1792382749648,
+            "ackAt": 1792382749649,
+            "sentAt": 1792382749649,
+            "received": "P028\r\nP028\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 29,
+            "cols": 119,
+            "rows": 29,
+            "resizedAt": 1792382749695,
+            "ackAt": 1792382749696,
+            "sentAt": 1792382749696,
+            "received": "P029\r\nP029\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 30,
+            "cols": 120,
+            "rows": 30,
+            "resizedAt": 1792382749741,
+            "ackAt": 1792382749742,
+            "sentAt": 1792382749742,
+            "received": "P030\r\nP030\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 31,
+            "cols": 90,
+            "rows": 31,
+            "resizedAt": 1792382749772,
+            "ackAt": 1792382749773,
+            "sentAt": 1792382749773,
+            "received": "P031\r\nP031\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 32,
+            "cols": 91,
+            "rows": 32,
+            "resizedAt": 1792382749817,
+            "ackAt": 1792382749818,
+            "sentAt": 1792382749818,
+            "received": "P032\r\nP032\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 33,
+            "cols": 92,
+            "rows": 22,
+            "resizedAt": 1792382749848,
+            "ackAt": 1792382749849,
+            "sentAt": 1792382749849,
+            "received": "P033\r\nP033\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 34,
+            "cols": 93,
+            "rows": 23,
+            "resizedAt": 1792382749894,
+            "ackAt": 1792382749894,
+            "sentAt": 1792382749894,
+            "received": "P034\r\nP034\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 35,
+            "cols": 94,
+            "rows": 24,
+            "resizedAt": 1792382749940,
+            "ackAt": 1792382749940,
+            "sentAt": 1792382749940,
+            "received": "P035\r\nP035\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 36,
+            "cols": 95,
+            "rows": 25,
+            "resizedAt": 1792382749986,
+            "ackAt": 1792382749987,
+            "sentAt": 1792382749987,
+            "received": "P036\r\nP036\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 37,
+            "cols": 96,
+            "rows": 26,
+            "resizedAt": 1792382750032,
+            "ackAt": 1792382750033,
+            "sentAt": 1792382750033,
+            "received": "P037\r\nP037\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 38,
+            "cols": 97,
+            "rows": 27,
+            "resizedAt": 1792382750078,
+            "ackAt": 1792382750079,
+            "sentAt": 1792382750079,
+            "received": "P038\r\nP038\r\n",
+            "fenceVisible": false
+          },
+          {
+            "i": 39,
+            "cols": 98,
+            "rows": 28,
+            "resizedAt": 1792382750124,
+            "ackAt": 1792382750125,
+            "sentAt": 1792382750125,
+            "received": "P039\r\nP039\r\n",
+            "fenceVisible": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "input sent while resize is in flight is delivered once and in order",
+      "status": "pass",
+      "detail": {
+        "iterations": 100,
+        "failures": 0,
+        "records": [
+          {
+            "i": 0,
+            "cols": 150,
+            "rows": 40,
+            "resizeStartedAt": 1792382750200,
+            "writeStartedAt": 1792382750200,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_000\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 1,
+            "cols": 149,
+            "rows": 39,
+            "resizeStartedAt": 1792382750277,
+            "writeStartedAt": 1792382750277,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_001\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 2,
+            "cols": 148,
+            "rows": 38,
+            "resizeStartedAt": 1792382750354,
+            "writeStartedAt": 1792382750354,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_002\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 3,
+            "cols": 147,
+            "rows": 37,
+            "resizeStartedAt": 1792382750447,
+            "writeStartedAt": 1792382750447,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_003\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 4,
+            "cols": 146,
+            "rows": 36,
+            "resizeStartedAt": 1792382750540,
+            "writeStartedAt": 1792382750540,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_004\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 5,
+            "cols": 145,
+            "rows": 35,
+            "resizeStartedAt": 1792382750617,
+            "writeStartedAt": 1792382750617,
+            "pass": true,
+            "delta": "\r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ printf 'RACE_FLIGHT_005\\n'\r\n"
+          },
+          {
+            "i": 6,
+            "cols": 144,
+            "rows": 34,
+            "resizeStartedAt": 1792382750679,
+            "writeStartedAt": 1792382750679,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_006\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 7,
+            "cols": 143,
+            "rows": 33,
+            "resizeStartedAt": 1792382750756,
+            "writeStartedAt": 1792382750756,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_007\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 8,
+            "cols": 142,
+            "rows": 32,
+            "resizeStartedAt": 1792382750864,
+            "writeStartedAt": 1792382750864,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_008\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 9,
+            "cols": 141,
+            "rows": 31,
+            "resizeStartedAt": 1792382750941,
+            "writeStartedAt": 1792382750941,
+            "pass": true,
+            "delta": "\r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ printf 'RACE_FLIGHT_009\\n'"
+          },
+          {
+            "i": 10,
+            "cols": 140,
+            "rows": 30,
+            "resizeStartedAt": 1792382751003,
+            "writeStartedAt": 1792382751003,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_010\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 11,
+            "cols": 139,
+            "rows": 29,
+            "resizeStartedAt": 1792382751065,
+            "writeStartedAt": 1792382751065,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_011\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 12,
+            "cols": 138,
+            "rows": 28,
+            "resizeStartedAt": 1792382751159,
+            "writeStartedAt": 1792382751159,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_012\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 13,
+            "cols": 137,
+            "rows": 27,
+            "resizeStartedAt": 1792382751252,
+            "writeStartedAt": 1792382751252,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_013\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 14,
+            "cols": 136,
+            "rows": 26,
+            "resizeStartedAt": 1792382751344,
+            "writeStartedAt": 1792382751344,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_014\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 15,
+            "cols": 135,
+            "rows": 25,
+            "resizeStartedAt": 1792382751421,
+            "writeStartedAt": 1792382751421,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_015\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 16,
+            "cols": 134,
+            "rows": 24,
+            "resizeStartedAt": 1792382751498,
+            "writeStartedAt": 1792382751498,
+            "pass": true,
+            "delta": "\r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ printf 'RACE_FLIGHT_016\\n'"
+          },
+          {
+            "i": 17,
+            "cols": 133,
+            "rows": 40,
+            "resizeStartedAt": 1792382751560,
+            "writeStartedAt": 1792382751560,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_017\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 18,
+            "cols": 132,
+            "rows": 39,
+            "resizeStartedAt": 1792382751637,
+            "writeStartedAt": 1792382751637,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_018\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 19,
+            "cols": 131,
+            "rows": 38,
+            "resizeStartedAt": 1792382751714,
+            "writeStartedAt": 1792382751714,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_019\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 20,
+            "cols": 130,
+            "rows": 37,
+            "resizeStartedAt": 1792382751790,
+            "writeStartedAt": 1792382751790,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_020\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 21,
+            "cols": 129,
+            "rows": 36,
+            "resizeStartedAt": 1792382751882,
+            "writeStartedAt": 1792382751882,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_021\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 22,
+            "cols": 128,
+            "rows": 35,
+            "resizeStartedAt": 1792382751975,
+            "writeStartedAt": 1792382751975,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_022\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 23,
+            "cols": 127,
+            "rows": 34,
+            "resizeStartedAt": 1792382752083,
+            "writeStartedAt": 1792382752083,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_023\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 24,
+            "cols": 126,
+            "rows": 33,
+            "resizeStartedAt": 1792382752159,
+            "writeStartedAt": 1792382752159,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_024\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 25,
+            "cols": 125,
+            "rows": 32,
+            "resizeStartedAt": 1792382752252,
+            "writeStartedAt": 1792382752252,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_025\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 26,
+            "cols": 124,
+            "rows": 31,
+            "resizeStartedAt": 1792382752343,
+            "writeStartedAt": 1792382752343,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_026\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 27,
+            "cols": 123,
+            "rows": 30,
+            "resizeStartedAt": 1792382752420,
+            "writeStartedAt": 1792382752420,
+            "pass": true,
+            "delta": "\r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ printf 'RACE_FLIGHT_027\\n'"
+          },
+          {
+            "i": 28,
+            "cols": 122,
+            "rows": 29,
+            "resizeStartedAt": 1792382752481,
+            "writeStartedAt": 1792382752481,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_028\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 29,
+            "cols": 121,
+            "rows": 28,
+            "resizeStartedAt": 1792382752543,
+            "writeStartedAt": 1792382752543,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_029\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 30,
+            "cols": 120,
+            "rows": 27,
+            "resizeStartedAt": 1792382752635,
+            "writeStartedAt": 1792382752635,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_030\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 31,
+            "cols": 119,
+            "rows": 26,
+            "resizeStartedAt": 1792382752727,
+            "writeStartedAt": 1792382752727,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_031\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 32,
+            "cols": 118,
+            "rows": 25,
+            "resizeStartedAt": 1792382752803,
+            "writeStartedAt": 1792382752803,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_032\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 33,
+            "cols": 117,
+            "rows": 24,
+            "resizeStartedAt": 1792382752898,
+            "writeStartedAt": 1792382752898,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_033\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 34,
+            "cols": 116,
+            "rows": 40,
+            "resizeStartedAt": 1792382752990,
+            "writeStartedAt": 1792382752990,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_034\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 35,
+            "cols": 115,
+            "rows": 39,
+            "resizeStartedAt": 1792382753082,
+            "writeStartedAt": 1792382753082,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_035\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 36,
+            "cols": 114,
+            "rows": 38,
+            "resizeStartedAt": 1792382753175,
+            "writeStartedAt": 1792382753175,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_036\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 37,
+            "cols": 113,
+            "rows": 37,
+            "resizeStartedAt": 1792382753250,
+            "writeStartedAt": 1792382753250,
+            "pass": true,
+            "delta": "\r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ printf 'RACE_FLIGHT_037\\n'"
+          },
+          {
+            "i": 38,
+            "cols": 112,
+            "rows": 36,
+            "resizeStartedAt": 1792382753312,
+            "writeStartedAt": 1792382753312,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_038\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 39,
+            "cols": 111,
+            "rows": 35,
+            "resizeStartedAt": 1792382753376,
+            "writeStartedAt": 1792382753376,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_039\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 40,
+            "cols": 110,
+            "rows": 34,
+            "resizeStartedAt": 1792382753452,
+            "writeStartedAt": 1792382753452,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_040\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 41,
+            "cols": 109,
+            "rows": 33,
+            "resizeStartedAt": 1792382753546,
+            "writeStartedAt": 1792382753546,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_041\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 42,
+            "cols": 108,
+            "rows": 32,
+            "resizeStartedAt": 1792382753623,
+            "writeStartedAt": 1792382753623,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_042\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 43,
+            "cols": 107,
+            "rows": 31,
+            "resizeStartedAt": 1792382753716,
+            "writeStartedAt": 1792382753716,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_043\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 44,
+            "cols": 106,
+            "rows": 30,
+            "resizeStartedAt": 1792382753792,
+            "writeStartedAt": 1792382753792,
+            "pass": true,
+            "delta": "\u001b[?2004l\rRACE_FLIGHT_044\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$  \r"
+          },
+          {
+            "i": 45,
+            "cols": 105,
+            "rows": 29,
+            "resizeStartedAt": 1792382753885,
+            "writeStartedAt": 1792382753885,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_045\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 46,
+            "cols": 104,
+            "rows": 28,
+            "resizeStartedAt": 1792382753963,
+            "writeStartedAt": 1792382753963,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_046\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 47,
+            "cols": 103,
+            "rows": 27,
+            "resizeStartedAt": 1792382754038,
+            "writeStartedAt": 1792382754038,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_047\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 48,
+            "cols": 102,
+            "rows": 26,
+            "resizeStartedAt": 1792382754130,
+            "writeStartedAt": 1792382754130,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_048\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 49,
+            "cols": 101,
+            "rows": 25,
+            "resizeStartedAt": 1792382754206,
+            "writeStartedAt": 1792382754206,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_049\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 50,
+            "cols": 100,
+            "rows": 24,
+            "resizeStartedAt": 1792382754299,
+            "writeStartedAt": 1792382754299,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_050\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 51,
+            "cols": 99,
+            "rows": 40,
+            "resizeStartedAt": 1792382754391,
+            "writeStartedAt": 1792382754391,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_051\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 52,
+            "cols": 98,
+            "rows": 39,
+            "resizeStartedAt": 1792382754484,
+            "writeStartedAt": 1792382754484,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_052\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 53,
+            "cols": 97,
+            "rows": 38,
+            "resizeStartedAt": 1792382754577,
+            "writeStartedAt": 1792382754577,
+            "pass": true,
+            "delta": "[?2004l\rRACE_FLIGHT_053\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中\r\n\r文 space$ "
+          },
+          {
+            "i": 54,
+            "cols": 96,
+            "rows": 37,
+            "resizeStartedAt": 1792382754653,
+            "writeStartedAt": 1792382754653,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_054\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 55,
+            "cols": 95,
+            "rows": 36,
+            "resizeStartedAt": 1792382754730,
+            "writeStartedAt": 1792382754730,
+            "pass": true,
+            "delta": "[?2004l\rRACE_FLIGHT_055\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/\r\n\r中文 space$ "
+          },
+          {
+            "i": 56,
+            "cols": 94,
+            "rows": 35,
+            "resizeStartedAt": 1792382754821,
+            "writeStartedAt": 1792382754821,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_056\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 57,
+            "cols": 93,
+            "rows": 34,
+            "resizeStartedAt": 1792382754897,
+            "writeStartedAt": 1792382754897,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_057\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 58,
+            "cols": 92,
+            "rows": 33,
+            "resizeStartedAt": 1792382754974,
+            "writeStartedAt": 1792382754974,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_058\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 59,
+            "cols": 91,
+            "rows": 32,
+            "resizeStartedAt": 1792382755050,
+            "writeStartedAt": 1792382755050,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_059\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 60,
+            "cols": 90,
+            "rows": 31,
+            "resizeStartedAt": 1792382755144,
+            "writeStartedAt": 1792382755144,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_060\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 61,
+            "cols": 150,
+            "rows": 30,
+            "resizeStartedAt": 1792382755236,
+            "writeStartedAt": 1792382755236,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_061\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 62,
+            "cols": 149,
+            "rows": 29,
+            "resizeStartedAt": 1792382755329,
+            "writeStartedAt": 1792382755329,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_062\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 63,
+            "cols": 148,
+            "rows": 28,
+            "resizeStartedAt": 1792382755405,
+            "writeStartedAt": 1792382755405,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_063\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 64,
+            "cols": 147,
+            "rows": 27,
+            "resizeStartedAt": 1792382755481,
+            "writeStartedAt": 1792382755481,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_064\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 65,
+            "cols": 146,
+            "rows": 26,
+            "resizeStartedAt": 1792382755574,
+            "writeStartedAt": 1792382755574,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_065\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 66,
+            "cols": 145,
+            "rows": 25,
+            "resizeStartedAt": 1792382755666,
+            "writeStartedAt": 1792382755666,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_066\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 67,
+            "cols": 144,
+            "rows": 24,
+            "resizeStartedAt": 1792382755759,
+            "writeStartedAt": 1792382755759,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_067\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 68,
+            "cols": 143,
+            "rows": 40,
+            "resizeStartedAt": 1792382755851,
+            "writeStartedAt": 1792382755851,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_068\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 69,
+            "cols": 142,
+            "rows": 39,
+            "resizeStartedAt": 1792382755927,
+            "writeStartedAt": 1792382755927,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_069\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 70,
+            "cols": 141,
+            "rows": 38,
+            "resizeStartedAt": 1792382756004,
+            "writeStartedAt": 1792382756004,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_070\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 71,
+            "cols": 140,
+            "rows": 37,
+            "resizeStartedAt": 1792382756081,
+            "writeStartedAt": 1792382756081,
+            "pass": true,
+            "delta": "\r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ printf 'RACE_FLIGHT_071\\n'"
+          },
+          {
+            "i": 72,
+            "cols": 139,
+            "rows": 36,
+            "resizeStartedAt": 1792382756144,
+            "writeStartedAt": 1792382756144,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_072\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 73,
+            "cols": 138,
+            "rows": 35,
+            "resizeStartedAt": 1792382756218,
+            "writeStartedAt": 1792382756218,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_073\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 74,
+            "cols": 137,
+            "rows": 34,
+            "resizeStartedAt": 1792382756310,
+            "writeStartedAt": 1792382756310,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_074\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 75,
+            "cols": 136,
+            "rows": 33,
+            "resizeStartedAt": 1792382756404,
+            "writeStartedAt": 1792382756404,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_075\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 76,
+            "cols": 135,
+            "rows": 32,
+            "resizeStartedAt": 1792382756481,
+            "writeStartedAt": 1792382756481,
+            "pass": true,
+            "delta": "\r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ printf 'RACE_FLIGHT_076\\n'\r\n\u001b[?2004l\rRACE_FLIGHT_076\r\n"
+          },
+          {
+            "i": 77,
+            "cols": 134,
+            "rows": 31,
+            "resizeStartedAt": 1792382756542,
+            "writeStartedAt": 1792382756542,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_077\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 78,
+            "cols": 133,
+            "rows": 30,
+            "resizeStartedAt": 1792382756605,
+            "writeStartedAt": 1792382756605,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_078\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 79,
+            "cols": 132,
+            "rows": 29,
+            "resizeStartedAt": 1792382756681,
+            "writeStartedAt": 1792382756681,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_079\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 80,
+            "cols": 131,
+            "rows": 28,
+            "resizeStartedAt": 1792382756756,
+            "writeStartedAt": 1792382756756,
+            "pass": true,
+            "delta": "\r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ printf 'RACE_FLIGHT_080\\n'"
+          },
+          {
+            "i": 81,
+            "cols": 130,
+            "rows": 27,
+            "resizeStartedAt": 1792382756819,
+            "writeStartedAt": 1792382756819,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_081\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 82,
+            "cols": 129,
+            "rows": 26,
+            "resizeStartedAt": 1792382756881,
+            "writeStartedAt": 1792382756881,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_082\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 83,
+            "cols": 128,
+            "rows": 25,
+            "resizeStartedAt": 1792382756972,
+            "writeStartedAt": 1792382756972,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_083\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 84,
+            "cols": 127,
+            "rows": 24,
+            "resizeStartedAt": 1792382757050,
+            "writeStartedAt": 1792382757050,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_084\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 85,
+            "cols": 126,
+            "rows": 40,
+            "resizeStartedAt": 1792382757142,
+            "writeStartedAt": 1792382757142,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_085\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 86,
+            "cols": 125,
+            "rows": 39,
+            "resizeStartedAt": 1792382757219,
+            "writeStartedAt": 1792382757219,
+            "pass": true,
+            "delta": "\r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ printf 'RACE_FLIGHT_086\\n'\r\n"
+          },
+          {
+            "i": 87,
+            "cols": 124,
+            "rows": 38,
+            "resizeStartedAt": 1792382757280,
+            "writeStartedAt": 1792382757280,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_087\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 88,
+            "cols": 123,
+            "rows": 37,
+            "resizeStartedAt": 1792382757344,
+            "writeStartedAt": 1792382757344,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_088\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 89,
+            "cols": 122,
+            "rows": 36,
+            "resizeStartedAt": 1792382757437,
+            "writeStartedAt": 1792382757437,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_089\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 90,
+            "cols": 121,
+            "rows": 35,
+            "resizeStartedAt": 1792382757530,
+            "writeStartedAt": 1792382757530,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_090\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 91,
+            "cols": 120,
+            "rows": 34,
+            "resizeStartedAt": 1792382757607,
+            "writeStartedAt": 1792382757607,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_091\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 92,
+            "cols": 119,
+            "rows": 33,
+            "resizeStartedAt": 1792382757700,
+            "writeStartedAt": 1792382757700,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_092\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 93,
+            "cols": 118,
+            "rows": 32,
+            "resizeStartedAt": 1792382757777,
+            "writeStartedAt": 1792382757777,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_093\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 94,
+            "cols": 117,
+            "rows": 31,
+            "resizeStartedAt": 1792382757853,
+            "writeStartedAt": 1792382757853,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_094\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 95,
+            "cols": 116,
+            "rows": 30,
+            "resizeStartedAt": 1792382757929,
+            "writeStartedAt": 1792382757929,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_095\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 96,
+            "cols": 115,
+            "rows": 29,
+            "resizeStartedAt": 1792382758023,
+            "writeStartedAt": 1792382758023,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_096\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 97,
+            "cols": 114,
+            "rows": 28,
+            "resizeStartedAt": 1792382758115,
+            "writeStartedAt": 1792382758115,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_097\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 98,
+            "cols": 113,
+            "rows": 27,
+            "resizeStartedAt": 1792382758193,
+            "writeStartedAt": 1792382758193,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_098\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 99,
+            "cols": 112,
+            "rows": 26,
+            "resizeStartedAt": 1792382758269,
+            "writeStartedAt": 1792382758269,
+            "pass": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_FLIGHT_099\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          }
+        ]
+      }
+    },
+    {
+      "name": "resize acknowledgement followed by immediate input preserves first byte and execution",
+      "status": "pass",
+      "detail": {
+        "iterations": 200,
+        "failures": 0,
+        "records": [
+          {
+            "i": 0,
+            "cols": 80,
+            "rows": 20,
+            "resizedAt": 1792382758347,
+            "ackAt": 1792382758347,
+            "sentAt": 1792382758347,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_000\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 1,
+            "cols": 81,
+            "rows": 21,
+            "resizedAt": 1792382758423,
+            "ackAt": 1792382758424,
+            "sentAt": 1792382758424,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_001\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 2,
+            "cols": 82,
+            "rows": 22,
+            "resizedAt": 1792382758485,
+            "ackAt": 1792382758485,
+            "sentAt": 1792382758485,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_002\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 3,
+            "cols": 83,
+            "rows": 23,
+            "resizedAt": 1792382758561,
+            "ackAt": 1792382758562,
+            "sentAt": 1792382758562,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_003\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 4,
+            "cols": 84,
+            "rows": 24,
+            "resizedAt": 1792382758637,
+            "ackAt": 1792382758638,
+            "sentAt": 1792382758638,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_004\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 5,
+            "cols": 85,
+            "rows": 25,
+            "resizedAt": 1792382758714,
+            "ackAt": 1792382758715,
+            "sentAt": 1792382758715,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_005\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 6,
+            "cols": 86,
+            "rows": 26,
+            "resizedAt": 1792382758789,
+            "ackAt": 1792382758790,
+            "sentAt": 1792382758790,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_006\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 7,
+            "cols": 87,
+            "rows": 27,
+            "resizedAt": 1792382758866,
+            "ackAt": 1792382758867,
+            "sentAt": 1792382758867,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_007\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 8,
+            "cols": 88,
+            "rows": 28,
+            "resizedAt": 1792382758942,
+            "ackAt": 1792382758942,
+            "sentAt": 1792382758942,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_008\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 9,
+            "cols": 89,
+            "rows": 29,
+            "resizedAt": 1792382759003,
+            "ackAt": 1792382759004,
+            "sentAt": 1792382759004,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_009\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 10,
+            "cols": 90,
+            "rows": 30,
+            "resizedAt": 1792382759065,
+            "ackAt": 1792382759065,
+            "sentAt": 1792382759065,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_010\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 11,
+            "cols": 91,
+            "rows": 31,
+            "resizedAt": 1792382759142,
+            "ackAt": 1792382759142,
+            "sentAt": 1792382759142,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_011\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 12,
+            "cols": 92,
+            "rows": 32,
+            "resizedAt": 1792382759218,
+            "ackAt": 1792382759218,
+            "sentAt": 1792382759218,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_012\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 13,
+            "cols": 93,
+            "rows": 33,
+            "resizedAt": 1792382759295,
+            "ackAt": 1792382759296,
+            "sentAt": 1792382759296,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_013\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 14,
+            "cols": 94,
+            "rows": 34,
+            "resizedAt": 1792382759370,
+            "ackAt": 1792382759371,
+            "sentAt": 1792382759371,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_014\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 15,
+            "cols": 95,
+            "rows": 35,
+            "resizedAt": 1792382759446,
+            "ackAt": 1792382759447,
+            "sentAt": 1792382759447,
+            "pass": true,
+            "echo": true,
+            "delta": "Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/\r\n\r中文 space$ printf 'RACE_PASS_015\\n'\r\n\u001b[?2004l\rRACE_PASS_015\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007"
+          },
+          {
+            "i": 16,
+            "cols": 96,
+            "rows": 36,
+            "resizedAt": 1792382759507,
+            "ackAt": 1792382759507,
+            "sentAt": 1792382759507,
+            "pass": true,
+            "echo": true,
+            "delta": "\n\u001b[?2004l\rRACE_PASS_016\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/\r\n\r中文 space$ "
+          },
+          {
+            "i": 17,
+            "cols": 97,
+            "rows": 37,
+            "resizedAt": 1792382759570,
+            "ackAt": 1792382759570,
+            "sentAt": 1792382759570,
+            "pass": true,
+            "echo": true,
+            "delta": "\n\u001b[?2004l\rRACE_PASS_017\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中\r\n\r文 space$ "
+          },
+          {
+            "i": 18,
+            "cols": 98,
+            "rows": 38,
+            "resizedAt": 1792382759646,
+            "ackAt": 1792382759647,
+            "sentAt": 1792382759647,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_018\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 19,
+            "cols": 99,
+            "rows": 20,
+            "resizedAt": 1792382759722,
+            "ackAt": 1792382759723,
+            "sentAt": 1792382759723,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_019\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 20,
+            "cols": 100,
+            "rows": 21,
+            "resizedAt": 1792382759784,
+            "ackAt": 1792382759785,
+            "sentAt": 1792382759785,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_020\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 21,
+            "cols": 101,
+            "rows": 22,
+            "resizedAt": 1792382759846,
+            "ackAt": 1792382759847,
+            "sentAt": 1792382759847,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_021\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 22,
+            "cols": 102,
+            "rows": 23,
+            "resizedAt": 1792382759909,
+            "ackAt": 1792382759909,
+            "sentAt": 1792382759909,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_022\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 23,
+            "cols": 103,
+            "rows": 24,
+            "resizedAt": 1792382759986,
+            "ackAt": 1792382759986,
+            "sentAt": 1792382759986,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_023\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 24,
+            "cols": 104,
+            "rows": 25,
+            "resizedAt": 1792382760063,
+            "ackAt": 1792382760063,
+            "sentAt": 1792382760063,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_024\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 25,
+            "cols": 105,
+            "rows": 26,
+            "resizedAt": 1792382760141,
+            "ackAt": 1792382760141,
+            "sentAt": 1792382760141,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_025\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 26,
+            "cols": 106,
+            "rows": 27,
+            "resizedAt": 1792382760216,
+            "ackAt": 1792382760217,
+            "sentAt": 1792382760217,
+            "pass": true,
+            "echo": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_PASS_026\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$  \r"
+          },
+          {
+            "i": 27,
+            "cols": 107,
+            "rows": 28,
+            "resizedAt": 1792382760278,
+            "ackAt": 1792382760279,
+            "sentAt": 1792382760279,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_027\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 28,
+            "cols": 108,
+            "rows": 29,
+            "resizedAt": 1792382760339,
+            "ackAt": 1792382760340,
+            "sentAt": 1792382760340,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_028\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 29,
+            "cols": 109,
+            "rows": 30,
+            "resizedAt": 1792382760416,
+            "ackAt": 1792382760416,
+            "sentAt": 1792382760416,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_029\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 30,
+            "cols": 110,
+            "rows": 31,
+            "resizedAt": 1792382760492,
+            "ackAt": 1792382760493,
+            "sentAt": 1792382760493,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_030\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 31,
+            "cols": 111,
+            "rows": 32,
+            "resizedAt": 1792382760569,
+            "ackAt": 1792382760569,
+            "sentAt": 1792382760569,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_031\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 32,
+            "cols": 112,
+            "rows": 33,
+            "resizedAt": 1792382760645,
+            "ackAt": 1792382760646,
+            "sentAt": 1792382760646,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_032\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 33,
+            "cols": 113,
+            "rows": 34,
+            "resizedAt": 1792382760722,
+            "ackAt": 1792382760722,
+            "sentAt": 1792382760722,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_033\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 34,
+            "cols": 114,
+            "rows": 35,
+            "resizedAt": 1792382760799,
+            "ackAt": 1792382760800,
+            "sentAt": 1792382760800,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_034\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 35,
+            "cols": 115,
+            "rows": 36,
+            "resizedAt": 1792382760860,
+            "ackAt": 1792382760861,
+            "sentAt": 1792382760861,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_035\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 36,
+            "cols": 116,
+            "rows": 37,
+            "resizedAt": 1792382760937,
+            "ackAt": 1792382760938,
+            "sentAt": 1792382760938,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_036\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 37,
+            "cols": 117,
+            "rows": 38,
+            "resizedAt": 1792382761028,
+            "ackAt": 1792382761029,
+            "sentAt": 1792382761029,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_037\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 38,
+            "cols": 118,
+            "rows": 20,
+            "resizedAt": 1792382761106,
+            "ackAt": 1792382761106,
+            "sentAt": 1792382761106,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_038\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 39,
+            "cols": 119,
+            "rows": 21,
+            "resizedAt": 1792382761183,
+            "ackAt": 1792382761183,
+            "sentAt": 1792382761183,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_039\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 40,
+            "cols": 120,
+            "rows": 22,
+            "resizedAt": 1792382761261,
+            "ackAt": 1792382761261,
+            "sentAt": 1792382761261,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_040\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 41,
+            "cols": 121,
+            "rows": 23,
+            "resizedAt": 1792382761324,
+            "ackAt": 1792382761324,
+            "sentAt": 1792382761324,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_041\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 42,
+            "cols": 122,
+            "rows": 24,
+            "resizedAt": 1792382761401,
+            "ackAt": 1792382761401,
+            "sentAt": 1792382761401,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_042\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 43,
+            "cols": 123,
+            "rows": 25,
+            "resizedAt": 1792382761479,
+            "ackAt": 1792382761480,
+            "sentAt": 1792382761480,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_043\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 44,
+            "cols": 124,
+            "rows": 26,
+            "resizedAt": 1792382761542,
+            "ackAt": 1792382761542,
+            "sentAt": 1792382761542,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_044\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 45,
+            "cols": 125,
+            "rows": 27,
+            "resizedAt": 1792382761619,
+            "ackAt": 1792382761620,
+            "sentAt": 1792382761620,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_045\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 46,
+            "cols": 126,
+            "rows": 28,
+            "resizedAt": 1792382761696,
+            "ackAt": 1792382761696,
+            "sentAt": 1792382761696,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_046\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 47,
+            "cols": 127,
+            "rows": 29,
+            "resizedAt": 1792382761772,
+            "ackAt": 1792382761773,
+            "sentAt": 1792382761773,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_047\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 48,
+            "cols": 128,
+            "rows": 30,
+            "resizedAt": 1792382761849,
+            "ackAt": 1792382761850,
+            "sentAt": 1792382761850,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_048\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 49,
+            "cols": 129,
+            "rows": 31,
+            "resizedAt": 1792382761927,
+            "ackAt": 1792382761927,
+            "sentAt": 1792382761927,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_049\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 50,
+            "cols": 130,
+            "rows": 32,
+            "resizedAt": 1792382762004,
+            "ackAt": 1792382762004,
+            "sentAt": 1792382762004,
+            "pass": true,
+            "echo": true,
+            "delta": "[A\r\n\u001b[?2004l\rRACE_PASS_050\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 51,
+            "cols": 131,
+            "rows": 33,
+            "resizedAt": 1792382762081,
+            "ackAt": 1792382762081,
+            "sentAt": 1792382762081,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_051\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 52,
+            "cols": 132,
+            "rows": 34,
+            "resizedAt": 1792382762158,
+            "ackAt": 1792382762159,
+            "sentAt": 1792382762159,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_052\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 53,
+            "cols": 133,
+            "rows": 35,
+            "resizedAt": 1792382762234,
+            "ackAt": 1792382762235,
+            "sentAt": 1792382762235,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_053\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 54,
+            "cols": 134,
+            "rows": 36,
+            "resizedAt": 1792382762295,
+            "ackAt": 1792382762296,
+            "sentAt": 1792382762296,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_054\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 55,
+            "cols": 135,
+            "rows": 37,
+            "resizedAt": 1792382762372,
+            "ackAt": 1792382762372,
+            "sentAt": 1792382762372,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_055\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 56,
+            "cols": 136,
+            "rows": 38,
+            "resizedAt": 1792382762450,
+            "ackAt": 1792382762450,
+            "sentAt": 1792382762450,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_056\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 57,
+            "cols": 137,
+            "rows": 20,
+            "resizedAt": 1792382762526,
+            "ackAt": 1792382762527,
+            "sentAt": 1792382762527,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_057\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 58,
+            "cols": 138,
+            "rows": 21,
+            "resizedAt": 1792382762588,
+            "ackAt": 1792382762589,
+            "sentAt": 1792382762589,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_058\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 59,
+            "cols": 139,
+            "rows": 22,
+            "resizedAt": 1792382762651,
+            "ackAt": 1792382762652,
+            "sentAt": 1792382762652,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_059\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 60,
+            "cols": 140,
+            "rows": 23,
+            "resizedAt": 1792382762728,
+            "ackAt": 1792382762728,
+            "sentAt": 1792382762728,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_060\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 61,
+            "cols": 141,
+            "rows": 24,
+            "resizedAt": 1792382762789,
+            "ackAt": 1792382762790,
+            "sentAt": 1792382762790,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_061\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 62,
+            "cols": 142,
+            "rows": 25,
+            "resizedAt": 1792382762851,
+            "ackAt": 1792382762851,
+            "sentAt": 1792382762851,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_062\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 63,
+            "cols": 143,
+            "rows": 26,
+            "resizedAt": 1792382762929,
+            "ackAt": 1792382762930,
+            "sentAt": 1792382762930,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_063\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 64,
+            "cols": 144,
+            "rows": 27,
+            "resizedAt": 1792382763006,
+            "ackAt": 1792382763006,
+            "sentAt": 1792382763006,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_064\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 65,
+            "cols": 145,
+            "rows": 28,
+            "resizedAt": 1792382763069,
+            "ackAt": 1792382763069,
+            "sentAt": 1792382763069,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_065\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 66,
+            "cols": 146,
+            "rows": 29,
+            "resizedAt": 1792382763145,
+            "ackAt": 1792382763146,
+            "sentAt": 1792382763146,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_066\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 67,
+            "cols": 147,
+            "rows": 30,
+            "resizedAt": 1792382763222,
+            "ackAt": 1792382763223,
+            "sentAt": 1792382763223,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_067\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 68,
+            "cols": 148,
+            "rows": 31,
+            "resizedAt": 1792382763314,
+            "ackAt": 1792382763314,
+            "sentAt": 1792382763314,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_068\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 69,
+            "cols": 149,
+            "rows": 32,
+            "resizedAt": 1792382763391,
+            "ackAt": 1792382763392,
+            "sentAt": 1792382763392,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_069\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 70,
+            "cols": 150,
+            "rows": 33,
+            "resizedAt": 1792382763469,
+            "ackAt": 1792382763469,
+            "sentAt": 1792382763469,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_070\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 71,
+            "cols": 80,
+            "rows": 34,
+            "resizedAt": 1792382763546,
+            "ackAt": 1792382763547,
+            "sentAt": 1792382763547,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_071\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 72,
+            "cols": 81,
+            "rows": 35,
+            "resizedAt": 1792382763625,
+            "ackAt": 1792382763625,
+            "sentAt": 1792382763625,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_072\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 73,
+            "cols": 82,
+            "rows": 36,
+            "resizedAt": 1792382763702,
+            "ackAt": 1792382763703,
+            "sentAt": 1792382763703,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_073\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 74,
+            "cols": 83,
+            "rows": 37,
+            "resizedAt": 1792382763779,
+            "ackAt": 1792382763779,
+            "sentAt": 1792382763779,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_074\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 75,
+            "cols": 84,
+            "rows": 38,
+            "resizedAt": 1792382763855,
+            "ackAt": 1792382763856,
+            "sentAt": 1792382763856,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_075\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 76,
+            "cols": 85,
+            "rows": 20,
+            "resizedAt": 1792382763917,
+            "ackAt": 1792382763917,
+            "sentAt": 1792382763917,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_076\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 77,
+            "cols": 86,
+            "rows": 21,
+            "resizedAt": 1792382763979,
+            "ackAt": 1792382763979,
+            "sentAt": 1792382763979,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_077\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 78,
+            "cols": 87,
+            "rows": 22,
+            "resizedAt": 1792382764056,
+            "ackAt": 1792382764057,
+            "sentAt": 1792382764057,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_078\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 79,
+            "cols": 88,
+            "rows": 23,
+            "resizedAt": 1792382764132,
+            "ackAt": 1792382764133,
+            "sentAt": 1792382764133,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_079\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 80,
+            "cols": 89,
+            "rows": 24,
+            "resizedAt": 1792382764194,
+            "ackAt": 1792382764195,
+            "sentAt": 1792382764195,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_080\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 81,
+            "cols": 90,
+            "rows": 25,
+            "resizedAt": 1792382764271,
+            "ackAt": 1792382764272,
+            "sentAt": 1792382764272,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_081\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 82,
+            "cols": 91,
+            "rows": 26,
+            "resizedAt": 1792382764333,
+            "ackAt": 1792382764334,
+            "sentAt": 1792382764334,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_082\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 83,
+            "cols": 92,
+            "rows": 27,
+            "resizedAt": 1792382764396,
+            "ackAt": 1792382764396,
+            "sentAt": 1792382764396,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_083\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 84,
+            "cols": 93,
+            "rows": 28,
+            "resizedAt": 1792382764473,
+            "ackAt": 1792382764474,
+            "sentAt": 1792382764474,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_084\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 85,
+            "cols": 94,
+            "rows": 29,
+            "resizedAt": 1792382764535,
+            "ackAt": 1792382764536,
+            "sentAt": 1792382764536,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_085\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 86,
+            "cols": 95,
+            "rows": 30,
+            "resizedAt": 1792382764598,
+            "ackAt": 1792382764598,
+            "sentAt": 1792382764598,
+            "pass": true,
+            "echo": true,
+            "delta": "\n\u001b[?2004l\rRACE_PASS_086\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/\r\n\r中文 space$ "
+          },
+          {
+            "i": 87,
+            "cols": 96,
+            "rows": 31,
+            "resizedAt": 1792382764674,
+            "ackAt": 1792382764675,
+            "sentAt": 1792382764675,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_087\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 88,
+            "cols": 97,
+            "rows": 32,
+            "resizedAt": 1792382764751,
+            "ackAt": 1792382764751,
+            "sentAt": 1792382764751,
+            "pass": true,
+            "echo": true,
+            "delta": "\n\u001b[?2004l\rRACE_PASS_088\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中\r\n\r文 space$ "
+          },
+          {
+            "i": 89,
+            "cols": 98,
+            "rows": 33,
+            "resizedAt": 1792382764827,
+            "ackAt": 1792382764828,
+            "sentAt": 1792382764828,
+            "pass": true,
+            "echo": true,
+            "delta": "\r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ printf 'RACE_PASS_089\\n'"
+          },
+          {
+            "i": 90,
+            "cols": 99,
+            "rows": 34,
+            "resizedAt": 1792382764888,
+            "ackAt": 1792382764889,
+            "sentAt": 1792382764889,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_090\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 91,
+            "cols": 100,
+            "rows": 35,
+            "resizedAt": 1792382764952,
+            "ackAt": 1792382764953,
+            "sentAt": 1792382764953,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_091\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 92,
+            "cols": 101,
+            "rows": 36,
+            "resizedAt": 1792382765027,
+            "ackAt": 1792382765028,
+            "sentAt": 1792382765028,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_092\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 93,
+            "cols": 102,
+            "rows": 37,
+            "resizedAt": 1792382765089,
+            "ackAt": 1792382765089,
+            "sentAt": 1792382765089,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_093\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 94,
+            "cols": 103,
+            "rows": 38,
+            "resizedAt": 1792382765165,
+            "ackAt": 1792382765166,
+            "sentAt": 1792382765166,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_094\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 95,
+            "cols": 104,
+            "rows": 20,
+            "resizedAt": 1792382765242,
+            "ackAt": 1792382765243,
+            "sentAt": 1792382765243,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_095\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 96,
+            "cols": 105,
+            "rows": 21,
+            "resizedAt": 1792382765333,
+            "ackAt": 1792382765333,
+            "sentAt": 1792382765333,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_096\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 97,
+            "cols": 106,
+            "rows": 22,
+            "resizedAt": 1792382765408,
+            "ackAt": 1792382765409,
+            "sentAt": 1792382765409,
+            "pass": true,
+            "echo": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_PASS_097\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$  \r"
+          },
+          {
+            "i": 98,
+            "cols": 107,
+            "rows": 23,
+            "resizedAt": 1792382765470,
+            "ackAt": 1792382765471,
+            "sentAt": 1792382765471,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_098\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 99,
+            "cols": 108,
+            "rows": 24,
+            "resizedAt": 1792382765546,
+            "ackAt": 1792382765547,
+            "sentAt": 1792382765547,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_099\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 100,
+            "cols": 109,
+            "rows": 25,
+            "resizedAt": 1792382765609,
+            "ackAt": 1792382765610,
+            "sentAt": 1792382765610,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_100\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 101,
+            "cols": 110,
+            "rows": 26,
+            "resizedAt": 1792382765671,
+            "ackAt": 1792382765672,
+            "sentAt": 1792382765672,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_101\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 102,
+            "cols": 111,
+            "rows": 27,
+            "resizedAt": 1792382765733,
+            "ackAt": 1792382765734,
+            "sentAt": 1792382765734,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_102\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 103,
+            "cols": 112,
+            "rows": 28,
+            "resizedAt": 1792382765809,
+            "ackAt": 1792382765810,
+            "sentAt": 1792382765810,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_103\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 104,
+            "cols": 113,
+            "rows": 29,
+            "resizedAt": 1792382765886,
+            "ackAt": 1792382765887,
+            "sentAt": 1792382765887,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_104\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 105,
+            "cols": 114,
+            "rows": 30,
+            "resizedAt": 1792382765963,
+            "ackAt": 1792382765964,
+            "sentAt": 1792382765964,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_105\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 106,
+            "cols": 115,
+            "rows": 31,
+            "resizedAt": 1792382766040,
+            "ackAt": 1792382766040,
+            "sentAt": 1792382766040,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_106\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 107,
+            "cols": 116,
+            "rows": 32,
+            "resizedAt": 1792382766102,
+            "ackAt": 1792382766103,
+            "sentAt": 1792382766103,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_107\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 108,
+            "cols": 117,
+            "rows": 33,
+            "resizedAt": 1792382766179,
+            "ackAt": 1792382766180,
+            "sentAt": 1792382766180,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_108\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 109,
+            "cols": 118,
+            "rows": 34,
+            "resizedAt": 1792382766255,
+            "ackAt": 1792382766256,
+            "sentAt": 1792382766256,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_109\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 110,
+            "cols": 119,
+            "rows": 35,
+            "resizedAt": 1792382766332,
+            "ackAt": 1792382766333,
+            "sentAt": 1792382766333,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_110\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 111,
+            "cols": 120,
+            "rows": 36,
+            "resizedAt": 1792382766408,
+            "ackAt": 1792382766409,
+            "sentAt": 1792382766409,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_111\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 112,
+            "cols": 121,
+            "rows": 37,
+            "resizedAt": 1792382766485,
+            "ackAt": 1792382766485,
+            "sentAt": 1792382766485,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_112\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 113,
+            "cols": 122,
+            "rows": 38,
+            "resizedAt": 1792382766561,
+            "ackAt": 1792382766562,
+            "sentAt": 1792382766562,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_113\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 114,
+            "cols": 123,
+            "rows": 20,
+            "resizedAt": 1792382766623,
+            "ackAt": 1792382766623,
+            "sentAt": 1792382766623,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_114\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 115,
+            "cols": 124,
+            "rows": 21,
+            "resizedAt": 1792382766684,
+            "ackAt": 1792382766684,
+            "sentAt": 1792382766684,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_115\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 116,
+            "cols": 125,
+            "rows": 22,
+            "resizedAt": 1792382766748,
+            "ackAt": 1792382766749,
+            "sentAt": 1792382766749,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_116\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 117,
+            "cols": 126,
+            "rows": 23,
+            "resizedAt": 1792382766824,
+            "ackAt": 1792382766825,
+            "sentAt": 1792382766825,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_117\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 118,
+            "cols": 127,
+            "rows": 24,
+            "resizedAt": 1792382766901,
+            "ackAt": 1792382766902,
+            "sentAt": 1792382766902,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_118\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 119,
+            "cols": 128,
+            "rows": 25,
+            "resizedAt": 1792382766978,
+            "ackAt": 1792382766978,
+            "sentAt": 1792382766978,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_119\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 120,
+            "cols": 129,
+            "rows": 26,
+            "resizedAt": 1792382767054,
+            "ackAt": 1792382767055,
+            "sentAt": 1792382767055,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_120\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 121,
+            "cols": 130,
+            "rows": 27,
+            "resizedAt": 1792382767131,
+            "ackAt": 1792382767132,
+            "sentAt": 1792382767132,
+            "pass": true,
+            "echo": true,
+            "delta": "[A\r\n\u001b[?2004l\rRACE_PASS_121\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 122,
+            "cols": 131,
+            "rows": 28,
+            "resizedAt": 1792382767208,
+            "ackAt": 1792382767208,
+            "sentAt": 1792382767208,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_122\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 123,
+            "cols": 132,
+            "rows": 29,
+            "resizedAt": 1792382767285,
+            "ackAt": 1792382767285,
+            "sentAt": 1792382767285,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_123\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 124,
+            "cols": 133,
+            "rows": 30,
+            "resizedAt": 1792382767362,
+            "ackAt": 1792382767362,
+            "sentAt": 1792382767362,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_124\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 125,
+            "cols": 134,
+            "rows": 31,
+            "resizedAt": 1792382767439,
+            "ackAt": 1792382767439,
+            "sentAt": 1792382767439,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_125\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 126,
+            "cols": 135,
+            "rows": 32,
+            "resizedAt": 1792382767500,
+            "ackAt": 1792382767501,
+            "sentAt": 1792382767501,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_126\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 127,
+            "cols": 136,
+            "rows": 33,
+            "resizedAt": 1792382767590,
+            "ackAt": 1792382767591,
+            "sentAt": 1792382767591,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_127\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 128,
+            "cols": 137,
+            "rows": 34,
+            "resizedAt": 1792382767653,
+            "ackAt": 1792382767653,
+            "sentAt": 1792382767653,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_128\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 129,
+            "cols": 138,
+            "rows": 35,
+            "resizedAt": 1792382767729,
+            "ackAt": 1792382767730,
+            "sentAt": 1792382767730,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_129\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 130,
+            "cols": 139,
+            "rows": 36,
+            "resizedAt": 1792382767791,
+            "ackAt": 1792382767791,
+            "sentAt": 1792382767791,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_130\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 131,
+            "cols": 140,
+            "rows": 37,
+            "resizedAt": 1792382767867,
+            "ackAt": 1792382767868,
+            "sentAt": 1792382767868,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_131\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 132,
+            "cols": 141,
+            "rows": 38,
+            "resizedAt": 1792382767944,
+            "ackAt": 1792382767944,
+            "sentAt": 1792382767944,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_132\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 133,
+            "cols": 142,
+            "rows": 20,
+            "resizedAt": 1792382768020,
+            "ackAt": 1792382768021,
+            "sentAt": 1792382768021,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_133\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 134,
+            "cols": 143,
+            "rows": 21,
+            "resizedAt": 1792382768081,
+            "ackAt": 1792382768082,
+            "sentAt": 1792382768082,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_134\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 135,
+            "cols": 144,
+            "rows": 22,
+            "resizedAt": 1792382768172,
+            "ackAt": 1792382768173,
+            "sentAt": 1792382768173,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_135\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 136,
+            "cols": 145,
+            "rows": 23,
+            "resizedAt": 1792382768234,
+            "ackAt": 1792382768235,
+            "sentAt": 1792382768235,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_136\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 137,
+            "cols": 146,
+            "rows": 24,
+            "resizedAt": 1792382768311,
+            "ackAt": 1792382768312,
+            "sentAt": 1792382768312,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_137\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 138,
+            "cols": 147,
+            "rows": 25,
+            "resizedAt": 1792382768388,
+            "ackAt": 1792382768388,
+            "sentAt": 1792382768388,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_138\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 139,
+            "cols": 148,
+            "rows": 26,
+            "resizedAt": 1792382768466,
+            "ackAt": 1792382768467,
+            "sentAt": 1792382768467,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_139\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 140,
+            "cols": 149,
+            "rows": 27,
+            "resizedAt": 1792382768543,
+            "ackAt": 1792382768544,
+            "sentAt": 1792382768544,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_140\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 141,
+            "cols": 150,
+            "rows": 28,
+            "resizedAt": 1792382768620,
+            "ackAt": 1792382768620,
+            "sentAt": 1792382768620,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_141\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 142,
+            "cols": 80,
+            "rows": 29,
+            "resizedAt": 1792382768696,
+            "ackAt": 1792382768697,
+            "sentAt": 1792382768697,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_142\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 143,
+            "cols": 81,
+            "rows": 30,
+            "resizedAt": 1792382768758,
+            "ackAt": 1792382768758,
+            "sentAt": 1792382768758,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_143\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 144,
+            "cols": 82,
+            "rows": 31,
+            "resizedAt": 1792382768835,
+            "ackAt": 1792382768835,
+            "sentAt": 1792382768835,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_144\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 145,
+            "cols": 83,
+            "rows": 32,
+            "resizedAt": 1792382768925,
+            "ackAt": 1792382768926,
+            "sentAt": 1792382768926,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_145\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 146,
+            "cols": 84,
+            "rows": 33,
+            "resizedAt": 1792382769017,
+            "ackAt": 1792382769018,
+            "sentAt": 1792382769018,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_146\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 147,
+            "cols": 85,
+            "rows": 34,
+            "resizedAt": 1792382769079,
+            "ackAt": 1792382769080,
+            "sentAt": 1792382769080,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_147\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 148,
+            "cols": 86,
+            "rows": 35,
+            "resizedAt": 1792382769156,
+            "ackAt": 1792382769157,
+            "sentAt": 1792382769157,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_148\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 149,
+            "cols": 87,
+            "rows": 36,
+            "resizedAt": 1792382769232,
+            "ackAt": 1792382769233,
+            "sentAt": 1792382769233,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_149\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 150,
+            "cols": 88,
+            "rows": 37,
+            "resizedAt": 1792382769294,
+            "ackAt": 1792382769294,
+            "sentAt": 1792382769294,
+            "pass": true,
+            "echo": true,
+            "delta": "JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ printf 'RACE_PASS_150\\n'\r\n\u001b[?2004l\rRACE_PASS_150\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004h"
+          },
+          {
+            "i": 151,
+            "cols": 89,
+            "rows": 38,
+            "resizedAt": 1792382769355,
+            "ackAt": 1792382769356,
+            "sentAt": 1792382769356,
+            "pass": true,
+            "echo": true,
+            "delta": "nistrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ \r\u001b[K\r\u001b[A\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ printf 'RACE_PASS_151\\n'"
+          },
+          {
+            "i": 152,
+            "cols": 90,
+            "rows": 20,
+            "resizedAt": 1792382769398,
+            "ackAt": 1792382769399,
+            "sentAt": 1792382769399,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_152\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 153,
+            "cols": 91,
+            "rows": 21,
+            "resizedAt": 1792382769463,
+            "ackAt": 1792382769466,
+            "sentAt": 1792382769466,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_153\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 154,
+            "cols": 92,
+            "rows": 22,
+            "resizedAt": 1792382769555,
+            "ackAt": 1792382769556,
+            "sentAt": 1792382769556,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_154\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 155,
+            "cols": 93,
+            "rows": 23,
+            "resizedAt": 1792382769617,
+            "ackAt": 1792382769618,
+            "sentAt": 1792382769618,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_155\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 156,
+            "cols": 94,
+            "rows": 24,
+            "resizedAt": 1792382769679,
+            "ackAt": 1792382769679,
+            "sentAt": 1792382769679,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_156\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 157,
+            "cols": 95,
+            "rows": 25,
+            "resizedAt": 1792382769756,
+            "ackAt": 1792382769756,
+            "sentAt": 1792382769756,
+            "pass": true,
+            "echo": true,
+            "delta": "\n\u001b[?2004l\rRACE_PASS_157\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/\r\n\r中文 space$ "
+          },
+          {
+            "i": 158,
+            "cols": 96,
+            "rows": 26,
+            "resizedAt": 1792382769817,
+            "ackAt": 1792382769818,
+            "sentAt": 1792382769818,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_158\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 159,
+            "cols": 97,
+            "rows": 27,
+            "resizedAt": 1792382769879,
+            "ackAt": 1792382769880,
+            "sentAt": 1792382769880,
+            "pass": true,
+            "echo": true,
+            "delta": "\n\u001b[?2004l\rRACE_PASS_159\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中\r\n\r文 space$ "
+          },
+          {
+            "i": 160,
+            "cols": 98,
+            "rows": 28,
+            "resizedAt": 1792382769941,
+            "ackAt": 1792382769942,
+            "sentAt": 1792382769942,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_160\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 161,
+            "cols": 99,
+            "rows": 29,
+            "resizedAt": 1792382770019,
+            "ackAt": 1792382770020,
+            "sentAt": 1792382770020,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_161\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 162,
+            "cols": 100,
+            "rows": 30,
+            "resizedAt": 1792382770097,
+            "ackAt": 1792382770098,
+            "sentAt": 1792382770098,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_162\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 163,
+            "cols": 101,
+            "rows": 31,
+            "resizedAt": 1792382770174,
+            "ackAt": 1792382770175,
+            "sentAt": 1792382770175,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_163\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 164,
+            "cols": 102,
+            "rows": 32,
+            "resizedAt": 1792382770235,
+            "ackAt": 1792382770236,
+            "sentAt": 1792382770236,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_164\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 165,
+            "cols": 103,
+            "rows": 33,
+            "resizedAt": 1792382770298,
+            "ackAt": 1792382770299,
+            "sentAt": 1792382770299,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_165\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 166,
+            "cols": 104,
+            "rows": 34,
+            "resizedAt": 1792382770360,
+            "ackAt": 1792382770361,
+            "sentAt": 1792382770361,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_166\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 167,
+            "cols": 105,
+            "rows": 35,
+            "resizedAt": 1792382770438,
+            "ackAt": 1792382770438,
+            "sentAt": 1792382770438,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_167\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 168,
+            "cols": 106,
+            "rows": 36,
+            "resizedAt": 1792382770514,
+            "ackAt": 1792382770515,
+            "sentAt": 1792382770515,
+            "pass": true,
+            "echo": true,
+            "delta": "\r\n\u001b[?2004l\rRACE_PASS_168\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$  \r"
+          },
+          {
+            "i": 169,
+            "cols": 107,
+            "rows": 37,
+            "resizedAt": 1792382770576,
+            "ackAt": 1792382770577,
+            "sentAt": 1792382770577,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_169\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 170,
+            "cols": 108,
+            "rows": 38,
+            "resizedAt": 1792382770639,
+            "ackAt": 1792382770640,
+            "sentAt": 1792382770640,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_170\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 171,
+            "cols": 109,
+            "rows": 20,
+            "resizedAt": 1792382770716,
+            "ackAt": 1792382770717,
+            "sentAt": 1792382770717,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_171\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 172,
+            "cols": 110,
+            "rows": 21,
+            "resizedAt": 1792382770778,
+            "ackAt": 1792382770779,
+            "sentAt": 1792382770779,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_172\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 173,
+            "cols": 111,
+            "rows": 22,
+            "resizedAt": 1792382770855,
+            "ackAt": 1792382770855,
+            "sentAt": 1792382770855,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_173\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 174,
+            "cols": 112,
+            "rows": 23,
+            "resizedAt": 1792382770932,
+            "ackAt": 1792382770933,
+            "sentAt": 1792382770933,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_174\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 175,
+            "cols": 113,
+            "rows": 24,
+            "resizedAt": 1792382771008,
+            "ackAt": 1792382771008,
+            "sentAt": 1792382771008,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_175\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 176,
+            "cols": 114,
+            "rows": 25,
+            "resizedAt": 1792382771083,
+            "ackAt": 1792382771084,
+            "sentAt": 1792382771084,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_176\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 177,
+            "cols": 115,
+            "rows": 26,
+            "resizedAt": 1792382771160,
+            "ackAt": 1792382771161,
+            "sentAt": 1792382771161,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_177\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 178,
+            "cols": 116,
+            "rows": 27,
+            "resizedAt": 1792382771237,
+            "ackAt": 1792382771238,
+            "sentAt": 1792382771238,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_178\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 179,
+            "cols": 117,
+            "rows": 28,
+            "resizedAt": 1792382771299,
+            "ackAt": 1792382771300,
+            "sentAt": 1792382771300,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_179\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 180,
+            "cols": 118,
+            "rows": 29,
+            "resizedAt": 1792382771376,
+            "ackAt": 1792382771377,
+            "sentAt": 1792382771377,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_180\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 181,
+            "cols": 119,
+            "rows": 30,
+            "resizedAt": 1792382771452,
+            "ackAt": 1792382771452,
+            "sentAt": 1792382771452,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_181\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 182,
+            "cols": 120,
+            "rows": 31,
+            "resizedAt": 1792382771528,
+            "ackAt": 1792382771529,
+            "sentAt": 1792382771529,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_182\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 183,
+            "cols": 121,
+            "rows": 32,
+            "resizedAt": 1792382771604,
+            "ackAt": 1792382771605,
+            "sentAt": 1792382771605,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_183\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 184,
+            "cols": 122,
+            "rows": 33,
+            "resizedAt": 1792382771667,
+            "ackAt": 1792382771667,
+            "sentAt": 1792382771667,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_184\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 185,
+            "cols": 123,
+            "rows": 34,
+            "resizedAt": 1792382771744,
+            "ackAt": 1792382771745,
+            "sentAt": 1792382771745,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_185\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 186,
+            "cols": 124,
+            "rows": 35,
+            "resizedAt": 1792382771821,
+            "ackAt": 1792382771822,
+            "sentAt": 1792382771822,
+            "pass": true,
+            "echo": true,
+            "delta": "\r\u001b[K\rAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ printf 'RACE_PASS_186\\n'\r\n\u001b[?2004l\rRACE_PASS_186\r\n"
+          },
+          {
+            "i": 187,
+            "cols": 125,
+            "rows": 36,
+            "resizedAt": 1792382771882,
+            "ackAt": 1792382771882,
+            "sentAt": 1792382771882,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_187\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 188,
+            "cols": 126,
+            "rows": 37,
+            "resizedAt": 1792382771944,
+            "ackAt": 1792382771945,
+            "sentAt": 1792382771945,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_188\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 189,
+            "cols": 127,
+            "rows": 38,
+            "resizedAt": 1792382772006,
+            "ackAt": 1792382772007,
+            "sentAt": 1792382772007,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_189\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 190,
+            "cols": 128,
+            "rows": 20,
+            "resizedAt": 1792382772082,
+            "ackAt": 1792382772082,
+            "sentAt": 1792382772082,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_190\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 191,
+            "cols": 129,
+            "rows": 21,
+            "resizedAt": 1792382772157,
+            "ackAt": 1792382772158,
+            "sentAt": 1792382772158,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_191\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 192,
+            "cols": 130,
+            "rows": 22,
+            "resizedAt": 1792382772234,
+            "ackAt": 1792382772234,
+            "sentAt": 1792382772234,
+            "pass": true,
+            "echo": true,
+            "delta": "[A\r\n\u001b[?2004l\rRACE_PASS_192\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 193,
+            "cols": 131,
+            "rows": 23,
+            "resizedAt": 1792382772296,
+            "ackAt": 1792382772296,
+            "sentAt": 1792382772296,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_193\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 194,
+            "cols": 132,
+            "rows": 24,
+            "resizedAt": 1792382772372,
+            "ackAt": 1792382772373,
+            "sentAt": 1792382772373,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_194\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 195,
+            "cols": 133,
+            "rows": 25,
+            "resizedAt": 1792382772449,
+            "ackAt": 1792382772450,
+            "sentAt": 1792382772450,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_195\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 196,
+            "cols": 134,
+            "rows": 26,
+            "resizedAt": 1792382772525,
+            "ackAt": 1792382772526,
+            "sentAt": 1792382772526,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_196\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 197,
+            "cols": 135,
+            "rows": 27,
+            "resizedAt": 1792382772588,
+            "ackAt": 1792382772588,
+            "sentAt": 1792382772588,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_197\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 198,
+            "cols": 136,
+            "rows": 28,
+            "resizedAt": 1792382772664,
+            "ackAt": 1792382772665,
+            "sentAt": 1792382772665,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_198\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          },
+          {
+            "i": 199,
+            "cols": 137,
+            "rows": 29,
+            "resizedAt": 1792382772740,
+            "ackAt": 1792382772741,
+            "sentAt": 1792382772741,
+            "pass": true,
+            "echo": true,
+            "delta": "n'\r\n\u001b[?2004l\rRACE_PASS_199\r\n\u001b]7;file:///d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space\u0007\u001b[?2004hAdministrator:/d/Code/JianZJ-Hub/.m1-scratch/bash-normal-f1bbffd9-dbfe-4178-b61e-3bb6c662be44/中文 space$ "
+          }
+        ]
+      }
+    },
+    {
+      "name": "PTY resize agrees with actual tty ioctl, not only Bash COLUMNS cache",
+      "status": "pass",
+      "detail": {
+        "cols": 113,
+        "rows": 37
+      }
+    },
+    {
+      "name": "Bash high output preserves 16000 records and Unicode tail at natural EOF",
+      "status": "pass",
+      "detail": {
+        "event": {
+          "sessionId": "session-41ec82c0-50bd-4364-a1dd-3f1649ce7da1",
+          "paneId": "pane-f7f839da-ee0c-4f08-84f4-e77dfbca5bf9",
+          "workspaceId": "workspace-b49b7cd3-8fa5-493f-bea3-238cbfcc76ee",
+          "generation": 1,
+          "state": "exited",
+          "cols": 113,
+          "rows": 37,
+          "pid": 57564,
+          "createdAt": "134368563392355532",
+          "workerPid": 45256,
+          "workerCreatedAt": "134368563391897260",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "exitCode": 7,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 8864,
+          "peak": 1003,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          },
+          "type": "exit"
+        },
+        "records": 16000,
+        "sha256": "d87f891e1cde3837f9ebf69499a1137a2a6cd93b75f0465ada31a0d20415f7e8"
+      }
+    },
+    {
+      "name": "managed Bash child/grandchild close does not end surviving session",
+      "status": "pass",
+      "detail": {
+        "result": {
+          "sessionId": "session-bda41adf-281c-4ffc-8e0a-8624dcad37ec",
+          "paneId": "pane-a9cdabf0-8d1b-4d8c-b582-ce83ec926e2a",
+          "workspaceId": "workspace-032fe3d7-1cf4-4600-802a-8741f72112f3",
+          "generation": 1,
+          "state": "exited",
+          "cols": 100,
+          "rows": 30,
+          "pid": 57684,
+          "createdAt": "134368563753000663",
+          "workerPid": 54112,
+          "workerCreatedAt": "134368563752549346",
+          "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+          "shellId": "git-bash",
+          "shellLabel": "Git Bash",
+          "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+          "exitCode": 1,
+          "exitCodeSource": "process-handle",
+          "outputComplete": true,
+          "lastSeq": 7,
+          "peak": 234,
+          "cleanup": {
+            "before": [],
+            "remaining": []
+          }
+        },
+        "identities": [
+          {
+            "pid": 56844,
+            "createdAt": "134368563806834515",
+            "exited": true
+          },
+          {
+            "pid": 41360,
+            "createdAt": "134368563807092809",
+            "exited": true
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "sessionId": "session-41ec82c0-50bd-4364-a1dd-3f1649ce7da1",
+      "paneId": "pane-f7f839da-ee0c-4f08-84f4-e77dfbca5bf9",
+      "workspaceId": "workspace-b49b7cd3-8fa5-493f-bea3-238cbfcc76ee",
+      "generation": 1,
+      "state": "exited",
+      "cols": 113,
+      "rows": 37,
+      "pid": 57564,
+      "createdAt": "134368563392355532",
+      "workerPid": 45256,
+      "workerCreatedAt": "134368563391897260",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "git-bash",
+      "shellLabel": "Git Bash",
+      "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "exitCode": 7,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 8864,
+      "peak": 1003,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-bda41adf-281c-4ffc-8e0a-8624dcad37ec",
+      "paneId": "pane-a9cdabf0-8d1b-4d8c-b582-ce83ec926e2a",
+      "workspaceId": "workspace-032fe3d7-1cf4-4600-802a-8741f72112f3",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 57684,
+      "createdAt": "134368563753000663",
+      "workerPid": 54112,
+      "workerCreatedAt": "134368563752549346",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "git-bash",
+      "shellLabel": "Git Bash",
+      "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 7,
+      "peak": 234,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    },
+    {
+      "sessionId": "session-fc7c68e2-cf73-468a-8859-b22e72387477",
+      "paneId": "pane-1fcb8456-9c53-498b-930b-6052800f3e86",
+      "workspaceId": "workspace-425300fe-2b4e-4c78-8204-5c06f4cf3a00",
+      "generation": 1,
+      "state": "exited",
+      "cols": 100,
+      "rows": 30,
+      "pid": 44684,
+      "createdAt": "134368563425382553",
+      "workerPid": 56892,
+      "workerCreatedAt": "134368563424941629",
+      "claudeExecutable": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "shellId": "git-bash",
+      "shellLabel": "Git Bash",
+      "shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "exitCode": 1,
+      "exitCodeSource": "process-handle",
+      "outputComplete": true,
+      "lastSeq": 12,
+      "peak": 157,
+      "cleanup": {
+        "before": [],
+        "remaining": []
+      },
+      "type": "exit"
+    }
+  ]
+}

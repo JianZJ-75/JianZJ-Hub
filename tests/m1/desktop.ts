@@ -41,6 +41,7 @@ app.whenReady().then(async () => {
   let exiting = false
   try {
     await until(`document.querySelector('.terminal-pane')?.dataset.state==='running'`)
+    win.show(); app.focus({ steal: true }); win.focus()
     await check('startup opens one new home terminal without choosing project; last pane can reopen directly',async()=>{
       const first=(await pty.request('inspect')).active;assert.equal(first.length,1);const loaded=await js('window.workstation.load()');assert.equal(loaded.workspaces.length,0);assert.equal(loaded.defaultTerminal.cwd,join(directory,'home'));assert.equal(await js('!!document.querySelector(".drawer")'),false);assert.equal(await js('!!document.querySelector(".overlay")'),false)
       await until(`document.activeElement===document.querySelector('.terminal-pane textarea')`)
@@ -102,6 +103,7 @@ app.whenReady().then(async () => {
       await js(`window.__originalHost=document.querySelector('.xterm-host');window.__originalTextarea=document.querySelector('.xterm-helper-textarea')`)
       await click('向右分屏'); await until(`document.querySelectorAll('.terminal-pane').length===2 && ![...document.querySelectorAll('.pane-state')].some(n=>n.textContent.includes('创建'))`)
       await click('向下分屏'); await until(`document.querySelectorAll('.terminal-pane').length===3 && ![...document.querySelectorAll('.pane-state')].some(n=>n.textContent.includes('创建'))`)
+      await until(`document.activeElement===document.querySelector('.terminal-pane.active textarea')`)
       assert.equal(await js(`window.__originalHost===document.querySelector('[data-pane="${original.paneId}"] .xterm-host') && window.__originalTextarea===window.__originalHost.querySelector('textarea')`), true)
       ids = (await pty.request('inspect')).active
       assert.equal(new Set(ids.map((s: any) => s.workerPid)).size, 3); return ids
@@ -258,7 +260,7 @@ app.whenReady().then(async () => {
     })
   } catch (error) {
     writeFileSync(join(directory, 'desktop.json'), JSON.stringify({ status: 'fail', error: String(error), checks, consoleErrors }, null, 2))
-    if (!win.isDestroyed()) writeFileSync(join(directory, 'failure.png'), (await win.webContents.capturePage()).toPNG())
+    if (!win.isDestroyed()) await win.webContents.capturePage().then(image => writeFileSync(join(directory, 'failure.png'), image.toPNG())).catch(captureError => { consoleErrors.push({ captureError: String(captureError) }) })
     await Promise.allSettled([runtime.pty.reclaim(), runtime.data.reclaim()]); app.exit(1)
   }
 })

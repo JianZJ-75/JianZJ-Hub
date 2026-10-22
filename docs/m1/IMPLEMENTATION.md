@@ -4,7 +4,7 @@
 
 > 本文保留首轮实现记录。首轮人工体验未通过；最新界面/行距/尺寸/CLI 返修及未验范围见 [返修记录](REPAIR-20261015.md)。下文首轮自动结果不能当作人工验收通过。
 
-> **2026-10-17/18 之后的修复**（`worker.ts`、`shell.ts`、`terminals.ts`、`app.ts`）：resize/输入竞态、中文输入回显为八进制、第一次输入法提交路径修复，以及 `Ctrl+V`/`Ctrl+Shift+V` 粘贴失效均已定位；2026-10-18 又修正了工作站快捷键层提前阻止 xterm `CompositionHelper` 的候选数字提交路径。自动回归、前后对照与证据见 [BASH-TUI.md](BASH-TUI.md) 及 `evidence/` 下各轮目录；正文各节为总体技术与边界说明，不代表某一轮快照。
+> **2026-10-19 修正说明**：resize/输入、UTF-8 locale 与粘贴的既有证据保留；上一轮把连续候选故障归因于快捷键返回值的判断错误，用户复验后已撤回。新定位是真实 Windows IME 提交后隐藏 textarea 的旧值/selection 与 xterm 增量起点不一致，详见 [连续输入证据](evidence/ime-continuous-20261019/README.md) 与 [BASH-TUI.md](BASH-TUI.md)。正文为总体技术边界，不代表最终人工验收。
 
 ## 基线与已确认口径
 

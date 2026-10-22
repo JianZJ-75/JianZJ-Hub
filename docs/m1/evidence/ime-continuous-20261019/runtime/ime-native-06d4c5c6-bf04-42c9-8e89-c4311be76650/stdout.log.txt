@@ -1,0 +1,2 @@
+
+{"status":"fail","cases":[{"name":"native-number-candidates-after-existing-CJK","status":"pass","beforeEnter":"按这个方案继续"},{"name":"native-cancel-backspace-space-and-identical-words","status":"pass","beforeEnter":"方案你好你好123方案"},{"name":"native-fast-consecutive-number-candidates","status":"fail"}],"error":"Error: IME_TIMEOUT:window.__ime.data.map(e=>e.data).join('')==='你好你好'","directory":"D:\\Code\\JianZJ-Hub\\.m1-scratch\\ime-native-06d4c5c6-bf04-42c9-8e89-c4311be76650"}

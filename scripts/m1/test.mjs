@@ -7,6 +7,6 @@ function run(script, args = [], extraEnv = {}) {
 }
 if (target === 'dev') {
   run('scripts/m1/record.mjs', ['build-test', 'node_modules/electron-vite/bin/electron-vite.js', 'build', '--config', 'electron.vite.m1.config.ts'], { M1_TEST_BUILD: '1' })
-  for (const [entry, mode] of [['probe','normal'], ['desktop','normal'], ['stress','normal'], ['bash','normal'], ['paste','normal'], ['visual','normal'], ['tui','classic'], ['tui','fullscreen'], ['fault','service-fault'], ['fault','main-crash']]) run('scripts/m1/record.mjs', [entry + '-' + mode, 'scripts/m1/probe-run.mjs', entry, mode])
+  for (const [entry, mode] of [['probe','normal'], ['desktop','normal'], ['stress','normal'], ['bash','normal'], ['paste','normal'], ['ime','cdp'], ['visual','normal'], ['tui','classic'], ['tui','fullscreen'], ['fault','service-fault'], ['fault','main-crash']]) run('scripts/m1/record.mjs', [entry + '-' + mode, 'scripts/m1/probe-run.mjs', entry, mode])
 } else if (target === 'packaged') run('scripts/m1/record.mjs', ['packaged-runtime', 'scripts/m1/packaged-test.mjs'])
 else throw new Error('Expected dev or packaged')

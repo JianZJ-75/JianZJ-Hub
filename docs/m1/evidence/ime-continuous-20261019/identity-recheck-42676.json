@@ -1,0 +1,8 @@
+{
+  "source": "read-only PowerShell Get-CimInstance Win32_Process; query only retained PID and creation time, never name/command line",
+  "pid": 42676,
+  "CreationDateUtc": "2026-10-19T04:20:58.6295060Z",
+  "CreationFileTimeUtc": "134368572586295060",
+  "oldCreatedAt": "134368555511315110",
+  "note": "OpenProcess(query limited) returned Win32 5. CIM creation time is much newer than the recorded identity, proving PID reuse; the current process was not touched."
+}

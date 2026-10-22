@@ -73,6 +73,46 @@ try {
     await until(() => js(`window.__events.filter(e=>e.type==='data').map(e=>e.data).join('').includes('M1_PACKAGED_42')`))
     return { url: target.url, node: await js(`typeof window.require`), executable: manifest.executable }
   })
+  for (const mode of process.env.M1_NATIVE_IME === '1' ? ['cdp', 'native'] : ['cdp']) await check('packaged consecutive CJK composition / ' + mode, async () => {
+    await send('Page.bringToFront'); await js(`document.querySelector('.terminal-pane.active textarea').focus()`)
+    await until(() => js('document.hasFocus()'))
+    let nativeKey
+    if (mode === 'native') {
+      const { focusOwnWindow } = await import('./native-dialog.mjs'); focusOwnWindow(mainHandle)
+      await until(() => js('document.hasFocus()'))
+      const koffi = require('koffi'), user = koffi.load('user32.dll')
+      const foreground = user.func('void * __stdcall GetForegroundWindow()'), owner = user.func('uint32_t __stdcall GetWindowThreadProcessId(void *, _Out_ uint32_t *)'), layout = user.func('uintptr_t __stdcall GetKeyboardLayout(uint32_t)'), input = user.func('uint32_t __stdcall SendInput(uint32_t, void *, int)')
+      const own = () => { assert.equal(mainHandle.exited, false); const pid = new Uint32Array(1), tid = owner(foreground(), pid); assert.equal(pid[0], mainHandle.pid, 'native input must target only our retained packaged process'); return tid }
+      assert.equal(Number(BigInt(layout(own())) & 0xffffn), 0x0804, 'native IME test needs an already selected Chinese input method')
+      nativeKey = vk => { own(); const b = Buffer.alloc(80); b.writeUInt32LE(1, 0); b.writeUInt16LE(vk, 8); b.writeUInt32LE(1, 40); b.writeUInt16LE(vk, 48); b.writeUInt32LE(2, 52); assert.equal(input(2, b, 40), 2) }
+    }
+    const ready = 'PACK_IME_READY_' + mode
+    await send('Input.insertText', { text: `printf 'PACK_IME_RE''ADY_${mode}\\n'; read -r ime_line; printf '\\nPACK_IME_${mode}_%s\\n' "$ime_line"` })
+    await send('Input.dispatchKeyEvent', { type: 'keyDown', key: 'Enter', code: 'Enter', windowsVirtualKeyCode: 13 }); await send('Input.dispatchKeyEvent', { type: 'keyUp', key: 'Enter', code: 'Enter', windowsVirtualKeyCode: 13 })
+    await until(() => js(`window.__events.filter(e=>e.type==='data').map(e=>e.data).join('').includes(${JSON.stringify(ready + '\r\n')})`))
+    await screenshot('ime-ready-' + mode)
+    await js(`(()=>{const n=document.querySelector('.terminal-pane.active');let f=n[Object.keys(n).find(k=>k.startsWith('__reactFiber'))];while(f&&!f.memoizedProps?.pane)f=f.return;const t=f.memoizedProps.pane.term;window.__packIme={chunks:[],term:t};window.__packIme.off=t.onData(data=>window.__packIme.chunks.push(data));return true})()`)
+    const words = ['按这个', '方案', '继续']
+    for (let index = 0; index < words.length; index++) {
+      const text = words[index]
+      if (mode === 'native') {
+        for (const c of ['anzhege', 'fangan', 'jixu'][index]) { nativeKey(c.toUpperCase().charCodeAt(0)); await delay(50) }
+        nativeKey(0x31)
+      } else {
+        await send('Input.imeSetComposition', { text, selectionStart: text.length, selectionEnd: text.length })
+        await send('Input.insertText', { text })
+      }
+      await until(() => js(`window.__packIme.chunks.join('')===${JSON.stringify(words.slice(0, index + 1).join(''))}`))
+    }
+    const chunks = await js('window.__packIme.chunks'), nativeValue = await js('window.__packIme.term.textarea.value')
+    assert.deepEqual(chunks, words)
+    await js('window.__packIme.off.dispose();true')
+    await send('Input.dispatchKeyEvent', { type: 'keyDown', key: 'Enter', code: 'Enter', windowsVirtualKeyCode: 13 }); await send('Input.dispatchKeyEvent', { type: 'keyUp', key: 'Enter', code: 'Enter', windowsVirtualKeyCode: 13 })
+    const marker = 'PACK_IME_' + mode + '_' + words.join('')
+    await until(() => js(`window.__events.filter(e=>e.type==='data').map(e=>e.data).join('').includes(${JSON.stringify(marker)})`))
+    await screenshot('ime-' + mode)
+    return { chunks, utf8Hex: Buffer.from(chunks.join('')).toString('hex'), nativeValue, shellMarker: marker, executableUnmodified: true }
+  })
   await check('packaged right/down splits, drawer focus, zoom and live resize', async () => {
     await click('向右分屏'); await until(() => js(`document.querySelectorAll('.terminal-pane').length===2 && ![...document.querySelectorAll('.pane-state')].some(n=>n.textContent.includes('创建'))`))
     await click('向下分屏'); await until(() => js(`document.querySelectorAll('.terminal-pane').length===3 && ![...document.querySelectorAll('.pane-state')].some(n=>n.textContent.includes('创建'))`))

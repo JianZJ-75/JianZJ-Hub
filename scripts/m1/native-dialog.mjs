@@ -7,6 +7,20 @@ const owner = user.func('uint32_t __stdcall GetWindowThreadProcessId(void *, _Ou
 const text = user.func('int __stdcall GetWindowTextW(void *, _Out_ void *, int)')
 const post = user.func('int __stdcall PostMessageW(void *, uint32_t, uintptr_t, intptr_t)')
 const setPosition = user.func('int __stdcall SetWindowPos(void *, void *, int, int, int, int, uint32_t)')
+export function focusOwnWindow(handle) {
+  if (handle.exited) throw new Error('WINDOW_OWNER_EXITED')
+  const show = user.func('int __stdcall ShowWindow(void *, int)'), foreground = user.func('int __stdcall SetForegroundWindow(void *)')
+  let found = false
+  const inspect = koffi.register(hwnd => {
+    const pid = new Uint32Array(1); owner(hwnd, pid)
+    if (pid[0] !== handle.pid) return 1
+    const buffer = Buffer.alloc(2048); text(hwnd, buffer, 1024)
+    if (buffer.toString('utf16le').split('\0')[0] === '工作站') { show(hwnd, 6); show(hwnd, 9); foreground(hwnd); found = true }
+    return 1
+  }, koffi.pointer(callbackType))
+  try { enumerate(inspect, 0) } finally { koffi.unregister(inspect) }
+  if (!found) throw new Error('OWN_WINDOW_NOT_FOUND')
+}
 export function resizeOwnWindow(handle, width, height) {
   if (handle.exited) throw new Error('WINDOW_OWNER_EXITED')
   let changed = false

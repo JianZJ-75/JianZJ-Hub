@@ -1,0 +1,31 @@
+{
+  "status": "fail",
+  "error": "Error: CDP_TIMEOUT:Runtime.evaluate\n    at Timeout._onTimeout (file:///D:/Code/JianZJ-Hub/scripts/m1/packaged-test.mjs:26:65)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)",
+  "checks": [
+    {
+      "name": "unmodified packaged executable opens real workspace through form and xterm input",
+      "status": "pass",
+      "detail": {
+        "url": "file:///D:/Code/JianZJ-Hub/release/m1/2026-10-19T04-11-46-558Z-ac161117/win-unpacked/resources/app.asar/out/m1/renderer/index.html",
+        "node": "undefined",
+        "executable": "D:\\Code\\JianZJ-Hub\\release\\m1\\2026-10-19T04-11-46-558Z-ac161117\\win-unpacked\\Workstation.exe"
+      }
+    }
+  ],
+  "fallbackPids": [
+    55876,
+    54560,
+    37980,
+    54812,
+    55824,
+    58076,
+    58296,
+    58324,
+    58272,
+    55756,
+    50896,
+    42340,
+    44488,
+    58348
+  ]
+}

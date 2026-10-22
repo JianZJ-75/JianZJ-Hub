@@ -1,0 +1,19 @@
+{
+  "entry": "ime",
+  "mode": "native",
+  "dir": "D:\\Code\\JianZJ-Hub\\.m1-scratch\\ime-native-94897a6f-f9d5-457e-9d06-f88bf2d09a33",
+  "started": "2026-10-19T03:15:33.349Z",
+  "control": {
+    "pid": 48240,
+    "createdAt": "134368533333399961"
+  },
+  "app": {
+    "pid": 44832,
+    "createdAt": "134368533333458697"
+  },
+  "code": 1,
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n",
+  "fallbackPids": [],
+  "finished": "2026-10-19T03:15:39.690Z"
+}

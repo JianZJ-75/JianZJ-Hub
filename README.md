@@ -10,6 +10,8 @@
 
 ## 当前状态
 
+- **连续中文输入返修（2026-10-19）**：已原生复现并修正连续候选重复旧词的读取错位，上一轮快捷键根因结论撤回。新包/真实拼音及验收结果见 [返修证据](docs/m1/evidence/ime-continuous-20261019/README.md) 和 [最新程序](docs/m1/README.md)。
+
 - **阶段**：M1 本轮已恢复原型式外壳、默认改为 Git Bash，并实际检查 Claude classic/fullscreen；等待本人再验，不进 M2。最新程序、截图和自查见 [Bash/TUI 交付](docs/m1/BASH-TUI.md)。
 - 产品方向：终端为主工作区；M1 默认真实 Git Bash、多工作区、递归分屏与生命周期管理，辅助模块明确标注未接入。
 - **体验入口**：见 [M1 运行与交付](docs/m1/README.md)、[实际验收记录](docs/m1/ACCEPTANCE.md)。开发运行：`npm run m1:build` 后 `npm run m1:start`；原 `npm run build` 仍是 M0 构建。
@@ -29,7 +31,13 @@ JianZJ-Hub/
     └── renderer/    # M0 探针与 M1 舒适版 React / xterm 工作区
 ```
 
-> **说明**：旧 `docs/` 设计资产与 `prototypes/` 保持忽略；`docs/m0/`、`docs/m1/` 是已放行的开发记录。M1 基线的原始 HEAD 为 `31ce4c7`；M1 代码已提交到分支 `git-bash-workstation` 并推送到 origin，`main` 内容不变、仅提交说明改写；不将本地验证等同远端交付。认可原型仍通过飞书附件交接，见 [原型交接](docs/m0/PROTOTYPE-HANDOFF.md)。
+> **说明**：旧 `docs/` 设计资产与 `prototypes/` 保持忽略；`docs/m0/`、`docs/m1/` 是已放行的开发记录。M1 基线的原始 HEAD 为 `31ce4c7`；工作站此前已合入 `main` 并推送 origin，源分支已删除；连续中文候选输入返修见 [最新证据](docs/m1/evidence/ime-continuous-20261019/README.md)，本轮新变更提交状态以 Git 为准；不将本地验证等同远端交付。认可原型仍通过飞书附件交接，见 [原型交接](docs/m0/PROTOTYPE-HANDOFF.md)。
+
+## 开发与贡献
+
+协作流程与验证矩阵见 [贡献指南](CONTRIBUTING.md)，各技术栈的编码与架构边界见 [代码规范](docs/CODE_STYLE.md)。
+
+基础检查：`npm run check`（静态检查、首批文件格式检查、工具回归、现有类型检查与两组 Node 单元测试；不包含 GUI/原生 IME/正式包验收）。覆盖限制与新依赖导致的资源 receipt 失效说明见贡献指南。
 
 ## 文档
 
